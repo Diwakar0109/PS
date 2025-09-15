@@ -1,5 +1,5 @@
 {
-  "isExamSecurityActive": false,
+  "isExamSecurityActive": true,
   "ds": {
     "title": "Fundamentals Of Data Science",
     "isActive": true,

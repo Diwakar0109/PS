@@ -965,5 +965,157 @@
         "passed": true
       }
     ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-15T22:03:05.768291",
+    "answers": [
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "/* Add this to your global CSS file to enhance exam security */\r\n.in-exam {\r\n  /* This makes text unselectable, reinforcing the JS hook */\r\n  user-select: none;\r\n  -webkit-user-select: none; /* For Safari */\r\n  -moz-user-select: none;    /* For Firefox */\r\n  -ms-user-select: none;     /* For IE */\r\n}\r\n\r\n/* This will hide the page content if a user manages to open the print dialog */\r\n@media print {\r\n  .in-exam * {\r\n    display: none !important;\r\n  }\r\n}",
+        "passed": false
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q6",
+        "partId": null,
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-15T22:14:43.166411",
+    "answers": [
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-15T22:17:26.115010",
+    "answers": [
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-15T22:18:50.019628",
+    "answers": [
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q6",
+        "partId": null,
+        "code": "",
+        "passed": false
+      }
+    ]
   }
 ]
