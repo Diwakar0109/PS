@@ -2624,5 +2624,43 @@
         "passed": true
       }
     ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-15T18:46:41.744287",
+    "answers": [
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "",
+        "passed": false
+      }
+    ]
   }
 ]
