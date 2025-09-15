@@ -6,7 +6,7 @@
       "role": "student",
       "progress": {
         "ml": {
-          "level1": "unlocked",
+          "level1": "locked",
           "level2": "locked",
           "level3": "locked"
         },
@@ -51,7 +51,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -90,8 +91,8 @@
       "role": "student",
       "progress": {
         "ds": {
-          "level1": "completed",
-          "level2": "unlocked",
+          "level1": "unlocked",
+          "level2": "locked",
           "level3": "locked"
         },
         "ml": {
@@ -139,7 +140,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -201,7 +203,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -263,7 +266,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -325,7 +329,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -377,7 +382,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -429,7 +435,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -481,7 +488,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -533,7 +541,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -585,7 +594,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -637,7 +647,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -689,7 +700,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -741,7 +753,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -793,7 +806,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -845,7 +859,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -897,7 +912,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -949,7 +965,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1001,7 +1018,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1053,7 +1071,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1105,7 +1124,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1157,7 +1177,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1209,7 +1230,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1261,7 +1283,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1313,7 +1336,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1365,7 +1389,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1417,7 +1442,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1469,7 +1495,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1521,7 +1548,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1573,7 +1601,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1625,7 +1654,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1677,7 +1707,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1729,7 +1760,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1781,7 +1813,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1833,7 +1866,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1890,7 +1924,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -1947,7 +1982,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Phone Software": {
           "level1": "unlocked",
@@ -2006,7 +2042,8 @@
           "level2": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "Speech Recognition": {
           "level1": "unlocked",
@@ -2077,7 +2114,8 @@
           "level3": "locked"
         },
         "Python Basics": {
-          "level1": "unlocked"
+          "level1": "unlocked",
+          "level2": "locked"
         },
         "C": {
           "level1": "unlocked"
@@ -2087,6 +2125,72 @@
           "level3": "locked",
           "level4": "locked",
           "level1": "unlocked"
+        }
+      }
+    },
+    {
+      "username": "Leodass",
+      "password": "$2b$12$gQ7nS023GVGJwK3izQNyauvQTjk/Omu8P15IFwhG9CHaXjTdWyyiC",
+      "role": "student",
+      "progress": {
+        "LLM": {
+          "level1": "unlocked",
+          "level2": "locked",
+          "level3": "locked"
+        },
+        "Sping Boot": {
+          "level1": "unlocked"
+        },
+        "Speech Recognition": {
+          "level1": "unlocked",
+          "level2": "locked"
+        },
+        "ml": {
+          "level1": "unlocked",
+          "level2": "locked",
+          "level3": "locked"
+        },
+        "Generative AI": {
+          "level1": "unlocked"
+        },
+        "NLP": {
+          "level1": "unlocked",
+          "level2": "locked",
+          "level3": "locked"
+        },
+        "Phone Software": {
+          "level1": "unlocked",
+          "level2": "locked"
+        },
+        "final_test_subject": {
+          "level1": "unlocked",
+          "level2": "locked"
+        },
+        "web_dev": {
+          "level1": "unlocked",
+          "level2": "locked"
+        },
+        "Deep Learning": {
+          "level1": "unlocked",
+          "level2": "locked",
+          "level3": "locked"
+        },
+        "ds": {
+          "level1": "unlocked",
+          "level2": "locked",
+          "level3": "locked"
+        },
+        "Python Basics": {
+          "level1": "unlocked",
+          "level2": "locked"
+        },
+        "C": {
+          "level1": "unlocked"
+        },
+        "Deffusor": {
+          "level2": "unlocked",
+          "level3": "locked",
+          "level4": "locked"
         }
       }
     }

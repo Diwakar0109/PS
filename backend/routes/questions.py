@@ -1,6 +1,8 @@
+# backend/routes/questions.py
+
 import json
 from pathlib import Path
-from flask import Blueprint, jsonify
+from flask import Blueprint, jsonify, request
 import random
 
 # --- Flask Blueprint Setup ---
@@ -23,7 +25,7 @@ def get_all_subjects_and_levels():
             config = json.load(f)
         structure = {
             subject: details.get("levels", [])
-            for subject, details in config.items()
+            for subject, details in config.items() if isinstance(details, dict)
         }
         return jsonify(structure), 200
     except Exception as e:
@@ -34,44 +36,46 @@ def get_all_subjects_and_levels():
 @questions_bp.route('/<string:subject>/<int:level>', methods=['GET'])
 def get_questions_for_level(subject, level):
     """
-    GET questions for a specific subject and level.
-    - For ML subjects, it returns ONE random multi-part project.
-    - For other subjects, it returns a random sample based on the question_limit.
+    GET questions for a specific subject and level based on the course config.
     """
-    level_dir = f"level{level}"
-    questions_file_path = QUESTIONS_BASE_PATH / subject / level_dir / "questions.json"
+    level_name = f"level{level}"
 
     try:
+        # --- THIS IS THE KEY CHANGE ---
+        # We now use the same nested path structure for ALL subjects, as you confirmed.
+        # The old if/else logic has been removed.
+        questions_file_path = QUESTIONS_BASE_PATH / subject / level_name / "questions.json"
+
         with open(questions_file_path, 'r', encoding='utf-8') as f:
             all_questions = json.load(f)
 
         if not all_questions:
             return jsonify([]), 200
 
-        # --- Special handling for ML subjects ---
-        if subject == 'ml':
-            selected_question = random.choice(all_questions)
-            print(f"Selected 1 random ML project ('{selected_question['id']}') for {subject}/{level_dir}.")
-            return jsonify([selected_question]), 200
-        
-        # --- Standard logic for all other subjects ---
-        else:
-            with open(COURSE_CONFIG_PATH, 'r', encoding='utf-8') as f:
-                config = json.load(f)
-                limit = config.get(subject, {}).get('question_limit')
+        # --- Load the course config to get the question limit ---
+        with open(COURSE_CONFIG_PATH, 'r', encoding='utf-8') as f:
+            config = json.load(f)
 
-            if limit and len(all_questions) > limit:
+        # Correctly read the level-specific limit from the config object
+        limit = config.get(subject, {}).get('question_limit', {}).get(level_name)
+
+        # For ML, the limit is the number of projects (usually 1)
+        # For other subjects, it's the number of questions to sample.
+        if limit and isinstance(limit, int) and limit > 0:
+            if len(all_questions) > limit:
                 selected_questions = random.sample(all_questions, limit)
-                print(f"Sampled {limit} of {len(all_questions)} questions for {subject}/{level_dir}.")
+                print(f"Sampled {limit} of {len(all_questions)} questions for {subject}/{level_name}.")
                 return jsonify(selected_questions), 200
-            else:
-                print(f"Returning all {len(all_questions)} questions for {subject}/{level_dir}.")
-                return jsonify(all_questions), 200
+        
+        # If no limit is set, or if the limit is >= the number of questions, return all
+        print(f"Returning all {len(all_questions)} questions for {subject}/{level_name}.")
+        return jsonify(all_questions), 200
 
     except FileNotFoundError:
+        print(f"Question file not found for {subject}/{level_name} at path: {questions_file_path}")
         return jsonify([]), 200
     except Exception as e:
-        print(f"Error reading questions for {subject}/{level_dir}: {e}")
+        print(f"CRITICAL Error reading questions for {subject}/{level_name}: {e}")
         return jsonify({"message": "An error occurred while fetching questions."}), 500
 
 
@@ -88,6 +92,7 @@ def add_new_question():
     if not all([subject, level, new_question, new_question.get('id')]):
         return jsonify({"message": "Subject, level, and question data with an ID are required."}), 400
 
+    # This path is also corrected to match the universal structure
     file_path = QUESTIONS_BASE_PATH / subject / f"level{level}" / "questions.json"
 
     try:

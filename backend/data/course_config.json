@@ -1,23 +1,32 @@
 {
+  "isExamSecurityActive": false,
   "ds": {
-    "title": "Data Structures",
+    "title": "Fundamentals Of Data Science",
     "isActive": true,
     "levels": [
       "level1",
       "level2",
       "level3"
     ],
-    "question_limit": 5
+    "question_limit": {
+      "level1": 5,
+      "level2": 0,
+      "level3": 0
+    }
   },
   "ml": {
-    "title": "Machine Learning",
+    "title": "Fundamentals Of Machine Learning",
     "isActive": true,
     "levels": [
       "level1",
       "level2",
       "level3"
     ],
-    "question_limit": 3
+    "question_limit": {
+      "level1": 3,
+      "level2": 0,
+      "level3": 0
+    }
   },
   "dsa": {
     "title": "Data Structures & Algorithms",
@@ -25,13 +34,17 @@
     "levels": [
       "level1"
     ],
-    "question_limit": 10
+    "question_limit": {
+      "level1": 10
+    }
   },
   "Generative AI": {
     "title": "Generative AI",
     "isActive": true,
     "levels": [],
-    "question_limit": 10
+    "question_limit": {
+      "level1": 10
+    }
   },
   "Speech Recognition": {
     "title": "Speech Recognition",
@@ -40,7 +53,10 @@
       "level1",
       "level2"
     ],
-    "question_limit": 1
+    "question_limit": {
+      "level1": 1,
+      "level2": 0
+    }
   },
   "NLP": {
     "title": "Natural Language Processing",
@@ -50,7 +66,11 @@
       "level2",
       "level3"
     ],
-    "question_limit": 5
+    "question_limit": {
+      "level1": 5,
+      "level2": 0,
+      "level3": 0
+    }
   },
   "Deep Learning": {
     "title": "Deep Learning",
@@ -58,7 +78,9 @@
     "levels": [
       "level1"
     ],
-    "question_limit": 2
+    "question_limit": {
+      "level1": 2
+    }
   },
   "LLM": {
     "title": "Large Language Models",
@@ -68,7 +90,11 @@
       "level2",
       "level3"
     ],
-    "question_limit": 4
+    "question_limit": {
+      "level1": 4,
+      "level2": 0,
+      "level3": 0
+    }
   },
   "Deffusor": {
     "title": "Diffusion Models",
@@ -79,7 +105,12 @@
       "level3",
       "level4"
     ],
-    "question_limit": 1
+    "question_limit": {
+      "level1": 1,
+      "level2": 0,
+      "level3": 0,
+      "level4": 0
+    }
   },
   "final_test_subject": {
     "title": "Final Test Subject",
@@ -88,15 +119,22 @@
       "level1",
       "level2"
     ],
-    "question_limit": 5
+    "question_limit": {
+      "level1": 5,
+      "level2": 0
+    }
   },
   "Python Basics": {
     "title": "Python Basics",
     "isActive": true,
     "levels": [
-      "level1"
+      "level1",
+      "level2"
     ],
-    "question_limit": 5
+    "question_limit": {
+      "level1": 5,
+      "level2": 0
+    }
   },
   "Phone Software": {
     "title": "Phone Software",
@@ -105,7 +143,10 @@
       "level1",
       "level2"
     ],
-    "question_limit": 5
+    "question_limit": {
+      "level1": 5,
+      "level2": 0
+    }
   },
   "C": {
     "title": "C",
@@ -113,6 +154,8 @@
     "levels": [
       "level1"
     ],
-    "question_limit": 5
+    "question_limit": {
+      "level1": 5
+    }
   }
 }

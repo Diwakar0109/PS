@@ -3,9 +3,14 @@ import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Header from "../components/Header/Header";
 import ProtectedRoute from "../components/ProtectedRoute";
 import DashboardPage from "../pages/DashboardPage/DashboardPage";
-import ExamPage from "../pages/ExamPage/ExamPage";
 import { AuthContext } from "../App";
 import Navbar from "../components/navbar/Navbar";
+
+// --- CHANGE #1: REMOVE the old ExamPage import ---
+// import ExamPage from "../pages/ExamPage/ExamPage";
+
+// --- CHANGE #2: IMPORT the new dispatcher component ---
+import ExamPageDispatcher from "../pages/ExamPage/ExamPageDispatcher.jsx";
 
 const Applayout = () => {
   const { user } = useContext(AuthContext);
@@ -39,7 +44,8 @@ const Applayout = () => {
               path="/exam/:subject/:level"
               element={
                 <ProtectedRoute>
-                  <ExamPage />
+                  {/* --- CHANGE #3: Use the new dispatcher here instead of the old component --- */}
+                  <ExamPageDispatcher />
                 </ProtectedRoute>
               }
             />

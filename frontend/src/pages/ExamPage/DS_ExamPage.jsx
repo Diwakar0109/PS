@@ -12,6 +12,7 @@ import { useFullScreenExamSecurity } from "../../hooks/useFullScreenExamSecurity
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 // --- Sub-components (AlertCard, CodeCell) ---
+// Note: AlertCard and CodeCell components remain unchanged.
 const AlertCard = ({ message, onConfirm, onCancel, showCancel = false }) => {
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80">
@@ -39,35 +40,43 @@ const CodeCell = ({ question, mainTask, cellCode, onCodeChange, onRun, onValidat
     const buildEnhancedDescription = () => {
         let enhancedDesc = mainTask?.description || "";
         enhancedDesc += `\n\n---\n\n${question.description || ""}`;
-        if (mainTask?.datasets && typeof mainTask.datasets === "object") {
-            const datasetEntries = Object.entries(mainTask.datasets);
-            if (datasetEntries.length > 0) {
-                enhancedDesc += "\n\n---\n\n#### Datasets for this Project:\n";
-                datasetEntries.forEach(([key, value]) => {
-                    if (value) {
-                        const displayName = key.charAt(0).toUpperCase() + key.slice(1);
-                        enhancedDesc += `*   **${displayName} Data Path:** \`'${value}'\`\n`;
-                    }
-                });
-            }
-        }
-        const currentPartKeyColumns = question.key_columns;
-        if (Array.isArray(currentPartKeyColumns) && currentPartKeyColumns.length > 0) {
-            enhancedDesc += "\n\n---\n\n#### Key Columns for Submission:\n";
-            currentPartKeyColumns.forEach((col) => { enhancedDesc += `*   \`${col}\`\n`; });
-            enhancedDesc += "\n*Ensure your final \`submission.csv\` contains these columns.*";
-        }
         return enhancedDesc;
     };
     const fullDescription = buildEnhancedDescription();
+    const visibleTestCase = question.test_cases && question.test_cases.length > 0 ? question.test_cases[0] : null;
+
     return (
         <div className="flex flex-col md:flex-row h-full w-full p-4 overflow-hidden">
             <div className="flex-1 bg-white rounded-lg p-6 mr-4 mb-4 md:mb-0 border border-gray-200 overflow-y-auto">
                 {isValidated && (<span className="float-right text-2xl -mt-2 -mr-2 text-green-500" title="All test cases passed">&#10003;</span>)}
-                <div className="prose prose-slate max-w-none text-gray-800 leading-relaxed"><h2 className="text-2xl font-bold text-slate-800 mb-2">{mainTask?.title || question.title}</h2><ReactMarkdown>{fullDescription}</ReactMarkdown></div>
+                <div className="prose prose-slate max-w-none text-gray-800 leading-relaxed">
+                    <h2 className="text-2xl font-bold text-slate-800 mb-2">{mainTask?.title || question.title}</h2>
+                    <ReactMarkdown>{fullDescription}</ReactMarkdown>
+                </div>
+                {visibleTestCase && (
+                    <div className="mt-8 font-medium">
+                        <h4 className="text-slate-800 text-lg mb-3">Visible Test Case</h4>
+                        <div className="bg-gray-50 border border-gray-200 rounded-md p-4 text-sm">
+                            <p className="font-semibold">Input:</p>
+                            <pre className="bg-white p-2 rounded mt-1 font-mono text-slate-600">{visibleTestCase.input}</pre>
+                            <p className="font-semibold mt-3">Expected Output:</p>
+                            <pre className="bg-white p-2 rounded mt-1 font-mono text-slate-600">{visibleTestCase.output}</pre>
+                        </div>
+                    </div>
+                )}
                 <div className="mt-8 font-medium">
                     <h4 className="text-slate-800 text-lg mb-3">Hidden Test Cases</h4>
-                    {cellResult?.test_results ? (cellResult.test_results.map((passed, i) => (<div key={i} className={`flex items-center gap-3 px-4 py-3 mb-3 rounded-lg border text-base ${passed ? "bg-green-50 text-green-700 border-green-300" : "bg-red-50 text-red-700 border-red-300"}`}>{`Test Case ${i + 1}: ${passed ? "Passed ✔" : "Failed ❌"}`}</div>))) : (<div className="flex items-center gap-3 px-4 py-3 mb-3 rounded-lg border bg-gray-50 text-gray-700 border-gray-300 text-base">Please submit your code to see the results.</div>)}
+                    {cellResult?.test_results ? (
+                        cellResult.test_results.map((passed, i) => (
+                            <div key={i} className={`flex items-center gap-3 px-4 py-3 mb-3 rounded-lg border text-base ${passed ? "bg-green-50 text-green-700 border-green-300" : "bg-red-50 text-red-700 border-red-300"}`}>
+                                {`Test Case ${i + 1}: ${passed ? "Passed ✔" : "Failed ❌"}`}
+                            </div>
+                        ))
+                    ) : (
+                        <div className="flex items-center gap-3 px-4 py-3 mb-3 rounded-lg border bg-gray-50 text-gray-700 border-gray-300 text-base">
+                            Please submit your code to see the results.
+                        </div>
+                    )}
                 </div>
             </div>
             <div className="flex-1 flex flex-col bg-white border border-slate-200 rounded-lg overflow-hidden">
@@ -76,8 +85,8 @@ const CodeCell = ({ question, mainTask, cellCode, onCodeChange, onRun, onValidat
                     <Editor height="100%" language="python" theme="vs-dark" value={cellCode} onChange={(value) => onCodeChange(value || "")} options={{ minimap: { enabled: false }, fontSize: 14, scrollBeyondLastLine: false, wordWrap: "on", padding: { top: 15 } }}/>
                 </div>
                 <div className="flex justify-start items-center flex-wrap gap-4 px-6 py-4 bg-slate-50 border-t border-slate-200">
-                    <button className="px-6 py-2 rounded-md font-semibold text-white bg-[#7D53F6] disabled:bg-gray-400 disabled:cursor-not-allowed" onClick={onRun} disabled={isExecuting || !isSessionReady} title={!isSessionReady ? "Please wait..." : "Run your code"}>{isExecuting ? "Running..." : "Run Code"}</button>
-                    <button className="px-6 py-2 rounded-md font-semibold text-[#7D53F6] border border-[#7D53F6] bg-white disabled:text-gray-400 disabled:border-gray-400 disabled:cursor-not-allowed" onClick={onValidate} disabled={isExecuting || !isSessionReady} title={!isSessionReady ? "Please wait..." : "Submit for validation"}>{isExecuting ? "Submitting..." : "Submit"}</button>
+                    <button className="px-6 py-2 rounded-md font-semibold text-white bg-[#7D53F6] disabled:bg-gray-400 disabled:cursor-not-allowed" onClick={onRun} disabled={isExecuting || !isSessionReady || !cellCode.trim()} title={!cellCode.trim() ? "Cannot run empty code" : (!isSessionReady ? "Please wait..." : "Run your code")}>{isExecuting ? "Running..." : "Run Code"}</button>
+                    <button className="px-6 py-2 rounded-md font-semibold text-[#7D53F6] border border-[#7D53F6] bg-white disabled:text-gray-400 disabled:border-gray-400 disabled:cursor-not-allowed" onClick={onValidate} disabled={isExecuting || !isSessionReady || !cellCode.trim()} title={!cellCode.trim() ? "Cannot submit empty code" : (!isSessionReady ? "Please wait..." : "Submit for validation")}>{isExecuting ? "Submitting..." : "Submit"}</button>
                 </div>
                 <div className="px-6 py-4 border-t border-slate-200 bg-white">
                     <label className="flex items-center gap-2 text-slate-700 text-sm font-medium cursor-pointer"><input type="checkbox" checked={isCustomInputEnabled || false} onChange={onToggleCustomInput} className="form-checkbox h-4 w-4 text-indigo-600 rounded" />Test with Custom Input</label>
@@ -89,7 +98,7 @@ const CodeCell = ({ question, mainTask, cellCode, onCodeChange, onRun, onValidat
     );
 };
 
-const ExamPage = () => {
+const DS_ExamPage = () => {
   const { subject, level } = useParams();
   const navigate = useNavigate();
   const { user, updateUserSession } = useContext(AuthContext);
@@ -106,19 +115,18 @@ const ExamPage = () => {
   const [isCustomInputEnabled, setIsCustomInputEnabled] = useState({});
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
-
-  // --- STATE FOR SECURITY AND POPUPS ---
   const [hasExamStarted, setHasExamStarted] = useState(false);
   const [warningMessage, setWarningMessage] = useState("");
   const [showConfirmSubmit, setShowConfirmSubmit] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(3600); // 1 hour in seconds
+  const [timeLeft, setTimeLeft] = useState(3600);
   const [submissionResult, setSubmissionResult] = useState(null);
-
-  // --- FIX #1: ADD NEW STATE to disable security hook during submission ---
   const [isFinalSubmission, setIsFinalSubmission] = useState(false);
 
+  // --- CHANGE #1: ADD NEW STATE VARIABLES ---
+  const [isSecurityEnabled, setIsSecurityEnabled] = useState(true);
+  const [isConfigLoading, setIsConfigLoading] = useState(true);
+
   const handleSubmissionModalConfirm = useCallback(async () => {
-    // --- FIX #3: Exit fullscreen *after* user confirms the result pop-up ---
     if (document.fullscreenElement) {
       await document.exitFullscreen().catch(err => console.error("Error exiting fullscreen:", err));
     }
@@ -129,8 +137,6 @@ const ExamPage = () => {
   const handleSubmitExam = useCallback(async () => {
     if (isSubmitting) return;
     setIsSubmitting(true);
-    
-    // --- FIX #2: Set the flag to true to pause the security hook ---
     setIsFinalSubmission(true);
 
     const allPartsPassed = examParts.length > 0 && examParts.every((p) => validationStatus[p.id]);
@@ -176,13 +182,33 @@ const ExamPage = () => {
     setWarningMessage(message);
   }, []);
 
-  // --- FIX #4: Pass the new state to the security hook ---
+  // --- CHANGE #2: UPDATE THE HOOK CALL ---
   const { startExam, reEnterFullScreen } = useFullScreenExamSecurity(
     handleSubmitExam,
     3,
     showWarningPopup,
-    isFinalSubmission // Pass the new state here
+    isSecurityEnabled, // Pass the new state
+    isFinalSubmission
   );
+
+  // --- CHANGE #3: ADD useEffect TO FETCH THE CONFIG ---
+  useEffect(() => {
+    const fetchCourseConfig = async () => {
+      try {
+        const res = await fetch(`${API_BASE_URL}/api/courses`);
+        if (!res.ok) throw new Error("Network response was not ok");
+        const config = await res.json();
+        setIsSecurityEnabled(config.isExamSecurityActive);
+      } catch (error) {
+        console.error("Failed to fetch course config, defaulting to enabled security:", error);
+        setIsSecurityEnabled(true); // Fail securely
+      } finally {
+        setIsConfigLoading(false);
+      }
+    };
+    fetchCourseConfig();
+  }, []);
+
 
   const handleStartExamClick = async () => {
     const success = await startExam();
@@ -221,16 +247,8 @@ const ExamPage = () => {
         if (!res.ok) throw new Error(`Failed to fetch questions: ${res.status}`);
         let data = await res.json();
         if (!Array.isArray(data) || data.length === 0) { setExamParts([]); setMainTask(null); return; }
-        const isMultiPartProject = data[0]?.parts?.length > 0;
-        if (isMultiPartProject) {
-          const task = data[0]; setMainTask(task);
-          const partsAsQuestions = task.parts.map((part) => ({ id: `${task.id}_${part.part_id}`, taskId: task.id, ...part }));
-          setExamParts(partsAsQuestions);
-          const initialCode = {}; partsAsQuestions.forEach((p) => { initialCode[p.id] = p.starter_code || ""; }); setAllCode(initialCode);
-        } else {
-          setMainTask(null); setExamParts(data);
-          const initialCode = {}; data.forEach((q) => { initialCode[q.id] = q.starter_code || ""; }); setAllCode(initialCode);
-        }
+        setMainTask(null); setExamParts(data);
+        const initialCode = {}; data.forEach((q) => { initialCode[q.id] = q.starter_code || ""; }); setAllCode(initialCode);
       } catch (error) { console.error("Failed to fetch questions:", error); }
     };
     fetchAndPrepareQuestions();
@@ -286,6 +304,11 @@ const ExamPage = () => {
       return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
   };
 
+  // --- CHANGE #4: ADD A LOADING STATE ---
+  if (isConfigLoading) {
+    return <Spinner />;
+  }
+
   if (examParts.length === 0 && hasExamStarted) return <Spinner />;
   const currentPart = examParts[currentQuestionIndex];
   const getQuestionBoxColor = (partId, index) => {
@@ -299,21 +322,17 @@ const ExamPage = () => {
 
   return (
     <div className="flex flex-col h-screen bg-gray-100">
-      {submissionResult && (
-        <AlertCard
-          message={submissionResult}
-          onConfirm={handleSubmissionModalConfirm}
-        />
-      )}
+      {submissionResult && (<AlertCard message={submissionResult} onConfirm={handleSubmissionModalConfirm} />)}
       {warningMessage && ( <AlertCard message={warningMessage} onConfirm={handleWarningConfirm} /> )}
       {showConfirmSubmit && ( <AlertCard message="Are you sure you want to finish the exam?" onConfirm={() => { setShowConfirmSubmit(false); handleSubmitExam(); }} onCancel={() => setShowConfirmSubmit(false)} showCancel={true} /> )}
-
       {!hasExamStarted ? (
         <div className="flex flex-col items-center justify-center h-full bg-slate-800 text-white">
           <h1 className="text-4xl font-bold mb-4">{subject.charAt(0).toUpperCase() + subject.slice(1)} Exam - Level {level}</h1>
-          <p className="text-lg mb-8">Click the button below to start the exam in fullscreen mode.</p>
+          <p className="text-lg mb-8">Click the button below to start the exam.</p>
           <button onClick={handleStartExamClick} className="px-8 py-3 rounded-lg font-semibold text-white bg-purple-500 hover:bg-purple-600 text-xl">Start Exam</button>
-          <p className="mt-8 text-sm text-yellow-400">Warning: Leaving the exam window will result in the exam being submitted automatically.</p>
+          {isSecurityEnabled && (
+            <p className="mt-8 text-sm text-yellow-400">Warning: Leaving the exam window will result in the exam being submitted automatically.</p>
+          )}
         </div>
       ) : (
         <>
@@ -330,9 +349,9 @@ const ExamPage = () => {
           </header>
           <div className="flex flex-grow min-h-0">
             <div className="w-[180px] flex-shrink-0 bg-white border-r border-gray-200 p-6 overflow-y-auto">
-              <h3 className="text-xl font-bold mb-5 text-slate-800">Parts</h3>
+              <h3 className="text-xl font-bold mb-5 text-slate-800">Questions</h3>
               <div className="grid grid-cols-2 gap-3">
-                {examParts.map((part, index) => (<button key={part.id} onClick={() => setCurrentQuestionIndex(index)} className={`flex items-center justify-center w-16 h-16 rounded-lg text-white font-bold text-xl ${getQuestionBoxColor(part.id, index)}`} title={`Part ${index + 1}: ${part.title || "Untitled"}`}>{index + 1}</button>))}
+                {examParts.map((part, index) => (<button key={part.id} onClick={() => setCurrentQuestionIndex(index)} className={`flex items-center justify-center w-16 h-16 rounded-lg text-white font-bold text-xl ${getQuestionBoxColor(part.id, index)}`} title={`Question ${index + 1}: ${part.title || "Untitled"}`}>{index + 1}</button>))}
               </div>
               <div className="bg-white min-h-0 max-w-[200px] mt-8 p-4 rounded-2xl shadow-lg border border-gray-100">
                 <div className="space-y-2">
@@ -354,4 +373,4 @@ const ExamPage = () => {
   );
 };
 
-export default ExamPage;
+export default DS_ExamPage;
