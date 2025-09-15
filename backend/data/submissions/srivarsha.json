@@ -1,0 +1,28 @@
+[
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-21T11:19:44.649669",
+    "answers": [
+      {
+        "questionId": "house_prices_full_task_v1_data_inspection",
+        "code": "import pandas as pd \r\ndf=pd.read_csv(\"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv\")\r\nmissing=df.isnull().sum()\r\nprint(missing)\r\n\r\n\r\n\r\n",
+        "passed": true,
+        "fully_passed": true
+      },
+      {
+        "questionId": "house_prices_full_task_v1_model_training",
+        "code": "import pandas as pd\r\nimport numpy as np \r\nfrom sklearn.linear_model import LinearRegression\r\nfrom sklearn.metrics import mean_squared_error, r2_score\r\n\r\ndf=pd.read_csv(\"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv\")\r\nX = df.drop(columns=[\"SalePrice\", \"Id\"])\r\ny = df[\"SalePrice\"]\r\n\r\nX = pd.get_dummies(X.fillna(0))\r\n\r\nmodel = LinearRegression()\r\nmodel.fit(X, y)\r\n\r\ny_pred = model.predict(X)\r\n\r\nrm = np.sqrt(mean_squared_error(y, y_pred))\r\nr2 = r2_score(y, y_pred)\r\n\r\nprint(\"Root Mean Squared Error:\", rm)\r\nprint(\"R-squared:\", r2)",
+        "passed": true,
+        "fully_passed": true
+      },
+      {
+        "questionId": "house_prices_full_task_v1_prediction",
+        "code": "import pandas as pd\r\nimport numpy as np\r\nfrom sklearn.linear_model import LinearRegression\r\ndf=pd.read_csv(\"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv\")\r\nx=df.drop(columns=[\"SalePrice\",\"Id\"])\r\ny=df[\"SalePrice\"]\r\n\r\nx=pd.get_dummies(x.fillna(0))\r\n\r\nm=LinearRegression().fit(x,y)\r\ntest=pd.read_csv(\"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/test.csv\")\r\nt_id=test[\"Id\"]\r\n\r\nX_test = pd.get_dummies(test.drop(columns=[\"Id\"]).fillna(0))\r\nX_test = X_test.reindex(columns=X.columns, fill_value=0)\r\n\r\n\r\npreds = model.predict(X_test)\r\n\r\n\r\npd.DataFrame({\"Id\": t_id, \"SalePrice\": preds}).to_csv(\"submission.csv\", index=False)\r\n",
+        "passed": true,
+        "fully_passed": true
+      }
+    ]
+  }
+]

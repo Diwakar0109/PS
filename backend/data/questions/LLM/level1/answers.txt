@@ -1,0 +1,48 @@
+1-{
+    from tokenizers import Tokenizer
+from tokenizers.models import BPE
+from tokenizers.trainers import BpeTrainer
+from tokenizers.pre_tokenizers import Whitespace
+from tokenizers.normalizers import Lowercase, Sequence, NFD, StripAccents
+
+# 1. Initialize a BPE tokenizer
+tokenizer = Tokenizer(BPE(unk_token="[UNK]"))
+
+# 2. Set normalization: lowercase, strip accents
+tokenizer.normalizer = Sequence([
+    NFD(),
+    Lowercase(),
+    StripAccents()
+])
+
+# 3. Use whitespace-based pre-tokenization
+tokenizer.pre_tokenizer = Whitespace()
+
+corpus = [
+    "This phone is amazing",
+    "I love this phone",
+    "The camera is great",
+    "Battery life is amazing",
+    "Super phone with good quality"
+]
+
+
+# 5. Train BPE tokenizer
+# This part runs only once to train the model based on the corpus
+trainer = BpeTrainer(special_tokens=["[UNK]", "[PAD]"])
+tokenizer.train_from_iterator(corpus, trainer)
+
+# 6. Get input sentence from the user
+# This allows you to test any of the sentences from your test cases
+input_text = input()
+
+# 7. Tokenize the input sentence
+encoded = tokenizer.encode(input_text)
+
+# 8. Print tokens and their IDs
+print("Input Sentence:", input_text)
+print("Tokens:", encoded.tokens)
+print("Token IDs:", encoded.ids)
+}
+
+    

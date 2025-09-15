@@ -1,0 +1,2001 @@
+Brand,Model,Year,Odometer Reading (km),Fuel Type,Transmission Type,Color,Number of Owners,Service History,Location,Previous Accidents,Engine Capacity (L),Car Type,Insurance Type,Price (INR)
+Ford,Endeavour,2002,67395,CNG,Automatic,Grey,1,True,Delhi,False,2.8,Wagon,,1939890.75
+Nissan,Terrano,2007,9154,Petrol,Manual,Black,3,True,Mumbai,False,1.2,Coupe,Comprehensive,468626.9
+BMW,X5,2006,30807,Petrol,Automatic,Silver,3,True,Delhi,False,2.1,Convertible,Comprehensive,7115378.95
+Nissan,Magnite,2017,87175,Electric,Automatic,White,1,False,Ahmedabad,True,4.4,Convertible,Comprehensive,166923.75
+Maruti Suzuki,Dzire,2007,16466,CNG,Automatic,Grey,3,True,Kolkata,True,1.9,SUV,Third-Party,50000.0
+Hyundai,Elantra,2006,143968,Petrol,Manual,Black,1,False,Delhi,True,1.7,Sedan,,358404.8
+Nissan,Magnite,2012,30278,Petrol,Automatic,Red,1,True,Chennai,True,2.5,Hatchback,Comprehensive,50000.0
+BMW,3 Series,2007,187555,Petrol,Automatic,Black,2,True,Hyderabad,False,2.9,SUV,Third-Party,3091866.75
+Mercedes,C-Class,2015,16082,Petrol,Manual,Grey,3,False,Delhi,False,2.9,Sedan,Third-Party,4547587.7
+Nissan,Magnite,2016,58593,Electric,Automatic,Silver,2,True,Hyderabad,False,3.2,Coupe,Third-Party,161211.05
+Maruti Suzuki,Swift,2016,74156,Electric,Manual,Grey,2,False,Bangalore,False,4.7,Hatchback,Comprehensive,188876.6
+Nissan,Terrano,2008,142886,CNG,Automatic,Grey,3,False,Kolkata,True,2.3,Wagon,Comprehensive,378567.1
+Toyota,Corolla,2010,118728,Electric,Automatic,Silver,3,False,Ahmedabad,True,4.0,Hatchback,Third-Party,382190.8
+Toyota,Innova,2001,138393,CNG,Manual,White,1,False,Chennai,True,1.5,SUV,Comprehensive,359241.05
+Audi,A4,2013,17214,Petrol,Manual,Black,2,True,Kolkata,True,4.3,Convertible,Third-Party,3867417.9
+Toyota,Corolla,2010,59868,CNG,Automatic,Red,3,False,Hyderabad,False,1.1,SUV,,441019.8
+Ford,Fiesta,2008,153994,Electric,Manual,White,1,True,Mumbai,False,4.1,SUV,Third-Party,50000.0
+Tata,Harrier,2024,131183,CNG,Manual,White,1,False,Chennai,False,2.6,Wagon,Comprehensive,1660322.55
+Nissan,Kicks,2023,82188,Electric,Manual,Black,2,True,Hyderabad,True,4.2,Hatchback,Third-Party,1057671.8
+Ford,EcoSport,2022,94276,Diesel,Automatic,Red,3,False,Chennai,False,3.3,Convertible,Third-Party,635858.6
+Hyundai,Elantra,2021,112196,Electric,Automatic,Grey,1,True,Pune,False,1.1,Wagon,Third-Party,1133170.6
+Toyota,Innova,2011,167340,Electric,Manual,Black,2,True,Bangalore,False,3.8,Wagon,Comprehensive,944899.0
+BMW,M3,2009,46201,Diesel,Manual,Grey,2,False,Bangalore,True,4.3,Convertible,,6693069.85
+Ford,Fiesta,2013,119301,CNG,Manual,Grey,2,True,Chennai,False,3.9,SUV,Comprehensive,50000.0
+Mercedes,C-Class,2022,97611,Electric,Automatic,Red,2,False,Mumbai,False,1.5,Sedan,Third-Party,4885358.35
+Nissan,Terrano,2018,26526,Diesel,Manual,Black,3,True,Kolkata,False,3.1,Convertible,,966021.1
+Maruti Suzuki,Vitara Brezza,2016,128514,Diesel,Automatic,Black,3,True,Pune,True,3.4,Hatchback,Comprehensive,300722.9
+Ford,Endeavour,2003,57918,CNG,Manual,Red,1,False,Kolkata,False,1.3,Convertible,,1921312.3
+Hyundai,Creta,2022,48540,Petrol,Automatic,Black,3,True,Pune,True,2.3,Hatchback,Third-Party,1312719.0
+Toyota,Innova,2009,43740,Electric,Manual,Black,1,False,Ahmedabad,False,2.7,Wagon,Third-Party,823439.0
+Maruti Suzuki,Swift,2004,151689,Electric,Automatic,Silver,2,False,Hyderabad,False,1.2,Wagon,Comprehensive,50000.0
+Ford,EcoSport,2008,109754,CNG,Manual,Red,1,True,Bangalore,False,4.9,Hatchback,Comprehensive,50000.0
+Hyundai,Verna,2020,20842,Petrol,Automatic,Black,1,True,Bangalore,False,1.4,Sedan,,746873.7
+Audi,A6,2018,105670,Electric,Manual,White,3,False,Pune,True,2.2,Sedan,,5084149.5
+Mercedes,C-Class,2023,69391,Diesel,Manual,Silver,1,False,Pune,True,3.7,SUV,,4869591.35
+Mercedes,S-Class,2010,143316,Diesel,Manual,Red,3,True,Ahmedabad,False,4.8,Sedan,Comprehensive,9248502.6
+Ford,EcoSport,2016,28740,Diesel,Manual,Black,2,False,Ahmedabad,True,2.3,Wagon,,295689.0
+Ford,EcoSport,2021,103538,Petrol,Automatic,Grey,1,False,Hyderabad,False,1.7,Wagon,,614469.3
+Maruti Suzuki,Dzire,2014,94441,Electric,Manual,Silver,3,True,Pune,False,3.0,Coupe,Third-Party,105833.85
+Nissan,Magnite,2018,125197,Electric,Automatic,Black,1,False,Delhi,False,3.3,Convertible,,311220.45
+Mercedes,S-Class,2013,95950,CNG,Automatic,Silver,2,True,Chennai,True,4.3,Hatchback,Comprehensive,9355607.5
+Mercedes,C-Class,2010,131587,CNG,Manual,Black,1,True,Chennai,False,2.0,Sedan,Third-Party,4280261.95
+Hyundai,Verna,2000,169346,Electric,Automatic,Silver,1,True,Mumbai,False,3.7,Wagon,Third-Party,50000.0
+Hyundai,Creta,2005,198434,Petrol,Automatic,Silver,1,True,Mumbai,False,4.2,Convertible,Comprehensive,570234.9
+Toyota,Fortuner,2018,33658,Electric,Manual,Red,1,False,Hyderabad,True,4.2,Sedan,Comprehensive,3124951.3
+Honda,Civic,2006,164265,Petrol,Manual,Black,1,False,Mumbai,True,4.2,Convertible,Third-Party,50000.0
+Honda,Civic,2003,171367,Electric,Automatic,Red,3,True,Ahmedabad,False,4.2,Hatchback,,50000.0
+Toyota,Innova,2011,14607,CNG,Automatic,White,2,True,Delhi,False,2.3,Hatchback,,967808.95
+Ford,Fiesta,2017,77880,Electric,Automatic,Grey,1,False,Mumbai,True,3.6,Hatchback,Third-Party,218318.0
+Nissan,Kicks,2023,11493,Electric,Manual,Grey,2,True,Mumbai,False,1.1,Sedan,Third-Party,1168276.05
+Maruti Suzuki,Dzire,2014,59024,Petrol,Manual,Red,1,False,Kolkata,False,4.2,Sedan,Comprehensive,121146.4
+Tata,Harrier,2022,53588,Diesel,Automatic,White,1,True,Chennai,True,2.8,Sedan,Third-Party,1541961.8
+Hyundai,Creta,2018,149744,Electric,Manual,Red,1,False,Chennai,False,4.2,SUV,Comprehensive,1157538.4
+Hyundai,Creta,2003,135257,CNG,Automatic,Silver,3,False,Pune,False,4.6,Hatchback,,379711.45
+Audi,A6,2019,159974,Electric,Automatic,White,1,False,Pune,False,4.4,Wagon,Third-Party,5206003.9
+Maruti Suzuki,Vitara Brezza,2016,163366,Electric,Manual,Silver,1,False,Mumbai,True,1.8,Coupe,Comprehensive,355495.1
+Honda,City,2003,183973,Diesel,Manual,Grey,3,False,Hyderabad,False,2.4,Hatchback,Comprehensive,50000.0
+Mercedes,C-Class,2004,103320,Diesel,Automatic,White,2,False,Ahmedabad,True,1.5,Sedan,Third-Party,3884502.0
+BMW,3 Series,2011,124947,Diesel,Automatic,Silver,1,False,Bangalore,False,3.5,SUV,Comprehensive,3361257.95
+Toyota,Corolla,2020,75536,Diesel,Automatic,Blue,2,False,Hyderabad,True,3.6,SUV,Comprehensive,888669.6
+Nissan,Kicks,2014,97366,CNG,Manual,Silver,3,False,Mumbai,True,2.7,SUV,Comprehensive,635395.1
+Audi,A4,2019,117795,Petrol,Automatic,Silver,1,False,Hyderabad,True,3.1,Hatchback,Comprehensive,4162330.75
+BMW,M3,2006,88034,CNG,Automatic,White,2,False,Pune,True,4.5,Wagon,Third-Party,6486794.9
+Ford,Endeavour,2008,17714,Diesel,Manual,Blue,1,True,Hyderabad,True,1.0,Coupe,,2147342.9
+Maruti Suzuki,Swift,2010,69152,Diesel,Manual,Silver,3,False,Delhi,True,2.7,Coupe,,50000.0
+Nissan,Terrano,2011,72338,Electric,Automatic,Grey,3,False,Hyderabad,False,2.3,Wagon,Comprehensive,589149.3
+Tata,Harrier,2022,135528,CNG,Manual,Blue,1,False,Delhi,False,4.4,Hatchback,,1609670.8
+Ford,Fiesta,2010,157772,CNG,Manual,White,3,False,Ahmedabad,False,3.0,Wagon,Third-Party,50000.0
+Mercedes,E-Class,2005,8068,Petrol,Manual,Black,2,True,Mumbai,False,4.1,Wagon,Third-Party,5568789.8
+Ford,Fiesta,2011,58047,CNG,Manual,Blue,2,False,Chennai,True,1.0,Wagon,Third-Party,50000.0
+Mercedes,S-Class,2002,73720,Electric,Automatic,Blue,3,False,Hyderabad,False,2.0,Wagon,,8838942.0
+Toyota,Innova,2008,20064,Diesel,Automatic,Red,3,True,Pune,False,4.4,Wagon,Third-Party,766990.4
+Maruti Suzuki,Vitara Brezza,2023,11645,Electric,Manual,Silver,3,True,Chennai,True,4.2,SUV,,668253.25
+Tata,Harrier,2005,79054,Electric,Automatic,Silver,2,False,Chennai,False,2.2,SUV,Third-Party,688141.9
+BMW,X5,2005,118232,CNG,Manual,Black,1,True,Hyderabad,False,2.4,Convertible,Third-Party,7032265.2
+Mercedes,S-Class,2001,182351,Electric,Manual,Red,2,True,Hyderabad,False,4.0,Coupe,Comprehensive,8792647.35
+Audi,A6,2010,121257,CNG,Manual,Grey,1,False,Delhi,False,2.6,SUV,,4811811.45
+Audi,A4,2024,35241,Electric,Manual,Red,3,False,Ahmedabad,True,1.5,Sedan,Third-Party,4394713.85
+Ford,EcoSport,2018,52951,Diesel,Automatic,Blue,2,False,Pune,False,1.4,Sedan,,442057.35
+Audi,A4,2002,105585,CNG,Manual,Blue,1,False,Bangalore,True,2.7,Coupe,,3364162.25
+Toyota,Corolla,2013,164108,CNG,Manual,White,1,False,Delhi,False,1.7,SUV,Comprehensive,655383.8
+Audi,Q5,2011,51166,CNG,Manual,Red,3,True,Bangalore,False,4.3,Wagon,,5362325.1
+Honda,Civic,2016,13240,Diesel,Manual,Grey,3,True,Hyderabad,False,3.3,Wagon,Third-Party,268014.0
+Toyota,Innova,2022,12482,Petrol,Automatic,White,2,False,Chennai,True,1.1,SUV,Comprehensive,1398127.7
+Mercedes,E-Class,2006,34895,Electric,Manual,White,3,False,Hyderabad,True,2.8,Convertible,Comprehensive,5494765.75
+Honda,Civic,2017,45717,CNG,Manual,Grey,3,True,Delhi,True,4.5,Hatchback,Comprehensive,313142.45
+Audi,Q5,2013,59946,Petrol,Manual,White,1,True,Chennai,False,4.9,Sedan,Comprehensive,5441008.1
+Nissan,Magnite,2019,29308,CNG,Automatic,Grey,1,True,Kolkata,True,3.3,Sedan,Comprehensive,295603.8
+BMW,3 Series,2011,11720,CNG,Automatic,White,3,True,Chennai,True,2.7,Hatchback,Third-Party,3268242.0
+Hyundai,Verna,2009,187257,Electric,Automatic,Grey,2,True,Hyderabad,True,4.0,Sedan,Comprehensive,50000.0
+Audi,A4,2021,77833,Electric,Manual,Blue,3,True,Hyderabad,False,2.4,Hatchback,Third-Party,4308325.05
+Tata,Harrier,2014,11112,Diesel,Automatic,White,1,False,Pune,True,4.8,Sedan,Comprehensive,1128333.2
+Hyundai,Verna,2005,96688,Diesel,Manual,Blue,3,False,Bangalore,False,2.9,Coupe,,50000.0
+Maruti Suzuki,Vitara Brezza,2021,184795,Electric,Manual,Red,2,True,Ahmedabad,True,2.5,Coupe,Third-Party,542280.75
+Ford,Endeavour,2014,152970,Electric,Manual,Red,3,True,Pune,True,2.1,Convertible,Comprehensive,2397054.5
+Ford,Endeavour,2016,179810,Electric,Manual,Red,1,True,Ahmedabad,True,4.3,Hatchback,Third-Party,2523028.5
+Nissan,Kicks,2006,39587,Diesel,Automatic,Grey,3,False,Kolkata,False,4.3,SUV,Third-Party,244061.95
+Mercedes,E-Class,2021,18472,Electric,Automatic,Black,3,True,Hyderabad,True,1.5,Coupe,Third-Party,6267229.2
+Honda,City,2010,29621,Diesel,Automatic,Red,2,True,Hyderabad,True,3.1,Wagon,Third-Party,215556.85
+Audi,A4,2002,116786,Diesel,Automatic,White,1,True,Ahmedabad,False,4.2,Wagon,Third-Party,3382482.1
+Mercedes,S-Class,2006,193477,Electric,Automatic,Silver,2,True,Ahmedabad,True,3.0,Hatchback,Third-Party,8990978.45
+Toyota,Innova,2017,88073,Diesel,Automatic,Black,1,False,Pune,False,1.9,Convertible,Third-Party,1216789.05
+Audi,Q5,2017,143868,Diesel,Manual,Blue,1,False,Ahmedabad,False,1.9,Wagon,Third-Party,5608419.8
+Hyundai,Verna,2019,198084,Petrol,Automatic,White,1,True,Pune,False,2.8,Coupe,,620287.4
+Toyota,Fortuner,2010,157240,Electric,Manual,Black,2,False,Ahmedabad,True,3.7,SUV,Comprehensive,2676414.0
+BMW,X5,2021,187180,Petrol,Manual,Black,3,True,Pune,True,3.3,Convertible,Third-Party,7741923.0
+Honda,Jazz,2019,12063,Diesel,Automatic,White,1,False,Kolkata,False,2.1,Wagon,Third-Party,478190.55
+Audi,Q5,2002,59184,Diesel,Manual,Blue,2,True,Chennai,True,2.0,Convertible,Third-Party,4811122.4
+Toyota,Innova,2017,119551,CNG,Manual,Grey,3,True,Delhi,True,3.7,SUV,,1202067.35
+BMW,M3,2022,75559,CNG,Automatic,Grey,1,False,Pune,False,3.8,Wagon,Third-Party,7368666.15
+BMW,X5,2021,25051,Electric,Automatic,Red,1,True,Ahmedabad,False,4.5,Hatchback,Third-Party,7846242.35
+Tata,Altroz,2005,150594,Petrol,Automatic,White,3,False,Mumbai,True,3.1,Coupe,Comprehensive,50000.0
+Audi,A6,2012,194233,Electric,Automatic,Silver,2,True,Kolkata,True,4.8,Coupe,Third-Party,4790865.05
+Audi,Q5,2000,87333,CNG,Automatic,Black,3,False,Delhi,True,4.5,Coupe,Comprehensive,4736900.05
+Ford,Endeavour,2004,23050,Electric,Automatic,Grey,3,False,Pune,False,3.8,Sedan,Comprehensive,1946542.5
+Honda,Jazz,2002,50394,Diesel,Manual,Grey,1,True,Hyderabad,True,2.0,Sedan,Third-Party,50000.0
+Mercedes,C-Class,2008,174588,Diesel,Manual,White,2,False,Delhi,True,1.3,SUV,Comprehensive,4123811.8
+Audi,A4,2002,39838,Electric,Manual,White,2,True,Kolkata,False,2.2,Wagon,,3364024.3
+Hyundai,Verna,2008,66001,Electric,Automatic,Red,1,False,Kolkata,False,3.3,Coupe,Comprehensive,70099.85
+Nissan,Terrano,2024,11918,Petrol,Manual,Grey,2,False,Kolkata,True,4.4,Hatchback,Comprehensive,1198212.3
+Toyota,Fortuner,2014,188009,Petrol,Manual,Grey,3,False,Hyderabad,True,1.3,Coupe,Comprehensive,2871798.65
+Toyota,Fortuner,2013,15167,Petrol,Manual,Red,1,False,Pune,True,3.3,Coupe,,2877724.95
+Tata,Harrier,2015,24560,CNG,Automatic,Red,3,False,Bangalore,True,1.3,Sedan,Third-Party,1196316.0
+Nissan,Terrano,2015,149587,CNG,Automatic,Silver,1,True,Bangalore,True,2.3,Convertible,,827561.95
+Mercedes,E-Class,2006,11444,Petrol,Manual,Red,3,True,Bangalore,False,3.5,SUV,,5618283.4
+BMW,3 Series,2018,62945,Electric,Manual,Red,1,False,Mumbai,False,2.6,SUV,Third-Party,3720558.25
+Ford,Fiesta,2008,128584,Diesel,Manual,Silver,2,False,Chennai,True,3.5,Coupe,Third-Party,50000.0
+Maruti Suzuki,Dzire,2014,184308,CNG,Manual,Grey,3,True,Kolkata,True,2.7,Coupe,Third-Party,50000.0
+Ford,Endeavour,2001,125337,Petrol,Automatic,Blue,1,True,Delhi,True,3.4,Coupe,Comprehensive,1831199.45
+Hyundai,Elantra,2002,30011,CNG,Manual,Red,1,True,Hyderabad,False,1.1,Wagon,Third-Party,195498.35
+Mercedes,C-Class,2007,69803,CNG,Automatic,Grey,1,False,Mumbai,True,2.3,Wagon,Third-Party,4119529.55
+Nissan,Kicks,2015,143415,Petrol,Manual,Blue,1,False,Pune,False,3.3,Convertible,Third-Party,708487.75
+Ford,Endeavour,2007,103059,CNG,Manual,Blue,2,True,Pune,False,1.8,Convertible,Comprehensive,2104541.15
+Mercedes,S-Class,2004,100801,Petrol,Automatic,White,2,False,Chennai,True,4.0,Sedan,Comprehensive,8884879.85
+Mercedes,C-Class,2022,167709,Diesel,Manual,Black,1,True,Pune,False,4.7,Wagon,Comprehensive,4874843.65
+Nissan,Terrano,2024,166821,Petrol,Manual,White,1,False,Mumbai,False,1.1,SUV,Third-Party,1300000.0
+Audi,A6,2023,5755,Diesel,Automatic,White,3,False,Ahmedabad,True,2.7,Sedan,Third-Party,5349136.75
+Toyota,Corolla,2003,114234,CNG,Automatic,White,1,False,Delhi,False,1.4,Coupe,Comprehensive,162864.9
+Maruti Suzuki,Swift,2007,184597,Petrol,Automatic,Silver,2,False,Hyderabad,True,4.6,Sedan,Third-Party,50000.0
+Toyota,Corolla,2024,40509,Electric,Automatic,Silver,1,False,Chennai,True,2.8,Convertible,Third-Party,1123923.65
+Toyota,Fortuner,2000,49582,Petrol,Automatic,Black,1,True,Chennai,False,1.1,Wagon,,2292562.7
+Tata,Nexon,2023,76682,CNG,Manual,Silver,1,True,Ahmedabad,False,5.0,Sedan,Comprehensive,838497.7
+Maruti Suzuki,Vitara Brezza,2003,66837,Electric,Manual,Red,3,True,Hyderabad,False,4.2,Sedan,,50000.0
+Audi,A6,2004,64330,Diesel,Automatic,Red,1,True,Chennai,True,3.5,Sedan,Third-Party,4440350.5
+Nissan,Magnite,2020,89629,Petrol,Manual,Blue,3,False,Chennai,False,2.4,Wagon,Third-Party,336555.65
+Mercedes,S-Class,2006,125479,CNG,Manual,White,2,True,Ahmedabad,False,2.8,Wagon,Comprehensive,9051178.15
+Toyota,Corolla,2020,107818,CNG,Manual,White,3,False,Ahmedabad,False,3.4,Coupe,Comprehensive,933827.3
+Toyota,Fortuner,2023,154505,Petrol,Automatic,White,1,True,Chennai,False,1.9,SUV,Comprehensive,3426824.25
+Honda,City,2005,91844,Electric,Manual,Black,1,False,Ahmedabad,False,1.5,Convertible,,50000.0
+Maruti Suzuki,Vitara Brezza,2004,153322,Petrol,Automatic,Black,2,True,Chennai,False,4.6,Wagon,,50000.0
+Honda,City,2007,138284,Electric,Automatic,Blue,2,False,Delhi,True,2.6,Hatchback,Third-Party,79257.4
+Toyota,Corolla,2021,70915,Electric,Manual,Red,2,True,Bangalore,False,4.0,Sedan,Comprehensive,1059362.75
+Nissan,Magnite,2016,53179,Diesel,Automatic,Grey,1,False,Delhi,False,1.8,Convertible,Third-Party,222023.15
+Nissan,Magnite,2019,93953,Electric,Manual,Grey,3,False,Bangalore,True,1.5,Hatchback,,285907.05
+Audi,Q5,2021,199856,Diesel,Automatic,Blue,3,False,Mumbai,False,1.4,Sedan,,5820021.6
+Ford,Fiesta,2014,25256,Electric,Automatic,Black,2,False,Mumbai,True,1.8,Coupe,Comprehensive,50000.0
+Honda,Civic,2007,60824,Electric,Manual,White,3,True,Ahmedabad,True,3.4,Convertible,,50000.0
+Tata,Nexon,2016,80668,CNG,Manual,Black,1,True,Chennai,True,3.0,SUV,Third-Party,437899.8
+Maruti Suzuki,Swift,2003,77217,CNG,Automatic,Black,3,False,Ahmedabad,False,2.6,Wagon,Third-Party,50000.0
+Honda,Jazz,2009,170875,Electric,Automatic,White,2,False,Delhi,True,2.0,SUV,Comprehensive,50000.0
+Ford,Fiesta,2015,171759,Diesel,Automatic,Blue,2,False,Delhi,True,4.3,Coupe,Comprehensive,74236.15
+Toyota,Fortuner,2006,110247,Diesel,Automatic,Blue,1,True,Pune,False,3.8,Sedan,,2583462.95
+Ford,Endeavour,2012,68663,Petrol,Manual,Silver,2,False,Hyderabad,False,1.5,Convertible,Comprehensive,2339700.55
+Toyota,Corolla,2019,111614,Petrol,Manual,Silver,3,True,Ahmedabad,True,1.8,Convertible,Third-Party,853257.9
+Nissan,Magnite,2009,198498,CNG,Manual,Blue,1,False,Hyderabad,True,2.6,Hatchback,,50000.0
+Hyundai,Elantra,2021,29521,CNG,Automatic,White,1,False,Hyderabad,False,2.1,Convertible,Third-Party,1125571.85
+BMW,X5,2012,13095,Petrol,Manual,White,1,True,Delhi,False,1.7,Convertible,,7448035.75
+Maruti Suzuki,Vitara Brezza,2023,40879,Diesel,Automatic,Black,3,True,Kolkata,False,4.3,Coupe,Third-Party,713868.15
+BMW,3 Series,2015,103264,Electric,Manual,White,1,True,Mumbai,True,2.5,Sedan,Comprehensive,3534510.4
+Hyundai,Creta,2017,74881,Petrol,Manual,Black,3,True,Ahmedabad,True,3.6,Coupe,Comprehensive,1058767.85
+Toyota,Fortuner,2014,24123,Electric,Manual,Grey,3,True,Delhi,False,2.8,Sedan,,3016381.55
+Toyota,Fortuner,2009,154490,Diesel,Manual,Black,1,False,Pune,False,4.5,Convertible,Third-Party,2706826.5
+Nissan,Terrano,2020,147296,Petrol,Manual,Grey,2,False,Bangalore,True,2.5,Wagon,,1027905.6
+Maruti Suzuki,Swift,2014,21136,CNG,Manual,Red,1,True,Mumbai,True,4.1,Wagon,Comprehensive,96829.6
+Toyota,Corolla,2008,140971,Petrol,Manual,Red,1,True,Delhi,True,1.7,Wagon,Third-Party,378854.35
+Mercedes,S-Class,2019,160130,Electric,Manual,Silver,3,False,Hyderabad,False,2.6,Coupe,Third-Party,9675980.5
+Honda,Civic,2005,55298,Petrol,Manual,Grey,3,True,Kolkata,False,2.4,Hatchback,,50000.0
+Honda,City,2017,17628,Electric,Manual,Blue,2,False,Delhi,True,2.8,SUV,Comprehensive,597355.8
+BMW,M3,2019,144749,Electric,Automatic,White,1,True,Kolkata,False,3.2,SUV,,7228287.65
+Ford,Fiesta,2007,51019,Electric,Manual,Red,3,False,Bangalore,True,1.4,Coupe,,50000.0
+Tata,Altroz,2020,171952,Electric,Automatic,Black,2,True,Delhi,False,4.6,Hatchback,,394207.2
+Honda,City,2002,188269,CNG,Manual,White,2,False,Delhi,True,3.5,Coupe,Comprehensive,50000.0
+Ford,Endeavour,2013,74756,Petrol,Automatic,Red,1,False,Ahmedabad,False,2.2,Sedan,,2418786.6
+Audi,Q5,2001,75534,CNG,Manual,Silver,3,True,Chennai,True,3.7,Hatchback,Third-Party,4758669.9
+Hyundai,Elantra,2000,54163,Electric,Automatic,Grey,2,True,Pune,True,4.5,SUV,Third-Party,50000.0
+Mercedes,C-Class,2011,31542,Electric,Automatic,Silver,2,True,Bangalore,True,2.3,Wagon,Third-Party,4315268.7
+Honda,Civic,2018,67551,Petrol,Automatic,Black,3,True,Hyderabad,False,3.5,Wagon,,359867.35
+Tata,Harrier,2020,29683,Electric,Automatic,Silver,2,True,Mumbai,True,1.9,Coupe,Comprehensive,1465547.55
+Mercedes,C-Class,2007,193607,CNG,Manual,Red,2,True,Hyderabad,True,4.3,Wagon,,4040958.95
+Ford,EcoSport,2009,7847,Electric,Automatic,Red,2,True,Kolkata,True,1.4,SUV,Third-Party,50000.0
+Nissan,Magnite,2002,77999,Petrol,Automatic,Silver,3,True,Bangalore,True,4.6,Coupe,Third-Party,50000.0
+BMW,X5,2010,183214,Electric,Automatic,Black,1,True,Hyderabad,True,2.9,Hatchback,Comprehensive,7222517.9
+Maruti Suzuki,Vitara Brezza,2014,154663,CNG,Manual,Black,2,True,Chennai,True,1.1,Sedan,,196800.55
+Audi,Q5,2013,19374,Petrol,Manual,Red,3,False,Ahmedabad,True,1.4,Coupe,Third-Party,5347093.9
+BMW,3 Series,2017,175944,CNG,Automatic,Grey,1,True,Hyderabad,False,4.4,Wagon,Comprehensive,3623608.4
+Tata,Nexon,2000,78628,CNG,Manual,Grey,2,True,Delhi,False,2.6,SUV,,50000.0
+Tata,Harrier,2009,43577,Diesel,Manual,Red,2,True,Hyderabad,True,2.3,Convertible,,863463.45
+Toyota,Corolla,2014,37537,Diesel,Manual,Grey,2,False,Pune,False,1.7,Coupe,Comprehensive,644369.45
+Tata,Altroz,2013,155881,Diesel,Manual,White,2,True,Ahmedabad,True,4.4,Hatchback,Third-Party,50000.0
+Ford,Endeavour,2007,162626,Electric,Manual,Silver,3,False,Hyderabad,True,2.2,Sedan,,2025606.1
+Maruti Suzuki,Vitara Brezza,2001,18315,CNG,Automatic,Silver,3,True,Chennai,False,4.4,Coupe,Third-Party,50000.0
+Honda,Civic,2004,72059,Diesel,Manual,Grey,3,False,Chennai,False,3.5,Hatchback,Third-Party,50000.0
+Honda,Jazz,2011,95578,CNG,Manual,Black,3,True,Ahmedabad,False,2.3,Hatchback,Comprehensive,55663.3
+Tata,Nexon,2005,36496,Petrol,Automatic,Black,2,False,Kolkata,False,4.9,Sedan,,50000.0
+Ford,EcoSport,2024,119643,CNG,Automatic,White,3,True,Bangalore,True,1.0,Wagon,Third-Party,752053.55
+BMW,3 Series,2010,76869,Electric,Manual,White,2,False,Mumbai,True,4.7,Convertible,,3238469.65
+Toyota,Fortuner,2003,34854,Electric,Manual,Grey,2,True,Hyderabad,True,1.6,Sedan,Comprehensive,2364771.9
+Nissan,Terrano,2014,57093,Diesel,Manual,Silver,1,True,Ahmedabad,False,4.5,Coupe,,791436.05
+Audi,A4,2018,150528,Petrol,Automatic,Grey,1,False,Pune,False,1.9,SUV,,4157420.8
+Audi,A4,2016,56657,CNG,Automatic,White,2,False,Ahmedabad,False,2.0,Convertible,,4041501.45
+Mercedes,C-Class,2012,107668,Diesel,Manual,Grey,3,True,Delhi,True,2.4,SUV,Comprehensive,4353849.8
+Audi,A6,2016,19191,Electric,Automatic,Black,3,False,Hyderabad,False,3.3,Wagon,Third-Party,5047121.35
+Maruti Suzuki,Dzire,2010,112667,CNG,Automatic,Grey,2,False,Chennai,False,4.5,SUV,Third-Party,50000.0
+BMW,M3,2012,55459,Petrol,Automatic,Red,3,False,Kolkata,True,2.8,Hatchback,,6791681.15
+Maruti Suzuki,Dzire,2007,157062,Diesel,Automatic,Silver,1,True,Ahmedabad,True,2.8,Hatchback,Comprehensive,50000.0
+Maruti Suzuki,Swift,2007,23671,Electric,Manual,Silver,2,True,Bangalore,True,4.6,Sedan,Third-Party,50000.0
+Tata,Altroz,2002,166313,CNG,Manual,Red,1,True,Ahmedabad,True,4.2,Coupe,Comprehensive,50000.0
+Hyundai,Verna,2001,24535,Diesel,Automatic,Grey,3,True,Pune,False,3.7,Convertible,Third-Party,50000.0
+Mercedes,S-Class,2006,145742,CNG,Automatic,White,2,False,Ahmedabad,True,1.7,Hatchback,Comprehensive,8978138.7
+Hyundai,Creta,2007,97440,Petrol,Manual,Blue,3,True,Chennai,False,1.3,Sedan,Third-Party,605384.0
+Mercedes,C-Class,2024,6211,Diesel,Manual,Black,3,True,Delhi,False,4.0,Wagon,,5000000.0
+Nissan,Magnite,2000,72535,Petrol,Automatic,White,3,False,Hyderabad,False,1.1,Wagon,Third-Party,50000.0
+Tata,Harrier,2014,190919,Petrol,Automatic,Blue,3,True,Delhi,True,4.5,Hatchback,Third-Party,1141362.15
+Maruti Suzuki,Vitara Brezza,2021,164601,Petrol,Automatic,Grey,1,False,Chennai,True,3.5,Wagon,Comprehensive,555309.85
+Toyota,Fortuner,2019,82336,CNG,Manual,Black,1,True,Ahmedabad,True,1.6,Wagon,Third-Party,3187649.6
+Ford,EcoSport,2024,11610,Diesel,Automatic,White,1,False,Mumbai,True,4.7,Coupe,Third-Party,778258.5
+Nissan,Magnite,2006,187392,Diesel,Automatic,Grey,3,False,Chennai,True,3.6,Convertible,Third-Party,50000.0
+BMW,M3,2023,142594,Electric,Manual,Silver,2,False,Ahmedabad,True,1.2,Coupe,,7328610.9
+BMW,M3,2005,139558,Diesel,Manual,Silver,2,False,Pune,True,1.3,Coupe,,6429066.3
+BMW,M3,2009,6475,Electric,Manual,Blue,1,False,Ahmedabad,True,4.7,Wagon,Third-Party,6679028.75
+Maruti Suzuki,Vitara Brezza,2008,142621,Diesel,Automatic,Red,1,True,Chennai,False,1.7,Coupe,Third-Party,50000.0
+Hyundai,Verna,2007,178509,Electric,Automatic,Black,1,True,Ahmedabad,True,2.7,Convertible,Third-Party,50000.0
+Tata,Nexon,2002,87213,Electric,Manual,Blue,1,False,Ahmedabad,True,4.3,Coupe,,50000.0
+Tata,Harrier,2021,18677,Petrol,Manual,Grey,2,False,Pune,False,1.2,Hatchback,Third-Party,1497198.45
+Hyundai,Elantra,2003,96084,Petrol,Automatic,White,3,True,Chennai,False,3.3,Wagon,Comprehensive,205587.4
+Honda,Jazz,2012,103923,CNG,Automatic,Blue,3,True,Hyderabad,True,4.4,SUV,Third-Party,54411.54999999999
+Maruti Suzuki,Swift,2006,124129,Diesel,Automatic,White,2,False,Pune,True,1.7,SUV,Third-Party,50000.0
+Mercedes,E-Class,2014,72400,Diesel,Manual,White,2,True,Hyderabad,True,3.4,Hatchback,Third-Party,5909140.0
+Mercedes,E-Class,2004,197818,Diesel,Automatic,Red,2,False,Ahmedabad,True,3.1,Coupe,,5370327.3
+Tata,Altroz,2005,120290,Diesel,Manual,Red,2,False,Chennai,False,3.1,Coupe,Comprehensive,50000.0
+BMW,X5,2001,76879,Electric,Automatic,Grey,3,False,Ahmedabad,True,4.0,Convertible,Comprehensive,6738468.15
+Nissan,Terrano,2010,157857,Diesel,Automatic,Red,3,True,Ahmedabad,True,3.9,Wagon,Third-Party,496321.45
+BMW,X5,2021,158192,Electric,Automatic,Grey,1,False,Chennai,True,1.8,Sedan,,7756271.2
+Mercedes,S-Class,2013,50839,Diesel,Automatic,Red,3,False,Kolkata,False,4.0,Coupe,Third-Party,9392374.15
+Hyundai,Elantra,2024,162884,CNG,Manual,White,3,True,Delhi,True,5.0,Coupe,,1245567.4
+Tata,Harrier,2023,52483,Diesel,Manual,Grey,1,False,Bangalore,True,4.1,Wagon,Comprehensive,1622127.55
+Maruti Suzuki,Dzire,2022,116763,Electric,Automatic,Grey,1,False,Bangalore,True,2.8,Coupe,,512485.5500000001
+Toyota,Corolla,2015,104979,Diesel,Manual,Red,2,False,Ahmedabad,True,2.9,Sedan,Comprehensive,634253.15
+Mercedes,S-Class,2015,104099,Electric,Automatic,Silver,1,True,Bangalore,True,4.8,Coupe,Third-Party,9534385.15
+Tata,Nexon,2008,30916,Diesel,Manual,Grey,1,True,Pune,True,2.2,Convertible,,50000.0
+Toyota,Fortuner,2006,129128,Petrol,Manual,Black,3,True,Mumbai,False,4.1,Sedan,Third-Party,2600630.8
+Audi,A4,2014,20724,Petrol,Automatic,Grey,2,True,Delhi,False,1.7,Convertible,Third-Party,4016891.4
+Nissan,Magnite,2008,49325,Diesel,Manual,White,2,False,Delhi,True,4.0,Wagon,Third-Party,50000.0
+Toyota,Corolla,2004,136057,Diesel,Manual,Black,3,False,Bangalore,True,4.0,SUV,,129591.45
+BMW,X5,2023,93259,Electric,Manual,Blue,1,True,Delhi,False,3.2,Convertible,,7986011.15
+Nissan,Magnite,2003,13134,Electric,Automatic,Black,3,True,Pune,False,3.4,Convertible,Third-Party,50000.0
+Maruti Suzuki,Swift,2024,50288,Electric,Manual,Blue,1,False,Pune,False,1.5,SUV,Comprehensive,572456.8
+Audi,Q5,2001,32714,CNG,Automatic,Black,3,False,Kolkata,True,2.5,Hatchback,Third-Party,4745092.9
+Mercedes,S-Class,2017,24914,CNG,Manual,Black,2,False,Hyderabad,True,2.7,Sedan,,9546262.9
+Tata,Harrier,2012,168180,Diesel,Manual,Grey,1,True,Delhi,False,4.5,SUV,Third-Party,1124773.0
+Nissan,Kicks,2017,47443,Electric,Automatic,Black,3,False,Ahmedabad,True,3.5,Coupe,Third-Party,742883.55
+Toyota,Corolla,2007,90119,CNG,Manual,Grey,2,True,Mumbai,True,3.2,SUV,Third-Party,306482.15
+BMW,M3,2024,85305,Diesel,Manual,White,1,False,Kolkata,False,3.4,Convertible,Comprehensive,7467204.25
+BMW,M3,2004,90996,CNG,Manual,Silver,3,True,Ahmedabad,True,2.4,Sedan,Comprehensive,6406350.6
+Audi,A4,2021,157357,Diesel,Automatic,Black,1,True,Delhi,True,4.5,Hatchback,Third-Party,4326396.45
+Nissan,Terrano,2013,102334,Electric,Manual,Black,3,False,Delhi,False,2.5,Sedan,Comprehensive,734649.9
+Toyota,Corolla,2007,92511,Petrol,Manual,Black,2,False,Kolkata,True,4.7,Wagon,,236123.35
+Maruti Suzuki,Swift,2000,193965,CNG,Automatic,Red,1,False,Pune,False,4.1,Hatchback,Comprehensive,50000.0
+Hyundai,Verna,2008,186953,Diesel,Manual,Blue,3,False,Bangalore,False,3.5,SUV,Third-Party,71957.05
+Hyundai,Verna,2003,135536,Diesel,Automatic,Blue,1,False,Ahmedabad,True,3.6,Wagon,,50000.0
+BMW,3 Series,2009,157991,Diesel,Manual,Blue,1,False,Pune,False,4.3,Sedan,,3206301.35
+BMW,3 Series,2024,185750,Petrol,Manual,Grey,2,False,Hyderabad,True,4.1,Hatchback,Comprehensive,3872137.5
+Honda,City,2020,82388,CNG,Automatic,Silver,2,True,Hyderabad,False,1.6,Convertible,,757641.8
+Maruti Suzuki,Vitara Brezza,2008,151666,CNG,Manual,Red,1,False,Kolkata,False,4.3,Coupe,,50000.0
+Ford,Fiesta,2009,51041,Petrol,Manual,Black,3,False,Mumbai,True,2.5,Sedan,,50000.0
+Honda,Civic,2012,137373,Diesel,Automatic,Grey,1,True,Hyderabad,False,2.7,Wagon,Third-Party,79394.05
+Toyota,Fortuner,2003,49231,Electric,Manual,White,3,True,Ahmedabad,True,2.8,Coupe,Comprehensive,2362615.35
+Nissan,Terrano,2018,180590,Diesel,Manual,White,1,True,Chennai,True,3.9,Sedan,Comprehensive,922911.5
+Hyundai,Verna,2003,94752,Petrol,Automatic,White,2,False,Hyderabad,True,2.0,Coupe,,50000.0
+Tata,Altroz,2023,111051,Petrol,Manual,Grey,2,True,Bangalore,False,1.6,Convertible,Third-Party,553342.35
+Honda,Jazz,2000,18604,Electric,Manual,Grey,2,True,Bangalore,False,1.7,Hatchback,,50000.0
+Mercedes,C-Class,2012,74258,Petrol,Manual,Blue,1,True,Hyderabad,False,1.7,Wagon,,4388861.3
+Ford,Fiesta,2016,63152,Electric,Manual,Silver,3,False,Bangalore,True,1.7,Wagon,Third-Party,140527.2
+Ford,Endeavour,2015,126776,Petrol,Automatic,Black,1,True,Kolkata,True,4.6,Sedan,Comprehensive,2480983.6
+Honda,City,2001,6696,Electric,Automatic,White,3,True,Mumbai,False,4.2,Sedan,Comprehensive,50000.0
+Audi,Q5,2006,78776,Diesel,Automatic,Black,2,False,Mumbai,False,1.7,Coupe,Third-Party,5088183.6
+Nissan,Terrano,2019,34274,CNG,Manual,Silver,3,True,Pune,False,1.9,Coupe,Third-Party,1014858.9
+Toyota,Corolla,2011,82066,CNG,Automatic,Grey,3,False,Bangalore,False,4.7,Wagon,Comprehensive,537690.1
+Tata,Harrier,2024,34711,Diesel,Automatic,Blue,3,True,Chennai,False,1.6,Wagon,Third-Party,1664793.35
+Maruti Suzuki,Dzire,2018,195388,Petrol,Manual,Grey,3,False,Chennai,True,1.6,Hatchback,Comprehensive,220691.8
+Maruti Suzuki,Dzire,2020,92205,Petrol,Manual,Black,3,True,Bangalore,False,1.8,Wagon,Third-Party,456169.25
+Mercedes,C-Class,2017,35287,Petrol,Automatic,Red,2,False,Hyderabad,True,1.3,Hatchback,,4544706.95
+Ford,EcoSport,2007,195059,Petrol,Automatic,Black,1,False,Pune,False,3.1,SUV,,50000.0
+Toyota,Fortuner,2012,127198,Electric,Manual,Black,2,True,Mumbai,True,1.4,Sedan,,2850920.3
+Toyota,Innova,2010,37224,CNG,Manual,Red,2,True,Ahmedabad,False,2.2,Hatchback,,864416.4
+Nissan,Magnite,2017,108541,Petrol,Manual,Blue,1,False,Kolkata,False,3.7,SUV,Third-Party,213718.85
+Tata,Harrier,2015,72396,CNG,Automatic,Grey,1,False,Pune,True,2.4,Convertible,,1169140.6
+Mercedes,E-Class,2014,153107,CNG,Manual,Black,3,True,Bangalore,True,3.4,SUV,,5947033.95
+Mercedes,S-Class,2003,106474,CNG,Manual,Black,3,False,Mumbai,False,3.1,SUV,Comprehensive,8934028.9
+Ford,Fiesta,2011,167025,Petrol,Automatic,Silver,1,False,Kolkata,True,4.0,SUV,Third-Party,50000.0
+Tata,Harrier,2004,76207,CNG,Manual,Grey,3,True,Delhi,True,4.6,Coupe,,658568.95
+Tata,Altroz,2020,136843,Electric,Manual,White,3,False,Hyderabad,False,2.2,Wagon,,329473.55
+Mercedes,C-Class,2005,179591,Electric,Automatic,Red,2,False,Delhi,False,2.5,Sedan,Third-Party,4023061.35
+Maruti Suzuki,Dzire,2002,48292,CNG,Manual,White,2,True,Delhi,True,4.4,Coupe,Third-Party,50000.0
+Honda,Jazz,2006,153658,Electric,Manual,Blue,3,False,Hyderabad,False,1.3,Hatchback,,50000.0
+Ford,Endeavour,2012,154636,CNG,Manual,Red,3,True,Mumbai,False,3.6,Sedan,,2396804.6
+Honda,City,2004,146125,Diesel,Automatic,Red,2,False,Pune,True,3.5,Wagon,,50000.0
+Ford,Endeavour,2012,187498,Petrol,Manual,Red,1,True,Hyderabad,True,4.3,Hatchback,,2321875.3
+Tata,Harrier,2016,25137,Diesel,Automatic,Silver,3,True,Kolkata,False,2.2,Hatchback,,1266229.45
+Toyota,Innova,2023,163146,Diesel,Automatic,Grey,2,True,Chennai,True,4.8,Sedan,,1445528.1
+Hyundai,Elantra,2009,144239,Diesel,Automatic,Black,2,True,Chennai,False,4.9,Wagon,Comprehensive,498364.15
+BMW,3 Series,2018,53337,Petrol,Manual,Black,1,False,Kolkata,False,3.1,Wagon,,3671999.45
+Maruti Suzuki,Dzire,2020,86208,CNG,Manual,Grey,3,True,Hyderabad,False,3.1,Hatchback,,407068.8
+Hyundai,Elantra,2015,196610,Electric,Manual,Black,1,True,Kolkata,True,3.7,SUV,Comprehensive,770508.5
+Honda,Civic,2020,187964,Electric,Automatic,Grey,3,False,Hyderabad,True,4.1,Coupe,Third-Party,371805.4
+Honda,Jazz,2013,18553,Petrol,Automatic,White,1,False,Ahmedabad,True,1.9,Hatchback,,127217.05
+Nissan,Magnite,2007,91415,Diesel,Automatic,Red,3,False,Ahmedabad,True,3.3,Wagon,,50000.0
+Maruti Suzuki,Swift,2010,15058,Diesel,Manual,Blue,1,False,Chennai,False,3.0,Wagon,Third-Party,50000.0
+Toyota,Innova,2013,49442,CNG,Automatic,Black,2,True,Chennai,False,2.5,Coupe,Third-Party,1012583.7
+Tata,Harrier,2009,141678,Electric,Automatic,Grey,2,False,Pune,False,4.3,SUV,,878748.3
+Nissan,Kicks,2022,124054,Electric,Automatic,Grey,3,False,Chennai,False,1.4,Convertible,,1031391.9
+BMW,M3,2015,137793,Petrol,Manual,White,3,True,Mumbai,True,2.7,Hatchback,,6999331.05
+Toyota,Corolla,2013,101358,Petrol,Automatic,Grey,1,False,Ahmedabad,False,1.2,Coupe,Third-Party,614796.3
+Ford,EcoSport,2017,116207,Petrol,Manual,Black,1,False,Bangalore,False,2.7,SUV,,462568.95
+Honda,Civic,2001,37282,Petrol,Automatic,White,2,True,Bangalore,True,2.7,Sedan,Third-Party,50000.0
+Hyundai,Creta,2010,118694,Diesel,Automatic,White,3,True,Ahmedabad,False,1.4,Coupe,Third-Party,752195.9
+Audi,A6,2022,69059,Diesel,Automatic,Black,2,True,Hyderabad,False,4.4,Convertible,Comprehensive,5359641.15
+Nissan,Magnite,2012,27910,CNG,Automatic,Black,3,True,Mumbai,False,4.6,Sedan,Comprehensive,50000.0
+Audi,A6,2010,79040,Electric,Manual,Grey,1,True,Mumbai,False,3.8,Hatchback,,4838144.0
+Tata,Nexon,2005,89081,Diesel,Automatic,White,1,True,Bangalore,False,3.9,SUV,,50000.0
+Hyundai,Creta,2003,153142,CNG,Manual,White,2,True,Hyderabad,False,1.3,SUV,,397028.7
+Hyundai,Creta,2001,17531,CNG,Manual,Red,1,False,Chennai,True,4.5,Coupe,,277370.35
+Honda,Civic,2023,144701,Petrol,Manual,Grey,3,True,Pune,False,4.1,Sedan,Comprehensive,598294.85
+Honda,City,2005,144524,CNG,Manual,Silver,3,False,Kolkata,False,3.0,Hatchback,Third-Party,50000.0
+Mercedes,E-Class,2015,178614,Electric,Automatic,White,2,True,Mumbai,False,1.3,Convertible,Comprehensive,6043207.9
+Honda,Civic,2012,103686,Electric,Manual,Grey,2,False,Delhi,True,4.3,Wagon,Comprehensive,50000.0
+Maruti Suzuki,Swift,2004,134436,Diesel,Automatic,Silver,2,True,Bangalore,False,3.2,Wagon,Comprehensive,50000.0
+Maruti Suzuki,Dzire,2010,79665,Petrol,Manual,Red,3,True,Kolkata,False,4.7,Coupe,Comprehensive,50000.0
+Nissan,Magnite,2010,155559,Electric,Manual,White,3,True,Hyderabad,False,4.8,Wagon,Comprehensive,50000.0
+Audi,A6,2012,184339,Petrol,Manual,Silver,2,True,Mumbai,False,4.0,Convertible,,4892349.15
+Audi,Q5,2006,109065,CNG,Manual,Red,3,True,Kolkata,False,2.1,Hatchback,Comprehensive,5053640.25
+BMW,3 Series,2005,44575,Petrol,Manual,Silver,2,False,Pune,True,2.7,Sedan,,2943313.75
+Mercedes,C-Class,2007,17088,Diesel,Automatic,Silver,3,False,Delhi,True,2.8,Coupe,Comprehensive,4097436.8
+Nissan,Terrano,2002,98606,Petrol,Manual,Grey,3,True,Pune,True,4.3,SUV,,105209.1
+Tata,Nexon,2012,180710,Electric,Manual,White,2,False,Pune,False,2.4,Convertible,,222893.5
+Tata,Nexon,2000,135562,Diesel,Manual,Grey,1,True,Kolkata,True,1.1,Coupe,Third-Party,50000.0
+Hyundai,Creta,2014,175229,CNG,Automatic,Silver,2,True,Chennai,True,4.4,Sedan,Third-Party,893715.65
+BMW,M3,2015,166860,CNG,Automatic,White,1,False,Mumbai,True,3.0,Hatchback,Comprehensive,7004971.0
+Hyundai,Elantra,2001,38526,Petrol,Automatic,Red,2,False,Ahmedabad,True,3.1,Sedan,,50000.0
+Nissan,Terrano,2004,128403,Petrol,Automatic,Grey,3,True,Mumbai,True,1.4,Wagon,Third-Party,250739.55
+Toyota,Innova,2005,116900,Diesel,Manual,Grey,2,True,Mumbai,False,2.0,Coupe,Comprehensive,652465.0
+Maruti Suzuki,Dzire,2021,93291,Diesel,Automatic,Blue,2,True,Delhi,False,2.7,Convertible,Third-Party,506006.35
+Audi,A4,2017,102834,CNG,Manual,Blue,1,False,Bangalore,True,1.2,Coupe,,4114574.9
+Ford,Fiesta,2012,165565,Diesel,Automatic,White,2,False,Kolkata,True,1.5,Convertible,Comprehensive,50000.0
+Hyundai,Verna,2011,129751,Diesel,Automatic,Red,1,False,Kolkata,True,3.0,Hatchback,Third-Party,160537.35
+Maruti Suzuki,Vitara Brezza,2021,92788,Diesel,Automatic,White,3,False,Delhi,True,4.8,Hatchback,,586081.8
+Ford,Endeavour,2023,62411,Electric,Manual,Red,3,False,Bangalore,True,1.4,Sedan,,2890638.35
+Toyota,Corolla,2003,38517,Electric,Manual,Silver,2,True,Bangalore,False,3.1,Sedan,,164222.45
+Maruti Suzuki,Dzire,2015,12046,Petrol,Automatic,White,2,True,Mumbai,True,1.6,SUV,Comprehensive,168193.1
+Mercedes,C-Class,2002,164247,Electric,Automatic,Silver,3,True,Chennai,False,3.4,Coupe,,3845362.95
+Ford,Endeavour,2021,53021,Electric,Automatic,Blue,1,False,Ahmedabad,False,3.3,Hatchback,Third-Party,2822046.85
+Toyota,Innova,2016,18101,Electric,Automatic,Red,3,True,Mumbai,True,2.9,Convertible,Third-Party,1167284.85
+Honda,City,2024,192466,CNG,Automatic,Silver,3,False,Hyderabad,False,4.8,Wagon,,921130.1
+Maruti Suzuki,Vitara Brezza,2016,44559,Petrol,Manual,White,3,False,Pune,True,2.5,Convertible,Third-Party,293316.15
+Audi,A4,2021,94948,Petrol,Manual,Black,2,False,Delhi,False,5.0,SUV,,4335757.8
+Nissan,Kicks,2014,126402,Diesel,Automatic,Silver,3,False,Chennai,True,4.2,SUV,Third-Party,581039.7
+Toyota,Corolla,2006,55675,Petrol,Manual,Grey,3,False,Kolkata,False,2.7,Wagon,Comprehensive,241648.75
+Ford,Endeavour,2008,25840,Petrol,Automatic,Red,1,True,Pune,False,1.9,Convertible,Comprehensive,2196124.0
+Toyota,Corolla,2017,69213,Electric,Automatic,Red,1,False,Mumbai,True,3.6,Coupe,Comprehensive,819618.05
+BMW,X5,2016,39820,Electric,Manual,White,1,True,Bangalore,False,4.4,Wagon,Third-Party,7644027.0
+Tata,Altroz,2017,136335,Diesel,Manual,Red,2,False,Kolkata,False,1.8,SUV,Third-Party,179549.75
+Ford,Fiesta,2018,163946,Petrol,Manual,Silver,2,True,Mumbai,False,4.2,Sedan,Third-Party,295408.1
+Tata,Harrier,2023,133186,Petrol,Manual,Blue,3,False,Delhi,True,4.1,Hatchback,,1580022.1
+Honda,Civic,2007,71580,Petrol,Manual,Red,3,False,Ahmedabad,True,1.3,SUV,,50000.0
+Tata,Altroz,2004,118653,Petrol,Automatic,Grey,3,True,Chennai,True,1.1,Hatchback,Third-Party,50000.0
+Tata,Harrier,2010,197238,Electric,Manual,Blue,3,True,Pune,False,3.4,SUV,,940414.3
+Toyota,Innova,2008,179107,CNG,Automatic,Grey,2,False,Kolkata,False,4.6,Wagon,Comprehensive,723133.95
+Maruti Suzuki,Swift,2003,49693,CNG,Manual,Red,1,False,Hyderabad,True,2.8,Wagon,,50000.0
+Toyota,Fortuner,2015,72346,Petrol,Manual,White,3,False,Mumbai,False,4.8,Hatchback,Third-Party,3039148.1
+BMW,3 Series,2012,165969,Diesel,Manual,Black,2,False,Hyderabad,True,2.6,Convertible,Comprehensive,3275104.65
+Honda,Civic,2003,150604,Diesel,Automatic,Blue,2,False,Kolkata,True,2.4,Sedan,Comprehensive,50000.0
+Maruti Suzuki,Dzire,2006,190939,Diesel,Automatic,Red,1,False,Bangalore,True,3.6,Hatchback,Comprehensive,50000.0
+Toyota,Corolla,2005,13222,Diesel,Automatic,Red,1,False,Chennai,False,4.1,Hatchback,Comprehensive,228016.7
+Tata,Harrier,2005,70290,CNG,Manual,Grey,1,False,Pune,False,4.5,Hatchback,,719456.5
+BMW,3 Series,2021,111194,Diesel,Manual,Grey,1,True,Pune,True,4.4,Convertible,Comprehensive,3783320.9
+Mercedes,C-Class,2010,20642,Electric,Automatic,Blue,3,False,Hyderabad,False,3.9,Sedan,Third-Party,4246903.7
+Toyota,Fortuner,2008,13027,Petrol,Automatic,Red,1,True,Bangalore,False,1.2,Coupe,Comprehensive,2748045.95
+Maruti Suzuki,Dzire,2020,26048,CNG,Automatic,Black,1,False,Chennai,True,2.5,Convertible,Comprehensive,376092.8
+Tata,Harrier,2005,99958,Diesel,Automatic,Black,2,False,Kolkata,False,3.9,Hatchback,Third-Party,685006.3
+Maruti Suzuki,Swift,2022,69171,CNG,Automatic,Black,1,False,Bangalore,False,2.0,Wagon,Third-Party,519624.35
+BMW,3 Series,2022,129593,Diesel,Automatic,Red,1,False,Bangalore,False,4.0,SUV,,3910561.05
+Audi,A6,2020,108684,CNG,Automatic,Black,1,True,Hyderabad,False,2.0,Sedan,Comprehensive,5283697.4
+Maruti Suzuki,Vitara Brezza,2000,151033,Electric,Manual,Grey,3,False,Chennai,False,2.2,Sedan,,50000.0
+Ford,EcoSport,2007,21871,Petrol,Manual,Grey,3,False,Mumbai,True,1.6,Wagon,Comprehensive,50000.0
+Nissan,Magnite,2020,96711,CNG,Automatic,Grey,1,True,Ahmedabad,True,4.6,Convertible,Comprehensive,335493.35
+BMW,3 Series,2024,156225,Electric,Manual,Blue,1,True,Kolkata,True,1.1,Hatchback,Third-Party,3926566.25
+Hyundai,Creta,2007,146115,CNG,Automatic,Silver,2,True,Bangalore,False,2.2,Convertible,Third-Party,648082.75
+Honda,Jazz,2006,57976,Petrol,Automatic,Red,1,True,Ahmedabad,False,4.1,Sedan,Third-Party,50000.0
+Toyota,Fortuner,2024,180948,CNG,Manual,Grey,1,True,Bangalore,True,3.9,Convertible,Third-Party,3472857.8
+Toyota,Corolla,2003,78149,Petrol,Automatic,Red,2,False,Chennai,True,3.2,SUV,,50000.0
+BMW,3 Series,2015,6695,Petrol,Automatic,Red,1,True,Kolkata,True,3.1,Sedan,,3498995.75
+Toyota,Fortuner,2012,182804,CNG,Manual,White,2,True,Ahmedabad,False,1.5,SUV,Comprehensive,2842579.4
+BMW,3 Series,2022,181422,Petrol,Manual,Silver,3,False,Chennai,False,2.6,Hatchback,,3822786.7
+BMW,X5,2007,191792,Petrol,Manual,White,1,False,Delhi,True,2.2,Hatchback,,7101231.2
+Nissan,Kicks,2008,144804,Petrol,Automatic,Silver,3,True,Pune,False,3.7,Coupe,,348279.4
+Audi,A6,2017,32643,Diesel,Automatic,Blue,2,False,Chennai,True,3.0,Convertible,,5045103.55
+BMW,X5,2001,102483,CNG,Manual,Grey,1,True,Pune,True,3.9,Coupe,Comprehensive,6784627.55
+Hyundai,Creta,2024,46271,CNG,Automatic,Black,1,False,Ahmedabad,True,3.7,Coupe,,1423059.35
+Honda,City,2006,154572,Electric,Manual,Blue,3,False,Mumbai,True,1.5,Hatchback,Comprehensive,50000.0
+BMW,X5,2003,134196,Electric,Automatic,Red,3,True,Chennai,False,1.7,Coupe,,6899870.6
+Maruti Suzuki,Swift,2020,170866,Electric,Automatic,Silver,2,True,Pune,False,4.5,SUV,Third-Party,344370.1
+Hyundai,Elantra,2022,69043,CNG,Automatic,White,3,False,Mumbai,False,3.7,Hatchback,,1189643.55
+Mercedes,C-Class,2012,48987,Petrol,Manual,Red,1,True,Pune,False,4.8,Wagon,Comprehensive,4392651.95
+Tata,Altroz,2015,6747,Petrol,Manual,Red,2,False,Hyderabad,True,2.4,Wagon,Comprehensive,50000.0
+Ford,EcoSport,2002,153359,Electric,Manual,Grey,3,False,Delhi,False,2.0,SUV,Third-Party,50000.0
+Tata,Nexon,2024,46090,Petrol,Manual,Black,3,True,Mumbai,False,3.8,SUV,Third-Party,900000.0
+Maruti Suzuki,Swift,2003,162491,Electric,Manual,Blue,3,True,Pune,False,1.6,Coupe,,50000.0
+Audi,A4,2019,40607,Diesel,Manual,White,1,False,Hyderabad,False,4.7,Coupe,Comprehensive,4223908.95
+Maruti Suzuki,Vitara Brezza,2015,127266,Petrol,Manual,White,1,True,Pune,True,2.2,Hatchback,Third-Party,280910.1
+Toyota,Innova,2012,56995,Petrol,Manual,White,3,False,Kolkata,False,4.3,Hatchback,,941450.75
+Ford,Endeavour,2010,115014,CNG,Automatic,Blue,3,True,Kolkata,False,1.8,Coupe,Third-Party,2252747.9
+Nissan,Magnite,2002,64730,Diesel,Manual,Silver,3,True,Bangalore,False,1.5,SUV,Comprehensive,50000.0
+Nissan,Kicks,2007,109955,Petrol,Manual,Silver,2,True,Ahmedabad,True,3.4,SUV,Comprehensive,253506.75
+Audi,A6,2009,92030,Petrol,Automatic,White,1,True,Hyderabad,False,1.1,Convertible,Third-Party,4736195.5
+Nissan,Kicks,2016,166073,CNG,Manual,Silver,2,False,Pune,True,4.3,Sedan,,675089.05
+Maruti Suzuki,Vitara Brezza,2017,43016,CNG,Manual,Red,1,True,Hyderabad,True,4.7,Hatchback,Third-Party,393547.6
+Honda,Jazz,2005,72341,Petrol,Manual,White,3,True,Delhi,False,4.7,Coupe,Third-Party,50000.0
+Toyota,Innova,2011,152323,Diesel,Automatic,Blue,2,False,Kolkata,True,2.0,Wagon,Comprehensive,827151.55
+BMW,M3,2008,138878,Diesel,Automatic,Grey,2,True,Delhi,True,1.9,Wagon,,6649168.3
+Audi,A4,2004,182646,Petrol,Automatic,Grey,3,False,Ahmedabad,True,3.6,Wagon,Comprehensive,3372603.1
+Maruti Suzuki,Dzire,2008,99365,Petrol,Automatic,Silver,3,False,Chennai,True,2.5,Convertible,,50000.0
+Honda,Civic,2013,23909,CNG,Automatic,Blue,3,False,Chennai,False,4.1,Wagon,Third-Party,96413.65
+Hyundai,Verna,2011,166827,Diesel,Manual,Silver,2,True,Mumbai,False,4.6,SUV,,244975.95
+Nissan,Magnite,2006,137975,Diesel,Manual,Red,2,True,Hyderabad,False,1.1,Sedan,Third-Party,50000.0
+Mercedes,S-Class,2018,34925,Electric,Manual,Red,1,False,Mumbai,False,1.8,Sedan,,9724761.25
+Mercedes,C-Class,2003,47676,Electric,Manual,White,3,False,Chennai,False,3.7,Sedan,,3892848.6
+Audi,A6,2005,16141,Electric,Automatic,Grey,3,True,Chennai,False,1.4,SUV,,4517578.85
+Ford,EcoSport,2021,117787,Diesel,Manual,Red,3,False,Bangalore,False,1.2,Convertible,,632331.95
+Nissan,Magnite,2007,94736,Petrol,Automatic,Blue,1,False,Bangalore,True,3.3,SUV,Comprehensive,50000.0
+Honda,Civic,2024,102391,Petrol,Manual,Blue,2,False,Ahmedabad,True,1.3,SUV,,584641.35
+Honda,Jazz,2015,10133,CNG,Automatic,White,1,False,Delhi,True,4.2,Sedan,,278480.05
+Nissan,Terrano,2016,21475,Diesel,Automatic,White,1,True,Mumbai,False,1.1,SUV,,946778.75
+Tata,Harrier,2003,152861,Diesel,Automatic,Grey,2,True,Ahmedabad,True,1.0,Sedan,Third-Party,547070.85
+Audi,A4,2021,167391,Petrol,Automatic,Blue,3,False,Bangalore,False,1.6,Hatchback,Third-Party,4324891.35
+Honda,Jazz,2019,152769,Electric,Manual,Blue,3,False,Kolkata,True,1.4,Coupe,,377084.65
+Mercedes,S-Class,2017,81926,CNG,Manual,Black,1,True,Hyderabad,False,4.0,Sedan,,9637711.1
+Toyota,Corolla,2019,179938,Electric,Manual,Silver,2,True,Delhi,True,3.5,Coupe,Comprehensive,893009.3
+Maruti Suzuki,Swift,2020,149882,Diesel,Automatic,White,3,True,Chennai,False,1.3,Wagon,Third-Party,347517.7
+Ford,Fiesta,2021,186376,Diesel,Automatic,Black,2,True,Kolkata,False,4.6,SUV,Third-Party,392043.6
+Honda,City,2000,94721,Electric,Manual,Silver,1,False,Delhi,False,4.2,Hatchback,,50000.0
+Mercedes,C-Class,2024,129975,Petrol,Manual,Black,2,True,Delhi,False,2.5,Wagon,Comprehensive,5000000.0
+Mercedes,S-Class,2005,105883,Diesel,Automatic,White,2,False,Kolkata,True,4.4,Convertible,,8934117.55
+Audi,A4,2003,55015,CNG,Manual,White,3,True,Chennai,True,2.8,Sedan,Comprehensive,3361747.75
+Honda,Civic,2022,83617,Electric,Manual,Blue,2,True,Hyderabad,False,4.3,Sedan,Third-Party,557457.45
+Honda,Jazz,2001,108715,Petrol,Manual,Grey,2,True,Bangalore,True,2.9,Convertible,Third-Party,50000.0
+Mercedes,C-Class,2002,135837,Petrol,Manual,Silver,3,False,Kolkata,True,3.8,Hatchback,Comprehensive,3779624.45
+Tata,Harrier,2007,54454,Electric,Manual,Red,2,True,Delhi,False,1.1,Coupe,Third-Party,861831.9
+Toyota,Fortuner,2014,42549,CNG,Manual,Black,1,True,Kolkata,True,2.9,Hatchback,,2943617.65
+Audi,A4,2021,135931,Electric,Manual,Blue,2,False,Kolkata,True,1.2,Wagon,Comprehensive,4229610.35
+Hyundai,Verna,2015,50685,Diesel,Automatic,Blue,1,True,Delhi,False,5.0,Convertible,Comprehensive,492397.25
+Tata,Nexon,2017,171776,Petrol,Automatic,Grey,1,True,Bangalore,False,2.1,Wagon,Comprehensive,574233.6
+Ford,Endeavour,2015,46339,Petrol,Manual,White,2,True,Mumbai,False,3.4,Coupe,Comprehensive,2563049.15
+Tata,Nexon,2005,93187,Electric,Automatic,Red,3,True,Ahmedabad,False,4.4,SUV,Comprehensive,50000.0
+Toyota,Fortuner,2001,158891,Electric,Automatic,Blue,2,False,Ahmedabad,True,4.3,Coupe,Comprehensive,2226166.35
+BMW,X5,2017,113806,CNG,Manual,Grey,1,False,Chennai,True,2.0,Sedan,Third-Party,7562929.1
+Toyota,Innova,2019,114596,Diesel,Manual,White,1,True,Pune,False,4.6,Hatchback,Third-Party,1332810.6
+Maruti Suzuki,Dzire,2009,114018,Electric,Manual,Black,3,True,Pune,False,4.2,Hatchback,Third-Party,50000.0
+BMW,M3,2008,75637,Diesel,Manual,Silver,1,True,Delhi,True,3.4,SUV,,6688654.45
+Mercedes,C-Class,2012,145984,CNG,Manual,Grey,1,True,Bangalore,False,3.7,Coupe,Comprehensive,4428102.4
+Tata,Altroz,2013,144071,CNG,Manual,Silver,2,True,Chennai,False,3.7,Sedan,Third-Party,50000.0
+Audi,A6,2013,177840,Petrol,Automatic,Blue,2,False,Pune,False,3.5,Convertible,,4873324.0
+Tata,Altroz,2004,93753,Electric,Manual,Blue,2,False,Chennai,True,1.5,SUV,Third-Party,50000.0
+Audi,A4,2023,199155,Electric,Automatic,White,1,True,Hyderabad,False,2.6,Convertible,,4420126.75
+Honda,City,2024,116901,Petrol,Manual,White,1,False,Hyderabad,False,2.2,Sedan,,962464.85
+Mercedes,S-Class,2003,166223,Petrol,Manual,White,1,False,Hyderabad,False,2.1,Hatchback,Comprehensive,8905066.55
+Toyota,Fortuner,2006,187490,Electric,Manual,Red,1,True,Bangalore,True,1.5,Convertible,Third-Party,2571876.5
+Hyundai,Elantra,2019,39401,CNG,Manual,Silver,1,True,Mumbai,True,1.5,SUV,Comprehensive,1044089.85
+BMW,M3,2008,137776,Electric,Automatic,Blue,1,True,Chennai,False,4.3,Hatchback,,6679333.6
+Audi,A6,2020,199902,Petrol,Automatic,White,1,False,Kolkata,True,3.0,Convertible,Third-Party,5200014.7
+Toyota,Innova,2003,165556,CNG,Automatic,Blue,1,True,Delhi,False,1.2,Hatchback,,575166.6
+Honda,Civic,2011,69319,CNG,Automatic,White,2,False,Bangalore,False,2.1,Sedan,,50000.0
+Tata,Altroz,2003,106196,Diesel,Manual,Black,2,False,Mumbai,True,1.1,Hatchback,Comprehensive,50000.0
+Toyota,Fortuner,2016,149461,CNG,Automatic,Blue,1,False,Delhi,False,3.9,SUV,Comprehensive,3107580.85
+Tata,Harrier,2008,54365,CNG,Automatic,White,2,True,Delhi,True,4.5,Wagon,,861845.25
+Toyota,Corolla,2009,149500,Petrol,Manual,Grey,1,False,Chennai,True,4.7,Convertible,Comprehensive,357575.0
+Tata,Nexon,2013,49759,Diesel,Automatic,Black,3,True,Bangalore,True,1.7,Hatchback,Third-Party,312536.15
+Nissan,Kicks,2022,48094,Electric,Automatic,Red,1,True,Mumbai,True,2.8,Wagon,Third-Party,1092785.9
+Toyota,Innova,2003,44269,CNG,Manual,Red,2,True,Hyderabad,True,4.6,Sedan,,463359.65
+Nissan,Terrano,2002,53321,Petrol,Manual,Black,1,True,Pune,False,1.2,SUV,Third-Party,192001.85
+Toyota,Fortuner,2002,86903,CNG,Manual,Red,2,False,Mumbai,False,2.9,SUV,Third-Party,2386964.55
+Ford,Fiesta,2003,170305,Diesel,Automatic,White,3,True,Mumbai,False,5.0,Convertible,Comprehensive,50000.0
+BMW,X5,2024,153983,CNG,Automatic,Grey,2,False,Bangalore,False,3.0,Sedan,,7976902.55
+Hyundai,Verna,2009,77862,Petrol,Manual,Silver,3,False,Pune,False,2.0,SUV,Comprehensive,88320.70000000001
+Audi,A6,2018,123976,CNG,Automatic,Black,1,False,Ahmedabad,False,2.3,SUV,Third-Party,5161403.6
+Nissan,Kicks,2000,38289,Petrol,Manual,White,1,False,Bangalore,False,3.7,Wagon,Third-Party,50000.0
+Hyundai,Creta,2024,81482,Diesel,Automatic,Grey,3,True,Mumbai,True,4.5,Sedan,,1457777.7
+Toyota,Innova,2022,72304,Diesel,Automatic,Blue,2,False,Kolkata,False,4.9,Coupe,,1439154.4
+Nissan,Kicks,2006,92123,CNG,Automatic,White,3,False,Kolkata,True,1.0,Convertible,Third-Party,186181.55
+Mercedes,C-Class,2012,54905,Diesel,Automatic,Grey,2,True,Chennai,True,2.3,Convertible,Comprehensive,4311764.25
+Hyundai,Elantra,2000,89129,CNG,Automatic,Black,3,True,Delhi,False,2.4,Hatchback,Comprehensive,106630.65
+Mercedes,E-Class,2015,64223,CNG,Automatic,White,3,False,Mumbai,True,3.7,Convertible,,5990366.55
+Audi,Q5,2021,122987,CNG,Automatic,Red,2,False,Mumbai,True,2.1,SUV,,5781551.95
+Audi,A4,2022,152686,Electric,Automatic,Grey,3,False,Pune,True,2.7,Sedan,Third-Party,4277097.1
+Nissan,Terrano,2004,47354,Petrol,Automatic,Red,1,False,Chennai,True,4.4,SUV,Third-Party,222896.9
+Ford,Endeavour,2007,88270,Diesel,Automatic,Red,2,True,Ahmedabad,False,3.9,Hatchback,Comprehensive,2106759.5
+Tata,Altroz,2006,174004,Petrol,Manual,Red,3,True,Hyderabad,False,3.4,Wagon,,50000.0
+BMW,M3,2005,60850,CNG,Manual,Grey,2,True,Bangalore,False,3.6,Sedan,Comprehensive,6560872.5
+Nissan,Magnite,2014,10486,CNG,Manual,Red,3,True,Kolkata,False,4.0,Wagon,Third-Party,68427.1
+Maruti Suzuki,Swift,2016,46643,Electric,Automatic,White,2,True,Bangalore,True,3.8,Sedan,Comprehensive,163003.55
+Maruti Suzuki,Vitara Brezza,2005,11614,Diesel,Automatic,Silver,3,True,Mumbai,True,3.0,Sedan,Third-Party,50000.0
+Maruti Suzuki,Dzire,2013,114149,Petrol,Automatic,White,2,True,Bangalore,True,2.7,Convertible,Third-Party,52877.65
+Honda,City,2000,110227,Diesel,Manual,White,3,False,Kolkata,True,2.5,Wagon,,50000.0
+Nissan,Magnite,2017,111885,Electric,Manual,White,2,False,Bangalore,True,4.9,Wagon,Third-Party,183217.25
+Honda,City,2021,112674,Electric,Manual,White,2,False,Mumbai,False,3.3,Hatchback,Comprehensive,833098.9
+Honda,Civic,2001,169678,Electric,Automatic,White,1,True,Delhi,True,3.3,Sedan,Comprehensive,50000.0
+Honda,Jazz,2021,181047,CNG,Manual,White,3,False,Mumbai,False,3.2,Wagon,,572842.95
+Mercedes,S-Class,2014,139948,Petrol,Automatic,Grey,2,True,Kolkata,False,1.9,Sedan,Third-Party,9449007.8
+Tata,Harrier,2024,162266,Petrol,Automatic,Blue,2,False,Kolkata,True,3.5,Coupe,,1575660.1
+Audi,A4,2003,56896,CNG,Automatic,White,3,True,Kolkata,False,4.2,Convertible,Comprehensive,3411465.6
+Audi,Q5,2015,131666,Petrol,Automatic,Grey,3,False,Mumbai,True,1.8,Coupe,Comprehensive,5480250.1
+Toyota,Fortuner,2006,172836,Diesel,Automatic,Silver,2,False,Kolkata,False,2.4,Coupe,Third-Party,2524074.6
+Audi,Q5,2019,118242,Diesel,Automatic,Black,2,False,Hyderabad,True,3.3,Sedan,Third-Party,5632263.7
+Toyota,Innova,2000,171147,CNG,Manual,Grey,1,True,Mumbai,False,2.1,Sedan,Third-Party,424327.95
+BMW,X5,2009,8925,Diesel,Automatic,Silver,2,True,Chennai,False,3.1,Coupe,,7218661.25
+BMW,3 Series,2022,8520,Diesel,Manual,Black,2,False,Kolkata,False,4.9,Sedan,Comprehensive,3848722.0
+Toyota,Fortuner,2017,19038,Electric,Automatic,Red,1,False,Bangalore,True,2.9,Hatchback,Comprehensive,3127144.3
+Audi,A4,2022,151845,Diesel,Manual,Blue,2,False,Mumbai,False,3.0,Coupe,,4377223.25
+Tata,Nexon,2015,81277,Diesel,Manual,Silver,1,True,Ahmedabad,False,1.4,Convertible,,437808.45
+Hyundai,Verna,2020,146360,CNG,Automatic,Grey,1,False,Delhi,False,3.1,Wagon,,708046.0
+Maruti Suzuki,Dzire,2016,146791,CNG,Automatic,Grey,1,True,Delhi,True,3.9,Sedan,Third-Party,227981.35
+Ford,Endeavour,2015,52913,Diesel,Manual,Black,1,False,Ahmedabad,True,4.3,Hatchback,Third-Party,2472063.05
+Toyota,Fortuner,2006,76909,Electric,Automatic,Blue,2,True,Kolkata,True,4.5,Hatchback,,2508463.65
+Honda,Civic,2020,154708,Diesel,Automatic,Black,2,False,Delhi,False,3.0,Convertible,,476793.8
+Ford,Endeavour,2024,65391,Electric,Automatic,Silver,3,False,Hyderabad,False,3.7,Wagon,Third-Party,2940191.35
+Toyota,Innova,2001,105270,CNG,Automatic,Grey,1,False,Chennai,False,1.9,SUV,,414209.5
+Ford,EcoSport,2021,193523,Petrol,Manual,Grey,3,False,Kolkata,True,3.7,Convertible,,520971.5500000001
+Honda,Civic,2022,146502,Diesel,Manual,White,3,False,Delhi,True,3.5,Wagon,Third-Party,528024.7
+Tata,Altroz,2010,175844,Electric,Manual,Black,2,True,Bangalore,True,2.7,Sedan,Third-Party,50000.0
+Hyundai,Elantra,2022,37229,CNG,Manual,Silver,2,False,Hyderabad,True,4.4,SUV,Comprehensive,1094415.65
+BMW,M3,2012,37567,Petrol,Automatic,Black,1,False,Pune,True,2.6,Convertible,Third-Party,6824364.95
+Hyundai,Creta,2024,191372,Electric,Manual,Red,3,False,Ahmedabad,False,2.0,Wagon,Comprehensive,1421294.2
+Tata,Altroz,2019,57157,Petrol,Automatic,Red,2,False,Delhi,False,2.9,Convertible,,341426.45
+Maruti Suzuki,Swift,2018,164903,Diesel,Manual,Grey,1,False,Ahmedabad,True,3.3,Hatchback,,205264.55
+BMW,X5,2023,12739,Diesel,Manual,Silver,2,False,Bangalore,False,4.7,SUV,Comprehensive,7948089.15
+Hyundai,Elantra,2011,62919,Diesel,Manual,White,2,True,Hyderabad,True,3.8,Sedan,,560562.15
+Honda,City,2024,38202,Diesel,Automatic,Blue,3,True,Chennai,True,2.1,Coupe,Third-Party,914269.7
+Maruti Suzuki,Dzire,2013,79774,Electric,Automatic,Blue,1,True,Chennai,True,2.6,Sedan,Comprehensive,50000.0
+BMW,M3,2011,80563,CNG,Automatic,Grey,3,True,Bangalore,True,2.9,Wagon,Comprehensive,6807915.55
+Tata,Altroz,2011,61499,Diesel,Manual,White,3,False,Chennai,False,3.8,Convertible,Comprehensive,50000.0
+Mercedes,C-Class,2003,21153,Diesel,Automatic,Silver,3,False,Chennai,False,3.3,Sedan,Third-Party,3896827.05
+Audi,Q5,2024,49172,Petrol,Automatic,Blue,3,True,Pune,True,1.5,Coupe,Comprehensive,5912624.2
+Toyota,Corolla,2005,72632,Petrol,Manual,Black,1,True,Mumbai,False,4.7,Hatchback,,289105.2
+Honda,Civic,2021,93286,CNG,Manual,Blue,2,False,Chennai,True,4.1,Sedan,Third-Party,436007.1
+Toyota,Corolla,2003,42318,CNG,Automatic,Grey,1,False,Ahmedabad,False,2.1,Hatchback,Comprehensive,123652.3
+Ford,Fiesta,2021,37916,Petrol,Automatic,Blue,3,True,Chennai,True,4.8,Wagon,Third-Party,364312.6
+Nissan,Terrano,2023,35532,Diesel,Manual,Red,1,False,Kolkata,True,3.5,Sedan,,1174670.2
+Tata,Nexon,2008,180486,Petrol,Manual,Silver,1,True,Chennai,False,2.6,Sedan,Comprehensive,72927.1
+Honda,Jazz,2009,38896,Petrol,Automatic,Grey,1,False,Mumbai,True,3.6,Coupe,Comprehensive,50000.0
+Toyota,Fortuner,2010,84943,Petrol,Automatic,Black,1,True,Mumbai,False,3.2,Wagon,,2837258.55
+Mercedes,C-Class,2023,57710,CNG,Manual,Grey,2,False,Chennai,True,4.1,Hatchback,Comprehensive,4841343.5
+Tata,Nexon,2019,167407,Diesel,Automatic,Silver,2,True,Delhi,True,1.1,Hatchback,Comprehensive,594888.95
+BMW,X5,2002,144214,Electric,Automatic,Grey,3,True,Chennai,True,4.5,Hatchback,Third-Party,6798367.9
+Maruti Suzuki,Vitara Brezza,2017,64936,Diesel,Manual,Black,2,True,Mumbai,True,1.4,Convertible,,410259.6
+Mercedes,S-Class,2017,92461,Petrol,Manual,Black,1,False,Delhi,False,1.7,SUV,,9666130.85
+Hyundai,Elantra,2006,154338,CNG,Automatic,Silver,3,True,Hyderabad,False,1.8,Sedan,Comprehensive,346849.3
+Hyundai,Verna,2004,22928,Petrol,Automatic,Black,3,True,Hyderabad,True,4.6,Convertible,Third-Party,50000.0
+Ford,Fiesta,2013,84393,Electric,Manual,Grey,3,True,Ahmedabad,False,4.9,Convertible,Comprehensive,50000.0
+Hyundai,Verna,2020,122631,Petrol,Automatic,Red,2,True,Pune,False,3.0,Coupe,Third-Party,651605.35
+Maruti Suzuki,Swift,2001,120626,CNG,Manual,Black,1,False,Bangalore,True,1.8,SUV,,50000.0
+Toyota,Corolla,2021,31169,Petrol,Automatic,Black,1,True,Chennai,True,4.6,Wagon,Third-Party,995324.65
+Tata,Altroz,2010,108438,CNG,Automatic,Black,1,True,Ahmedabad,True,4.3,SUV,Third-Party,50000.0
+Audi,A4,2012,41866,CNG,Automatic,Black,1,False,Pune,False,4.2,Coupe,Third-Party,3873720.1
+Tata,Harrier,2004,26088,Petrol,Manual,Black,3,True,Delhi,True,3.7,SUV,,666086.8
+Toyota,Corolla,2015,41968,Diesel,Manual,White,2,True,Pune,False,2.4,Sedan,Comprehensive,713704.8
+Maruti Suzuki,Dzire,2014,74760,Diesel,Automatic,Blue,1,True,Hyderabad,True,3.4,Hatchback,Third-Party,88786.0
+Nissan,Terrano,2021,12391,CNG,Automatic,Blue,2,True,Mumbai,False,1.3,Wagon,Third-Party,1168141.35
+Hyundai,Creta,2005,47507,CNG,Manual,White,2,True,Mumbai,True,2.6,Wagon,,512873.95
+Nissan,Kicks,2013,75359,Petrol,Manual,Blue,2,False,Pune,False,3.7,Hatchback,Third-Party,588696.15
+Maruti Suzuki,Swift,2019,7275,Electric,Automatic,Blue,1,True,Hyderabad,True,3.0,Wagon,Comprehensive,298908.75
+Mercedes,S-Class,2010,151681,CNG,Automatic,Red,1,False,Hyderabad,False,1.5,Convertible,,9257247.85
+Tata,Altroz,2006,72137,Petrol,Manual,Blue,1,False,Delhi,False,1.2,Hatchback,Third-Party,50000.0
+BMW,3 Series,2017,83132,Diesel,Automatic,Black,3,True,Hyderabad,True,2.0,Sedan,Third-Party,3557530.2
+Mercedes,S-Class,2003,126266,CNG,Manual,Black,2,True,Kolkata,True,3.6,Sedan,Comprehensive,8851060.1
+Toyota,Corolla,2019,48881,Diesel,Manual,Grey,3,False,Delhi,False,2.1,Coupe,,942667.85
+Audi,A4,2009,109894,Diesel,Manual,White,3,True,Chennai,False,3.3,Coupe,,3703515.9
+Toyota,Fortuner,2019,82718,Petrol,Automatic,Silver,2,False,Pune,True,3.6,Hatchback,Third-Party,3137592.3
+Hyundai,Elantra,2023,120142,CNG,Automatic,Black,3,False,Pune,True,3.8,Wagon,Comprehensive,1131978.7
+Nissan,Magnite,2008,13234,Electric,Manual,White,2,False,Delhi,False,4.9,Sedan,,50000.0
+Audi,A6,2003,157360,Diesel,Automatic,White,2,True,Pune,False,2.7,Convertible,Comprehensive,4396396.0
+Audi,Q5,2011,26871,CNG,Manual,White,1,True,Ahmedabad,True,1.6,SUV,Third-Party,5295969.35
+Tata,Altroz,2023,151756,Diesel,Automatic,Red,1,True,Chennai,False,1.1,SUV,Comprehensive,527236.6
+Ford,EcoSport,2001,100796,Petrol,Automatic,White,3,False,Mumbai,True,1.6,SUV,Comprehensive,50000.0
+BMW,X5,2017,47823,Petrol,Manual,Blue,2,False,Kolkata,False,2.4,Wagon,Comprehensive,7592826.55
+Mercedes,S-Class,2020,63476,Electric,Manual,White,1,False,Ahmedabad,False,2.4,Wagon,Third-Party,9770478.6
+BMW,X5,2010,47708,Electric,Automatic,Grey,1,False,Pune,True,1.6,Wagon,Third-Party,7222843.8
+Tata,Harrier,2001,87519,CNG,Manual,Black,1,True,Chennai,False,2.4,Wagon,,536872.15
+Nissan,Terrano,2019,108003,CNG,Manual,Black,1,True,Mumbai,False,3.9,Hatchback,Third-Party,1083799.55
+Hyundai,Elantra,2007,53266,Petrol,Automatic,Black,3,True,Delhi,False,4.3,Coupe,,462010.1
+Ford,Fiesta,2018,13404,Petrol,Manual,Red,1,False,Ahmedabad,False,4.2,Coupe,,277989.4
+Hyundai,Elantra,2021,79633,Petrol,Automatic,Grey,1,False,Delhi,True,3.7,Coupe,Third-Party,1118055.05
+Tata,Harrier,2003,132527,Electric,Automatic,White,2,True,Kolkata,False,2.3,Coupe,Third-Party,600120.95
+Hyundai,Creta,2008,14534,Diesel,Manual,Black,3,False,Bangalore,True,1.7,SUV,Comprehensive,647819.9
+Hyundai,Verna,2014,24971,Electric,Automatic,Silver,2,False,Bangalore,True,1.1,Sedan,Comprehensive,346254.35
+Tata,Harrier,2014,152504,CNG,Automatic,White,1,True,Bangalore,True,4.4,Hatchback,Third-Party,1177124.4
+Hyundai,Creta,2001,115444,CNG,Automatic,Silver,1,True,Pune,True,3.3,SUV,Comprehensive,282683.4
+Nissan,Magnite,2021,120894,Petrol,Manual,Black,2,True,Pune,True,1.9,Hatchback,,351865.9
+Nissan,Kicks,2014,182944,Electric,Automatic,Grey,3,False,Pune,False,2.0,Coupe,Comprehensive,622558.4
+Mercedes,C-Class,2022,117386,Petrol,Manual,Black,2,False,Kolkata,False,4.3,Sedan,Third-Party,4832392.1
+BMW,M3,2006,141929,CNG,Automatic,Grey,3,True,Chennai,True,1.7,SUV,,6498710.65
+Mercedes,S-Class,2017,86639,CNG,Manual,White,1,True,Chennai,True,1.5,Wagon,Comprehensive,9587004.15
+Nissan,Terrano,2022,75368,Diesel,Manual,Grey,3,False,Chennai,True,4.9,Wagon,Third-Party,1088694.8
+Audi,Q5,2006,128368,Electric,Manual,Grey,3,False,Chennai,False,2.5,Sedan,Comprehensive,5030744.8
+Hyundai,Verna,2005,151037,CNG,Automatic,Grey,2,False,Ahmedabad,False,1.6,Convertible,Comprehensive,50000.0
+Nissan,Terrano,2007,196047,Petrol,Automatic,Red,2,True,Delhi,True,4.4,Wagon,Third-Party,390592.95
+Nissan,Magnite,2014,71597,Diesel,Manual,White,2,False,Delhi,False,3.7,Hatchback,,89260.45
+Tata,Altroz,2010,39510,CNG,Manual,White,2,True,Chennai,True,1.3,Coupe,Comprehensive,50000.0
+Tata,Harrier,2002,80750,Petrol,Automatic,Grey,3,False,Bangalore,True,2.4,Hatchback,Third-Party,537887.5
+Honda,City,2006,150987,Diesel,Manual,Silver,1,False,Hyderabad,False,4.3,Convertible,,57351.95
+Toyota,Innova,2019,41768,Electric,Manual,Black,1,False,Ahmedabad,False,3.4,Convertible,Comprehensive,1323734.8
+Audi,Q5,2012,54676,Diesel,Automatic,Grey,3,False,Hyderabad,True,4.9,Wagon,Third-Party,5291798.6
+Honda,Civic,2008,11698,Diesel,Automatic,Grey,2,True,Ahmedabad,True,1.9,Wagon,,50000.0
+Nissan,Terrano,2004,115448,Electric,Automatic,Black,1,True,Delhi,True,2.1,Coupe,Comprehensive,282682.8
+Honda,City,2020,172219,CNG,Automatic,Silver,1,True,Chennai,False,4.6,Hatchback,Third-Party,774167.15
+Mercedes,C-Class,2022,65295,Petrol,Manual,Grey,3,True,Chennai,True,1.5,Wagon,Third-Party,4810205.75
+Tata,Altroz,2020,85036,Electric,Manual,Black,1,True,Mumbai,False,2.9,Coupe,,437244.6
+Maruti Suzuki,Vitara Brezza,2008,144514,Diesel,Automatic,Black,1,False,Pune,True,2.6,Convertible,Comprehensive,50000.0
+Maruti Suzuki,Swift,2008,126428,Electric,Automatic,Grey,2,False,Kolkata,False,3.7,Wagon,Comprehensive,50000.0
+Honda,Jazz,2001,22109,Petrol,Manual,Grey,2,False,Chennai,True,3.6,SUV,,50000.0
+Nissan,Magnite,2022,110231,Electric,Automatic,Red,3,True,Hyderabad,False,4.0,Coupe,Third-Party,453465.35
+Audi,Q5,2012,80462,CNG,Manual,Blue,3,True,Hyderabad,False,4.3,Coupe,Comprehensive,5357930.7
+Ford,Fiesta,2003,194225,Electric,Manual,White,2,False,Delhi,True,1.3,Hatchback,Third-Party,50000.0
+Tata,Altroz,2006,113716,CNG,Automatic,White,3,False,Delhi,True,3.7,Convertible,,50000.0
+Hyundai,Creta,2012,38786,Diesel,Automatic,Black,3,True,Delhi,True,4.9,Wagon,,864182.1
+Ford,Endeavour,2024,103406,CNG,Automatic,Silver,1,True,Pune,False,1.6,Convertible,Comprehensive,2984489.1
+Tata,Harrier,2002,28605,Diesel,Manual,Blue,1,False,Chennai,True,4.2,Convertible,Third-Party,525709.25
+BMW,X5,2018,71345,CNG,Manual,Red,3,True,Bangalore,False,3.2,Convertible,Third-Party,7709298.25
+Mercedes,C-Class,2013,50309,Petrol,Automatic,Black,3,True,Hyderabad,False,4.3,SUV,Third-Party,4412453.65
+Hyundai,Verna,2012,158970,Petrol,Manual,Black,1,True,Kolkata,True,3.7,Hatchback,,226154.5
+Nissan,Kicks,2002,175784,Diesel,Automatic,Black,1,False,Bangalore,False,1.9,Sedan,,103632.4
+BMW,X5,2023,10995,Petrol,Automatic,Silver,1,True,Mumbai,False,2.1,SUV,Comprehensive,7998350.75
+Audi,A6,2010,136895,Petrol,Manual,Silver,1,False,Ahmedabad,False,1.2,Wagon,Third-Party,4759465.75
+Mercedes,C-Class,2001,79095,Electric,Automatic,Silver,2,False,Kolkata,True,1.4,Coupe,Comprehensive,3738135.75
+Audi,Q5,2018,113913,CNG,Automatic,Black,3,False,Chennai,True,1.3,SUV,Comprehensive,5582913.05
+Nissan,Terrano,2020,196996,CNG,Manual,White,3,False,Hyderabad,False,2.5,Wagon,Third-Party,1020450.6
+Audi,A6,2013,82468,Diesel,Manual,Blue,3,False,Pune,True,2.5,Sedan,,4837629.8
+Tata,Altroz,2013,111212,Diesel,Automatic,Red,2,True,Bangalore,True,2.7,Convertible,Comprehensive,50000.0
+Honda,Civic,2004,80708,CNG,Manual,Red,2,False,Hyderabad,False,1.4,Wagon,,50000.0
+Tata,Harrier,2008,68747,Diesel,Manual,Red,3,True,Bangalore,True,3.0,Wagon,,859687.95
+Ford,EcoSport,2003,159602,Diesel,Manual,Grey,1,False,Ahmedabad,True,3.2,Coupe,Third-Party,50000.0
+Tata,Harrier,2016,109741,Petrol,Automatic,Silver,3,True,Kolkata,True,3.6,Sedan,Third-Party,1203538.85
+Hyundai,Creta,2006,188694,Electric,Manual,Blue,2,False,Hyderabad,False,4.4,Coupe,Third-Party,521695.9
+Nissan,Magnite,2018,109630,CNG,Manual,Blue,2,True,Pune,True,1.2,Convertible,Third-Party,203555.5
+Maruti Suzuki,Dzire,2010,27194,Electric,Manual,Black,1,True,Pune,False,4.0,Wagon,Comprehensive,50000.0
+Maruti Suzuki,Swift,2003,135603,CNG,Manual,Grey,1,False,Delhi,True,3.0,Hatchback,Third-Party,50000.0
+Hyundai,Elantra,2007,46066,Petrol,Automatic,White,2,True,Delhi,True,4.5,Sedan,Comprehensive,413090.1
+Hyundai,Verna,2009,120109,Petrol,Automatic,White,2,False,Chennai,True,4.9,Sedan,,50000.0
+Maruti Suzuki,Dzire,2018,31591,Petrol,Automatic,Red,1,False,Kolkata,True,1.2,Wagon,Comprehensive,275261.35
+Audi,Q5,2013,92469,Petrol,Automatic,Black,2,False,Chennai,True,1.5,Hatchback,Third-Party,5336129.65
+Toyota,Innova,2023,159915,CNG,Manual,Blue,2,True,Kolkata,True,1.9,Convertible,Third-Party,1446012.75
+Maruti Suzuki,Swift,2019,162305,CNG,Automatic,White,2,True,Chennai,False,3.6,Wagon,Third-Party,295654.25
+Ford,Fiesta,2016,117282,Electric,Automatic,Blue,1,True,Mumbai,False,4.8,Coupe,Comprehensive,232407.7
+Mercedes,E-Class,2005,88323,Diesel,Manual,Grey,3,True,Mumbai,True,1.2,Convertible,,5506751.55
+Mercedes,E-Class,2022,158264,Petrol,Manual,Silver,2,True,Hyderabad,True,2.9,Sedan,Third-Party,6296260.4
+Maruti Suzuki,Dzire,2012,23731,Petrol,Manual,Grey,2,False,Pune,True,4.9,Wagon,,50000.0
+BMW,X5,2014,138512,Diesel,Manual,Black,3,False,Chennai,False,3.9,Sedan,Third-Party,7429223.2
+Tata,Harrier,2003,48860,CNG,Manual,White,2,False,Kolkata,True,4.5,SUV,Third-Party,542671.0
+Tata,Altroz,2011,24086,Diesel,Manual,White,2,True,Hyderabad,False,4.3,SUV,Third-Party,50000.0
+Toyota,Corolla,2014,59523,CNG,Automatic,Silver,3,False,Mumbai,True,2.4,Sedan,Comprehensive,641071.55
+Tata,Nexon,2003,71559,Diesel,Automatic,Grey,2,False,Bangalore,False,2.4,Convertible,Comprehensive,50000.0
+Nissan,Magnite,2009,134497,Petrol,Automatic,Grey,2,False,Bangalore,False,2.1,Hatchback,Third-Party,50000.0
+Nissan,Kicks,2018,166717,CNG,Automatic,Red,3,True,Hyderabad,True,3.6,Sedan,Comprehensive,794992.45
+Toyota,Innova,2007,9970,Electric,Automatic,Blue,1,True,Bangalore,False,3.6,Sedan,Third-Party,798504.5
+Audi,Q5,2013,126641,Petrol,Automatic,White,2,False,Bangalore,False,2.9,Coupe,Third-Party,5431003.85
+Honda,City,2005,102420,Diesel,Manual,Blue,1,True,Ahmedabad,False,2.1,Coupe,,50000.0
+Nissan,Terrano,2022,185201,Petrol,Automatic,Black,1,False,Hyderabad,True,2.8,Sedan,,1102219.85
+Tata,Nexon,2018,118822,CNG,Manual,Silver,1,True,Pune,True,3.2,Sedan,Third-Party,532176.7
+Toyota,Corolla,2004,165816,Electric,Manual,White,1,True,Mumbai,True,4.6,Hatchback,Comprehensive,175127.6
+Audi,Q5,2009,94587,Diesel,Manual,Black,1,False,Ahmedabad,False,4.0,Coupe,Comprehensive,5215811.95
+Maruti Suzuki,Vitara Brezza,2017,103673,Electric,Automatic,Silver,2,False,Chennai,False,3.7,Coupe,Comprehensive,384449.05
+Tata,Altroz,2015,89297,Electric,Automatic,Black,2,True,Pune,True,2.9,Hatchback,Comprehensive,56605.45000000001
+Ford,Fiesta,2010,46980,Electric,Automatic,Blue,2,True,Ahmedabad,False,2.9,SUV,Third-Party,50000.0
+Mercedes,E-Class,2016,101852,Diesel,Manual,Black,3,False,Chennai,True,1.6,Convertible,,5984722.2
+Tata,Nexon,2011,173511,Electric,Automatic,Silver,3,False,Mumbai,True,3.0,Hatchback,Third-Party,173973.35
+Mercedes,C-Class,2008,107414,CNG,Manual,White,3,False,Kolkata,True,3.2,Coupe,Third-Party,4083887.9
+Mercedes,S-Class,2019,66805,Petrol,Automatic,Silver,3,True,Ahmedabad,True,2.6,Convertible,Third-Party,9659979.25
+Tata,Altroz,2002,81913,CNG,Manual,Blue,1,False,Pune,True,4.1,Coupe,,50000.0
+Toyota,Corolla,2009,146487,Electric,Automatic,Grey,2,True,Pune,False,3.6,SUV,,398026.95
+Nissan,Terrano,2009,82305,Diesel,Automatic,Silver,1,True,Ahmedabad,True,1.5,Coupe,,487654.25
+Honda,Jazz,2014,119886,CNG,Manual,White,1,False,Pune,False,1.3,Hatchback,,212017.1
+Maruti Suzuki,Vitara Brezza,2020,71921,CNG,Manual,Red,3,False,Bangalore,False,4.7,Coupe,,589211.85
+Toyota,Corolla,2004,110853,Petrol,Automatic,Red,1,False,Bangalore,False,2.5,Wagon,Comprehensive,213372.05
+Tata,Altroz,2016,184768,Petrol,Automatic,Grey,3,False,Delhi,False,2.7,Convertible,,172284.8
+Toyota,Corolla,2009,133070,Petrol,Automatic,White,3,True,Hyderabad,False,4.5,Convertible,,400039.5
+Honda,Jazz,2022,165589,Diesel,Manual,White,2,False,Kolkata,True,4.5,Sedan,Third-Party,525161.65
+Audi,A6,2000,64311,CNG,Automatic,Blue,3,False,Kolkata,False,1.5,SUV,Comprehensive,4240353.35
+Nissan,Magnite,2006,168759,Electric,Automatic,Red,1,True,Bangalore,True,4.0,SUV,Third-Party,50000.0
+Tata,Altroz,2023,183434,Electric,Manual,Silver,1,False,Bangalore,True,3.1,SUV,Third-Party,502484.9
+Tata,Altroz,2016,23283,Petrol,Manual,Blue,1,False,Delhi,False,2.7,Sedan,,226507.55
+Nissan,Magnite,2018,39150,Diesel,Automatic,Blue,1,True,Hyderabad,True,4.5,Coupe,,244127.5
+BMW,3 Series,2004,97887,Petrol,Automatic,Black,2,False,Delhi,False,2.5,Coupe,Third-Party,2985316.95
+Ford,EcoSport,2001,110415,Diesel,Automatic,Silver,3,False,Bangalore,True,1.7,SUV,,50000.0
+Ford,Fiesta,2007,27162,Petrol,Manual,Red,3,False,Ahmedabad,True,4.9,SUV,Comprehensive,50000.0
+Maruti Suzuki,Dzire,2014,131694,Diesel,Manual,Red,1,True,Delhi,True,4.7,Wagon,Comprehensive,130245.9
+Toyota,Innova,2017,132140,Electric,Manual,Silver,2,False,Ahmedabad,False,4.0,Sedan,Third-Party,1180179.0
+BMW,X5,2013,192118,Petrol,Automatic,Grey,3,True,Chennai,False,1.3,Hatchback,Comprehensive,7391182.3
+BMW,X5,2011,140698,Electric,Automatic,Grey,3,True,Delhi,False,1.6,Hatchback,Third-Party,7348895.3
+Hyundai,Verna,2024,187158,Diesel,Manual,Silver,2,False,Hyderabad,False,1.2,Hatchback,Comprehensive,821926.3
+Hyundai,Verna,2013,92211,CNG,Automatic,Silver,2,False,Hyderabad,False,2.1,Hatchback,Third-Party,286168.35
+Maruti Suzuki,Vitara Brezza,2009,138379,Electric,Automatic,Blue,1,False,Delhi,True,3.5,Sedan,Third-Party,50000.0
+Ford,EcoSport,2007,74199,CNG,Manual,White,3,True,Pune,True,2.8,Wagon,Comprehensive,50000.0
+Tata,Altroz,2013,14289,Petrol,Automatic,Grey,2,True,Bangalore,True,3.1,Convertible,Comprehensive,50000.0
+Maruti Suzuki,Swift,2018,195368,Petrol,Automatic,Grey,2,True,Ahmedabad,True,4.3,Wagon,Third-Party,190694.8
+Audi,Q5,2011,52189,Diesel,Manual,Silver,2,True,Kolkata,False,5.0,Hatchback,Third-Party,5312171.65
+Maruti Suzuki,Dzire,2004,118918,Diesel,Manual,White,1,False,Ahmedabad,False,4.9,Sedan,Third-Party,50000.0
+Audi,A6,2024,51008,CNG,Manual,White,2,True,Bangalore,True,4.3,Hatchback,Third-Party,5462348.8
+Ford,EcoSport,2020,173771,Petrol,Manual,Black,3,False,Delhi,False,3.5,Convertible,,573934.35
+Hyundai,Verna,2001,123708,Electric,Automatic,Silver,3,False,Chennai,False,2.4,Wagon,,50000.0
+Maruti Suzuki,Dzire,2011,160095,Diesel,Manual,White,3,True,Pune,False,1.4,Coupe,Comprehensive,50000.0
+Honda,City,2002,61475,Electric,Automatic,Blue,3,True,Ahmedabad,False,4.0,Convertible,Third-Party,50000.0
+Honda,Civic,2006,113943,Electric,Manual,Black,3,False,Kolkata,True,3.7,Convertible,Third-Party,50000.0
+BMW,3 Series,2020,97903,Electric,Manual,Red,3,False,Kolkata,True,2.0,Sedan,Comprehensive,3685314.55
+Mercedes,C-Class,2005,129261,Electric,Manual,Red,2,False,Hyderabad,True,2.3,Hatchback,,3930610.85
+Hyundai,Elantra,2013,165833,Electric,Automatic,Grey,1,True,Mumbai,True,2.1,Wagon,Third-Party,725125.05
+Mercedes,E-Class,2012,190654,Electric,Automatic,Red,1,True,Hyderabad,True,1.1,SUV,Third-Party,5821401.9
+Toyota,Corolla,2010,189282,Electric,Manual,Grey,1,False,Mumbai,False,1.6,Sedan,Third-Party,501607.7
+Toyota,Corolla,2013,197567,Diesel,Automatic,Blue,1,True,Hyderabad,False,2.4,SUV,Third-Party,620364.95
+Tata,Nexon,2022,196545,Diesel,Manual,Black,3,False,Chennai,True,3.4,Convertible,,670518.25
+Toyota,Innova,2004,79728,CNG,Manual,Grey,2,False,Ahmedabad,True,4.9,Hatchback,,488040.8000000001
+Maruti Suzuki,Dzire,2005,189370,CNG,Automatic,Black,1,False,Bangalore,False,3.7,SUV,,50000.0
+Honda,Civic,2011,18054,Petrol,Automatic,White,1,False,Bangalore,True,2.3,SUV,,50000.0
+Nissan,Kicks,2019,159849,CNG,Manual,White,1,True,Hyderabad,True,1.7,Wagon,Third-Party,876022.65
+Honda,Civic,2016,122983,Diesel,Automatic,Blue,3,False,Mumbai,True,3.9,Convertible,,231552.55
+Maruti Suzuki,Swift,2009,53872,Petrol,Manual,Silver,1,True,Kolkata,False,3.5,Wagon,Third-Party,50000.0
+Maruti Suzuki,Swift,2001,14815,Diesel,Manual,Grey,3,False,Chennai,True,2.6,Wagon,,50000.0
+Nissan,Kicks,2009,102513,Electric,Manual,Black,2,False,Chennai,True,4.7,Wagon,Comprehensive,334623.05
+Tata,Harrier,2024,15461,Petrol,Manual,Grey,3,False,Kolkata,True,2.6,SUV,,1597680.85
+BMW,M3,2008,144392,Electric,Automatic,White,3,False,Hyderabad,False,2.1,Coupe,Comprehensive,6628341.2
+Hyundai,Verna,2016,42355,Petrol,Automatic,White,3,False,Chennai,True,3.4,Hatchback,Comprehensive,393646.75
+Nissan,Kicks,2013,22213,Electric,Automatic,Grey,2,True,Pune,False,3.9,SUV,,616668.05
+Mercedes,E-Class,2005,71365,Petrol,Manual,Blue,2,True,Mumbai,False,3.7,Wagon,Third-Party,5559295.25
+Maruti Suzuki,Dzire,2024,5637,Electric,Automatic,Black,3,True,Mumbai,True,3.1,SUV,Comprehensive,619154.45
+Ford,Endeavour,2015,86380,Petrol,Automatic,White,3,True,Kolkata,False,1.7,Coupe,Third-Party,2507043.0
+Tata,Altroz,2023,88011,CNG,Automatic,Grey,2,True,Pune,False,4.3,SUV,Comprehensive,506798.35
+Tata,Harrier,2010,123371,Diesel,Automatic,White,1,False,Mumbai,False,2.1,Hatchback,Third-Party,1011494.35
+Hyundai,Creta,2022,199997,Electric,Manual,Silver,2,True,Bangalore,False,4.0,Sedan,Comprehensive,1390000.45
+Mercedes,E-Class,2012,156876,Diesel,Automatic,Grey,1,True,Pune,False,2.5,Sedan,Comprehensive,5876468.6
+BMW,X5,2009,63084,Diesel,Manual,Red,3,True,Mumbai,True,1.3,SUV,Third-Party,7210537.4
+Mercedes,C-Class,2007,18409,CNG,Automatic,Blue,3,True,Pune,True,4.2,Coupe,,4067238.65
+Toyota,Fortuner,2004,60901,Electric,Automatic,White,1,True,Delhi,True,5.0,SUV,Third-Party,2490864.85
+Hyundai,Elantra,2019,40730,Electric,Automatic,White,3,False,Pune,True,3.3,Hatchback,Third-Party,943890.5
+Hyundai,Verna,2012,120419,Petrol,Automatic,Silver,3,False,Bangalore,True,4.5,Coupe,Third-Party,231937.15
+Ford,Endeavour,2006,185268,CNG,Automatic,Blue,1,True,Delhi,False,4.2,Coupe,Comprehensive,2122209.8
+Mercedes,S-Class,2023,199443,Petrol,Manual,Black,1,True,Pune,False,1.2,Wagon,Third-Party,9920083.55
+Toyota,Fortuner,2017,88921,Diesel,Manual,Blue,2,False,Mumbai,False,3.6,Wagon,Comprehensive,3136661.85
+Honda,Civic,2002,18152,CNG,Automatic,Blue,2,True,Pune,True,2.8,Convertible,Comprehensive,50000.0
+Honda,Jazz,2018,139247,Electric,Automatic,Silver,2,False,Bangalore,False,2.4,Coupe,,429112.95
+Tata,Nexon,2009,131856,Electric,Manual,Silver,2,False,Ahmedabad,False,3.1,SUV,,80221.6
+Maruti Suzuki,Swift,2020,176943,Electric,Automatic,Blue,3,False,Hyderabad,False,1.5,SUV,Third-Party,323458.55
+Toyota,Innova,2004,72232,CNG,Automatic,Red,2,False,Mumbai,True,2.3,Coupe,Third-Party,539165.2
+Audi,A6,2010,50441,Diesel,Manual,White,2,True,Pune,True,1.3,Hatchback,,4712433.85
+Nissan,Terrano,2016,180023,CNG,Automatic,Blue,3,False,Bangalore,False,3.1,Hatchback,Third-Party,872996.55
+Audi,A6,2006,187175,Electric,Automatic,Blue,1,False,Bangalore,True,2.4,Wagon,,4551923.75
+Mercedes,C-Class,2022,45604,Petrol,Automatic,Black,2,True,Ahmedabad,True,3.0,Wagon,Comprehensive,4813159.4
+Ford,Endeavour,2012,7974,Diesel,Manual,Red,3,True,Bangalore,False,3.4,SUV,,2418803.9
+Honda,City,2010,32847,Diesel,Automatic,Red,1,False,Mumbai,True,2.0,Convertible,,275072.95
+Honda,City,2001,54923,Electric,Automatic,Blue,1,False,Mumbai,True,2.7,Convertible,,50000.0
+Tata,Nexon,2006,151752,CNG,Automatic,Red,3,False,Mumbai,True,3.9,Wagon,,50000.0
+Hyundai,Elantra,2024,21304,Electric,Manual,Black,3,False,Mumbai,True,2.3,Wagon,Comprehensive,1246804.4
+Hyundai,Verna,2010,160384,Petrol,Manual,Blue,3,False,Delhi,True,3.2,Sedan,,125942.4
+Maruti Suzuki,Dzire,2020,123150,Diesel,Automatic,Grey,3,True,Hyderabad,False,1.6,Hatchback,,401527.5
+Hyundai,Elantra,2011,64349,CNG,Manual,Silver,3,False,Ahmedabad,False,3.6,Hatchback,,590347.65
+Toyota,Corolla,2022,137298,Diesel,Automatic,Blue,2,False,Bangalore,True,2.6,Coupe,Third-Party,1029405.3
+Tata,Nexon,2022,56116,CNG,Manual,Red,3,True,Delhi,True,1.4,Coupe,Third-Party,761582.6
+Nissan,Terrano,2004,119425,Electric,Automatic,Blue,2,False,Mumbai,False,2.3,Sedan,Third-Party,282086.25
+Maruti Suzuki,Vitara Brezza,2009,94201,Petrol,Manual,Black,3,True,Bangalore,False,2.8,Hatchback,Third-Party,55869.85
+Hyundai,Verna,2017,20872,Diesel,Manual,Black,1,False,Bangalore,True,4.1,Sedan,,526869.2
+Mercedes,C-Class,2007,68130,Petrol,Manual,White,1,True,Delhi,True,3.8,Sedan,Third-Party,4139780.5
+Tata,Harrier,2003,16547,Petrol,Automatic,White,2,True,Bangalore,False,1.8,Coupe,,667517.95
+Hyundai,Creta,2013,147978,CNG,Manual,Black,2,True,Kolkata,False,4.7,Wagon,Comprehensive,897803.3
+Honda,Jazz,2004,53917,Petrol,Manual,Black,2,False,Hyderabad,True,3.2,Sedan,Comprehensive,50000.0
+Nissan,Magnite,2015,85940,CNG,Automatic,Red,3,False,Delhi,False,4.8,Convertible,Third-Party,137109.0
+Ford,Endeavour,2019,86733,Electric,Manual,Black,2,True,Pune,True,2.8,Hatchback,Comprehensive,2656990.05
+Honda,Jazz,2009,76406,Electric,Manual,White,2,True,Chennai,False,3.0,Hatchback,,50000.0
+Toyota,Fortuner,2004,147027,Electric,Manual,Red,1,True,Pune,False,2.9,Convertible,Comprehensive,2477945.95
+Ford,Endeavour,2016,21193,Diesel,Manual,Blue,2,True,Bangalore,False,3.6,Wagon,Comprehensive,2616821.05
+Nissan,Terrano,2006,197318,CNG,Manual,Black,3,True,Mumbai,True,2.0,Convertible,Comprehensive,340402.3
+Nissan,Terrano,2020,169010,Diesel,Automatic,Black,1,True,Pune,True,3.0,Hatchback,,1024648.5
+Toyota,Corolla,2001,175832,Electric,Manual,Grey,2,False,Chennai,True,3.8,SUV,Comprehensive,50000.0
+Nissan,Magnite,2001,94096,CNG,Automatic,Red,3,True,Delhi,True,2.8,Convertible,Third-Party,50000.0
+Tata,Altroz,2000,87810,Petrol,Automatic,Red,2,True,Kolkata,False,4.1,Wagon,Comprehensive,50000.0
+Honda,Civic,2020,130011,Petrol,Manual,Red,2,False,Kolkata,True,2.6,SUV,,380498.35
+Audi,A4,2023,129254,Petrol,Automatic,Red,3,False,Pune,False,3.1,SUV,Comprehensive,4380611.9
+Toyota,Innova,2005,115561,Electric,Automatic,White,3,False,Kolkata,False,3.4,SUV,Comprehensive,582665.85
+Honda,Jazz,2017,166480,Electric,Manual,Blue,3,False,Kolkata,False,3.0,Sedan,Comprehensive,325028.0
+BMW,M3,2001,130704,Petrol,Manual,Grey,2,False,Hyderabad,False,3.9,Hatchback,,6280394.4
+Maruti Suzuki,Vitara Brezza,2004,183192,Electric,Automatic,Red,1,True,Ahmedabad,True,4.1,Coupe,Third-Party,50000.0
+Honda,Civic,2018,34560,Petrol,Manual,White,2,True,Delhi,True,3.2,SUV,Third-Party,364816.0
+Mercedes,E-Class,2004,109589,Diesel,Automatic,Grey,3,True,Kolkata,True,2.8,Coupe,Third-Party,5403561.65
+Toyota,Fortuner,2003,109926,Electric,Automatic,White,1,False,Delhi,False,3.3,Coupe,,2463511.1
+Honda,Jazz,2018,89438,CNG,Automatic,Grey,2,True,Kolkata,True,1.0,Sedan,Third-Party,356584.3
+Ford,Fiesta,2019,173696,CNG,Manual,White,2,False,Hyderabad,True,3.1,Convertible,,223945.6
+Mercedes,C-Class,2010,137263,Diesel,Manual,Silver,2,False,Kolkata,False,4.0,Hatchback,,4229410.55
+Mercedes,E-Class,2004,175506,Petrol,Manual,Grey,2,True,Delhi,False,3.8,Sedan,Third-Party,5493674.1
+BMW,X5,2017,83329,Electric,Manual,Grey,3,True,Ahmedabad,False,1.8,SUV,,7607500.65
+Toyota,Corolla,2010,87782,Diesel,Manual,Black,1,False,Ahmedabad,False,2.9,Wagon,Third-Party,466832.7
+Maruti Suzuki,Dzire,2024,49433,Electric,Automatic,Blue,3,False,Pune,False,1.3,SUV,Third-Party,592585.05
+Honda,City,2016,123379,Diesel,Manual,Black,2,True,Pune,False,2.6,Hatchback,Comprehensive,551493.15
+Audi,A6,2006,15011,Electric,Automatic,White,1,False,Hyderabad,False,2.8,Convertible,,4577748.35
+Hyundai,Creta,2016,78509,CNG,Automatic,Blue,2,False,Mumbai,False,4.9,Coupe,Comprehensive,1088223.65
+Tata,Altroz,2004,6251,Electric,Automatic,Black,3,True,Delhi,False,2.5,Convertible,Third-Party,50000.0
+Audi,Q5,2005,54433,CNG,Automatic,Blue,3,False,Kolkata,True,2.0,Hatchback,Comprehensive,4941835.05
+Honda,Jazz,2010,110452,Electric,Automatic,Black,1,True,Bangalore,True,2.8,SUV,Third-Party,50000.0
+Nissan,Magnite,2018,59143,Diesel,Manual,Blue,2,True,Kolkata,False,3.7,SUV,Third-Party,261128.55
+Tata,Nexon,2000,104503,Petrol,Automatic,Blue,2,True,Kolkata,False,4.0,Convertible,Third-Party,50000.0
+Maruti Suzuki,Swift,2007,159236,Diesel,Automatic,Grey,3,False,Chennai,False,4.9,Convertible,Third-Party,50000.0
+Toyota,Corolla,2003,22355,Diesel,Automatic,Red,1,False,Mumbai,True,2.2,Coupe,Comprehensive,126646.75
+Maruti Suzuki,Vitara Brezza,2015,87738,Electric,Automatic,White,2,True,Pune,True,3.7,SUV,,256839.3
+Mercedes,E-Class,2016,11791,Petrol,Manual,Silver,3,True,Hyderabad,False,2.9,SUV,,6068231.35
+Honda,City,2024,167005,CNG,Manual,Grey,2,True,Pune,True,4.3,SUV,,894949.25
+Tata,Harrier,2000,156822,Diesel,Manual,Red,2,False,Ahmedabad,True,4.2,Sedan,Comprehensive,376476.7
+Toyota,Corolla,2004,52561,CNG,Automatic,White,2,True,Ahmedabad,False,3.1,Convertible,Third-Party,162115.85
+Ford,Endeavour,2008,55946,Diesel,Manual,Black,2,False,Bangalore,False,1.6,Wagon,,2191608.1
+Mercedes,S-Class,2020,156282,Petrol,Manual,Red,1,True,Ahmedabad,True,3.0,Wagon,Comprehensive,9726557.7
+Toyota,Fortuner,2001,46956,Petrol,Manual,White,3,False,Mumbai,True,2.7,Coupe,,2292956.6
+Audi,Q5,2016,171695,Electric,Manual,Red,2,False,Chennai,True,3.8,Convertible,Comprehensive,5474245.75
+Ford,Fiesta,2023,57212,Diesel,Automatic,White,1,False,Chennai,True,5.0,Hatchback,Third-Party,471418.2
+Ford,EcoSport,2000,83887,Petrol,Manual,White,2,False,Hyderabad,False,1.6,Wagon,Comprehensive,50000.0
+Nissan,Kicks,2024,184991,Petrol,Manual,Black,1,False,Mumbai,False,1.8,SUV,,1200000.0
+Honda,Jazz,2002,145739,Petrol,Automatic,White,3,False,Kolkata,True,2.1,Wagon,Third-Party,50000.0
+Toyota,Corolla,2012,103146,Diesel,Automatic,Grey,1,False,Hyderabad,False,2.2,SUV,,564528.1
+Maruti Suzuki,Vitara Brezza,2013,108605,Diesel,Automatic,White,3,True,Delhi,True,3.6,Hatchback,,203709.25
+Hyundai,Creta,2001,144741,Petrol,Manual,Red,1,True,Delhi,True,4.4,Sedan,Third-Party,328288.85
+Nissan,Magnite,2002,120487,Electric,Manual,Black,3,True,Ahmedabad,False,2.8,Coupe,Comprehensive,50000.0
+Hyundai,Creta,2008,173697,Petrol,Manual,Grey,3,False,Mumbai,False,4.9,Coupe,Third-Party,673945.45
+Maruti Suzuki,Dzire,2015,33176,Electric,Manual,Grey,1,False,Hyderabad,False,4.2,Convertible,Comprehensive,175023.6
+Toyota,Innova,2021,57987,Petrol,Automatic,Blue,3,False,Chennai,False,1.6,Coupe,Third-Party,1391301.95
+Audi,Q5,2011,155132,Diesel,Automatic,Red,1,True,Mumbai,False,2.6,Coupe,Comprehensive,5376730.2
+Nissan,Terrano,2021,83441,Diesel,Manual,Blue,3,True,Kolkata,False,1.2,SUV,Third-Party,1107483.85
+Tata,Nexon,2005,138330,CNG,Automatic,Silver,1,False,Delhi,True,3.1,Hatchback,Third-Party,50000.0
+Honda,Jazz,2005,144812,Electric,Manual,Black,3,False,Kolkata,False,3.1,Sedan,Third-Party,50000.0
+Mercedes,C-Class,2007,72876,Petrol,Manual,Silver,3,True,Mumbai,True,2.2,Wagon,Comprehensive,4109068.6
+Audi,A6,2023,77830,CNG,Manual,White,1,False,Kolkata,True,4.4,Sedan,Third-Party,5368325.5
+Toyota,Fortuner,2001,118430,CNG,Automatic,Black,2,True,Pune,True,2.5,Hatchback,Comprehensive,2252235.5
+Toyota,Fortuner,2022,48699,CNG,Automatic,Silver,1,True,Mumbai,True,2.1,Coupe,,3392695.15
+Hyundai,Verna,2009,159357,Electric,Automatic,Black,2,True,Ahmedabad,True,4.3,SUV,Third-Party,50000.0
+Toyota,Corolla,2024,122899,Electric,Automatic,Black,1,True,Hyderabad,False,3.0,Convertible,Comprehensive,1181565.15
+Maruti Suzuki,Swift,2024,93926,Diesel,Automatic,Black,3,True,Mumbai,True,4.4,Wagon,Comprehensive,555911.1
+Maruti Suzuki,Swift,2017,199015,Diesel,Automatic,Blue,3,False,Delhi,True,4.7,Hatchback,Comprehensive,170147.75
+Audi,Q5,2000,117382,CNG,Manual,Grey,2,True,Chennai,True,1.8,Wagon,Comprehensive,4702392.7
+Hyundai,Verna,2010,60910,CNG,Manual,Black,1,True,Chennai,True,4.9,Sedan,,140863.5
+BMW,X5,2000,102589,Electric,Manual,Grey,1,True,Delhi,False,1.0,Convertible,Third-Party,6834611.65
+Honda,City,2023,196966,Electric,Manual,Red,2,True,Kolkata,True,1.1,Hatchback,Third-Party,840455.1
+Maruti Suzuki,Dzire,2015,82288,Electric,Manual,Silver,1,False,Ahmedabad,False,1.5,Wagon,Third-Party,167656.8
+Maruti Suzuki,Swift,2007,9857,Electric,Manual,Black,1,True,Mumbai,False,3.2,SUV,Third-Party,50000.0
+Honda,Jazz,2015,86129,Electric,Manual,White,3,True,Kolkata,True,3.9,Coupe,,207080.65
+Maruti Suzuki,Dzire,2006,169443,Petrol,Manual,Black,3,False,Ahmedabad,True,2.8,Coupe,,50000.0
+Maruti Suzuki,Dzire,2005,6935,Petrol,Manual,White,2,False,Hyderabad,False,2.7,Coupe,Third-Party,50000.0
+Toyota,Fortuner,2021,161639,Diesel,Automatic,Grey,3,False,Mumbai,False,1.7,SUV,Comprehensive,3325754.15
+Ford,Fiesta,2006,16530,Diesel,Manual,Grey,3,False,Pune,True,4.1,Wagon,Third-Party,50000.0
+Maruti Suzuki,Dzire,2002,122317,CNG,Automatic,Grey,2,False,Mumbai,True,4.9,SUV,Comprehensive,50000.0
+Hyundai,Elantra,2004,131678,Diesel,Automatic,Black,2,True,Hyderabad,True,3.9,Convertible,,200248.3
+Maruti Suzuki,Vitara Brezza,2016,55221,Petrol,Automatic,Red,1,False,Bangalore,True,4.0,SUV,Third-Party,371716.85
+Mercedes,E-Class,2007,53760,Electric,Manual,Grey,2,True,Hyderabad,True,2.2,SUV,Third-Party,5561936.0
+Honda,Civic,2000,19164,CNG,Manual,Blue,1,False,Pune,True,4.7,SUV,,50000.0
+Honda,Jazz,2009,82353,Diesel,Manual,Grey,1,False,Kolkata,False,4.6,SUV,Comprehensive,50000.0
+Tata,Harrier,2021,79356,CNG,Automatic,Grey,1,True,Kolkata,False,3.6,Wagon,Comprehensive,1538096.6
+Mercedes,E-Class,2010,39004,Petrol,Manual,Red,2,False,Kolkata,True,1.3,Wagon,Comprehensive,5694149.4
+Tata,Altroz,2020,109954,Petrol,Manual,Blue,2,False,Mumbai,False,3.1,Hatchback,Comprehensive,383506.9
+Ford,Fiesta,2000,89476,Electric,Manual,Red,1,True,Mumbai,False,3.3,Convertible,Comprehensive,50000.0
+BMW,X5,2002,104981,Diesel,Manual,Red,1,True,Mumbai,False,4.0,Coupe,Comprehensive,6934252.85
+Audi,Q5,2023,117410,Electric,Manual,Grey,2,True,Ahmedabad,True,4.8,Coupe,,5852388.5
+Mercedes,E-Class,2002,53053,Electric,Automatic,Black,1,False,Hyderabad,False,4.3,Coupe,Third-Party,5372042.05
+Mercedes,S-Class,2007,78849,Diesel,Manual,Grey,2,False,Pune,True,1.3,SUV,Third-Party,9038172.65
+Maruti Suzuki,Swift,2009,193666,CNG,Manual,Grey,1,True,Chennai,True,1.5,Wagon,Comprehensive,50000.0
+Tata,Nexon,2002,44135,Electric,Manual,White,1,True,Pune,True,4.3,Coupe,Comprehensive,50000.0
+Maruti Suzuki,Dzire,2012,187209,Diesel,Manual,Black,1,True,Chennai,False,5.0,Wagon,,50000.0
+Tata,Altroz,2002,119943,Electric,Automatic,Red,2,True,Bangalore,False,3.0,Hatchback,Comprehensive,50000.0
+Toyota,Corolla,2000,55581,Diesel,Manual,Grey,1,True,Mumbai,False,1.2,Coupe,Third-Party,50000.0
+Mercedes,S-Class,2009,47778,Petrol,Automatic,Blue,1,True,Mumbai,False,3.0,SUV,Comprehensive,9292833.3
+Honda,City,2010,23464,Petrol,Manual,Silver,3,False,Chennai,True,1.8,SUV,,196480.4
+Tata,Harrier,2002,17857,Electric,Automatic,Red,2,True,Mumbai,True,1.5,SUV,Comprehensive,567321.45
+Toyota,Corolla,2005,69199,Electric,Manual,Blue,2,True,Mumbai,True,2.4,Sedan,,209620.15
+Ford,Endeavour,2005,25707,CNG,Manual,White,2,False,Bangalore,True,1.3,Hatchback,,1996143.95
+Audi,A6,2018,13761,Diesel,Automatic,Grey,3,False,Pune,False,4.6,Coupe,Third-Party,5147935.85
+Audi,A6,2018,6459,Petrol,Automatic,Red,1,False,Ahmedabad,False,5.0,Hatchback,,5179031.15
+Tata,Nexon,2022,141697,CNG,Manual,Blue,3,False,Chennai,False,1.9,Convertible,,728745.45
+Toyota,Innova,2004,130886,Petrol,Automatic,Grey,3,True,Bangalore,False,2.9,SUV,,600367.1
+Audi,Q5,2005,141725,Electric,Manual,Silver,1,True,Bangalore,False,3.9,Coupe,Comprehensive,5078741.25
+Maruti Suzuki,Swift,2005,143454,Diesel,Automatic,Black,1,True,Hyderabad,False,5.0,SUV,Third-Party,50000.0
+BMW,3 Series,2023,146808,Petrol,Manual,Black,1,True,Ahmedabad,False,1.9,Wagon,Comprehensive,3927978.8
+Audi,Q5,2008,117701,Electric,Automatic,Red,2,False,Chennai,False,3.6,Coupe,Third-Party,5132344.85
+Honda,City,2021,181904,Diesel,Manual,Black,2,False,Mumbai,True,1.0,Coupe,,772714.4
+Ford,Endeavour,2005,16255,Petrol,Manual,Silver,2,True,Bangalore,True,2.9,Sedan,,2017561.75
+Tata,Nexon,2019,40648,Petrol,Manual,Blue,2,True,Bangalore,False,3.4,Coupe,Comprehensive,663902.8
+Toyota,Fortuner,2024,178668,Diesel,Manual,Blue,3,True,Kolkata,False,3.7,Sedan,,3443199.8
+Toyota,Fortuner,2020,164861,CNG,Automatic,Red,1,True,Chennai,False,2.0,Hatchback,,3275270.85
+Tata,Nexon,2012,161282,CNG,Automatic,Grey,3,True,Bangalore,True,1.7,Hatchback,,245807.7
+Nissan,Terrano,2014,87900,Diesel,Manual,Grey,1,True,Ahmedabad,True,3.6,Coupe,,736815.0
+Nissan,Terrano,2015,49576,Electric,Automatic,White,3,False,Mumbai,True,4.9,Convertible,Third-Party,792563.6
+Ford,Endeavour,2022,126965,CNG,Manual,White,2,True,Chennai,False,2.4,Hatchback,Third-Party,2850955.25
+Tata,Harrier,2000,75773,Diesel,Automatic,Grey,2,False,Kolkata,True,1.1,Coupe,Comprehensive,388634.05
+BMW,X5,2005,127914,Diesel,Manual,Red,2,False,Kolkata,True,1.7,Convertible,,6930812.9
+Tata,Altroz,2021,58163,Electric,Manual,Black,3,False,Delhi,False,2.8,Hatchback,Comprehensive,441275.55
+BMW,X5,2018,65607,Petrol,Manual,Silver,1,False,Mumbai,False,4.1,Coupe,Third-Party,7720158.95
+Honda,Jazz,2015,28444,Diesel,Automatic,Red,1,False,Ahmedabad,False,2.7,Wagon,Comprehensive,275733.4
+Hyundai,Elantra,2007,31345,Diesel,Manual,Blue,3,False,Chennai,True,4.8,Sedan,,345298.25
+Ford,Endeavour,2023,105844,CNG,Automatic,Black,3,False,Delhi,False,1.7,Convertible,Third-Party,2934123.4
+Ford,Fiesta,2001,175308,Electric,Automatic,Grey,2,True,Chennai,True,3.5,Coupe,,50000.0
+Ford,EcoSport,2006,123761,Petrol,Automatic,Blue,3,False,Kolkata,False,3.5,Convertible,Third-Party,50000.0
+Hyundai,Verna,2010,38805,CNG,Manual,Grey,2,False,Bangalore,True,1.4,Coupe,,144179.25
+Ford,Fiesta,2024,72763,Electric,Manual,Red,1,True,Pune,False,3.7,SUV,Third-Party,589085.55
+Hyundai,Creta,2001,34807,Diesel,Automatic,Blue,2,True,Delhi,True,3.2,Sedan,Comprehensive,314778.95
+Nissan,Terrano,2021,116540,Diesel,Manual,Blue,1,True,Mumbai,False,4.2,SUV,Comprehensive,1182519.0
+Honda,City,2016,36716,Petrol,Manual,Black,1,True,Ahmedabad,False,4.3,Wagon,Third-Party,594492.6
+Audi,A6,2001,35436,Diesel,Automatic,White,1,False,Chennai,False,4.2,Wagon,Third-Party,4324684.6
+Ford,EcoSport,2010,54112,Petrol,Manual,White,3,False,Ahmedabad,True,1.2,Coupe,,50000.0
+BMW,M3,2016,136926,Petrol,Manual,Grey,3,False,Ahmedabad,False,1.5,Wagon,,7029461.1
+Toyota,Corolla,2018,82770,Electric,Automatic,Grey,3,True,Pune,True,2.8,Hatchback,Comprehensive,807584.5
+Audi,A4,2009,8744,Electric,Manual,Black,3,False,Kolkata,False,1.2,Sedan,Comprehensive,3698688.4
+Maruti Suzuki,Dzire,2024,101402,Petrol,Automatic,Silver,2,True,Chennai,False,2.4,Hatchback,,604789.7
+Mercedes,C-Class,2010,19457,Diesel,Manual,Silver,2,True,Hyderabad,True,1.4,SUV,Third-Party,4217081.45
+Ford,Endeavour,2002,105830,CNG,Manual,White,1,True,Pune,True,1.5,SUV,Comprehensive,1834125.5
+Maruti Suzuki,Swift,2019,189676,Electric,Automatic,White,3,True,Mumbai,False,2.8,Wagon,Comprehensive,341548.6
+Audi,A4,2016,59230,Diesel,Manual,Red,1,False,Kolkata,False,4.0,SUV,Third-Party,4071115.5
+Nissan,Magnite,2013,74825,Electric,Manual,Black,2,True,Kolkata,True,4.8,Wagon,,50000.0
+Tata,Harrier,2016,169334,Electric,Automatic,Blue,2,False,Delhi,False,4.3,Wagon,Comprehensive,1274599.9
+Ford,Endeavour,2022,80995,Petrol,Automatic,Silver,3,False,Mumbai,True,1.1,Wagon,Comprehensive,2837850.75
+Tata,Nexon,2007,159790,CNG,Automatic,White,1,True,Pune,True,2.9,Convertible,Third-Party,50000.0
+Ford,Fiesta,2009,44651,Electric,Manual,White,3,True,Kolkata,True,4.5,Hatchback,Comprehensive,50000.0
+Maruti Suzuki,Swift,2001,85962,Petrol,Manual,White,1,False,Chennai,False,3.9,SUV,Third-Party,50000.0
+Toyota,Fortuner,2004,99422,Petrol,Automatic,Silver,3,True,Kolkata,False,1.7,Wagon,Third-Party,2455086.7
+Mercedes,E-Class,2008,10896,Petrol,Automatic,Black,3,False,Pune,True,3.6,Coupe,,5598365.6
+Nissan,Magnite,2002,26902,Electric,Automatic,Grey,2,False,Chennai,False,4.1,Wagon,Third-Party,50000.0
+Nissan,Kicks,2005,143418,Diesel,Manual,Blue,3,False,Hyderabad,False,1.9,Hatchback,Comprehensive,178487.3
+Mercedes,S-Class,2012,21713,Petrol,Manual,Black,3,False,Chennai,False,1.4,SUV,,9346743.05
+Tata,Nexon,2003,42328,Diesel,Automatic,Red,3,True,Chennai,False,1.7,Hatchback,Comprehensive,50000.0
+Nissan,Magnite,2010,98817,Petrol,Manual,Grey,1,False,Hyderabad,True,4.2,Coupe,,50000.0
+BMW,M3,2003,125783,Diesel,Manual,Blue,2,True,Chennai,False,1.3,Sedan,,6401132.55
+Mercedes,C-Class,2016,19579,Diesel,Manual,White,3,True,Hyderabad,True,4.4,Hatchback,,4517063.15
+Hyundai,Verna,2014,166404,Petrol,Manual,Grey,1,True,Hyderabad,False,3.7,Coupe,Third-Party,375039.4
+Tata,Altroz,2010,124343,Petrol,Manual,Red,2,True,Hyderabad,False,4.3,SUV,Third-Party,50000.0
+Honda,Civic,2000,41808,Electric,Manual,Grey,2,False,Bangalore,True,3.2,Hatchback,,50000.0
+Audi,A4,2021,51216,Electric,Manual,Silver,3,False,Mumbai,False,4.3,Wagon,Third-Party,4342317.6
+Toyota,Fortuner,2010,128947,Petrol,Automatic,Blue,1,True,Kolkata,True,4.0,Coupe,Third-Party,2730657.95
+Mercedes,S-Class,2024,146688,Diesel,Manual,Grey,1,True,Delhi,True,2.8,Convertible,Comprehensive,9977996.8
+Honda,City,2009,157371,Petrol,Automatic,Blue,3,False,Ahmedabad,True,4.4,Convertible,Third-Party,126394.35
+Nissan,Magnite,2000,66722,CNG,Manual,Silver,1,True,Mumbai,False,2.8,Hatchback,Third-Party,50000.0
+Maruti Suzuki,Dzire,2014,100957,Petrol,Manual,Silver,1,False,Hyderabad,False,1.9,Hatchback,Comprehensive,114856.45
+Tata,Nexon,2005,32923,CNG,Automatic,Silver,2,False,Delhi,True,4.7,Sedan,Comprehensive,50000.0
+Honda,Jazz,2018,70784,Petrol,Manual,Silver,2,False,Bangalore,True,4.8,Convertible,Comprehensive,389382.4
+BMW,3 Series,2023,35426,Electric,Automatic,Black,2,False,Ahmedabad,False,3.4,SUV,Third-Party,3894686.1
+Mercedes,C-Class,2016,156827,CNG,Automatic,Grey,1,False,Hyderabad,False,2.8,Wagon,Comprehensive,4556475.95
+BMW,X5,2001,142703,CNG,Automatic,Red,1,False,Pune,False,4.2,Wagon,,6808594.55
+Maruti Suzuki,Vitara Brezza,2023,136414,Diesel,Automatic,Silver,3,False,Chennai,False,3.1,Hatchback,Third-Party,679537.9
+Maruti Suzuki,Swift,2023,29691,Petrol,Automatic,Grey,2,True,Mumbai,True,2.8,SUV,Comprehensive,515546.35
+Audi,A4,2016,87814,CNG,Automatic,Silver,2,True,Chennai,True,3.2,Wagon,Comprehensive,4006827.9
+Toyota,Corolla,2022,103883,CNG,Manual,Red,2,True,Hyderabad,False,4.5,Hatchback,,1054417.55
+Nissan,Terrano,2007,159811,Petrol,Manual,Grey,3,True,Pune,False,2.6,Sedan,Comprehensive,396028.35
+Hyundai,Verna,2010,53747,Electric,Manual,White,2,True,Pune,False,5.0,Coupe,Third-Party,161937.95
+Audi,A4,2021,20638,Petrol,Manual,White,3,False,Mumbai,False,3.8,SUV,Third-Party,4346904.3
+Tata,Altroz,2000,129453,Diesel,Automatic,Blue,3,False,Ahmedabad,True,3.7,Convertible,,50000.0
+Maruti Suzuki,Swift,2006,167707,Petrol,Automatic,White,3,True,Pune,False,3.6,SUV,Comprehensive,50000.0
+Audi,Q5,2024,183869,CNG,Manual,White,1,True,Chennai,False,1.4,Wagon,Third-Party,5972419.65
+Toyota,Innova,2009,151777,Diesel,Manual,Grey,3,False,Kolkata,False,1.5,Convertible,,777233.45
+Hyundai,Verna,2024,34847,Electric,Automatic,Silver,2,False,Pune,False,2.4,Hatchback,,844772.95
+Mercedes,S-Class,2023,59277,Petrol,Manual,Grey,2,True,Delhi,False,3.4,Wagon,,9961108.45
+Tata,Altroz,2022,30541,Diesel,Automatic,Black,2,True,Mumbai,False,1.4,Coupe,,515418.85
+Audi,A6,2006,6482,CNG,Manual,Black,2,True,Ahmedabad,False,2.3,SUV,,4569027.7
+Maruti Suzuki,Vitara Brezza,2006,141399,Electric,Manual,White,3,False,Delhi,False,2.4,Wagon,Comprehensive,50000.0
+Hyundai,Creta,2011,186909,CNG,Manual,Black,1,False,Delhi,True,3.9,Coupe,Third-Party,801963.65
+Maruti Suzuki,Vitara Brezza,2019,79222,CNG,Manual,Grey,1,False,Mumbai,False,3.6,Wagon,,568116.7
+Honda,City,2021,68183,CNG,Manual,Blue,2,False,Ahmedabad,False,4.1,Convertible,Comprehensive,789772.55
+BMW,M3,2004,48332,Diesel,Automatic,Black,1,True,Delhi,False,4.6,SUV,Comprehensive,6542750.2
+Toyota,Corolla,2021,13650,Diesel,Automatic,Blue,3,True,Delhi,True,4.1,Wagon,,1017952.5
+BMW,X5,2021,106481,CNG,Automatic,Silver,2,True,Hyderabad,False,3.7,SUV,,7804027.85
+Hyundai,Creta,2002,138110,CNG,Manual,White,1,True,Mumbai,True,3.1,Hatchback,,379283.5
+Hyundai,Creta,2008,26784,Petrol,Automatic,Red,3,False,Hyderabad,False,2.9,Sedan,Third-Party,645982.4
+Toyota,Innova,2023,186234,Diesel,Manual,Grey,1,False,Hyderabad,True,2.3,Coupe,Comprehensive,1452064.9
+Hyundai,Elantra,2018,113972,Petrol,Manual,Red,3,True,Delhi,True,4.5,Sedan,,952904.2
+Maruti Suzuki,Vitara Brezza,2000,52028,Diesel,Automatic,White,3,False,Kolkata,False,3.7,SUV,Third-Party,50000.0
+Toyota,Corolla,2023,105762,CNG,Manual,Black,2,False,Hyderabad,False,1.2,Convertible,,1084135.7
+Tata,Altroz,2003,174764,Petrol,Manual,White,3,True,Hyderabad,False,4.4,SUV,,50000.0
+Tata,Nexon,2020,52814,Petrol,Manual,Red,1,False,Mumbai,True,2.1,Wagon,Third-Party,672077.9
+Maruti Suzuki,Swift,2000,61237,Diesel,Manual,Grey,2,True,Hyderabad,True,3.0,Sedan,Comprehensive,50000.0
+Hyundai,Verna,2017,50827,Diesel,Automatic,Red,3,True,Hyderabad,False,3.7,Wagon,,512375.95
+Audi,A4,2009,76353,Electric,Manual,White,1,False,Delhi,True,4.2,Coupe,,3718547.05
+BMW,X5,2002,74048,Electric,Manual,Red,2,False,Delhi,True,2.6,Convertible,Third-Party,6838892.8
+Ford,Endeavour,2012,11626,Electric,Automatic,Silver,1,False,Pune,False,4.8,Wagon,Third-Party,2378256.1
+Tata,Harrier,2008,153099,Petrol,Automatic,Grey,3,False,Kolkata,True,2.4,Convertible,Comprehensive,777035.15
+Toyota,Fortuner,2008,11281,Electric,Manual,White,2,True,Chennai,True,3.1,Convertible,,2618307.85
+BMW,X5,2003,157299,Petrol,Automatic,Grey,3,True,Hyderabad,True,1.2,Sedan,Comprehensive,6846405.15
+Tata,Harrier,2019,118780,Diesel,Manual,Black,1,True,Ahmedabad,False,3.2,SUV,,1432183.0
+Hyundai,Creta,2023,190728,CNG,Manual,Black,3,True,Hyderabad,False,1.4,Wagon,Third-Party,1391390.8
+Hyundai,Verna,2009,107001,CNG,Manual,Blue,3,False,Chennai,True,1.9,Coupe,Comprehensive,50000.0
+Audi,Q5,2016,163167,Diesel,Automatic,Red,3,False,Kolkata,True,3.5,Coupe,Comprehensive,5475524.95
+Mercedes,E-Class,2009,47898,CNG,Automatic,Silver,2,True,Hyderabad,True,3.8,Wagon,,5662815.3
+Ford,Endeavour,2024,132356,CNG,Automatic,Blue,1,True,Hyderabad,True,1.1,Sedan,Comprehensive,2930146.6
+Tata,Altroz,2015,173513,Electric,Automatic,Black,3,False,Kolkata,True,3.6,Sedan,Third-Party,50000.0
+Hyundai,Verna,2002,127233,Electric,Manual,Grey,2,True,Mumbai,False,4.3,Convertible,,50000.0
+Audi,A6,2012,65081,Electric,Automatic,White,3,False,Chennai,False,3.7,Coupe,,4840237.85
+Honda,Civic,2022,134006,Electric,Manual,White,1,False,Pune,False,4.7,Sedan,Third-Party,559899.1
+Tata,Harrier,2020,61171,CNG,Manual,Silver,3,True,Ahmedabad,True,3.2,SUV,Third-Party,1410824.35
+Mercedes,C-Class,2012,114183,Electric,Manual,Black,1,False,Kolkata,True,1.7,Hatchback,Comprehensive,4312872.55
+Honda,Civic,2024,109763,CNG,Automatic,Silver,1,False,Hyderabad,True,2.7,SUV,Comprehensive,613535.55
+Ford,Endeavour,2022,15664,Diesel,Manual,Red,3,True,Chennai,False,2.7,Convertible,,2867650.4
+Maruti Suzuki,Swift,2006,83451,CNG,Manual,Blue,3,True,Ahmedabad,False,4.6,Wagon,Third-Party,50000.0
+Maruti Suzuki,Swift,2014,21564,Electric,Automatic,Grey,3,True,Ahmedabad,True,4.7,Convertible,,50000.0
+Tata,Harrier,2019,170418,CNG,Manual,White,2,False,Kolkata,True,2.8,Hatchback,,1324437.3
+Toyota,Fortuner,2023,100765,CNG,Automatic,Red,1,False,Mumbai,True,3.5,Wagon,,3414885.25
+Maruti Suzuki,Swift,2020,30820,Electric,Automatic,Black,1,True,Kolkata,True,4.2,Convertible,,345377.0
+Maruti Suzuki,Vitara Brezza,2017,126490,Diesel,Manual,Silver,2,True,Pune,True,1.2,Convertible,,351026.5
+Ford,Fiesta,2014,132672,CNG,Manual,Blue,1,False,Kolkata,True,1.4,Wagon,Comprehensive,50000.0
+Audi,A6,2017,135973,CNG,Automatic,Black,3,True,Kolkata,False,3.9,Hatchback,Third-Party,5099604.05
+Honda,Civic,2004,188382,Diesel,Manual,Grey,2,True,Chennai,False,1.5,SUV,Comprehensive,50000.0
+Hyundai,Creta,2011,91339,Electric,Automatic,Grey,3,True,Bangalore,True,3.8,Wagon,Comprehensive,806299.15
+Ford,Fiesta,2003,19259,Electric,Automatic,Silver,2,False,Mumbai,False,3.8,SUV,,50000.0
+Maruti Suzuki,Vitara Brezza,2020,37550,Electric,Automatic,Black,2,True,Hyderabad,False,1.3,Coupe,Third-Party,564367.5
+Maruti Suzuki,Swift,2005,175889,Petrol,Automatic,Red,1,True,Delhi,False,2.5,Sedan,Comprehensive,50000.0
+Mercedes,C-Class,2024,151228,CNG,Automatic,White,1,False,Mumbai,True,1.6,Wagon,,4957315.8
+Hyundai,Verna,2014,102075,Electric,Manual,Blue,2,False,Pune,False,2.0,Coupe,,334688.75
+Honda,Jazz,2003,16978,CNG,Automatic,Silver,1,False,Kolkata,False,1.8,Convertible,Third-Party,50000.0
+Audi,Q5,2022,197586,CNG,Manual,Black,1,False,Chennai,False,1.1,Coupe,Comprehensive,5850362.1
+Ford,EcoSport,2017,190242,Petrol,Manual,Grey,2,False,Kolkata,True,1.1,Wagon,Third-Party,321463.7
+Hyundai,Verna,2012,32663,Petrol,Manual,Black,3,False,Hyderabad,False,1.8,Sedan,Third-Party,245100.55
+Tata,Harrier,2021,188974,Petrol,Automatic,Silver,2,False,Pune,True,1.3,Hatchback,Comprehensive,1421653.9
+Mercedes,E-Class,2005,48459,Petrol,Manual,Red,2,False,Bangalore,False,3.7,Coupe,,5542731.15
+Tata,Nexon,2020,120495,Diesel,Automatic,Silver,2,True,Delhi,True,1.2,Wagon,Third-Party,651925.75
+Maruti Suzuki,Vitara Brezza,2024,70969,Electric,Automatic,Black,2,False,Chennai,False,2.5,SUV,Third-Party,739354.65
+Nissan,Magnite,2010,16901,Petrol,Automatic,Blue,2,True,Ahmedabad,True,2.3,Hatchback,Comprehensive,50000.0
+Hyundai,Verna,2013,105318,Electric,Manual,White,3,True,Mumbai,False,4.8,Coupe,Third-Party,354202.3
+Honda,Jazz,2004,167881,Petrol,Automatic,Grey,2,True,Hyderabad,True,2.6,Sedan,,50000.0
+Toyota,Fortuner,2016,120627,Diesel,Automatic,Black,1,True,Delhi,False,1.4,Hatchback,,3131905.95
+Mercedes,S-Class,2020,29578,Diesel,Automatic,Silver,3,True,Ahmedabad,True,1.5,SUV,,9715563.3
+Tata,Harrier,2017,176276,Electric,Automatic,Grey,1,True,Chennai,False,3.9,Coupe,Comprehensive,1323558.6
+Honda,City,2005,196417,Petrol,Manual,Silver,1,False,Hyderabad,False,1.3,Hatchback,,50000.0
+Honda,Jazz,2022,175500,Electric,Manual,Red,2,False,Ahmedabad,True,1.9,Sedan,Comprehensive,523675.0
+Mercedes,S-Class,2019,106079,Petrol,Automatic,Blue,1,True,Mumbai,False,3.2,Sedan,Comprehensive,9784088.15
+Toyota,Innova,2001,98492,Petrol,Automatic,Red,2,True,Mumbai,True,3.2,Convertible,Third-Party,405226.2
+Hyundai,Verna,2000,41718,Diesel,Manual,Black,2,False,Ahmedabad,False,2.9,Wagon,Third-Party,50000.0
+Maruti Suzuki,Dzire,2009,122805,CNG,Automatic,White,3,True,Bangalore,True,2.9,SUV,Third-Party,50000.0
+Tata,Nexon,2001,197172,CNG,Manual,White,3,True,Pune,False,2.4,SUV,Third-Party,50000.0
+Mercedes,C-Class,2021,99908,Petrol,Manual,Blue,2,True,Kolkata,False,1.6,SUV,Third-Party,4805013.8
+Audi,Q5,2019,119753,Electric,Automatic,Blue,1,True,Hyderabad,True,3.9,SUV,Comprehensive,5682037.05
+Honda,City,2005,23513,CNG,Manual,Black,2,True,Mumbai,True,1.3,Convertible,Comprehensive,50000.0
+Toyota,Corolla,2023,82155,Electric,Automatic,Red,3,False,Kolkata,False,2.7,Convertible,Third-Party,1087676.75
+Honda,City,2023,135378,Diesel,Manual,White,3,False,Hyderabad,False,4.8,Wagon,,879693.3
+BMW,3 Series,2021,156470,CNG,Automatic,Grey,3,False,Hyderabad,False,3.4,Hatchback,Comprehensive,3776529.5
+Honda,Jazz,2010,152213,Petrol,Automatic,Blue,2,True,Kolkata,True,4.1,Coupe,Comprehensive,50000.0
+Tata,Harrier,2010,13510,Diesel,Manual,Blue,3,True,Hyderabad,True,4.1,Sedan,Third-Party,917973.5
+Honda,City,2019,190930,Petrol,Manual,Blue,3,True,Mumbai,False,2.3,Coupe,Comprehensive,741360.5
+Nissan,Kicks,2006,155638,CNG,Manual,Black,3,False,Pune,True,2.6,Coupe,,176654.3
+Nissan,Magnite,2000,141379,Diesel,Manual,Blue,2,True,Delhi,True,3.2,Sedan,,50000.0
+Hyundai,Verna,2005,100062,Electric,Automatic,Red,1,False,Bangalore,True,4.3,Convertible,,50000.0
+Mercedes,S-Class,2019,73846,Diesel,Automatic,Grey,1,True,Delhi,True,3.8,Coupe,Third-Party,9738923.1
+BMW,M3,2006,177959,Diesel,Manual,Blue,3,True,Chennai,False,2.3,Coupe,Third-Party,6543306.15
+Tata,Altroz,2020,35705,CNG,Automatic,Grey,3,False,Pune,True,3.4,Hatchback,Comprehensive,294644.25
+Ford,Fiesta,2020,153329,Diesel,Automatic,Red,1,True,Chennai,True,1.8,SUV,Comprehensive,327000.65
+Ford,Fiesta,2005,186552,Diesel,Manual,Blue,3,False,Pune,True,1.3,SUV,Comprehensive,50000.0
+Ford,Fiesta,2018,173262,CNG,Automatic,Blue,3,False,Ahmedabad,True,4.4,Sedan,Comprehensive,174010.7
+Honda,Civic,2010,58114,Diesel,Automatic,Grey,1,True,Hyderabad,False,2.4,Coupe,Third-Party,50000.0
+Audi,A6,2019,168547,Petrol,Manual,Red,2,True,Kolkata,True,3.0,SUV,Comprehensive,5144717.95
+BMW,M3,2014,55322,Diesel,Manual,Grey,3,True,Hyderabad,False,2.0,Sedan,,6961701.7
+Hyundai,Elantra,2021,9717,CNG,Automatic,Blue,2,True,Kolkata,True,4.7,SUV,Third-Party,1068542.45
+Honda,Civic,2022,107224,Diesel,Manual,White,2,True,Bangalore,False,2.8,Sedan,Comprehensive,603916.4
+Nissan,Terrano,2009,53079,Electric,Automatic,Silver,2,False,Hyderabad,True,1.0,Convertible,Third-Party,442038.15
+BMW,M3,2022,197331,Diesel,Manual,Silver,1,True,Chennai,False,1.3,Hatchback,Third-Party,7370400.35
+Tata,Nexon,2016,89440,Electric,Manual,Silver,2,True,Kolkata,True,4.6,Hatchback,Comprehensive,406584.0
+Nissan,Magnite,2017,85731,Electric,Automatic,Red,2,False,Delhi,True,3.0,Convertible,Comprehensive,187140.35
+Ford,Endeavour,2011,67647,Diesel,Automatic,Grey,1,True,Pune,False,4.8,Convertible,Third-Party,2339852.95
+Nissan,Terrano,2023,163409,CNG,Manual,Black,3,True,Pune,True,2.6,Hatchback,,1145488.65
+Toyota,Corolla,2012,139638,Petrol,Manual,Black,3,False,Kolkata,False,2.0,Hatchback,Comprehensive,529054.3
+Toyota,Fortuner,2018,175554,CNG,Automatic,Grey,1,False,Chennai,True,2.7,Wagon,,3103666.9
+Honda,Jazz,2019,57400,CNG,Manual,Grey,2,True,Delhi,False,1.3,Hatchback,Third-Party,511390.0
+Toyota,Corolla,2018,31866,Electric,Manual,Grey,1,True,Bangalore,True,2.8,Coupe,Comprehensive,895220.1
+Tata,Altroz,2001,191900,Diesel,Automatic,Grey,3,True,Hyderabad,True,1.8,Wagon,Third-Party,50000.0
+Audi,A6,2013,139777,CNG,Automatic,Grey,2,False,Kolkata,True,2.4,Coupe,Comprehensive,4829033.45
+Mercedes,C-Class,2023,84313,Diesel,Manual,Blue,2,True,Hyderabad,True,1.7,Hatchback,Third-Party,4857353.05
+Nissan,Magnite,2020,160005,Electric,Manual,Silver,2,False,Delhi,True,3.8,Sedan,Third-Party,325999.25
+BMW,X5,2014,68604,Petrol,Automatic,Black,2,True,Hyderabad,True,4.5,Convertible,,7409709.4
+Toyota,Corolla,2021,5590,Petrol,Automatic,Grey,2,False,Bangalore,False,2.5,Convertible,Comprehensive,1049161.5
+Toyota,Corolla,2019,169334,Petrol,Automatic,Silver,2,True,Bangalore,False,2.2,Coupe,Comprehensive,944599.9
+BMW,3 Series,2000,185071,CNG,Manual,Red,1,False,Ahmedabad,False,2.6,Hatchback,Comprehensive,2752239.35
+Maruti Suzuki,Dzire,2011,102873,Diesel,Automatic,Black,1,True,Hyderabad,True,2.2,Convertible,Third-Party,50000.0
+Honda,City,2021,120103,Petrol,Automatic,Red,1,False,Kolkata,True,2.9,Coupe,,761984.55
+BMW,3 Series,2011,90385,Diesel,Automatic,Grey,1,False,Bangalore,True,4.8,SUV,Comprehensive,3316442.25
+BMW,X5,2001,83075,Electric,Manual,Blue,1,False,Delhi,False,1.4,Coupe,Comprehensive,6867538.75
+BMW,3 Series,2001,113433,CNG,Automatic,White,2,True,Hyderabad,True,4.0,Sedan,Third-Party,2752985.05
+Nissan,Kicks,2002,187574,Electric,Manual,White,1,True,Pune,True,4.1,Hatchback,Third-Party,50000.0
+Nissan,Kicks,2004,45531,Petrol,Automatic,Grey,1,False,Bangalore,False,3.9,Sedan,,223170.35
+Nissan,Kicks,2024,59091,Diesel,Automatic,Black,1,True,Bangalore,True,4.7,SUV,,1191136.35
+BMW,X5,2002,115895,CNG,Manual,Blue,1,False,Delhi,False,4.6,Wagon,,6912615.75
+BMW,M3,2009,97777,Diesel,Manual,Black,3,False,Delhi,False,2.5,Convertible,,6735333.45
+Nissan,Kicks,2005,165039,Petrol,Manual,Red,3,True,Chennai,False,1.6,Wagon,Third-Party,195244.15
+Maruti Suzuki,Vitara Brezza,2023,36059,CNG,Manual,White,3,True,Hyderabad,True,2.4,Sedan,,664591.15
+Maruti Suzuki,Vitara Brezza,2001,144488,CNG,Automatic,Black,2,True,Delhi,False,4.0,Convertible,Comprehensive,50000.0
+Maruti Suzuki,Vitara Brezza,2016,77643,CNG,Manual,Red,3,False,Pune,False,4.0,Hatchback,,338353.55
+Maruti Suzuki,Vitara Brezza,2000,111257,Diesel,Manual,Grey,3,False,Kolkata,True,2.8,Wagon,,50000.0
+Audi,A4,2011,80657,Diesel,Manual,White,3,False,Mumbai,False,1.5,Hatchback,,3837901.45
+Toyota,Corolla,2002,97872,Diesel,Manual,Black,2,False,Bangalore,False,1.8,SUV,,85319.2
+Honda,Civic,2008,173800,Petrol,Automatic,Red,2,True,Delhi,False,2.1,Convertible,,50000.0
+Ford,EcoSport,2014,115798,Electric,Automatic,White,2,False,Kolkata,True,4.5,Coupe,Third-Party,182630.3
+Maruti Suzuki,Swift,2022,164866,Petrol,Automatic,Blue,2,True,Kolkata,True,1.1,SUV,,395270.1
+Maruti Suzuki,Vitara Brezza,2019,7044,CNG,Manual,Black,1,False,Hyderabad,False,3.9,SUV,Third-Party,528943.4
+Honda,City,2008,55253,CNG,Automatic,White,2,True,Bangalore,True,3.4,Hatchback,Comprehensive,161712.05
+Audi,A4,2010,125259,CNG,Automatic,Grey,1,True,Pune,True,2.0,SUV,Comprehensive,3731211.15
+Ford,EcoSport,2010,20790,Electric,Manual,Blue,3,False,Kolkata,True,3.0,Wagon,Third-Party,50000.0
+Maruti Suzuki,Vitara Brezza,2004,76888,Electric,Manual,Red,1,False,Chennai,True,4.6,SUV,,50000.0
+Maruti Suzuki,Swift,2014,191289,CNG,Manual,Red,3,True,Hyderabad,False,3.6,Wagon,,50000.0
+Tata,Harrier,2015,23385,Diesel,Automatic,Blue,2,False,Bangalore,False,4.3,SUV,,1246492.25
+Honda,City,2018,42887,Electric,Automatic,Red,3,True,Bangalore,False,1.8,Sedan,Third-Party,713566.95
+Maruti Suzuki,Dzire,2017,32999,Electric,Manual,Red,1,False,Bangalore,True,4.4,Convertible,Comprehensive,275050.15
+Toyota,Fortuner,2022,72497,CNG,Automatic,Grey,2,False,Pune,True,4.6,Wagon,Third-Party,3289125.45
+Honda,Civic,2000,59460,Petrol,Automatic,White,1,False,Bangalore,True,2.6,Convertible,Third-Party,50000.0
+Nissan,Terrano,2000,156754,Electric,Automatic,Silver,2,False,Delhi,True,1.7,Wagon,Comprehensive,50000.0
+Hyundai,Verna,2004,151775,CNG,Automatic,Blue,3,False,Mumbai,False,4.8,Sedan,Comprehensive,50000.0
+Mercedes,E-Class,2024,26166,CNG,Automatic,Grey,3,True,Delhi,False,3.5,SUV,Comprehensive,6500000.0
+Hyundai,Elantra,2001,155883,Petrol,Automatic,Silver,3,True,Mumbai,False,2.5,Sedan,Third-Party,146617.55
+Toyota,Innova,2019,20334,CNG,Manual,Grey,2,True,Delhi,True,2.0,Coupe,Third-Party,1316949.9
+Tata,Harrier,2019,5807,Diesel,Automatic,White,3,False,Ahmedabad,False,4.4,Hatchback,Comprehensive,1399128.95
+Maruti Suzuki,Vitara Brezza,2016,155324,Petrol,Manual,Red,3,True,Kolkata,False,3.1,SUV,Comprehensive,346701.4
+Ford,EcoSport,2011,115005,Electric,Manual,Black,3,False,Mumbai,False,2.0,Coupe,Comprehensive,132749.25
+Hyundai,Verna,2013,167848,CNG,Automatic,White,2,False,Delhi,False,4.8,Hatchback,Comprehensive,324822.8
+Hyundai,Verna,2001,46189,Electric,Manual,White,1,True,Pune,False,2.3,Convertible,,50000.0
+Ford,EcoSport,2008,97413,Diesel,Manual,Blue,3,True,Hyderabad,True,1.3,Convertible,Comprehensive,50000.0
+Audi,Q5,2020,100928,Petrol,Automatic,White,2,True,Hyderabad,True,3.8,Wagon,Third-Party,5704860.8
+Hyundai,Elantra,2017,121339,Petrol,Manual,Blue,3,True,Pune,False,1.8,Wagon,,901799.15
+Audi,A6,2018,196217,CNG,Manual,White,1,False,Kolkata,True,2.5,Coupe,Comprehensive,5100567.45
+Audi,Q5,2020,9549,Petrol,Automatic,Grey,1,True,Kolkata,True,2.8,SUV,Comprehensive,5748567.65
+BMW,X5,2018,57093,CNG,Manual,White,3,False,Ahmedabad,True,2.8,Wagon,Comprehensive,7591436.05
+Tata,Nexon,2011,60057,Electric,Automatic,Blue,2,True,Delhi,True,2.9,Coupe,Third-Party,210991.45
+Ford,Fiesta,2020,198378,Electric,Manual,Blue,2,True,Bangalore,True,1.7,Hatchback,Third-Party,340243.3
+Tata,Altroz,2009,79792,Diesel,Automatic,Red,1,True,Kolkata,False,3.7,Coupe,Comprehensive,50000.0
+Nissan,Kicks,2018,73304,CNG,Automatic,Grey,2,True,Kolkata,True,3.9,Hatchback,Third-Party,809004.4
+Ford,Endeavour,2021,107793,Petrol,Manual,Blue,3,False,Kolkata,False,1.8,Coupe,,2783831.05
+Tata,Altroz,2020,40163,CNG,Manual,Silver,2,True,Kolkata,True,3.5,Coupe,Comprehensive,313975.55
+Toyota,Fortuner,2024,166538,Diesel,Automatic,White,2,True,Bangalore,False,2.1,Sedan,,3495019.3
+Maruti Suzuki,Dzire,2003,102542,Electric,Manual,Blue,1,True,Bangalore,True,1.2,SUV,,50000.0
+Tata,Altroz,2010,99616,Petrol,Manual,Black,3,True,Mumbai,False,4.5,Hatchback,Third-Party,50000.0
+Ford,Fiesta,2008,88697,Petrol,Manual,White,1,False,Ahmedabad,True,2.4,Sedan,Comprehensive,50000.0
+Audi,A6,2004,30430,Electric,Manual,Grey,2,False,Mumbai,True,4.7,Coupe,Third-Party,4445435.5
+Nissan,Kicks,2005,182453,CNG,Automatic,White,3,True,Ahmedabad,False,5.0,Hatchback,Comprehensive,192632.05
+Toyota,Innova,2013,5125,Diesel,Automatic,White,2,False,Mumbai,True,4.0,Hatchback,Third-Party,999231.25
+Mercedes,S-Class,2017,113084,Electric,Manual,White,1,True,Ahmedabad,False,3.4,Sedan,Third-Party,9633037.4
+Mercedes,C-Class,2007,32521,Electric,Automatic,Blue,1,False,Hyderabad,True,3.9,Wagon,Third-Party,4075121.85
+BMW,M3,2021,172612,CNG,Manual,Red,1,False,Pune,True,3.2,Sedan,Comprehensive,7254108.2
+Nissan,Kicks,2014,105630,Electric,Manual,Blue,2,False,Bangalore,True,4.8,Coupe,Third-Party,634155.5
+Mercedes,C-Class,2013,9764,Diesel,Automatic,Blue,2,True,Mumbai,False,3.1,Hatchback,Comprehensive,4468535.4
+Maruti Suzuki,Dzire,2016,166348,CNG,Automatic,Red,1,True,Bangalore,True,4.1,Coupe,Comprehensive,225047.8
+Audi,A6,2020,24081,Electric,Automatic,Red,3,True,Hyderabad,True,4.6,Sedan,Third-Party,5216387.85
+BMW,M3,2014,180127,Electric,Automatic,Blue,2,False,Ahmedabad,False,4.0,SUV,Comprehensive,6922980.95
+BMW,X5,2019,46880,Petrol,Automatic,Blue,3,False,Delhi,False,2.1,Coupe,Comprehensive,7742968.0
+Maruti Suzuki,Swift,2019,119558,Petrol,Automatic,Grey,2,False,Pune,False,4.8,Convertible,Comprehensive,282066.3
+Nissan,Magnite,2014,134411,Diesel,Manual,Red,1,False,Chennai,True,4.3,Wagon,,50000.0
+Nissan,Kicks,2023,65487,Petrol,Automatic,Black,3,True,Delhi,True,3.0,Coupe,Comprehensive,1110176.95
+Nissan,Kicks,2005,94157,Diesel,Manual,Silver,3,False,Chennai,True,4.7,Wagon,,135876.45
+Maruti Suzuki,Dzire,2007,118192,CNG,Manual,White,2,False,Hyderabad,True,3.5,Coupe,Third-Party,50000.0
+Ford,Endeavour,2010,176316,Electric,Manual,White,3,True,Delhi,False,3.2,Sedan,,2293552.6
+Ford,EcoSport,2002,181913,Electric,Automatic,White,2,True,Ahmedabad,False,4.2,Coupe,Third-Party,50000.0
+Honda,City,2008,5901,Petrol,Manual,White,1,False,Hyderabad,True,1.8,SUV,Third-Party,129114.85
+Nissan,Magnite,2012,125651,Petrol,Automatic,Red,2,False,Ahmedabad,True,2.7,Sedan,Comprehensive,50000.0
+Tata,Altroz,2023,75575,Electric,Manual,Silver,2,True,Mumbai,False,1.6,Wagon,Comprehensive,558663.75
+Audi,A4,2005,193054,Diesel,Automatic,Red,2,True,Kolkata,False,3.8,SUV,,3491041.9
+Hyundai,Creta,2013,160706,Diesel,Automatic,Red,3,False,Kolkata,False,4.0,Hatchback,Third-Party,875894.1
+Toyota,Fortuner,2023,35882,Petrol,Manual,White,1,False,Ahmedabad,False,2.6,Wagon,Comprehensive,3424617.7
+BMW,X5,2006,84742,Petrol,Automatic,White,3,False,Delhi,True,4.5,Convertible,,7037288.7
+BMW,3 Series,2017,18254,Diesel,Manual,Grey,3,False,Pune,False,3.7,Wagon,Comprehensive,3597261.9
+BMW,3 Series,2018,35200,Petrol,Automatic,Black,2,False,Pune,True,4.3,Sedan,,3594720.0
+BMW,3 Series,2024,179859,Electric,Automatic,Grey,3,False,Ahmedabad,True,5.0,SUV,Comprehensive,3873021.15
+Tata,Nexon,2009,171233,Diesel,Manual,Black,3,False,Pune,True,1.1,Convertible,Third-Party,50000.0
+Toyota,Fortuner,2017,13392,CNG,Automatic,Black,2,False,Bangalore,False,4.0,Coupe,Comprehensive,3147991.2
+Tata,Harrier,2009,66315,Diesel,Manual,White,2,True,Chennai,False,3.6,Coupe,,910052.75
+Audi,A6,2005,142357,Diesel,Manual,Grey,3,True,Kolkata,False,1.3,Hatchback,Comprehensive,4498646.45
+Maruti Suzuki,Dzire,2005,121510,CNG,Automatic,Black,2,True,Delhi,False,2.6,Coupe,,50000.0
+Mercedes,S-Class,2021,189288,Diesel,Automatic,Silver,2,False,Chennai,False,3.5,Sedan,Comprehensive,9771606.8
+Ford,Endeavour,2012,152357,CNG,Manual,Grey,1,False,Delhi,False,1.1,Convertible,,2407146.45
+Ford,EcoSport,2017,161940,Electric,Automatic,Blue,2,False,Chennai,True,4.3,Convertible,Third-Party,325709.0
+Maruti Suzuki,Vitara Brezza,2008,111297,Electric,Manual,Grey,3,False,Chennai,False,1.4,Coupe,,50000.0
+Ford,Endeavour,2000,143581,CNG,Automatic,Grey,2,False,Chennai,True,2.7,Convertible,Comprehensive,1678462.85
+Mercedes,C-Class,2000,135090,CNG,Automatic,Silver,1,False,Bangalore,True,2.2,Convertible,,3759736.5
+BMW,M3,2018,77411,Petrol,Automatic,Blue,3,True,Delhi,True,1.3,Sedan,Comprehensive,7158388.35
+Toyota,Innova,2020,121358,Diesel,Manual,Grey,2,False,Bangalore,False,4.1,Sedan,,1381796.3
+Mercedes,C-Class,2003,7828,Electric,Automatic,Grey,2,True,Bangalore,True,1.6,Wagon,Third-Party,3918825.8
+BMW,3 Series,2017,199714,CNG,Manual,Silver,3,False,Pune,False,4.2,Hatchback,Third-Party,3570042.9
+Honda,Jazz,2005,150011,Electric,Manual,Black,3,False,Bangalore,True,2.5,Convertible,Third-Party,50000.0
+Honda,Jazz,2019,190278,Petrol,Manual,Red,2,True,Bangalore,True,4.1,Wagon,Third-Party,441458.3
+Tata,Nexon,2021,67970,Diesel,Automatic,Silver,1,True,Pune,False,1.2,SUV,Third-Party,739804.5
+Tata,Harrier,2022,82396,Petrol,Automatic,Black,1,False,Bangalore,True,1.3,Wagon,,1567640.6
+Hyundai,Creta,2004,118870,Diesel,Manual,Blue,1,False,Bangalore,False,3.1,Sedan,Comprehensive,512169.5
+Mercedes,E-Class,2012,188464,Electric,Manual,Grey,2,False,Kolkata,True,3.0,Coupe,Comprehensive,5771730.4
+BMW,3 Series,2001,153471,Electric,Automatic,Black,2,True,Pune,True,4.1,Sedan,Third-Party,2746979.35
+Nissan,Kicks,2014,140652,Electric,Manual,Silver,3,True,Hyderabad,False,2.9,Coupe,,648902.2
+Mercedes,E-Class,2015,165052,Diesel,Automatic,Black,2,False,Bangalore,True,4.6,Sedan,Comprehensive,5975242.2
+Nissan,Kicks,2021,5668,CNG,Automatic,Silver,1,True,Kolkata,False,1.3,Hatchback,Third-Party,1049149.8
+Ford,EcoSport,2008,34554,Electric,Automatic,Blue,3,True,Pune,False,1.8,Coupe,Third-Party,50000.0
+Mercedes,C-Class,2015,167877,CNG,Manual,Grey,3,False,Pune,False,3.9,Convertible,,4474818.45
+Maruti Suzuki,Vitara Brezza,2013,79283,Electric,Manual,Black,2,True,Bangalore,False,2.3,SUV,,258107.55
+Ford,Endeavour,2010,106261,Electric,Manual,Silver,1,True,Kolkata,True,4.7,Hatchback,,2234060.85
+Mercedes,E-Class,2014,162138,Electric,Automatic,Grey,2,False,Pune,False,3.7,Coupe,Third-Party,5925679.3
+BMW,X5,2002,87529,Electric,Automatic,White,3,True,Delhi,False,2.2,Convertible,Comprehensive,6906870.65
+Honda,Civic,2013,97454,Electric,Manual,White,1,False,Delhi,False,1.7,Wagon,,165381.9
+Mercedes,E-Class,2014,87339,Petrol,Manual,Black,1,True,Pune,False,3.1,Sedan,Third-Party,5986899.15
+Mercedes,C-Class,2006,27059,Electric,Manual,Black,2,True,Hyderabad,True,3.5,Hatchback,Comprehensive,4015941.15
+Tata,Altroz,2015,114996,Electric,Automatic,Grey,3,True,Kolkata,True,4.4,Convertible,,52750.600000000006
+Maruti Suzuki,Vitara Brezza,2020,164976,Electric,Manual,Black,3,False,Pune,True,4.4,Convertible,Comprehensive,475253.6
+Ford,Fiesta,2017,38418,CNG,Automatic,Grey,2,False,Pune,False,2.3,Convertible,,194237.3
+Ford,Endeavour,2023,38666,CNG,Manual,Grey,3,False,Bangalore,False,1.9,Coupe,,2944200.1
+BMW,M3,2012,54950,Petrol,Manual,Red,2,True,Bangalore,True,4.0,SUV,,6861757.5
+Toyota,Fortuner,2021,78129,CNG,Manual,Black,2,False,Bangalore,True,4.8,Hatchback,Comprehensive,3288280.65
+Toyota,Innova,2010,59412,Diesel,Manual,Black,1,False,Pune,False,2.1,Convertible,Comprehensive,871088.2
+Toyota,Fortuner,2004,90386,Electric,Manual,Black,3,False,Delhi,False,3.3,Sedan,Comprehensive,2486442.1
+Hyundai,Creta,2009,189144,Petrol,Manual,Black,2,True,Kolkata,True,2.2,Wagon,Comprehensive,641628.4
+Audi,A4,2001,197350,Petrol,Automatic,Grey,1,True,Delhi,True,3.5,Coupe,Comprehensive,3320397.5
+Tata,Nexon,2013,94622,Electric,Manual,Blue,2,False,Kolkata,True,1.5,Hatchback,,235806.7
+Tata,Nexon,2006,191376,Diesel,Automatic,Silver,1,True,Kolkata,False,1.5,SUV,,50000.0
+Nissan,Magnite,2012,187393,Petrol,Manual,Grey,3,True,Mumbai,True,3.3,SUV,Comprehensive,50000.0
+Audi,A4,2011,122090,Petrol,Automatic,Blue,2,True,Ahmedabad,False,2.8,SUV,Comprehensive,3801686.5
+BMW,3 Series,2005,189574,Petrol,Manual,Blue,1,True,Mumbai,True,3.7,Hatchback,Comprehensive,3021563.9
+Nissan,Kicks,2014,83695,Diesel,Automatic,Blue,2,True,Kolkata,True,1.9,Hatchback,Third-Party,607445.75
+Tata,Altroz,2012,89841,CNG,Automatic,Black,1,True,Mumbai,True,3.4,Coupe,Third-Party,50000.0
+Tata,Nexon,2020,166942,Diesel,Manual,Black,1,False,Pune,True,2.5,Coupe,Comprehensive,604958.7
+BMW,X5,2014,31269,Petrol,Automatic,White,1,True,Ahmedabad,False,2.6,Wagon,Third-Party,7495309.65
+Audi,Q5,2009,118299,Diesel,Manual,White,3,False,Ahmedabad,False,3.8,Coupe,Third-Party,5182255.15
+Maruti Suzuki,Swift,2001,147191,Electric,Automatic,White,3,False,Bangalore,False,1.7,Sedan,Third-Party,50000.0
+Toyota,Innova,2023,196722,Diesel,Automatic,Grey,1,False,Pune,True,2.1,Hatchback,,1450491.7
+Honda,Jazz,2008,170958,CNG,Manual,Red,3,False,Delhi,True,3.8,SUV,,50000.0
+Nissan,Terrano,2023,103130,Petrol,Automatic,Black,3,True,Mumbai,False,3.8,Hatchback,,1254530.5
+Audi,A6,2002,153255,Diesel,Manual,Grey,2,False,Pune,True,2.5,Wagon,Comprehensive,4277011.75
+Mercedes,C-Class,2022,107338,Electric,Manual,Black,1,False,Kolkata,False,2.9,Convertible,Third-Party,4863899.3
+Honda,Jazz,2006,153278,CNG,Manual,Blue,3,True,Ahmedabad,False,4.2,Hatchback,Third-Party,50000.0
+Audi,A4,2007,9136,CNG,Manual,Red,1,False,Delhi,True,2.2,Hatchback,,3628629.6
+Mercedes,E-Class,2015,165259,Petrol,Automatic,Blue,3,False,Chennai,False,4.3,SUV,Comprehensive,5975211.15
+Audi,A6,2020,187007,Electric,Manual,Red,3,False,Bangalore,False,3.1,SUV,Third-Party,5271948.95
+Audi,A4,2017,69614,CNG,Automatic,Black,3,False,Bangalore,False,3.6,SUV,Comprehensive,4139557.9
+Nissan,Terrano,2014,27890,CNG,Automatic,Silver,1,False,Mumbai,True,4.1,Wagon,Comprehensive,775816.5
+BMW,M3,2011,30870,Petrol,Manual,White,2,False,Bangalore,True,3.0,Convertible,,6795369.5
+Honda,City,2014,105575,Petrol,Manual,Grey,3,False,Bangalore,True,4.4,SUV,Comprehensive,434163.75
+Maruti Suzuki,Vitara Brezza,2020,95155,CNG,Manual,Red,2,True,Hyderabad,True,1.2,SUV,Third-Party,505726.75
+Honda,Jazz,2013,39714,CNG,Manual,Red,3,False,Pune,False,3.8,Wagon,,144042.9
+Audi,A4,2012,167743,Petrol,Automatic,Red,3,True,Pune,False,4.4,SUV,Third-Party,3844838.55
+Nissan,Magnite,2009,96069,Diesel,Automatic,Blue,3,False,Chennai,True,2.7,SUV,,50000.0
+BMW,X5,2024,139086,Petrol,Manual,Silver,2,False,Delhi,False,1.0,Hatchback,Comprehensive,7979137.1
+Maruti Suzuki,Dzire,2002,187950,Electric,Automatic,White,2,True,Pune,True,1.8,Hatchback,Third-Party,50000.0
+Maruti Suzuki,Vitara Brezza,2022,23080,CNG,Automatic,Silver,3,True,Kolkata,True,4.4,Wagon,Comprehensive,616538.0
+Mercedes,S-Class,2003,132842,Electric,Automatic,Grey,2,False,Delhi,True,3.6,SUV,,8880073.7
+Ford,EcoSport,2000,76286,Petrol,Manual,Grey,3,False,Ahmedabad,True,1.5,Convertible,,50000.0
+Audi,A6,2022,121364,CNG,Automatic,Red,1,True,Pune,True,2.1,Wagon,Third-Party,5331795.4
+Ford,Fiesta,2012,116268,CNG,Automatic,Black,2,True,Pune,False,3.8,Hatchback,,50000.0
+BMW,X5,2023,79949,Electric,Automatic,Grey,1,False,Pune,True,2.5,Sedan,,7868007.65
+Ford,EcoSport,2016,36674,Petrol,Manual,Black,2,True,Pune,True,4.7,Coupe,Comprehensive,314498.9
+Tata,Nexon,2003,124496,Electric,Automatic,White,1,True,Hyderabad,True,1.3,Convertible,Third-Party,50000.0
+Hyundai,Verna,2023,181536,CNG,Automatic,Red,1,False,Kolkata,False,4.2,Sedan,Third-Party,802769.6
+Honda,Jazz,2024,67852,Electric,Automatic,Blue,3,True,Mumbai,True,2.1,Sedan,Comprehensive,709822.2
+BMW,X5,2001,168628,Electric,Automatic,White,2,False,Pune,False,3.5,SUV,Comprehensive,6774705.8
+Toyota,Corolla,2012,166373,Diesel,Manual,Red,1,False,Chennai,False,3.8,Coupe,Comprehensive,555044.05
+Maruti Suzuki,Swift,2015,33984,Diesel,Automatic,Black,3,False,Pune,False,3.4,Convertible,Comprehensive,94902.4
+BMW,X5,2016,191848,Petrol,Manual,Grey,1,False,Kolkata,False,2.4,Sedan,Third-Party,7551222.8
+Honda,City,2014,76845,Diesel,Manual,Blue,2,True,Kolkata,True,1.8,Hatchback,,408473.25
+Honda,Jazz,2014,56800,Diesel,Automatic,Blue,3,False,Delhi,True,1.3,SUV,Comprehensive,191480.0
+Mercedes,E-Class,2009,122959,Electric,Automatic,Red,2,True,Delhi,False,1.7,Coupe,Third-Party,5751556.15
+Honda,Civic,2023,94047,Petrol,Manual,Silver,2,True,Ahmedabad,True,1.9,Sedan,Comprehensive,555892.95
+Honda,Civic,2023,50435,CNG,Manual,Silver,2,False,Ahmedabad,True,2.5,Sedan,Comprehensive,542434.75
+Toyota,Fortuner,2018,140803,Diesel,Manual,Silver,3,False,Hyderabad,False,1.2,Wagon,Comprehensive,3128879.55
+Audi,Q5,2018,177342,CNG,Manual,Red,2,True,Chennai,False,1.2,Coupe,,5643398.7
+Tata,Harrier,2017,36475,Diesel,Automatic,Black,3,True,Mumbai,True,2.9,Wagon,Comprehensive,1314528.75
+Maruti Suzuki,Vitara Brezza,2011,83023,Diesel,Automatic,White,3,False,Ahmedabad,True,5.0,Wagon,,50000.0
+Tata,Nexon,2005,167618,CNG,Automatic,Red,1,False,Kolkata,True,3.8,Sedan,Comprehensive,50000.0
+Maruti Suzuki,Vitara Brezza,2003,143292,Electric,Automatic,Red,3,True,Delhi,False,4.1,Wagon,Third-Party,50000.0
+Toyota,Fortuner,2018,10037,Diesel,Automatic,Black,3,True,Chennai,True,4.9,SUV,Comprehensive,3118494.45
+Ford,Fiesta,2006,175338,CNG,Automatic,Grey,2,True,Hyderabad,False,2.3,Sedan,,50000.0
+Toyota,Fortuner,2003,185341,Petrol,Manual,Grey,3,True,Mumbai,False,3.9,Wagon,Comprehensive,2442198.85
+Tata,Harrier,2001,80349,Electric,Automatic,Grey,2,True,Delhi,True,3.5,SUV,Comprehensive,507947.65
+Nissan,Kicks,2007,189260,Electric,Manual,Silver,1,True,Delhi,False,4.2,Convertible,,371611.0
+Ford,Endeavour,2010,13674,Diesel,Automatic,Blue,2,False,Delhi,True,2.2,Sedan,Comprehensive,2247948.9
+Audi,A6,2010,120648,CNG,Automatic,Blue,3,True,Ahmedabad,True,3.2,SUV,,4701902.8
+Maruti Suzuki,Vitara Brezza,2015,8285,CNG,Manual,Silver,3,False,Hyderabad,False,3.4,Sedan,Comprehensive,298757.25
+Hyundai,Elantra,2007,75740,Petrol,Automatic,Black,3,True,Pune,True,4.1,Sedan,Third-Party,358639.0
+Hyundai,Elantra,2021,142974,Petrol,Automatic,Blue,3,True,Ahmedabad,False,2.2,Coupe,Comprehensive,1098553.9
+Mercedes,C-Class,2010,162196,Petrol,Manual,White,1,False,Mumbai,False,1.4,Coupe,Third-Party,4305670.6
+Toyota,Fortuner,2002,155287,Electric,Manual,Red,1,False,Kolkata,True,2.1,SUV,,2306706.95
+Mercedes,S-Class,2001,72053,CNG,Automatic,Red,1,True,Delhi,True,4.9,Hatchback,,8839192.05
+BMW,M3,2008,77850,Petrol,Manual,Silver,1,False,Hyderabad,True,4.8,Sedan,Third-Party,6618322.5
+Maruti Suzuki,Dzire,2000,33112,CNG,Manual,Grey,3,True,Mumbai,True,4.8,Convertible,Third-Party,50000.0
+Tata,Altroz,2014,80509,Petrol,Automatic,White,2,True,Hyderabad,False,4.9,Wagon,Third-Party,57923.65
+Honda,Jazz,2017,23847,Petrol,Manual,Black,1,True,Mumbai,True,4.0,Wagon,,396422.95
+Mercedes,E-Class,2007,128485,Electric,Manual,Grey,1,False,Bangalore,False,4.0,Sedan,,5660727.25
+Audi,Q5,2011,39589,Electric,Automatic,Black,1,True,Pune,True,2.8,Wagon,,5294061.65
+Ford,EcoSport,2014,170814,Diesel,Automatic,Blue,3,True,Hyderabad,False,1.6,Convertible,,244377.9
+Mercedes,S-Class,2008,28499,Petrol,Manual,Black,3,False,Delhi,True,1.8,Convertible,Comprehensive,9145725.15
+Maruti Suzuki,Dzire,2002,142897,Diesel,Automatic,Blue,1,False,Ahmedabad,True,3.9,Sedan,,50000.0
+Mercedes,S-Class,2012,85916,Electric,Automatic,Silver,3,True,Bangalore,True,4.1,Hatchback,Third-Party,9357112.6
+Ford,EcoSport,2015,50943,Diesel,Manual,Silver,2,True,Hyderabad,True,3.2,Wagon,Comprehensive,262358.55
+Tata,Nexon,2000,149577,CNG,Automatic,White,2,True,Ahmedabad,False,1.8,Hatchback,Comprehensive,50000.0
+Honda,Jazz,2019,67296,Electric,Automatic,Silver,1,True,Bangalore,True,4.0,Wagon,,489905.6
+Audi,Q5,2022,116919,Diesel,Automatic,Red,3,False,Pune,False,3.4,Convertible,Third-Party,5832462.15
+Nissan,Terrano,2004,180836,CNG,Manual,Grey,2,True,Bangalore,False,2.7,Wagon,,292874.6
+Hyundai,Elantra,2007,39054,CNG,Automatic,Black,3,True,Kolkata,False,2.9,Coupe,Comprehensive,414141.9
+Audi,A4,2008,111976,CNG,Automatic,Blue,2,False,Hyderabad,True,2.1,Coupe,,3583203.6
+Tata,Harrier,2022,96313,Diesel,Manual,Black,2,False,Chennai,True,4.6,Sedan,Comprehensive,1485553.05
+Audi,A6,2001,98430,CNG,Automatic,Blue,1,False,Kolkata,False,1.6,Sedan,Comprehensive,4315235.5
+Hyundai,Elantra,2012,103883,Electric,Automatic,Black,2,True,Kolkata,True,3.1,Convertible,Comprehensive,604417.55
+Toyota,Innova,2001,121836,CNG,Automatic,Black,2,False,Bangalore,False,4.1,Hatchback,Comprehensive,431724.6
+Hyundai,Creta,2000,81415,Diesel,Automatic,Blue,3,True,Bangalore,False,2.4,SUV,Third-Party,307787.75
+Mercedes,S-Class,2013,53834,CNG,Automatic,Black,2,False,Ahmedabad,True,2.4,Hatchback,,9341924.9
+Tata,Harrier,2014,10377,Petrol,Automatic,Blue,2,True,Kolkata,False,1.3,Wagon,,1168443.45
+Maruti Suzuki,Vitara Brezza,2003,145685,Diesel,Automatic,Grey,2,True,Chennai,False,1.6,Hatchback,,50000.0
+Maruti Suzuki,Vitara Brezza,2021,30934,CNG,Automatic,Grey,1,True,Hyderabad,True,2.8,SUV,Third-Party,595359.9
+Mercedes,S-Class,2015,97271,Petrol,Manual,Red,1,True,Hyderabad,True,4.7,Hatchback,Comprehensive,9485409.35
+Mercedes,S-Class,2010,29702,Diesel,Automatic,Silver,3,False,Pune,True,3.7,Coupe,,9195544.7
+Toyota,Fortuner,2002,150077,Electric,Manual,Blue,1,False,Pune,True,3.0,Hatchback,Comprehensive,2307488.45
+Toyota,Corolla,2009,23716,Electric,Automatic,White,2,True,Chennai,False,3.7,Sedan,,416442.6
+Toyota,Innova,2018,134418,CNG,Manual,Red,2,False,Kolkata,False,4.1,Wagon,Third-Party,1229837.3
+Maruti Suzuki,Dzire,2003,83438,Petrol,Manual,Blue,2,False,Bangalore,False,1.6,Convertible,,50000.0
+Toyota,Innova,2010,98687,Diesel,Manual,Blue,1,True,Delhi,True,1.2,SUV,Third-Party,885196.95
+Mercedes,C-Class,2015,166175,CNG,Automatic,Blue,3,False,Ahmedabad,True,1.9,Convertible,Third-Party,4425073.75
+Nissan,Terrano,2020,11425,Electric,Automatic,Red,1,False,Delhi,True,4.4,Hatchback,Third-Party,1078286.25
+Nissan,Magnite,2013,184358,Diesel,Automatic,Red,2,False,Bangalore,False,4.9,SUV,Third-Party,50000.0
+Tata,Nexon,2020,167600,CNG,Manual,Black,2,True,Delhi,False,2.0,SUV,Third-Party,694860.0
+Maruti Suzuki,Swift,2019,120115,Petrol,Automatic,Silver,3,True,Chennai,True,3.1,SUV,,251982.75
+Ford,EcoSport,2013,150701,Diesel,Manual,Red,1,True,Ahmedabad,False,3.3,Coupe,,227394.85
+Honda,Civic,2009,39618,Petrol,Manual,Blue,2,True,Delhi,True,3.3,Coupe,Comprehensive,50000.0
+BMW,X5,2011,6579,CNG,Manual,Grey,2,True,Delhi,False,4.3,Hatchback,,7369013.15
+Nissan,Kicks,2001,131270,CNG,Manual,Grey,1,True,Kolkata,True,3.0,Coupe,,50000.0
+Hyundai,Creta,2012,178561,Diesel,Automatic,Grey,3,False,Mumbai,True,2.1,Wagon,,823215.85
+Ford,Fiesta,2018,49453,CNG,Automatic,Grey,2,True,Ahmedabad,False,4.2,Wagon,Comprehensive,262582.05
+Maruti Suzuki,Dzire,2016,31601,Diesel,Manual,Grey,2,False,Pune,False,2.7,Convertible,Third-Party,195259.85
+Ford,EcoSport,2019,188781,Electric,Automatic,Silver,2,True,Mumbai,True,4.0,Hatchback,,491682.85
+Ford,EcoSport,2008,18470,Petrol,Automatic,White,3,False,Chennai,False,4.1,Sedan,,50000.0
+Ford,Fiesta,2010,71069,Electric,Manual,Black,3,True,Pune,False,1.7,Coupe,Third-Party,50000.0
+Mercedes,E-Class,2016,69712,Petrol,Manual,Silver,1,False,Chennai,True,2.3,Convertible,Third-Party,6019543.2
+Audi,A4,2004,7494,Diesel,Automatic,Grey,3,False,Hyderabad,True,3.6,SUV,Comprehensive,3398875.9
+Toyota,Corolla,2008,63474,CNG,Automatic,Red,1,False,Mumbai,False,3.8,Convertible,Third-Party,420478.9
+Ford,Endeavour,2005,100580,CNG,Manual,White,3,False,Ahmedabad,False,3.4,SUV,,1984913.0
+Tata,Nexon,2014,150651,Diesel,Automatic,White,2,True,Chennai,False,4.7,SUV,,347402.35
+Tata,Harrier,2015,179922,Petrol,Manual,Black,2,True,Ahmedabad,False,3.1,Coupe,Third-Party,1193011.7
+Toyota,Corolla,2022,72858,Electric,Automatic,Grey,2,True,Ahmedabad,False,4.9,Sedan,Third-Party,1059071.3
+Honda,Civic,2010,17274,CNG,Manual,Red,1,False,Pune,False,1.3,Hatchback,Comprehensive,50000.0
+Tata,Harrier,2019,31961,Diesel,Manual,Grey,2,False,Hyderabad,False,3.5,SUV,Third-Party,1395205.85
+Hyundai,Elantra,2023,80991,Electric,Automatic,Black,2,True,Pune,True,3.2,Coupe,,1157851.35
+Honda,Civic,2005,90975,Electric,Manual,Black,2,False,Ahmedabad,True,1.2,Sedan,Comprehensive,50000.0
+Hyundai,Elantra,2007,7265,Electric,Manual,White,2,False,Pune,True,4.2,Wagon,Third-Party,348910.25
+Toyota,Fortuner,2006,174134,Electric,Manual,Red,3,False,Hyderabad,False,3.2,Coupe,,2523879.9
+Ford,Endeavour,2017,123907,Diesel,Manual,Red,1,True,Pune,False,1.5,SUV,Comprehensive,2631413.95
+Audi,A6,2012,128736,Petrol,Automatic,Silver,1,True,Kolkata,True,1.4,SUV,Third-Party,4830689.6
+Honda,City,2010,63178,Diesel,Manual,Blue,3,True,Bangalore,False,3.3,Sedan,Third-Party,310523.3
+Ford,EcoSport,2002,125813,Diesel,Automatic,Red,1,True,Kolkata,False,1.9,Wagon,Third-Party,50000.0
+Ford,EcoSport,2008,28753,Electric,Automatic,Blue,1,True,Kolkata,True,3.4,Coupe,,50000.0
+Audi,A4,2019,81645,Electric,Manual,Grey,1,False,Delhi,True,2.0,Wagon,,4217753.25
+Audi,A4,2002,5070,CNG,Manual,Blue,1,False,Chennai,True,4.8,SUV,,3329239.5
+Mercedes,E-Class,2007,88568,Diesel,Manual,Grey,3,False,Kolkata,False,2.3,SUV,Comprehensive,5586714.8
+Hyundai,Elantra,2022,188274,Electric,Manual,Blue,1,True,Mumbai,True,4.9,Coupe,,1171758.9
+Audi,A4,2017,48427,Petrol,Manual,Grey,2,False,Mumbai,False,2.2,Coupe,Third-Party,4142735.95
+Ford,Endeavour,2005,110912,CNG,Automatic,Black,3,False,Mumbai,False,2.1,Convertible,Comprehensive,2033363.2
+Toyota,Innova,2006,104596,Petrol,Automatic,Black,3,False,Kolkata,False,3.7,Wagon,,634310.6
+Toyota,Innova,2020,76792,Diesel,Manual,Red,2,True,Bangalore,False,5.0,SUV,Comprehensive,1408481.2
+Mercedes,C-Class,2006,69628,CNG,Automatic,Grey,2,True,Mumbai,False,1.9,Wagon,Comprehensive,4109555.8
+Nissan,Magnite,2004,174959,CNG,Automatic,Grey,3,False,Chennai,False,3.5,SUV,Comprehensive,50000.0
+Ford,Fiesta,2014,11370,Diesel,Automatic,Silver,1,False,Mumbai,True,3.3,Convertible,Comprehensive,78294.5
+Honda,Civic,2009,120825,Diesel,Automatic,Black,3,True,Bangalore,False,1.1,Sedan,,50000.0
+Hyundai,Elantra,2020,185830,CNG,Automatic,Red,1,False,Kolkata,False,1.2,SUV,Third-Party,1052125.5
+Audi,A4,2012,161006,CNG,Automatic,Blue,3,False,Delhi,True,1.1,Sedan,Third-Party,3825849.1
+Mercedes,S-Class,2019,167265,Electric,Automatic,Red,3,False,Mumbai,False,2.0,SUV,Third-Party,9724910.25
+Maruti Suzuki,Vitara Brezza,2013,137568,CNG,Automatic,Black,2,True,Pune,False,4.9,SUV,Comprehensive,199364.8
+Audi,Q5,2020,33971,Diesel,Automatic,Blue,2,False,Chennai,False,2.0,Convertible,Third-Party,5744904.35
+Ford,EcoSport,2019,8567,Diesel,Manual,Blue,3,True,Kolkata,True,1.9,Hatchback,Comprehensive,468714.95
+Toyota,Innova,2008,58758,Diesel,Manual,Red,2,False,Chennai,False,3.9,Coupe,,741186.3
+Maruti Suzuki,Swift,2011,88443,CNG,Automatic,Red,2,True,Delhi,False,3.8,Hatchback,Comprehensive,50000.0
+Honda,City,2009,67598,Electric,Manual,Blue,1,True,Delhi,True,1.9,Wagon,Third-Party,239860.3
+Maruti Suzuki,Swift,2009,144704,Electric,Manual,White,3,False,Mumbai,False,2.1,Wagon,,50000.0
+BMW,3 Series,2004,154158,Electric,Manual,Grey,1,True,Mumbai,False,4.2,Wagon,Third-Party,3026876.3
+Hyundai,Creta,2012,61505,Electric,Automatic,Black,1,True,Ahmedabad,False,4.2,Convertible,Third-Party,890774.25
+Honda,Jazz,2020,131182,CNG,Automatic,Black,2,False,Chennai,True,2.1,Wagon,,430322.7
+Nissan,Magnite,2003,49740,Diesel,Manual,White,2,False,Chennai,True,3.1,SUV,Third-Party,50000.0
+Ford,Endeavour,2012,151679,CNG,Automatic,White,3,True,Chennai,False,5.0,Sedan,Comprehensive,2347248.15
+Hyundai,Elantra,2005,75594,Electric,Manual,Silver,2,True,Kolkata,True,1.7,Sedan,,258660.9
+Mercedes,C-Class,2011,22034,Petrol,Automatic,White,3,False,Chennai,False,3.3,Coupe,Third-Party,4296694.9
+Maruti Suzuki,Vitara Brezza,2004,106588,Diesel,Manual,White,3,False,Chennai,True,1.0,Coupe,Comprehensive,50000.0
+Audi,A6,2017,58006,CNG,Manual,Red,2,True,Pune,True,1.5,Coupe,Third-Party,5061299.1
+Maruti Suzuki,Vitara Brezza,2015,190303,Electric,Manual,Grey,2,False,Pune,True,4.7,SUV,Comprehensive,221454.55
+Nissan,Kicks,2017,167531,CNG,Automatic,Grey,1,False,Bangalore,False,4.5,Hatchback,Third-Party,854870.35
+Toyota,Fortuner,2003,197109,Diesel,Automatic,Silver,2,False,Hyderabad,False,1.2,Sedan,,2370433.65
+Tata,Nexon,2003,136206,Diesel,Manual,Grey,2,False,Hyderabad,True,1.1,SUV,Comprehensive,50000.0
+Mercedes,S-Class,2017,124982,Diesel,Manual,Blue,1,True,Ahmedabad,False,4.0,Hatchback,Third-Party,9631252.7
+Honda,Civic,2019,21541,Petrol,Manual,Grey,3,False,Kolkata,False,3.2,Sedan,,396768.85
+Tata,Altroz,2006,153005,CNG,Automatic,Grey,3,False,Bangalore,False,1.1,Hatchback,Third-Party,50000.0
+Ford,Endeavour,2020,76198,CNG,Automatic,Grey,2,True,Ahmedabad,False,2.2,Coupe,Third-Party,2758570.3
+Toyota,Innova,2012,154186,Electric,Manual,Red,1,False,Bangalore,True,1.3,Coupe,Third-Party,956872.1
+Maruti Suzuki,Swift,2015,186702,Petrol,Manual,Red,2,True,Kolkata,False,3.3,SUV,,91994.7
+Audi,A4,2007,116492,Diesel,Manual,Silver,2,False,Chennai,False,1.0,Hatchback,Third-Party,3582526.2
+Ford,Fiesta,2003,190422,CNG,Manual,Red,1,True,Ahmedabad,True,2.7,Hatchback,Comprehensive,50000.0
+Tata,Nexon,2020,16712,CNG,Manual,Red,2,True,Kolkata,True,2.3,Wagon,Comprehensive,617493.2
+Ford,EcoSport,2024,86094,CNG,Automatic,Blue,2,False,Pune,False,4.3,Wagon,,737085.9
+Honda,City,2021,75568,CNG,Manual,White,3,False,Chennai,False,2.5,Convertible,Comprehensive,788664.8
+Hyundai,Creta,2024,106516,Diesel,Automatic,Silver,2,True,Chennai,False,4.3,SUV,Comprehensive,1454022.6
+Ford,EcoSport,2023,92597,Electric,Automatic,Black,3,False,Bangalore,True,1.2,Convertible,Comprehensive,686110.45
+Nissan,Terrano,2009,149180,Petrol,Automatic,Black,3,False,Ahmedabad,False,3.6,Wagon,,477623.0
+Honda,Civic,2020,64230,Electric,Automatic,Grey,2,False,Kolkata,True,2.9,Sedan,Comprehensive,390365.5
+Honda,City,2002,61462,CNG,Manual,Blue,3,False,Mumbai,False,3.1,Convertible,Comprehensive,50000.0
+Tata,Harrier,2018,156403,Petrol,Manual,Red,2,True,Delhi,False,1.1,Convertible,Comprehensive,1396539.55
+BMW,M3,2015,185070,Electric,Automatic,Black,1,False,Kolkata,False,2.5,Sedan,Third-Party,7002239.5
+Nissan,Kicks,2007,13612,Petrol,Automatic,Black,1,True,Ahmedabad,True,1.8,Hatchback,Third-Party,297958.2
+BMW,3 Series,2013,118707,Electric,Manual,Red,2,False,Delhi,False,4.8,Sedan,,3432193.95
+Hyundai,Elantra,2014,132847,Electric,Manual,Silver,2,False,Kolkata,False,3.8,Coupe,Third-Party,730072.95
+Honda,City,2022,10347,CNG,Manual,Black,1,False,Ahmedabad,True,3.3,Hatchback,Third-Party,828447.95
+Audi,Q5,2016,97110,Petrol,Manual,Blue,3,False,Chennai,False,4.3,Hatchback,,5535433.5
+Tata,Harrier,2020,12187,CNG,Manual,Silver,3,True,Kolkata,False,3.0,Coupe,Comprehensive,1468171.95
+Tata,Harrier,2013,185622,Electric,Manual,Grey,2,True,Delhi,True,4.1,Hatchback,Third-Party,1092156.7
+Maruti Suzuki,Dzire,2000,42795,Electric,Automatic,White,2,False,Hyderabad,True,3.0,Hatchback,Comprehensive,50000.0
+Audi,A6,2009,83988,Electric,Manual,Silver,2,False,Ahmedabad,True,2.5,Sedan,Third-Party,4637401.8
+BMW,M3,2023,160583,CNG,Automatic,Black,2,False,Mumbai,True,2.6,Coupe,Comprehensive,7375912.55
+Nissan,Terrano,2005,168653,Diesel,Automatic,White,2,False,Pune,False,4.5,Wagon,,274702.05
+Hyundai,Creta,2010,57301,Electric,Automatic,Red,2,False,Bangalore,False,3.1,Sedan,Comprehensive,791404.85
+Tata,Nexon,2008,16847,Petrol,Automatic,Red,1,False,Chennai,False,3.7,Hatchback,,77472.95
+Audi,A4,2007,22775,CNG,Automatic,Blue,3,True,Ahmedabad,False,2.8,Coupe,,3616583.75
+Audi,Q5,2008,143470,Petrol,Manual,Red,2,False,Mumbai,False,2.9,Sedan,Third-Party,5178479.5
+Nissan,Kicks,2020,139717,CNG,Automatic,Black,3,True,Kolkata,True,3.1,Convertible,,899042.45
+Toyota,Fortuner,2000,32517,CNG,Automatic,Blue,3,False,Chennai,False,1.2,Coupe,Third-Party,2245122.45
+Mercedes,E-Class,2014,173338,CNG,Manual,Grey,2,True,Pune,True,2.7,Sedan,Comprehensive,5893999.3
+Ford,EcoSport,2013,164875,Petrol,Manual,Red,2,False,Mumbai,True,4.3,Coupe,,175268.75
+Honda,Jazz,2024,139019,Petrol,Automatic,Blue,3,False,Kolkata,False,1.1,Wagon,Comprehensive,679147.15
+Toyota,Innova,2007,121495,Petrol,Manual,Black,2,True,Delhi,False,3.7,Hatchback,,751775.75
+Hyundai,Verna,2015,180717,Electric,Automatic,White,1,True,Bangalore,False,3.1,Wagon,,472892.45
+Maruti Suzuki,Dzire,2011,173138,Petrol,Manual,Blue,1,True,Mumbai,True,3.6,Hatchback,Third-Party,50000.0
+Honda,Civic,2019,76909,Petrol,Manual,Grey,1,True,Chennai,False,1.4,Wagon,Third-Party,438463.65
+Audi,A6,2024,105158,Electric,Automatic,White,2,False,Delhi,True,2.0,Coupe,,5434226.3
+Mercedes,S-Class,2010,88963,Petrol,Automatic,White,1,True,Bangalore,True,4.8,SUV,Third-Party,9286655.55
+Nissan,Terrano,2023,112937,Diesel,Manual,Black,3,False,Chennai,True,1.6,Sedan,Third-Party,1133059.45
+BMW,X5,2002,168478,Diesel,Automatic,Blue,3,True,Bangalore,False,2.5,Hatchback,Comprehensive,6894728.3
+Nissan,Magnite,2012,138214,Petrol,Manual,Silver,1,True,Mumbai,False,2.4,Convertible,Third-Party,50000.0
+Maruti Suzuki,Dzire,2010,135794,Diesel,Automatic,White,1,False,Chennai,True,3.8,Sedan,Third-Party,50000.0
+Toyota,Corolla,2003,67276,Electric,Automatic,White,3,True,Hyderabad,True,1.1,Hatchback,Third-Party,59908.600000000006
+BMW,M3,2023,177311,Diesel,Automatic,Red,3,True,Kolkata,False,4.5,Sedan,,7393403.35
+Honda,Civic,2019,34331,Electric,Automatic,White,1,True,Ahmedabad,True,4.7,Wagon,Comprehensive,394850.35
+Nissan,Kicks,2000,123664,CNG,Automatic,Black,1,False,Pune,False,2.1,SUV,,50000.0
+Tata,Harrier,2003,198568,Electric,Automatic,Red,1,False,Kolkata,True,1.2,Coupe,,550214.8
+Ford,EcoSport,2008,180155,CNG,Automatic,Black,3,True,Pune,True,3.0,Sedan,,50000.0
+Nissan,Magnite,2009,39439,Electric,Automatic,Silver,3,True,Kolkata,False,1.1,Coupe,Comprehensive,50000.0
+Tata,Nexon,2023,139092,Diesel,Manual,Grey,2,False,Mumbai,True,3.0,Wagon,Comprehensive,779136.2
+BMW,3 Series,2002,137808,Electric,Automatic,Red,1,True,Hyderabad,True,4.5,Hatchback,Comprehensive,2829328.8
+Nissan,Terrano,2002,47271,Petrol,Automatic,Red,2,True,Chennai,True,4.1,Sedan,Comprehensive,112909.35
+Maruti Suzuki,Swift,2012,74579,Electric,Manual,Blue,1,True,Bangalore,True,3.3,SUV,Comprehensive,50000.0
+Mercedes,S-Class,2002,28488,Electric,Manual,White,3,False,Pune,False,1.8,Hatchback,,8845726.8
+Audi,Q5,2015,170715,Diesel,Manual,Grey,2,False,Delhi,True,4.9,Sedan,Comprehensive,5474392.75
+Honda,City,2024,116472,Electric,Automatic,Red,1,True,Delhi,True,4.0,Sedan,Third-Party,982529.2
+Toyota,Corolla,2006,197594,CNG,Manual,Red,3,False,Delhi,True,1.1,Wagon,,220360.9
+Toyota,Corolla,2000,93066,Petrol,Automatic,Black,2,False,Bangalore,True,1.4,Convertible,Third-Party,50000.0
+Maruti Suzuki,Dzire,2001,124532,CNG,Automatic,Blue,3,False,Delhi,True,3.9,Coupe,Third-Party,50000.0
+Audi,Q5,2002,52105,Diesel,Automatic,Black,1,True,Hyderabad,True,2.9,Sedan,Comprehensive,4842184.25
+Maruti Suzuki,Dzire,2011,14253,Electric,Manual,Grey,1,True,Bangalore,True,1.5,Coupe,Comprehensive,50000.0
+Hyundai,Elantra,2016,42803,Electric,Automatic,Blue,1,False,Bangalore,False,4.6,Sedan,,923579.55
+Honda,Civic,2010,13594,Electric,Manual,Grey,3,True,Chennai,True,1.6,SUV,Third-Party,50000.0
+Audi,Q5,2015,72288,CNG,Automatic,White,3,True,Pune,True,2.0,Convertible,Third-Party,5459156.8
+BMW,M3,2007,27211,Diesel,Manual,Blue,2,True,Hyderabad,True,2.8,Wagon,Comprehensive,6565918.35
+Toyota,Innova,2015,123316,CNG,Automatic,Red,3,True,Hyderabad,True,2.0,Sedan,Comprehensive,1051502.6
+Audi,Q5,2000,114071,Petrol,Automatic,Red,3,True,Delhi,False,3.7,SUV,Third-Party,4802889.35
+Tata,Harrier,2023,19276,Electric,Manual,Blue,3,False,Ahmedabad,False,1.6,Hatchback,Comprehensive,1597108.6
+Maruti Suzuki,Vitara Brezza,2001,24778,Electric,Manual,Blue,2,True,Kolkata,True,4.8,SUV,,50000.0
+Ford,Fiesta,2017,184608,CNG,Manual,Grey,1,True,Bangalore,True,4.0,Sedan,,222308.8
+Toyota,Corolla,2017,59744,CNG,Automatic,Grey,2,True,Ahmedabad,False,2.2,Convertible,Comprehensive,811038.4
+Audi,Q5,2015,7934,Diesel,Manual,Red,2,True,Delhi,True,2.8,Coupe,Third-Party,5518809.9
+Nissan,Terrano,2019,180979,CNG,Automatic,Grey,1,True,Delhi,False,2.9,Coupe,Third-Party,1072853.15
+Audi,A4,2002,29620,Diesel,Manual,Red,1,False,Mumbai,False,2.1,Convertible,Third-Party,3425557.0
+Honda,Civic,2011,93950,Diesel,Automatic,Red,3,True,Ahmedabad,True,2.5,Hatchback,,50000.0
+Maruti Suzuki,Swift,2005,164339,Petrol,Manual,White,3,False,Chennai,True,1.4,Coupe,Third-Party,50000.0
+Audi,A4,2004,25394,Petrol,Manual,Blue,2,False,Bangalore,False,3.4,Wagon,Comprehensive,3496190.9
+Toyota,Corolla,2024,97080,Diesel,Automatic,Red,2,False,Mumbai,True,2.6,Coupe,Comprehensive,1135438.0
+Honda,Civic,2005,71005,CNG,Automatic,White,3,True,Ahmedabad,True,3.5,Sedan,,50000.0
+Audi,A4,2010,129088,Petrol,Automatic,White,2,True,Hyderabad,False,1.7,Hatchback,,3750636.8
+Nissan,Magnite,2016,50442,CNG,Automatic,White,2,True,Ahmedabad,True,2.7,Coupe,Comprehensive,112433.7
+Honda,Civic,2010,108215,CNG,Automatic,Grey,3,False,Mumbai,False,3.6,Wagon,Third-Party,50000.0
+Mercedes,S-Class,2001,178867,CNG,Automatic,Black,2,False,Kolkata,False,1.3,Sedan,Third-Party,8773169.95
+Mercedes,E-Class,2002,123092,CNG,Automatic,Red,2,False,Chennai,True,2.9,Hatchback,,5281536.2
+Mercedes,S-Class,2018,134170,Diesel,Manual,Grey,1,False,Chennai,True,3.3,Sedan,Comprehensive,9609874.5
+Nissan,Magnite,2013,63262,CNG,Manual,Blue,2,True,Chennai,True,1.5,SUV,Third-Party,50000.0
+Toyota,Corolla,2024,47028,CNG,Automatic,Grey,3,True,Chennai,False,4.7,Coupe,Comprehensive,1162945.8
+Toyota,Innova,2006,138933,Electric,Manual,White,1,False,Ahmedabad,True,4.9,Convertible,Third-Party,609160.05
+Honda,Civic,2018,125637,Electric,Manual,Silver,2,False,Chennai,True,3.5,Coupe,Third-Party,281154.45
+Ford,EcoSport,2011,151110,Electric,Manual,Silver,3,False,Pune,False,1.8,SUV,Comprehensive,77333.5
+Audi,Q5,2022,101024,Petrol,Automatic,White,3,True,Hyderabad,True,2.7,Convertible,,5804846.4
+Audi,Q5,2023,98666,Diesel,Manual,Black,2,False,Kolkata,False,3.0,Hatchback,Third-Party,5885200.1
+Hyundai,Verna,2011,30490,Petrol,Automatic,Silver,3,True,Chennai,False,4.1,Sedan,Comprehensive,215426.5
+BMW,X5,2007,91466,CNG,Automatic,Red,2,True,Ahmedabad,False,2.6,SUV,Comprehensive,7106280.1
+Audi,A4,2018,20207,Petrol,Manual,Black,1,True,Bangalore,False,4.7,Hatchback,Comprehensive,4246968.95
+Audi,A4,2003,186474,Diesel,Manual,Red,1,True,Ahmedabad,False,4.2,Wagon,,3422028.9
+Hyundai,Verna,2001,170731,Petrol,Manual,Blue,3,False,Kolkata,True,2.9,Wagon,Third-Party,50000.0
+Toyota,Corolla,2006,88371,Diesel,Manual,White,3,True,Pune,True,3.0,Sedan,,206744.35
+Honda,City,2001,13014,Diesel,Automatic,Black,1,False,Hyderabad,False,4.9,Hatchback,Comprehensive,50000.0
+Ford,EcoSport,2014,128802,Electric,Automatic,White,2,True,Bangalore,True,4.6,Coupe,,250679.7
+Ford,Fiesta,2000,7012,Diesel,Manual,White,2,False,Hyderabad,False,3.2,Convertible,Comprehensive,50000.0
+Hyundai,Elantra,2015,168064,Petrol,Manual,Grey,1,True,Pune,False,4.7,Coupe,,824790.4
+Mercedes,C-Class,2020,187966,Diesel,Automatic,Silver,1,True,Bangalore,True,1.7,Convertible,Third-Party,4771805.1
+Honda,Civic,2002,59850,Petrol,Automatic,Silver,1,True,Hyderabad,False,3.0,Sedan,Comprehensive,50000.0
+Honda,City,2019,28980,CNG,Manual,Silver,3,True,Delhi,False,3.4,Coupe,,765653.0
+Maruti Suzuki,Vitara Brezza,2008,21399,Petrol,Automatic,White,1,True,Delhi,False,4.3,Hatchback,Comprehensive,50000.0
+Nissan,Magnite,2013,95123,CNG,Automatic,Grey,2,True,Chennai,False,1.4,Wagon,,50000.0
+BMW,X5,2023,93566,Petrol,Automatic,Silver,1,True,Chennai,True,3.4,Coupe,Comprehensive,7885965.1
+Mercedes,S-Class,2003,49249,Petrol,Automatic,Black,2,False,Ahmedabad,True,3.5,Wagon,,8842612.65
+Honda,Civic,2007,5964,Diesel,Manual,Blue,3,True,Chennai,True,4.7,SUV,,50000.0
+Hyundai,Elantra,2004,19897,Electric,Manual,Black,1,False,Chennai,True,4.9,Sedan,Comprehensive,227015.45
+BMW,3 Series,2017,135524,Electric,Manual,Silver,3,True,Kolkata,True,1.7,Hatchback,Third-Party,3549671.4
+Honda,Jazz,2017,74083,Petrol,Automatic,White,1,True,Chennai,False,2.8,Sedan,Third-Party,388887.55
+Honda,Civic,2002,114975,Diesel,Automatic,Red,2,False,Pune,True,4.6,Convertible,Third-Party,50000.0
+Tata,Altroz,2010,171804,CNG,Manual,Blue,2,True,Bangalore,False,2.0,Wagon,Third-Party,50000.0
+Hyundai,Verna,2012,174045,CNG,Manual,Grey,1,False,Mumbai,False,4.4,Sedan,,303893.25
+Mercedes,E-Class,2008,6706,Diesel,Manual,Black,1,False,Chennai,True,2.5,Coupe,Comprehensive,5628994.1
+Hyundai,Verna,2007,48941,Petrol,Automatic,White,1,False,Kolkata,False,3.2,SUV,Third-Party,50000.0
+Toyota,Fortuner,2000,9339,Electric,Manual,Red,2,True,Chennai,True,1.2,Convertible,Third-Party,2218599.15
+Mercedes,E-Class,2021,126748,Diesel,Automatic,Grey,2,False,Chennai,True,3.5,Sedan,,6230987.8
+Nissan,Magnite,2004,65616,Diesel,Manual,Grey,1,True,Chennai,True,1.6,Coupe,Third-Party,50000.0
+Maruti Suzuki,Dzire,2017,71065,CNG,Automatic,Red,1,False,Bangalore,False,1.9,Coupe,,319340.25
+Hyundai,Elantra,2016,78029,Electric,Automatic,Black,3,True,Pune,True,4.3,Coupe,Comprehensive,808295.65
+Honda,Jazz,2014,30163,Electric,Automatic,Blue,1,False,Pune,False,4.4,Convertible,,225475.55
+Honda,Jazz,2008,66915,Diesel,Automatic,Black,1,True,Hyderabad,True,1.1,Hatchback,Third-Party,50000.0
+Toyota,Corolla,2000,78342,CNG,Automatic,Black,1,False,Pune,True,3.5,Coupe,,50000.0
+Hyundai,Creta,2013,172806,Electric,Automatic,Silver,3,False,Kolkata,False,1.5,SUV,Comprehensive,874079.1
+Maruti Suzuki,Swift,2011,27847,Diesel,Manual,Blue,1,False,Hyderabad,False,1.0,Hatchback,Third-Party,50000.0
+Ford,Fiesta,2017,8821,Petrol,Manual,Black,3,False,Pune,False,3.4,Wagon,Third-Party,198676.85
+Honda,City,2017,31349,Diesel,Manual,Black,3,False,Hyderabad,True,3.3,Sedan,Comprehensive,545297.65
+Honda,Civic,2021,107383,CNG,Manual,Black,1,True,Bangalore,False,2.6,Coupe,Comprehensive,583892.55
+Audi,A4,2013,86841,Petrol,Automatic,White,1,True,Mumbai,True,1.8,Coupe,Comprehensive,3936973.85
+Maruti Suzuki,Swift,2015,107919,Diesel,Manual,White,2,True,Mumbai,False,2.6,Coupe,,153812.15
+Audi,Q5,2008,81964,CNG,Manual,Grey,2,False,Mumbai,False,2.6,Sedan,Third-Party,5187705.4
+BMW,X5,2021,23853,Electric,Automatic,Blue,1,True,Hyderabad,False,2.3,SUV,,7846422.05
+Nissan,Kicks,2003,60638,Diesel,Automatic,Blue,3,False,Kolkata,True,4.4,SUV,,50000.0
+BMW,M3,2010,91851,CNG,Automatic,Silver,2,False,Delhi,False,4.0,Sedan,Third-Party,6786222.35
+Ford,Fiesta,2010,180650,CNG,Manual,Red,2,True,Kolkata,True,2.9,Sedan,,50000.0
+Toyota,Innova,2010,64109,Electric,Manual,Red,3,False,Pune,True,4.8,Sedan,Comprehensive,790383.65
+Tata,Nexon,2020,176085,CNG,Automatic,Red,1,False,Hyderabad,True,3.3,Wagon,Third-Party,603587.25
+Nissan,Kicks,2014,15857,Petrol,Automatic,Red,1,True,Hyderabad,True,4.3,SUV,Third-Party,647621.45
+Mercedes,C-Class,2015,17147,Petrol,Automatic,Grey,3,False,Ahmedabad,True,1.8,Hatchback,Comprehensive,4447427.95
+Hyundai,Elantra,2015,56121,Petrol,Manual,Black,2,True,Delhi,False,3.1,Sedan,Comprehensive,861581.85
+BMW,3 Series,2022,6417,Diesel,Manual,Red,1,False,Kolkata,False,2.3,Wagon,Third-Party,3879037.45
+Honda,Civic,2005,46478,Petrol,Manual,Black,2,False,Delhi,False,4.0,Coupe,Third-Party,50000.0
+BMW,X5,2001,36338,Petrol,Manual,White,2,True,Pune,True,1.1,Coupe,,6764549.3
+Mercedes,S-Class,2016,12188,CNG,Automatic,Silver,3,True,Mumbai,False,2.5,Wagon,Comprehensive,9618171.8
+Honda,Jazz,2012,157573,Diesel,Automatic,Blue,3,True,Ahmedabad,True,4.6,Hatchback,,50000.0
+Mercedes,E-Class,2008,182109,CNG,Automatic,White,1,False,Kolkata,True,4.3,Convertible,,5602683.65
+BMW,3 Series,2017,100048,Electric,Manual,Black,3,True,Delhi,False,3.8,Hatchback,Comprehensive,3654992.8
+Mercedes,S-Class,2023,173141,Diesel,Automatic,White,2,True,Hyderabad,True,2.0,Convertible,,9844028.85
+Hyundai,Elantra,2012,157013,Petrol,Manual,White,2,True,Mumbai,False,4.8,Coupe,Third-Party,696448.05
+Toyota,Fortuner,2011,12769,Diesel,Automatic,Black,1,False,Bangalore,True,4.3,SUV,Comprehensive,2828084.65
+Toyota,Fortuner,2019,73882,Electric,Automatic,Silver,2,False,Kolkata,True,4.2,Wagon,Comprehensive,3138917.7
+BMW,3 Series,2006,162246,CNG,Manual,Silver,3,True,Kolkata,True,3.5,Wagon,,2995663.1
+Mercedes,S-Class,2013,60917,Diesel,Automatic,White,3,True,Pune,False,1.2,Coupe,Comprehensive,9410862.45
+Mercedes,C-Class,2001,119106,Petrol,Automatic,Black,1,True,Chennai,True,4.4,Coupe,,3782134.1
+Toyota,Fortuner,2011,70960,Electric,Automatic,Black,2,True,Mumbai,False,1.3,Convertible,Third-Party,2859356.0
+Hyundai,Verna,2015,78422,Electric,Automatic,Black,2,True,Kolkata,True,4.1,Hatchback,Third-Party,358236.7
+Tata,Altroz,2023,17017,Diesel,Automatic,Blue,3,True,Kolkata,True,4.9,SUV,Comprehensive,467447.45
+Toyota,Innova,2000,8229,Electric,Automatic,Silver,1,False,Bangalore,False,4.4,Coupe,Comprehensive,428765.65
+Audi,A4,2013,28533,CNG,Manual,Silver,1,False,Bangalore,True,3.5,Convertible,,3925720.05
+Maruti Suzuki,Vitara Brezza,2009,131697,Electric,Automatic,Silver,3,True,Bangalore,False,4.9,Wagon,,50245.45
+Nissan,Magnite,2023,81125,CNG,Manual,White,3,False,Chennai,False,3.3,Wagon,Third-Party,487831.25
+Mercedes,C-Class,2014,34776,Electric,Automatic,Silver,3,True,Hyderabad,False,4.3,Sedan,Comprehensive,4464783.6
+BMW,M3,2020,186781,Petrol,Manual,Silver,3,True,Bangalore,True,1.4,Hatchback,Third-Party,7241982.85
+Tata,Altroz,2004,13656,Petrol,Automatic,Red,2,True,Mumbai,True,4.2,Convertible,Comprehensive,50000.0
+Maruti Suzuki,Swift,2006,29281,Diesel,Manual,Silver,2,False,Pune,False,1.5,Hatchback,,50000.0
+Audi,A4,2010,136216,Diesel,Automatic,White,3,True,Kolkata,True,3.8,SUV,,3699567.6
+Toyota,Innova,2011,108601,Diesel,Automatic,Blue,3,True,Chennai,True,4.0,SUV,,853709.85
+Hyundai,Creta,2016,73760,Diesel,Automatic,White,3,False,Delhi,True,2.4,Sedan,Comprehensive,1038936.0
+Maruti Suzuki,Dzire,2016,100587,Diesel,Manual,Grey,1,True,Pune,True,1.6,Wagon,Third-Party,184911.95
+Mercedes,S-Class,2024,156922,CNG,Manual,Silver,1,True,Chennai,False,4.4,Convertible,Third-Party,9976461.7
+Toyota,Innova,2009,103944,CNG,Automatic,Blue,2,False,Hyderabad,False,1.1,SUV,Third-Party,784408.4
+Audi,Q5,2001,195268,Electric,Automatic,White,2,False,Mumbai,True,5.0,Wagon,,4770709.8
+Nissan,Kicks,2004,180405,Electric,Manual,Red,1,True,Hyderabad,True,3.2,SUV,Third-Party,122939.25
+Toyota,Fortuner,2011,175851,Diesel,Manual,White,2,True,Kolkata,True,3.9,SUV,,2743622.35
+Ford,EcoSport,2017,171170,Diesel,Automatic,Blue,1,True,Chennai,True,3.1,Hatchback,,374324.5
+Mercedes,C-Class,2015,197143,CNG,Manual,Red,2,False,Kolkata,False,3.0,Coupe,,4470428.55
+Honda,Jazz,2018,72129,Electric,Automatic,Black,3,False,Hyderabad,False,4.8,SUV,Third-Party,389180.65
+Ford,Fiesta,2023,180872,Diesel,Automatic,Silver,2,False,Hyderabad,True,2.3,Hatchback,Comprehensive,422869.2
+Tata,Nexon,2020,57010,Diesel,Manual,Grey,3,False,Kolkata,True,3.0,Coupe,Comprehensive,591448.5
+Ford,Endeavour,2020,34967,Diesel,Manual,Black,3,True,Bangalore,True,5.0,SUV,,2764754.95
+Honda,City,2005,62883,Electric,Manual,Blue,2,True,Kolkata,False,1.8,Convertible,,50000.0
+BMW,X5,2001,169080,Electric,Manual,Black,2,True,Bangalore,False,3.0,Wagon,Third-Party,6844638.0
+Tata,Nexon,2021,167673,Petrol,Automatic,White,1,False,Kolkata,True,2.5,Hatchback,,654849.05
+Tata,Altroz,2017,49712,Electric,Manual,Silver,2,False,Delhi,True,2.5,Hatchback,,192543.2
+Honda,City,2009,80872,Diesel,Manual,White,2,False,Delhi,True,3.9,Hatchback,Third-Party,187869.2
+Audi,Q5,2015,189462,CNG,Automatic,Black,1,True,Kolkata,False,3.7,Wagon,,5521580.7
+Hyundai,Elantra,2005,132852,Diesel,Manual,White,1,False,Hyderabad,False,2.9,Sedan,Comprehensive,310072.2
+Honda,Civic,2016,66720,Electric,Manual,Silver,1,False,Chennai,True,1.4,SUV,Comprehensive,219992.0
+Honda,Civic,2010,62895,Electric,Automatic,Blue,1,False,Ahmedabad,False,2.5,Sedan,Comprehensive,50000.0
+Honda,City,2008,5344,Petrol,Automatic,Black,2,True,Mumbai,False,3.6,Convertible,,219198.4
+Ford,Fiesta,2001,22097,Diesel,Automatic,Black,3,True,Mumbai,True,4.6,Hatchback,Third-Party,50000.0
+Audi,A6,2014,166227,CNG,Manual,Silver,3,True,Bangalore,False,1.3,SUV,Comprehensive,4995065.95
+Maruti Suzuki,Dzire,2000,9331,Electric,Automatic,Grey,3,False,Hyderabad,False,2.8,SUV,Comprehensive,50000.0
+Nissan,Terrano,2020,73402,Petrol,Automatic,Grey,1,True,Chennai,False,1.6,SUV,Third-Party,1088989.7
+Toyota,Corolla,2023,167671,Petrol,Manual,Grey,3,True,Mumbai,False,2.5,Coupe,,1144849.35
+Audi,Q5,2021,17344,CNG,Automatic,Black,3,False,Delhi,True,1.5,SUV,Third-Party,5797398.4
+Honda,Civic,2010,128464,Electric,Manual,Blue,3,False,Kolkata,True,3.2,Coupe,Comprehensive,50000.0
+Honda,Jazz,2013,36739,Petrol,Automatic,Black,3,True,Chennai,False,1.7,Sedan,,164489.15
+Honda,City,2011,50528,Electric,Automatic,Grey,2,False,Pune,True,1.1,Sedan,,242420.8
+Mercedes,S-Class,2009,111975,CNG,Automatic,Black,1,True,Mumbai,False,2.2,Hatchback,Comprehensive,9283203.75
+Maruti Suzuki,Dzire,2012,101292,Petrol,Manual,Red,2,False,Delhi,True,1.0,SUV,,50000.0
+Honda,Civic,2018,116895,Petrol,Manual,Silver,1,True,Hyderabad,False,4.4,SUV,,382465.75
+BMW,X5,2006,87644,Diesel,Manual,Blue,2,True,Mumbai,True,2.4,Wagon,Comprehensive,7056853.4
+Maruti Suzuki,Swift,2022,190640,Petrol,Manual,Silver,3,True,Hyderabad,True,5.0,Hatchback,Comprehensive,391404.0
+BMW,X5,2014,127562,Diesel,Manual,White,3,True,Chennai,False,2.3,Coupe,Comprehensive,7450865.7
+Nissan,Kicks,2022,49666,Petrol,Automatic,Silver,1,True,Chennai,False,4.4,Wagon,,1092550.1
+Honda,City,2017,38581,Petrol,Manual,White,2,False,Delhi,False,3.1,Coupe,Third-Party,644212.85
+Nissan,Terrano,2002,199863,CNG,Automatic,White,1,False,Hyderabad,False,5.0,Coupe,Comprehensive,150020.55
+Hyundai,Creta,2015,94268,Diesel,Manual,Black,3,True,Chennai,False,4.4,Hatchback,Comprehensive,1005859.8
+Maruti Suzuki,Vitara Brezza,2015,29173,Petrol,Manual,Red,1,True,Kolkata,True,2.4,Wagon,Third-Party,295624.05
+Toyota,Fortuner,2015,5304,Electric,Manual,Blue,3,True,Mumbai,True,2.9,Wagon,,3019204.4
+Honda,Jazz,2011,106114,Diesel,Automatic,Silver,3,False,Bangalore,False,3.0,Convertible,Third-Party,84082.9
+Tata,Nexon,2006,90784,Diesel,Automatic,White,2,False,Chennai,False,1.3,Convertible,Comprehensive,50000.0
+Hyundai,Verna,2000,134537,Petrol,Automatic,Red,2,False,Chennai,False,2.0,Coupe,,50000.0
+Toyota,Corolla,2023,20616,Electric,Manual,Grey,1,False,Delhi,True,4.2,Sedan,Comprehensive,1126907.6
+Toyota,Innova,2011,132167,Electric,Manual,Blue,1,True,Bangalore,True,3.7,Coupe,,930174.95
+Honda,Jazz,2013,124873,Petrol,Automatic,Silver,3,False,Ahmedabad,False,2.3,SUV,Comprehensive,131269.05
+BMW,X5,2012,74745,CNG,Automatic,Blue,1,True,Chennai,False,2.9,Convertible,Third-Party,7388788.25
+Honda,City,2014,82249,Petrol,Automatic,White,3,False,Hyderabad,False,2.2,Sedan,Comprehensive,437662.65
+BMW,3 Series,2003,21461,CNG,Automatic,Grey,2,False,Chennai,True,2.9,Hatchback,Comprehensive,2846780.85
+Toyota,Fortuner,2008,60567,CNG,Manual,White,1,False,Ahmedabad,False,2.6,SUV,,2670914.95
+Audi,Q5,2019,135596,Diesel,Manual,Grey,3,True,Mumbai,True,1.0,Convertible,Comprehensive,5699660.6
+BMW,X5,2020,117960,CNG,Automatic,Blue,1,True,Mumbai,True,3.6,SUV,Comprehensive,7782306.0
+Honda,Civic,2019,121090,Electric,Manual,Black,1,False,Bangalore,False,3.4,SUV,,461836.5
+Nissan,Terrano,2009,35443,Diesel,Manual,White,1,False,Hyderabad,True,3.0,Coupe,Comprehensive,474683.5500000001
+BMW,M3,2024,41023,Petrol,Manual,Blue,1,False,Pune,True,1.8,SUV,Comprehensive,7423846.55
+BMW,X5,2016,129752,Petrol,Automatic,White,2,True,Kolkata,False,2.2,Convertible,,7550537.2
+Tata,Harrier,2019,148197,Electric,Automatic,White,3,True,Hyderabad,False,3.4,Sedan,Third-Party,1397770.45
+Tata,Nexon,2013,145389,Electric,Automatic,Blue,3,True,Bangalore,True,3.1,Convertible,Comprehensive,298191.65
+BMW,X5,2015,142204,Diesel,Manual,Grey,3,True,Pune,False,3.1,Coupe,,7498669.4
+Maruti Suzuki,Dzire,2004,178911,Diesel,Manual,Silver,3,True,Delhi,False,1.8,Sedan,,50000.0
+Tata,Nexon,2018,28018,Electric,Automatic,White,2,True,Ahmedabad,True,3.6,Sedan,Comprehensive,515797.3000000001
+BMW,3 Series,2007,66017,Electric,Automatic,Grey,1,True,Chennai,False,1.4,Hatchback,,3140097.45
+Honda,City,2019,180555,CNG,Automatic,White,1,True,Mumbai,True,5.0,Coupe,Comprehensive,722916.75
+Honda,Jazz,2003,67219,Diesel,Manual,Blue,3,False,Mumbai,True,1.6,Hatchback,,50000.0
+Ford,Endeavour,2023,160332,Petrol,Manual,Black,3,False,Ahmedabad,False,1.2,Hatchback,,2875950.2
+BMW,X5,2014,160602,CNG,Automatic,White,3,True,Pune,False,3.3,Wagon,,7445909.7
+Audi,Q5,2006,11855,Electric,Manual,Silver,3,False,Bangalore,True,4.0,Sedan,Third-Party,5048221.75
+Toyota,Corolla,2002,180088,Electric,Automatic,Blue,2,False,Kolkata,True,4.7,Wagon,Comprehensive,50000.0
+Nissan,Kicks,2005,61938,CNG,Manual,Black,2,False,Hyderabad,False,4.8,Hatchback,,190709.3
+Honda,Civic,2003,41588,CNG,Automatic,Silver,1,False,Kolkata,False,3.2,Sedan,Third-Party,50000.0
+Nissan,Kicks,2000,124173,Electric,Automatic,Grey,3,True,Chennai,False,1.8,Sedan,Comprehensive,50000.0
+Toyota,Innova,2003,181603,CNG,Manual,Black,1,True,Mumbai,False,4.3,Convertible,,572759.55
+Mercedes,S-Class,2002,180250,Petrol,Manual,White,2,True,Kolkata,True,1.4,Hatchback,Third-Party,8792962.5
+Hyundai,Elantra,2006,185819,Diesel,Manual,Silver,2,True,Ahmedabad,True,2.5,Convertible,Third-Party,292127.15
+BMW,M3,2008,83949,Diesel,Manual,Silver,3,False,Chennai,False,4.0,Convertible,,6637407.65
+Audi,A4,2003,95199,Electric,Manual,Silver,2,True,Kolkata,True,3.5,Coupe,Comprehensive,3355720.15
+Toyota,Fortuner,2005,199334,Petrol,Automatic,White,3,True,Delhi,True,2.2,Convertible,,2490099.9
+Mercedes,E-Class,2017,17539,Electric,Manual,Black,1,False,Chennai,False,2.7,Wagon,Third-Party,6127369.15
+Ford,Fiesta,2003,131163,CNG,Manual,Silver,2,False,Delhi,False,2.4,Sedan,Comprehensive,50000.0
+Mercedes,C-Class,2018,90098,Diesel,Automatic,Red,1,False,Chennai,True,1.6,Convertible,,4616485.3
+Honda,Jazz,2000,91733,Electric,Manual,Grey,3,True,Ahmedabad,True,1.1,Sedan,Third-Party,50000.0
+Honda,City,2000,182161,Diesel,Automatic,Red,3,False,Mumbai,False,2.1,Wagon,Third-Party,50000.0
+Honda,Civic,2007,107494,Petrol,Manual,Black,1,True,Bangalore,False,1.8,Sedan,,50000.0
+Mercedes,E-Class,2014,176604,Petrol,Automatic,Black,3,False,Hyderabad,False,2.6,Sedan,Comprehensive,5923509.4
+Audi,A4,2015,164161,Diesel,Automatic,Red,1,True,Bangalore,True,1.9,Coupe,Comprehensive,4025375.85
+Nissan,Terrano,2012,150631,Petrol,Automatic,Silver,3,False,Ahmedabad,True,3.8,Wagon,Comprehensive,577405.35
+Nissan,Kicks,2001,22047,Electric,Manual,Black,3,True,Ahmedabad,False,1.1,Coupe,,50000.0
+Toyota,Fortuner,2017,151471,Petrol,Manual,Grey,3,False,Pune,False,2.9,Hatchback,,3077279.35
+BMW,X5,2000,16537,Diesel,Manual,Silver,1,True,Ahmedabad,True,2.9,Coupe,Comprehensive,6747519.45
+Tata,Harrier,2002,86066,Petrol,Automatic,Black,3,True,Kolkata,True,4.3,Wagon,,507090.1
+Maruti Suzuki,Swift,2007,139074,Electric,Manual,Grey,2,False,Delhi,True,1.2,Hatchback,,50000.0
+Toyota,Innova,2007,133137,Diesel,Manual,Silver,1,True,Chennai,False,3.5,Coupe,,730029.45
+Hyundai,Elantra,2008,173273,CNG,Automatic,Grey,2,False,Mumbai,False,3.3,Convertible,Comprehensive,474009.05
+Mercedes,C-Class,2000,38826,Diesel,Manual,Silver,1,True,Chennai,False,3.2,Hatchback,,3794176.1
+Hyundai,Verna,2005,199289,Electric,Automatic,Red,3,True,Hyderabad,True,1.5,Sedan,,50000.0
+Tata,Altroz,2018,121315,CNG,Automatic,Silver,1,True,Hyderabad,False,3.6,Wagon,Comprehensive,281802.75
+Maruti Suzuki,Swift,2016,34738,CNG,Automatic,Silver,1,False,Chennai,True,1.7,Sedan,,124789.3
+Maruti Suzuki,Vitara Brezza,2018,175127,Petrol,Automatic,Blue,2,True,Mumbai,True,4.5,Coupe,,443730.95
+Ford,Fiesta,2012,19851,Electric,Manual,Black,2,False,Pune,False,2.7,Convertible,,50000.0
+Ford,Fiesta,2015,105852,Petrol,Automatic,Black,3,True,Mumbai,True,1.0,SUV,,104122.2
+Nissan,Terrano,2017,67794,Diesel,Manual,Red,2,True,Bangalore,False,4.0,Hatchback,Third-Party,959830.9
+Nissan,Kicks,2005,87371,Diesel,Automatic,Red,3,True,Chennai,True,3.5,Wagon,Third-Party,156894.35
+Hyundai,Verna,2005,127451,Diesel,Manual,White,1,False,Bangalore,True,3.3,Convertible,Third-Party,50000.0
+Nissan,Kicks,2020,150298,Petrol,Manual,Silver,3,False,Hyderabad,False,1.6,Coupe,Third-Party,927455.3
+Toyota,Innova,2018,75844,Diesel,Automatic,Blue,3,True,Kolkata,False,1.9,Wagon,,1258623.4
+Ford,EcoSport,2007,72277,Electric,Automatic,Blue,1,True,Mumbai,True,1.3,Convertible,Third-Party,50000.0
+Ford,Fiesta,2003,96145,Petrol,Automatic,Black,1,False,Chennai,True,4.2,SUV,Third-Party,50000.0
+Honda,Jazz,2008,169682,Petrol,Manual,Grey,3,False,Kolkata,False,1.3,Convertible,,50000.0
+Hyundai,Verna,2014,170546,Electric,Manual,Black,3,False,Delhi,False,1.3,Hatchback,,374418.1
+Tata,Harrier,2002,192803,CNG,Automatic,Blue,3,True,Kolkata,False,2.8,Sedan,Comprehensive,541079.55
+BMW,3 Series,2017,165877,Petrol,Automatic,Grey,3,False,Ahmedabad,True,2.3,SUV,Third-Party,3525118.45
+Audi,Q5,2024,54133,Diesel,Manual,White,3,True,Chennai,True,2.6,Coupe,Comprehensive,5911880.05
+Toyota,Innova,2011,146098,Diesel,Automatic,Grey,3,True,Chennai,True,2.7,Sedan,,848085.3
+Mercedes,S-Class,2020,180447,Diesel,Automatic,Blue,2,True,Chennai,True,1.3,Hatchback,Third-Party,9692932.95
+Tata,Nexon,2000,149735,Petrol,Manual,Silver,2,True,Pune,True,1.9,Wagon,Third-Party,50000.0
+Honda,Jazz,2010,143430,CNG,Automatic,Blue,1,True,Bangalore,False,3.4,SUV,Third-Party,78485.5
+BMW,X5,2017,73968,CNG,Automatic,Black,2,False,Delhi,False,1.8,Sedan,,7638904.8
+Mercedes,S-Class,2005,181554,Electric,Manual,Black,1,True,Chennai,True,3.3,Coupe,Comprehensive,8972766.9
+Tata,Nexon,2016,54166,Electric,Manual,Blue,2,False,Mumbai,True,1.6,Hatchback,Comprehensive,441875.1
+Maruti Suzuki,Dzire,2005,182018,Diesel,Automatic,Silver,3,False,Delhi,True,4.8,Wagon,Comprehensive,50000.0
+Nissan,Kicks,2018,157936,Petrol,Manual,Black,2,True,Kolkata,False,4.3,Wagon,Third-Party,846309.6
+Toyota,Corolla,2002,178877,Diesel,Automatic,Silver,1,True,Hyderabad,True,1.2,SUV,Third-Party,50000.0
+Hyundai,Creta,2008,44008,Electric,Manual,Red,1,True,Hyderabad,False,2.7,Coupe,Comprehensive,693398.8
+Mercedes,S-Class,2013,76203,Electric,Automatic,Black,2,True,Pune,False,3.8,Sedan,Comprehensive,9408569.55
+BMW,X5,2021,171302,Petrol,Manual,Red,2,False,Pune,True,1.2,Convertible,Comprehensive,7724304.7
+Nissan,Kicks,2016,68459,Petrol,Manual,White,2,False,Chennai,True,4.1,Convertible,Third-Party,689731.15
+Ford,EcoSport,2009,109615,Diesel,Automatic,Blue,3,False,Ahmedabad,True,4.1,Coupe,Third-Party,50000.0
+Ford,EcoSport,2021,5538,Electric,Manual,Blue,1,True,Pune,True,1.3,Wagon,Third-Party,599169.3
+Audi,A4,2012,152842,CNG,Manual,Silver,3,True,Chennai,False,4.9,Wagon,Comprehensive,3847073.7
+Ford,Fiesta,2019,199736,Electric,Automatic,Blue,1,False,Mumbai,False,2.6,SUV,,350039.6
+Tata,Nexon,2021,129886,Petrol,Automatic,Grey,3,False,Pune,True,2.2,Wagon,,630517.1
+Ford,EcoSport,2002,160365,Petrol,Automatic,Black,3,False,Chennai,False,1.2,Convertible,Comprehensive,50000.0
+Maruti Suzuki,Swift,2012,196088,Petrol,Manual,White,1,False,Delhi,False,3.4,Coupe,Comprehensive,50000.0
+Ford,Fiesta,2013,96963,Electric,Automatic,Silver,2,True,Mumbai,True,1.5,Convertible,,50000.0
+Mercedes,E-Class,2023,38910,Electric,Automatic,Red,1,True,Delhi,False,4.1,Sedan,Comprehensive,6494163.5
+Toyota,Innova,2013,39882,Electric,Manual,Blue,3,False,Ahmedabad,True,1.8,SUV,,944017.7
+Hyundai,Verna,2001,45126,CNG,Manual,Black,1,False,Ahmedabad,True,3.7,Sedan,,50000.0
+Audi,Q5,2024,164359,Petrol,Automatic,Silver,2,False,Ahmedabad,False,2.8,Wagon,Comprehensive,5925346.15
+Nissan,Kicks,2021,104875,Petrol,Manual,Blue,3,False,Mumbai,True,3.2,SUV,,984268.75
+BMW,M3,2023,130010,Electric,Automatic,Red,2,False,Hyderabad,True,4.5,Convertible,,7330498.5
+Mercedes,S-Class,2010,15104,Electric,Manual,Silver,2,True,Pune,True,1.8,Sedan,,9217734.4
+Tata,Nexon,2017,109345,Petrol,Manual,Blue,1,False,Hyderabad,True,2.5,Hatchback,Comprehensive,463598.25
+BMW,3 Series,2019,189621,Petrol,Automatic,Grey,3,False,Bangalore,True,2.4,Coupe,Comprehensive,3671556.85
+Maruti Suzuki,Swift,2006,65428,CNG,Manual,Red,1,True,Ahmedabad,False,1.0,Wagon,,50000.0
+Mercedes,E-Class,2014,121732,Diesel,Automatic,Silver,3,True,Pune,True,5.0,Wagon,,5901740.2
+Maruti Suzuki,Vitara Brezza,2021,186935,Electric,Manual,Blue,2,False,Delhi,True,1.6,Hatchback,Comprehensive,571959.75
+Audi,A4,2022,118153,Electric,Manual,Silver,2,False,Kolkata,True,2.9,Hatchback,,4282277.05
+Tata,Harrier,2018,110855,Petrol,Manual,White,1,True,Hyderabad,True,3.9,Coupe,,1333371.75
+Mercedes,E-Class,2005,61172,Electric,Automatic,Silver,1,False,Bangalore,True,1.0,Convertible,Third-Party,5520824.2
+Ford,Endeavour,2004,195389,Diesel,Manual,Silver,3,True,Delhi,False,1.6,Coupe,Third-Party,1990691.65
+Audi,A6,2014,46887,Diesel,Automatic,Red,1,True,Ahmedabad,False,4.3,Hatchback,Comprehensive,4992966.95
+Toyota,Innova,2003,120354,Petrol,Manual,Blue,2,True,Chennai,False,4.0,Wagon,,501946.9
+Nissan,Magnite,2024,30992,Petrol,Manual,White,1,False,Kolkata,True,3.1,Hatchback,,525351.2
+BMW,3 Series,2012,31937,CNG,Automatic,Black,3,False,Kolkata,True,2.8,Sedan,,3295209.45
+Maruti Suzuki,Vitara Brezza,2002,73633,Diesel,Automatic,Grey,1,False,Mumbai,False,2.1,Hatchback,Comprehensive,50000.0
+Nissan,Terrano,2007,86677,Electric,Manual,Silver,2,True,Hyderabad,True,2.9,Convertible,,356998.45
+Mercedes,C-Class,2021,27975,Diesel,Manual,Silver,2,True,Hyderabad,False,2.6,Convertible,Third-Party,4815803.75
+Hyundai,Elantra,2022,116183,Diesel,Automatic,Red,1,False,Bangalore,False,2.0,SUV,,1212572.55
+Maruti Suzuki,Dzire,2020,169172,CNG,Manual,Silver,3,False,Kolkata,False,2.8,SUV,Third-Party,374624.2
+Mercedes,S-Class,2009,166044,Electric,Automatic,Silver,2,False,Kolkata,True,3.0,Hatchback,Comprehensive,9125093.4
+Hyundai,Creta,2004,193896,CNG,Manual,Blue,1,True,Bangalore,False,3.6,Convertible,Third-Party,520915.6
+Maruti Suzuki,Vitara Brezza,2014,32239,Electric,Automatic,White,1,False,Kolkata,False,3.4,SUV,,275164.15
+Hyundai,Elantra,2006,80182,Diesel,Manual,Grey,3,False,Delhi,False,3.7,Sedan,Comprehensive,387972.7
+Maruti Suzuki,Vitara Brezza,2016,22204,Diesel,Automatic,White,1,True,Kolkata,False,2.5,Sedan,Third-Party,396669.4
+Maruti Suzuki,Dzire,2013,53125,Diesel,Manual,White,2,True,Mumbai,False,1.5,Sedan,,112031.25
+Maruti Suzuki,Swift,2004,65066,CNG,Manual,Silver,3,False,Delhi,False,4.6,Hatchback,Third-Party,50000.0
+BMW,3 Series,2012,74424,CNG,Automatic,Grey,3,True,Pune,True,3.6,Sedan,Comprehensive,3308836.4
+Ford,Fiesta,2011,48432,Petrol,Automatic,Red,1,False,Kolkata,False,3.3,SUV,,50000.0
+Hyundai,Verna,2019,138050,Petrol,Automatic,Blue,3,True,Kolkata,False,3.2,Wagon,,599292.5
+Ford,Endeavour,2001,6103,Diesel,Manual,Blue,3,False,Ahmedabad,True,3.9,Hatchback,,1749084.55
+Mercedes,C-Class,2001,78989,Diesel,Manual,Black,3,False,Chennai,False,4.0,SUV,Comprehensive,3788151.65
+Ford,Endeavour,2004,63321,Electric,Automatic,Red,3,False,Hyderabad,True,3.9,Convertible,,1890501.85
+BMW,X5,2009,164750,Diesel,Automatic,Blue,1,True,Ahmedabad,True,4.4,Wagon,Third-Party,7175287.5
+Hyundai,Elantra,2009,77041,Electric,Manual,Black,2,False,Hyderabad,True,2.6,Coupe,Comprehensive,438443.85
+Toyota,Innova,2020,133543,Diesel,Automatic,Black,2,False,Pune,True,2.2,Hatchback,Third-Party,1279968.55
+BMW,X5,2019,109411,CNG,Manual,Blue,3,True,Mumbai,True,4.5,Coupe,Third-Party,7703588.35
+Hyundai,Elantra,2019,22037,CNG,Automatic,Black,1,True,Chennai,True,4.2,Hatchback,,996694.45
+Audi,A6,2008,26670,CNG,Automatic,White,2,True,Kolkata,False,4.9,Sedan,,4665999.5
+Mercedes,E-Class,2007,115449,Diesel,Manual,Grey,3,False,Mumbai,False,2.1,SUV,,5632682.65
+Hyundai,Elantra,2013,178780,Petrol,Manual,Blue,3,False,Ahmedabad,False,2.8,Hatchback,Third-Party,673183.0
+Tata,Harrier,2004,91508,Electric,Manual,White,2,False,Mumbai,False,4.8,Wagon,Third-Party,686273.8
+Mercedes,E-Class,2003,86199,Petrol,Manual,Red,3,False,Delhi,True,4.3,Wagon,,5387070.15
+Audi,Q5,2016,170048,Diesel,Manual,Grey,2,True,Chennai,False,3.6,Coupe,Third-Party,5544492.8
+Ford,Endeavour,2021,170956,Petrol,Automatic,Red,1,True,Hyderabad,True,2.8,Convertible,,2774356.6
+Audi,A4,2007,142144,Electric,Manual,Red,3,False,Mumbai,True,2.1,Coupe,Comprehensive,3578678.4
+Honda,City,2003,30778,Diesel,Manual,White,3,False,Ahmedabad,True,3.9,Coupe,Comprehensive,50000.0
+Ford,EcoSport,2008,152977,Petrol,Manual,Black,1,False,Delhi,True,3.3,Sedan,Comprehensive,50000.0
+Honda,Jazz,2016,137653,Electric,Automatic,Blue,2,False,Bangalore,True,4.1,Coupe,Third-Party,279352.05
+Ford,Endeavour,2019,147870,Diesel,Manual,Blue,1,False,Pune,False,2.5,SUV,Third-Party,2707819.5
+Mercedes,S-Class,2019,80223,Diesel,Manual,White,3,False,Bangalore,True,4.2,Hatchback,,9687966.55
+Toyota,Corolla,2017,182348,CNG,Manual,Black,2,True,Ahmedabad,False,2.1,SUV,Third-Party,792647.8
+Hyundai,Elantra,2010,83624,Petrol,Automatic,Black,1,True,Pune,False,2.3,SUV,Comprehensive,587456.4
+Audi,A6,2015,67188,Electric,Automatic,Blue,1,False,Chennai,False,4.9,Sedan,Comprehensive,5019921.8
+Tata,Nexon,2010,135375,Diesel,Automatic,Black,3,True,Bangalore,False,1.8,Hatchback,,199693.75
+Toyota,Corolla,2019,163277,Diesel,Automatic,Blue,2,True,Hyderabad,True,3.9,Coupe,,845508.45
+Tata,Altroz,2022,13974,Electric,Automatic,White,1,False,Pune,False,3.6,Wagon,Third-Party,477903.9
+Hyundai,Creta,2005,167591,Diesel,Automatic,Red,1,False,Bangalore,False,3.6,Convertible,Third-Party,554861.35
+Ford,Fiesta,2008,65759,CNG,Automatic,Blue,2,False,Ahmedabad,True,3.2,Wagon,Comprehensive,50000.0
+Maruti Suzuki,Dzire,2005,66579,Electric,Manual,Grey,3,False,Mumbai,True,4.3,SUV,,50000.0
+Ford,EcoSport,2017,19544,Petrol,Manual,Blue,1,True,Mumbai,False,1.0,Convertible,,497068.4
+Hyundai,Creta,2022,102827,CNG,Manual,White,2,True,Kolkata,False,2.2,Coupe,,1354575.95
+Ford,EcoSport,2014,20160,Diesel,Automatic,Red,3,False,Kolkata,False,1.7,Hatchback,,246976.0
+Maruti Suzuki,Swift,2024,14612,Petrol,Manual,Silver,3,False,Ahmedabad,True,4.9,SUV,Comprehensive,497808.2
+Tata,Altroz,2003,77367,Petrol,Manual,Silver,3,False,Kolkata,False,1.5,Coupe,Third-Party,50000.0
+Mercedes,E-Class,2009,149960,Electric,Automatic,Black,3,False,Ahmedabad,True,4.6,Coupe,,5627506.0
+Maruti Suzuki,Vitara Brezza,2019,162599,Petrol,Automatic,Red,1,True,Ahmedabad,False,1.9,Hatchback,Third-Party,525610.15
+Ford,Endeavour,2020,134439,Petrol,Automatic,Silver,3,False,Delhi,True,1.2,SUV,Comprehensive,2729834.15
+Hyundai,Elantra,2013,43210,CNG,Automatic,Red,1,False,Kolkata,False,2.5,Wagon,Third-Party,723518.5
+Maruti Suzuki,Vitara Brezza,2006,169518,Electric,Manual,White,2,True,Kolkata,True,1.4,Wagon,Comprehensive,50000.0
+Nissan,Magnite,2001,113776,Diesel,Automatic,Red,3,False,Hyderabad,True,4.4,Sedan,Comprehensive,50000.0
+Hyundai,Verna,2014,6968,CNG,Automatic,Black,3,False,Pune,True,2.5,Sedan,Comprehensive,298954.8
+Honda,Civic,2013,33066,CNG,Automatic,Silver,2,False,Mumbai,False,2.7,Wagon,,145040.1
+Ford,Endeavour,2010,46658,Electric,Automatic,White,3,True,Ahmedabad,True,2.1,Wagon,,2213001.3
+Maruti Suzuki,Vitara Brezza,2008,61691,CNG,Manual,White,1,False,Mumbai,False,4.1,Wagon,,50000.0
+Mercedes,C-Class,2021,74589,Diesel,Automatic,White,2,True,Ahmedabad,False,4.5,Coupe,Comprehensive,4808811.65
+Mercedes,C-Class,2014,86171,CNG,Manual,Red,3,True,Delhi,False,1.7,Sedan,Comprehensive,4507074.35
+Nissan,Terrano,2009,119798,Electric,Automatic,Black,1,False,Pune,False,4.2,Wagon,Comprehensive,512030.3000000001
+Maruti Suzuki,Vitara Brezza,2001,36763,Electric,Automatic,White,2,False,Hyderabad,True,2.0,Hatchback,,50000.0
+Ford,Endeavour,2016,158307,Electric,Automatic,Red,2,False,Bangalore,True,3.7,Convertible,,2526253.95
+Honda,Civic,2010,141292,Diesel,Automatic,Silver,2,False,Delhi,False,4.1,Sedan,,50000.0
+Tata,Nexon,2019,100057,Electric,Manual,Black,3,True,Kolkata,False,1.5,Hatchback,Third-Party,604991.45
+Maruti Suzuki,Swift,2010,184528,Electric,Automatic,Black,3,True,Kolkata,False,2.8,Hatchback,Third-Party,50000.0
+Toyota,Corolla,2017,124652,Diesel,Manual,Silver,1,False,Hyderabad,True,1.0,SUV,Comprehensive,761302.2
+Nissan,Terrano,2020,184278,Diesel,Automatic,Grey,1,True,Bangalore,False,3.1,Coupe,Comprehensive,1122358.3
+Mercedes,C-Class,2002,64217,Diesel,Manual,Grey,1,True,Ahmedabad,False,4.0,Coupe,Comprehensive,3890367.45
+Honda,Jazz,2003,22483,Petrol,Automatic,Black,3,True,Mumbai,True,2.9,Sedan,Third-Party,50000.0
+Hyundai,Elantra,2015,188824,Petrol,Automatic,Grey,1,True,Mumbai,True,3.1,Wagon,,821676.4
+Ford,Endeavour,2016,53602,Petrol,Automatic,White,1,False,Pune,False,1.4,Sedan,Third-Party,2571959.7
+Hyundai,Verna,2000,181092,Electric,Automatic,White,2,False,Kolkata,False,3.4,Sedan,,50000.0
+Nissan,Magnite,2011,132725,Diesel,Automatic,Red,1,True,Mumbai,True,3.0,SUV,,50000.0
+Toyota,Innova,2003,70687,CNG,Automatic,Silver,3,False,Chennai,False,3.3,Sedan,Third-Party,489396.95
+Toyota,Corolla,2009,31217,CNG,Manual,Blue,1,False,Delhi,True,2.1,Sedan,Third-Party,425317.45
+Toyota,Fortuner,2016,89405,CNG,Automatic,Grey,2,False,Ahmedabad,False,3.3,Coupe,Comprehensive,3036589.25
+Tata,Harrier,2023,153112,Petrol,Manual,Silver,3,True,Bangalore,True,1.1,Convertible,Third-Party,1597033.2
+BMW,3 Series,2020,134714,CNG,Manual,Blue,1,False,Chennai,True,2.5,Wagon,,3709792.9
+Mercedes,E-Class,2020,81215,Petrol,Automatic,Blue,2,False,Mumbai,False,2.5,SUV,,6287817.75
+Ford,Fiesta,2002,170732,Petrol,Automatic,Grey,2,True,Mumbai,False,3.2,Wagon,Comprehensive,50000.0
+Hyundai,Verna,2000,151474,Diesel,Manual,Silver,3,False,Ahmedabad,True,3.0,Sedan,Comprehensive,50000.0
+Honda,City,2005,113091,Diesel,Automatic,White,2,False,Kolkata,True,4.3,Hatchback,Comprehensive,50000.0
+Hyundai,Verna,2011,183903,CNG,Automatic,Black,1,True,Mumbai,True,4.2,Wagon,Third-Party,222414.55
+Nissan,Kicks,2010,18417,Diesel,Automatic,Red,3,False,Ahmedabad,True,3.8,Sedan,Comprehensive,397237.45
+Toyota,Fortuner,2018,199103,CNG,Automatic,Black,3,True,Pune,False,1.1,Coupe,Comprehensive,3140134.55
+Maruti Suzuki,Swift,2021,124427,Electric,Automatic,Blue,2,False,Pune,False,1.7,Coupe,Comprehensive,381335.95
+Honda,Civic,2013,52344,Petrol,Manual,Red,2,False,Ahmedabad,True,3.5,Coupe,Third-Party,50000.0
+Nissan,Kicks,2007,58850,Electric,Automatic,Black,1,True,Mumbai,True,2.6,Hatchback,Third-Party,341172.5
+Toyota,Corolla,2000,80056,CNG,Automatic,Blue,3,False,Mumbai,False,2.9,Hatchback,Third-Party,50000.0
+BMW,M3,2013,161480,Electric,Automatic,Silver,1,False,Hyderabad,True,1.0,Wagon,Third-Party,6855778.0
+Hyundai,Creta,2018,14317,Electric,Automatic,Red,2,True,Mumbai,True,3.1,Sedan,Comprehensive,1167852.45
+Ford,Fiesta,2013,53050,Diesel,Automatic,Black,1,False,Kolkata,True,4.9,Convertible,,50000.0
+Honda,City,2006,125147,Diesel,Automatic,Silver,3,True,Delhi,False,5.0,Wagon,Third-Party,101227.95
+Maruti Suzuki,Swift,2004,35787,CNG,Manual,Silver,1,False,Mumbai,True,1.3,Coupe,,50000.0
+Toyota,Corolla,2002,115463,Petrol,Manual,Black,2,True,Pune,True,4.3,Hatchback,Comprehensive,50000.0
+Hyundai,Creta,2019,120247,Electric,Automatic,White,3,False,Mumbai,True,1.1,SUV,Third-Party,1181962.95
+BMW,3 Series,2000,155672,Petrol,Automatic,White,2,True,Delhi,False,4.6,Convertible,Comprehensive,2796649.2
+Tata,Nexon,2010,109937,Electric,Manual,White,1,True,Bangalore,True,3.9,Sedan,Comprehensive,183509.45
+BMW,X5,2022,32162,Electric,Automatic,White,3,False,Chennai,False,4.2,Coupe,Comprehensive,7845175.7
+Hyundai,Creta,2012,46406,CNG,Automatic,Grey,1,True,Hyderabad,False,1.4,Sedan,Third-Party,893039.1
+Tata,Nexon,2017,17383,Electric,Automatic,White,2,False,Hyderabad,False,3.5,Convertible,,497392.5500000001
+Nissan,Terrano,2019,144752,Electric,Automatic,White,3,False,Bangalore,False,2.7,Sedan,Comprehensive,1028287.2
+Toyota,Fortuner,2016,53908,Petrol,Automatic,Silver,3,True,Bangalore,True,3.9,Convertible,,3061913.8
+BMW,3 Series,2001,185935,Petrol,Manual,Blue,2,True,Pune,False,4.6,Sedan,Third-Party,2792109.75
+Tata,Nexon,2017,52758,Diesel,Automatic,Black,3,True,Bangalore,False,3.7,Coupe,Third-Party,562086.3
+Hyundai,Creta,2001,80552,Petrol,Manual,White,1,False,Hyderabad,True,2.4,SUV,Third-Party,267917.2
+Tata,Harrier,2023,49560,Petrol,Manual,Red,1,False,Mumbai,False,1.6,Sedan,Comprehensive,1672566.0
+Nissan,Magnite,2010,116265,Diesel,Automatic,Blue,2,False,Delhi,False,3.6,Coupe,Comprehensive,50000.0
+Maruti Suzuki,Swift,2011,49927,Petrol,Manual,Silver,1,False,Mumbai,True,1.5,Sedan,Comprehensive,50000.0
+Hyundai,Elantra,2024,168769,CNG,Manual,Silver,3,True,Mumbai,False,2.0,Hatchback,,1294684.65
+Ford,Fiesta,2005,115112,Diesel,Automatic,Grey,1,True,Mumbai,True,3.6,Sedan,Third-Party,50000.0
+Mercedes,S-Class,2016,75356,CNG,Automatic,White,2,True,Ahmedabad,True,3.0,Coupe,Third-Party,9508696.6
+BMW,3 Series,2016,71243,CNG,Manual,Blue,1,True,Kolkata,True,1.2,Wagon,,3539313.55
+Nissan,Magnite,2020,75868,CNG,Automatic,Black,1,False,Pune,False,2.6,Convertible,Comprehensive,368619.8
+Audi,Q5,2011,142415,Electric,Automatic,Red,3,True,Mumbai,False,3.1,Wagon,Third-Party,5348637.75
+Hyundai,Verna,2004,193009,Diesel,Automatic,Red,1,True,Bangalore,False,1.4,Hatchback,,50000.0
+Ford,Fiesta,2023,162468,Petrol,Automatic,Silver,1,True,Delhi,False,2.2,Sedan,Comprehensive,575629.8
+Maruti Suzuki,Dzire,2023,176620,Electric,Automatic,Red,2,True,Bangalore,True,2.3,Coupe,,543507.0
+Maruti Suzuki,Swift,2023,114051,Electric,Manual,Black,1,False,Delhi,True,3.5,Convertible,Comprehensive,512892.35
+Ford,Fiesta,2018,141493,Electric,Manual,Grey,1,True,Pune,True,4.4,Convertible,,228776.05
+Honda,Jazz,2013,198772,CNG,Manual,Black,3,False,Kolkata,False,3.9,SUV,,120184.2
+Ford,Endeavour,2021,150503,Electric,Manual,Silver,1,False,Pune,True,3.7,Wagon,Comprehensive,2757424.55
+Honda,Jazz,2006,167665,Electric,Automatic,Blue,3,False,Kolkata,True,3.9,Sedan,Comprehensive,50000.0
+Maruti Suzuki,Vitara Brezza,2017,46705,Diesel,Manual,Black,3,True,Hyderabad,True,4.6,Wagon,,362994.25
+Ford,EcoSport,2007,25939,Diesel,Automatic,Grey,1,False,Kolkata,True,2.6,Hatchback,Comprehensive,50000.0
+Ford,EcoSport,2018,80204,Diesel,Manual,Blue,3,False,Bangalore,True,3.6,Hatchback,Third-Party,437969.4
+Hyundai,Verna,2007,93337,Electric,Manual,White,2,True,Ahmedabad,False,2.5,SUV,Comprehensive,50000.0
+Nissan,Kicks,2024,174455,CNG,Automatic,White,2,True,Kolkata,False,4.6,Wagon,,1143831.75
+Honda,Civic,2018,168051,Petrol,Manual,White,2,True,Bangalore,True,2.9,SUV,Third-Party,344792.35
+Mercedes,E-Class,2003,39574,Petrol,Automatic,Silver,2,True,Chennai,True,4.7,Wagon,Third-Party,5364063.9
+Ford,Endeavour,2008,109023,Diesel,Automatic,Grey,3,False,Hyderabad,False,4.9,Hatchback,,2133646.55
+Toyota,Fortuner,2003,6713,Petrol,Automatic,Red,1,False,Mumbai,True,2.7,Coupe,Third-Party,2428993.05
+Nissan,Kicks,2001,99654,Electric,Manual,White,1,True,Pune,False,4.6,Coupe,,50000.0
+Mercedes,E-Class,2023,190158,CNG,Automatic,Blue,1,False,Pune,False,2.7,Convertible,,6401476.3
+Nissan,Kicks,2015,96013,Petrol,Manual,White,2,False,Chennai,False,5.0,Convertible,Third-Party,685598.05
+BMW,M3,2010,22274,CNG,Automatic,Silver,2,True,Chennai,False,4.9,Coupe,,6766658.9
+Maruti Suzuki,Vitara Brezza,2004,33386,Electric,Manual,Red,1,True,Delhi,False,1.6,Sedan,Comprehensive,50000.0
+Honda,Civic,2007,191197,CNG,Automatic,Silver,1,True,Delhi,True,3.1,Convertible,Comprehensive,50000.0
+Honda,City,2022,67185,CNG,Manual,Black,1,True,Delhi,True,4.3,Sedan,Third-Party,889922.25
+Audi,Q5,2018,172074,Petrol,Automatic,Red,3,False,Delhi,False,4.9,Convertible,Third-Party,5674188.9
+Toyota,Innova,2006,130786,Petrol,Manual,Red,2,False,Kolkata,True,2.1,Wagon,,580382.1
+Honda,Civic,2021,188822,CNG,Manual,Silver,3,False,Chennai,False,3.3,Convertible,Third-Party,471676.7
+Tata,Nexon,2007,192391,Diesel,Automatic,Black,2,False,Pune,False,3.3,Convertible,Third-Party,50000.0
+Tata,Harrier,2008,89223,Diesel,Manual,Grey,1,False,Delhi,True,2.4,Wagon,Comprehensive,866616.55
+Toyota,Corolla,2002,116510,Diesel,Automatic,White,2,False,Delhi,True,1.7,Sedan,Third-Party,50000.0
+Tata,Altroz,2015,21163,CNG,Manual,Black,1,True,Delhi,False,4.9,Sedan,,196825.55
+Honda,Jazz,2013,115052,CNG,Manual,Grey,2,False,Chennai,False,4.0,Sedan,Third-Party,132742.2
+Honda,Jazz,2006,12575,Electric,Automatic,Black,3,True,Mumbai,False,4.9,Wagon,Comprehensive,50000.0
+Tata,Altroz,2007,179877,CNG,Automatic,Silver,3,True,Mumbai,True,5.0,Convertible,Third-Party,50000.0
+Toyota,Innova,2023,65973,Diesel,Automatic,Silver,2,True,Pune,False,1.9,Sedan,,1510104.05
+Nissan,Terrano,2008,180942,CNG,Manual,Silver,3,False,Delhi,True,3.7,SUV,Comprehensive,422858.7
+Honda,City,2016,116886,Petrol,Manual,Silver,2,False,Kolkata,True,2.3,SUV,Third-Party,482467.1
+Tata,Nexon,2001,76694,Diesel,Automatic,Grey,3,False,Hyderabad,True,1.5,Hatchback,Comprehensive,50000.0
+Nissan,Terrano,2007,75487,Petrol,Automatic,Blue,3,False,Bangalore,False,1.7,Hatchback,,438676.95
+BMW,3 Series,2015,95177,Petrol,Manual,Blue,2,True,Mumbai,True,5.0,Sedan,Third-Party,3505723.45
+Mercedes,E-Class,2024,32099,Diesel,Manual,Grey,1,False,Pune,True,5.0,SUV,Third-Party,6425185.15
+BMW,X5,2014,20321,CNG,Automatic,White,1,True,Hyderabad,False,3.0,Convertible,Third-Party,7496951.85
+Ford,EcoSport,2011,107237,Diesel,Automatic,Black,2,True,Hyderabad,True,2.2,Wagon,,53914.45000000001
+Audi,Q5,2021,9095,CNG,Manual,Grey,2,False,Kolkata,False,2.0,Convertible,,5798635.75
+Honda,Civic,2000,139758,Diesel,Automatic,Grey,2,True,Chennai,True,2.8,Hatchback,Third-Party,50000.0
+Ford,Endeavour,2020,141381,Petrol,Automatic,Red,3,False,Mumbai,False,2.7,Hatchback,,2778792.85
+Honda,Civic,2002,84644,CNG,Automatic,Grey,1,True,Kolkata,False,2.9,Coupe,,50000.0
+Maruti Suzuki,Dzire,2016,193705,Electric,Automatic,Red,1,False,Bangalore,False,1.6,SUV,,250944.25
+Ford,EcoSport,2016,48958,CNG,Automatic,Silver,2,True,Delhi,True,4.2,Wagon,Comprehensive,362656.3
+Hyundai,Verna,2011,64669,Diesel,Automatic,Silver,1,False,Bangalore,False,4.2,Hatchback,Comprehensive,270299.65
+Maruti Suzuki,Swift,2020,33756,CNG,Manual,Black,2,False,Hyderabad,False,4.3,Hatchback,,344936.6
+Mercedes,C-Class,2005,178150,CNG,Automatic,Red,3,False,Delhi,True,4.0,Coupe,Comprehensive,3973277.5
+Maruti Suzuki,Dzire,2013,37113,Electric,Automatic,Blue,3,True,Hyderabad,False,4.6,Convertible,,64433.05
+Ford,EcoSport,2024,86899,Diesel,Automatic,Blue,2,False,Delhi,False,4.8,Sedan,Third-Party,786965.15
+Ford,Endeavour,2014,41255,Petrol,Manual,Red,2,True,Hyderabad,True,3.6,Sedan,,2413811.75
+BMW,3 Series,2007,153472,Electric,Manual,Grey,1,False,Kolkata,True,1.4,SUV,,3056979.2
+Maruti Suzuki,Swift,2002,46728,Petrol,Automatic,Silver,1,False,Delhi,True,4.7,Coupe,Third-Party,50000.0
+Tata,Altroz,2011,152482,CNG,Manual,Grey,1,True,Delhi,False,2.8,Wagon,Comprehensive,50000.0
+BMW,M3,2004,66116,Petrol,Manual,Silver,2,False,Chennai,True,4.1,Sedan,,6390082.6
+Tata,Nexon,2015,106889,Electric,Automatic,Grey,2,False,Bangalore,True,3.2,Hatchback,Third-Party,383966.65
+Audi,A4,2007,23487,Electric,Manual,White,2,True,Hyderabad,False,2.7,Convertible,Comprehensive,3616476.95
+Honda,City,2019,10025,Electric,Automatic,Black,1,True,Hyderabad,False,1.1,Hatchback,,748496.25
+Ford,Endeavour,2024,62518,CNG,Automatic,White,2,True,Kolkata,True,3.8,Wagon,Third-Party,2910622.3
+Hyundai,Verna,2017,104232,Diesel,Automatic,Black,1,True,Chennai,True,3.9,Sedan,Comprehensive,484365.2
+Ford,Fiesta,2002,63710,Diesel,Automatic,Red,2,True,Chennai,True,3.1,Hatchback,Third-Party,50000.0
+Nissan,Magnite,2001,155075,Electric,Manual,Black,2,True,Bangalore,True,2.6,SUV,Third-Party,50000.0
+Maruti Suzuki,Swift,2008,136970,Petrol,Manual,Blue,2,True,Delhi,False,4.2,Convertible,Comprehensive,50000.0
+Ford,EcoSport,2007,195717,CNG,Manual,Silver,2,True,Chennai,True,1.1,Sedan,Comprehensive,50000.0
+Hyundai,Elantra,2005,13360,Electric,Manual,Black,2,True,Mumbai,True,3.1,Wagon,,317996.0
+Ford,Fiesta,2003,113176,Electric,Automatic,Red,3,True,Bangalore,False,2.4,Sedan,,50000.0
+Maruti Suzuki,Vitara Brezza,2010,82672,Petrol,Manual,Red,3,True,Bangalore,False,3.6,Convertible,,107599.2
+Mercedes,S-Class,2018,103244,Diesel,Automatic,Blue,2,True,Pune,False,1.6,Sedan,Comprehensive,9654513.4
+Ford,Endeavour,2019,15550,Petrol,Manual,Red,1,True,Bangalore,False,2.6,Wagon,Third-Party,2797667.5
+Toyota,Innova,2003,163410,Electric,Manual,Silver,3,True,Bangalore,True,1.1,Wagon,Comprehensive,495488.5
+Honda,Civic,2016,135124,Petrol,Automatic,White,3,False,Pune,False,1.7,Wagon,Third-Party,229731.4
+Maruti Suzuki,Dzire,2002,64412,Diesel,Automatic,Grey,3,True,Chennai,True,3.2,Wagon,Third-Party,50000.0
+Hyundai,Elantra,2014,184405,CNG,Manual,Red,2,False,Chennai,True,2.5,Coupe,,672339.25
+Mercedes,C-Class,2012,195498,Electric,Automatic,Red,1,False,Bangalore,False,2.6,SUV,Comprehensive,4400675.3
+Audi,A4,2016,180650,Diesel,Automatic,White,1,True,Ahmedabad,True,4.8,Wagon,Comprehensive,4022902.5
+Mercedes,C-Class,2021,21532,CNG,Manual,Silver,2,False,Delhi,False,1.6,Sedan,,4846770.2
+Ford,EcoSport,2018,21779,Electric,Automatic,Red,3,True,Ahmedabad,False,2.7,SUV,Comprehensive,466733.15
+Toyota,Corolla,2008,105476,CNG,Manual,Silver,3,False,Kolkata,True,1.4,SUV,Third-Party,284178.6
+Hyundai,Elantra,2010,129225,CNG,Manual,Red,2,True,Chennai,True,3.4,Hatchback,,500616.25
+Toyota,Fortuner,2024,121793,Electric,Automatic,Silver,3,False,Bangalore,True,2.1,Coupe,,3431731.05
+Maruti Suzuki,Dzire,2016,84953,CNG,Manual,Black,2,False,Mumbai,True,4.1,SUV,Third-Party,187257.05
+Mercedes,C-Class,2008,114070,Electric,Manual,Grey,2,False,Kolkata,True,3.0,Wagon,Third-Party,4082889.5
+Honda,Civic,2021,33038,Electric,Manual,Black,2,True,Ahmedabad,False,3.7,Sedan,Third-Party,515044.3000000001
+Maruti Suzuki,Vitara Brezza,2005,120185,Diesel,Automatic,Silver,1,False,Mumbai,True,3.2,Coupe,,50000.0
+Nissan,Kicks,2010,89708,Diesel,Manual,Silver,1,False,Pune,False,4.2,SUV,,466543.8
+Mercedes,C-Class,2024,187066,Petrol,Manual,Silver,3,True,Chennai,True,1.1,Wagon,Third-Party,4891940.1
+Audi,A4,2000,116654,Petrol,Manual,Black,2,False,Mumbai,True,2.4,Coupe,,3232501.9
+Maruti Suzuki,Swift,2023,26633,Diesel,Automatic,Black,1,False,Delhi,False,2.8,Hatchback,,576005.05
+Toyota,Innova,2000,8530,Diesel,Automatic,Silver,3,True,Hyderabad,False,2.0,Convertible,,368720.5
+Honda,Civic,2004,111465,Petrol,Manual,Red,2,True,Bangalore,True,1.2,SUV,Comprehensive,50000.0
+Tata,Harrier,2013,191165,Electric,Automatic,Silver,1,False,Chennai,False,4.6,Coupe,Comprehensive,1101325.25
+Maruti Suzuki,Swift,2022,141502,Diesel,Manual,Silver,3,False,Pune,False,2.3,Convertible,,428774.7
+Mercedes,S-Class,2002,71775,CNG,Automatic,Grey,2,False,Bangalore,True,1.3,Coupe,Comprehensive,8839233.75
+Audi,Q5,2022,163160,Petrol,Automatic,Blue,2,False,Chennai,False,5.0,Wagon,,5825526.0
+BMW,X5,2013,73222,Diesel,Automatic,White,2,False,Hyderabad,True,1.6,Convertible,Third-Party,7339016.7
+Toyota,Fortuner,2019,37898,Diesel,Manual,Blue,3,True,Chennai,True,2.5,SUV,,3164315.3
+Mercedes,S-Class,2008,107545,CNG,Automatic,Grey,1,False,Kolkata,False,4.7,Wagon,Third-Party,9163868.25
+Audi,A4,2010,129287,Diesel,Automatic,Red,3,False,Mumbai,True,4.7,Hatchback,Comprehensive,3730606.95
+Audi,A6,2022,93255,Diesel,Automatic,Grey,3,False,Kolkata,True,4.8,Wagon,Comprehensive,5286011.75
+Toyota,Innova,2014,155830,Diesel,Manual,Silver,3,False,Pune,True,2.7,Wagon,,976625.5
+BMW,3 Series,2014,173138,Petrol,Automatic,White,3,False,Delhi,False,4.1,Coupe,Third-Party,3474029.3
+Honda,Civic,2020,18131,Electric,Manual,Black,3,False,Kolkata,False,2.6,Hatchback,Third-Party,447280.35
+Ford,EcoSport,2018,71638,Petrol,Manual,Silver,3,False,Pune,False,1.6,Wagon,Comprehensive,439254.3
+Ford,Fiesta,2005,140940,Electric,Automatic,Black,2,False,Kolkata,True,4.7,Coupe,Comprehensive,50000.0
+Hyundai,Creta,2022,166209,Petrol,Manual,Grey,1,True,Hyderabad,True,3.1,Wagon,,1325068.65
+BMW,X5,2013,15985,Electric,Manual,Grey,1,False,Delhi,False,3.5,Coupe,Comprehensive,7477602.25
+Tata,Nexon,2005,130427,CNG,Manual,Grey,1,False,Delhi,True,1.8,Coupe,,50000.0
+Mercedes,S-Class,2006,140022,CNG,Automatic,Black,2,True,Bangalore,True,2.0,Sedan,Third-Party,9048996.7
+Toyota,Corolla,2006,195326,Diesel,Manual,Silver,3,False,Hyderabad,True,1.4,Hatchback,Third-Party,170701.09999999998
+Mercedes,C-Class,2016,164798,Petrol,Manual,Grey,1,False,Hyderabad,True,2.1,Hatchback,,4505280.3
+Tata,Altroz,2023,50691,Petrol,Automatic,Black,2,False,Pune,True,1.3,Convertible,Comprehensive,442396.35
+Mercedes,S-Class,2020,190685,Diesel,Automatic,Red,1,True,Bangalore,False,2.3,SUV,Comprehensive,9821397.25
+Audi,A6,2004,28195,CNG,Automatic,Grey,3,False,Ahmedabad,False,1.8,Sedan,Third-Party,4445770.75
+Tata,Nexon,2000,66367,Petrol,Automatic,Blue,3,True,Hyderabad,True,1.4,Coupe,Third-Party,50000.0
+BMW,3 Series,2018,48478,Petrol,Automatic,Grey,2,True,Hyderabad,False,4.8,SUV,Comprehensive,3662728.3
+Ford,EcoSport,2008,155999,Electric,Automatic,Red,3,True,Hyderabad,False,3.6,Convertible,Third-Party,50000.0
+Ford,Fiesta,2003,64791,Electric,Automatic,Silver,2,True,Chennai,True,1.3,Hatchback,Comprehensive,50000.0
+BMW,M3,2003,6925,Diesel,Automatic,Grey,1,True,Delhi,False,4.2,Wagon,,6498961.25
+Audi,Q5,2003,24677,CNG,Manual,Silver,2,True,Delhi,False,2.0,Convertible,Third-Party,4966298.45
+Ford,EcoSport,2008,101633,CNG,Manual,Silver,1,False,Pune,False,2.2,Sedan,Third-Party,50000.0
+Honda,Civic,2002,196586,CNG,Manual,Red,1,False,Bangalore,False,4.3,Sedan,,50000.0
+Audi,Q5,2015,119632,Petrol,Automatic,Silver,3,False,Pune,True,3.1,Wagon,Third-Party,5432055.2
+Nissan,Magnite,2004,157358,Petrol,Automatic,Blue,1,False,Pune,True,4.6,Hatchback,,50000.0
+Toyota,Corolla,2000,92840,Electric,Manual,Black,3,True,Chennai,False,3.2,Wagon,Comprehensive,50000.0
+Hyundai,Creta,2014,136122,Petrol,Automatic,Silver,2,True,Bangalore,True,4.8,SUV,Comprehensive,949581.7
+Nissan,Terrano,2009,51106,CNG,Manual,White,2,False,Ahmedabad,False,1.3,Sedan,Comprehensive,492334.1
+Honda,Civic,2004,180298,Electric,Automatic,Black,3,False,Kolkata,True,2.4,Coupe,Comprehensive,50000.0
+Toyota,Corolla,2007,118017,Diesel,Manual,Red,3,False,Chennai,True,4.3,Hatchback,Comprehensive,232297.45
+Tata,Harrier,2002,193505,Diesel,Manual,Silver,1,True,Pune,False,3.5,Sedan,Comprehensive,570974.25
+Honda,Civic,2007,84423,CNG,Manual,White,3,True,Ahmedabad,True,1.7,Coupe,Third-Party,50000.0
+Mercedes,S-Class,2021,121523,Petrol,Manual,Grey,1,False,Pune,True,2.8,Wagon,Comprehensive,9761771.55
+Nissan,Magnite,2011,153003,Petrol,Manual,Red,2,True,Pune,False,3.8,Coupe,Comprehensive,50000.0
+Honda,Civic,2001,92520,Electric,Automatic,Red,2,True,Chennai,True,2.5,Convertible,Comprehensive,50000.0
+Nissan,Magnite,2000,82742,Diesel,Automatic,White,2,False,Hyderabad,True,4.7,Sedan,Comprehensive,50000.0
+Honda,City,2013,34905,Electric,Automatic,Grey,1,True,Hyderabad,True,2.7,Coupe,Third-Party,394764.25
+Toyota,Innova,2021,21682,Petrol,Manual,Red,1,True,Kolkata,True,4.5,Hatchback,,1396747.7
+Audi,A6,2003,178448,Electric,Automatic,Blue,2,False,Pune,True,4.6,SUV,,4323232.8
+Maruti Suzuki,Swift,2003,44171,CNG,Automatic,Black,2,True,Chennai,True,1.5,Convertible,Comprehensive,50000.0
+Maruti Suzuki,Dzire,2021,64724,Petrol,Manual,Blue,3,False,Bangalore,False,2.7,Coupe,,490291.4
+Ford,Endeavour,2008,121284,Petrol,Automatic,Blue,1,True,Bangalore,True,1.2,SUV,Comprehensive,2181807.4
+Hyundai,Elantra,2010,65701,Petrol,Automatic,Black,3,True,Ahmedabad,True,3.5,Wagon,,510144.85
+Nissan,Magnite,2004,62268,Petrol,Automatic,Red,2,True,Chennai,True,4.1,Sedan,Third-Party,50000.0
+Mercedes,C-Class,2019,9107,CNG,Automatic,Grey,2,True,Mumbai,True,2.9,Hatchback,,4718633.95
+Mercedes,E-Class,2015,161022,CNG,Automatic,Black,2,False,Mumbai,False,4.1,Hatchback,Comprehensive,6025846.7
+BMW,M3,2024,152818,Petrol,Automatic,White,3,False,Delhi,True,2.3,Hatchback,Third-Party,7427077.3
+Tata,Nexon,2011,105121,Electric,Manual,Blue,1,True,Chennai,False,3.0,Convertible,Third-Party,234231.85
+Mercedes,C-Class,2013,73788,CNG,Automatic,Grey,3,True,Kolkata,True,4.7,Convertible,,4358931.8
+Ford,Endeavour,2007,180876,Diesel,Manual,Black,1,False,Ahmedabad,False,1.5,Sedan,Comprehensive,2102868.6
+Honda,Jazz,2011,165247,Diesel,Manual,Blue,2,True,Mumbai,False,3.2,SUV,Third-Party,95212.95
+Maruti Suzuki,Vitara Brezza,2023,46745,Petrol,Manual,White,2,True,Hyderabad,False,2.4,Hatchback,Third-Party,712988.25
+Maruti Suzuki,Dzire,2006,49060,CNG,Manual,White,2,False,Hyderabad,True,4.2,Convertible,Comprehensive,50000.0
+BMW,M3,2011,19353,CNG,Automatic,White,2,True,Kolkata,False,1.2,Hatchback,,6817097.05
+Tata,Harrier,2009,65827,Petrol,Manual,Grey,1,False,Pune,True,4.4,Sedan,Third-Party,870125.95
+Toyota,Innova,2016,139507,Diesel,Automatic,Grey,1,True,Mumbai,False,1.2,SUV,Third-Party,1229073.95
+Audi,A6,2024,142937,Electric,Automatic,Grey,2,False,Hyderabad,True,3.1,SUV,Comprehensive,5378559.45
+BMW,X5,2007,85232,Diesel,Automatic,Black,1,False,Bangalore,True,5.0,Sedan,Comprehensive,7117215.2
+Mercedes,E-Class,2002,11159,Electric,Manual,White,2,True,Ahmedabad,True,1.2,SUV,,5318326.15
+Hyundai,Verna,2000,47259,Petrol,Manual,Grey,1,True,Pune,True,4.8,SUV,Third-Party,50000.0
+Nissan,Magnite,2022,77369,Diesel,Manual,Blue,1,True,Bangalore,True,1.8,Convertible,Third-Party,488394.65
+Mercedes,E-Class,2021,28413,Petrol,Automatic,Red,2,False,Ahmedabad,False,1.4,Wagon,,6295738.05
+Toyota,Innova,2004,82943,CNG,Automatic,Grey,2,False,Pune,False,4.9,Convertible,Comprehensive,537558.55
+Toyota,Innova,2022,199335,Petrol,Automatic,Blue,2,False,Chennai,False,2.9,SUV,Comprehensive,1420099.75
+Ford,EcoSport,2013,196936,Petrol,Automatic,Red,3,True,Bangalore,True,2.6,SUV,Third-Party,190459.6

@@ -1,0 +1,97 @@
+/* .dashboard-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.dashboard-container h1 {
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 10px;
+  margin-bottom: 2rem;
+}
+
+.subject-card {
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.subject-card h2 {
+  margin-top: 0;
+  color: var(--primary-color);
+}
+
+.level-section {
+  margin-top: 1.5rem;
+}
+
+.level-section h3 {
+  margin-bottom: 1rem;
+  color: #555;
+  border-left: 4px solid var(--primary-color);
+  padding-left: 10px;
+}
+
+.questions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.question-tile {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--text-color);
+  border-left: 5px solid var(--border-color);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.question-tile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.question-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.question-status {
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  align-self: flex-end;
+}
+
+/* Status-specific styles */
+/* .status-passed {
+  border-left-color: var(--success-color);
+}
+.status-failed {
+  border-left-color: var(--error-color);
+}
+.status-not_started {
+  border-left-color: #aaa;
+}
+.status-passed .question-status {
+  color: var(--success-color);
+}
+.status-failed .question-status {
+  color: var(--error-color);
+}
+.status-not_started .question-status {
+  color: #777;
+}
+
+.loading {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 4rem;
+    color: #666;
+} */ 

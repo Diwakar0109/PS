@@ -1,0 +1,55 @@
+[
+  {
+    "id": "reviews_task_v3",
+    "title": "Tokenization & Sentiment Encoding of Product Reviews",
+    "description": "This task involves processing a dataset of product reviews from 'reviews.txt'. The primary goals are to first tokenize each review into individual words or symbols, then to convert the sentiment labels ('positive', 'negative', 'neutral') into numerical values (1, 0, 2). Finally, the processed data, including the original review, the tokenized version, and the numerical sentiment, should be saved into a structured CSV file.",
+    "sample_input": {
+      "description": "The input file 'reviews.txt' contains one review per line, formatted as 'sentiment: review text'.",
+      "content": [
+        "positive: I love this product! It's amazing!!!",
+        "negative: The item broke after one use...",
+        "great: Great quality, very happy with it.",
+        "neutral: It’s okay, nothing special."
+      ]
+    },
+    "sample_output": {
+      "description": "The output should be a CSV file named 'tokenized_sentiment.csv' with the following columns and content.",
+      "content": "Index,Original Review,Tokenized Review,Original Sentiment,Numerical Sentiment\n0,\"I love this product! It's amazing!!!\",\"['I', 'love', 'this', 'product', '!', 'It', \"'s\", 'amazing', '!', '!', '!']\",positive,1\n1,\"The item broke after one use...\",\"['The', 'item', 'broke', 'after', 'one', 'use', '.', '.', '.']\",negative,0\n2,\"Great quality, very happy with it.\",\"['Great', 'quality', ',', 'very', 'happy', 'with', 'it', '.']\",positive,1\n3,\"It’s okay, nothing special.\",\"['It', '’', 's', 'okay', ',', 'nothing', 'special', '.']\",neutral,2"
+    },
+    "parts": [
+      {
+        "part_id": "tokenization_check",
+        "type": "text_similarity",
+        "description": "This part evaluates the correctness of your tokenization logic. It specifically checks if the first eight reviews from the 'reviews.txt' file have been accurately split into a list of tokens (words and punctuation). The output should be a list of lists, where each inner list represents a tokenized review.",
+        "expected_text": "Tokenized Reviews: [['I', 'love', 'this', 'product', '!', 'It', \"'s\", 'amazing', '!', '!', '!'], ['The', 'item', 'broke', 'after', 'one', 'use', '...'], ['Great', 'quality', ',', 'very', 'happy', 'with', 'it', '.'], ['Not', 'worth', 'the', 'price', ',', 'disappointed', '.'], ['This', 'is', 'the', 'best', 'purchase', 'ever', '!'], ['Poor', 'service', ',', 'wo', \"n't\", 'buy', 'again', '.'], ['Awesome', 'features', ',', 'highly', 'recommend', '.'], ['It', '’', 's', 'okay', ',', 'nothing', 'special', '.']]",
+        "similarity_threshold": 1,
+        "train_file": "C:/Users/asinr/ml/BIT-ML copy 3/backend/data/datasets/ds/reviews.txt"
+      },
+      {
+        "part_id": "sentiment_encoding_check",
+        "type": "text_similarity",
+        "description": "This part verifies that the sentiment labels from the dataset have been correctly mapped to their corresponding numerical representations. It checks if 'positive' is converted to 1, 'negative' to 0, and 'neutral' to 2 for the first eight reviews.",
+        "expected_text": "Numerical Sentiment: [1, 0, 1, 0, 1, 0, 1, 2]",
+        "similarity_threshold": 0.8,
+        "train_file": "C:/Users/asinr/ml/BIT-ML copy 3/backend/data/datasets/ds/reviews.txt"
+      },
+      {
+        "part_id": "csv_similarity_check",
+        "type": "csv_similarity",
+        "description": "This final check validates the overall output by comparing your generated 'tokenized_sentiment.csv' file against a pre-defined correct solution file. The comparison focuses on key columns ('Index', 'Original Review', 'Tokenized Review', 'Original Sentiment', 'Numerical Sentiment') to ensure both the structure and the content of your CSV file are accurate.",
+        "student_file": "tokenized_sentiment.csv",
+        "placeholder_filename": "tokenized_sentiment.csv",
+        "solution_file": "/home/bit/Desktop/ps/ml2/backend/data/datasets/ds/solution.csv",
+        "key_columns": [
+          "Index",
+          "Original Review",
+          "Tokenized Review",
+          "Original Sentiment",
+          "Numerical Sentiment"
+        ],
+        "test_file": "C:/Users/asinr/ml/BIT-ML copy 3/backend/data/datasets/ds/reviews.txt",
+        "similarity_threshold": 0.8
+      }
+    ]
+  }
+]

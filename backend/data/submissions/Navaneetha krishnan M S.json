@@ -1,0 +1,28 @@
+[
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-21T11:41:39.672360",
+    "answers": [
+      {
+        "questionId": "house_prices_full_task_v1_data_inspection",
+        "code": "import pandas as pd \r\nimport numpy as np \r\ndf=pd.read_csv(\"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv\")\r\ndf1=pd.read_csv(\"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/test.csv\")\r\nmissing_values = df.isnull().sum()\r\nprint(missing_values[missing_values>0])\r\n\r\n\r\na=df.shape\r\nprint(a)\r\ndf.head()\r\n\r\n",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "house_prices_full_task_v1_model_training",
+        "code": "\r\nimport pandas as pd\r\nfrom sklearn.linear_model import LinearRegression\r\nfrom sklearn.model_selection import train_test_split\r\nfrom sklearn.metrics import r2_score,mean_squared_error\r\ndf=pd.read_csv(\"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv\")\r\nd=df.columns\r\nfor clmn in d:\r\n    if df[clmn].dtype==\"object\":\r\n       df[clmn]=df[clmn].fillna(df[clmn].mode()[0])\r\n    else:\r\n        df[clmn]=df[clmn].fillna(df[clmn].median())\r\ndf=pd.get_dummies(df,drop_first=True) \r\n\r\nX=df.drop(\"SalePrice\",axis=1)\r\ny=df[\"SalePrice\"]\r\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\r\n\r\nmodel = LinearRegression()\r\nmodel.fit(X_train, y_train)\r\npred = model.predict(X_train)\r\nrmse = np.sqrt(mean_squared_error(y_train,pred))\r\nr2 = r2_score(y_train,pred)\r\n\r\nprint(\"Root Mean Squared Error (RMSE):\", rmse)\r\nprint(\"R-squared (R\u00b2):\", r2)\r\n\r\n  \r\n",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "house_prices_full_task_v1_prediction",
+        "code": "import pandas as pd\r\nfrom sklearn.linear_model import LinearRegression\r\nfrom sklearn.compose import ColumnTransformer\r\nfrom sklearn.pipeline import Pipeline\r\nfrom sklearn.preprocessing import OneHotEncoder\r\nfrom sklearn.impute import SimpleImputer\r\n\r\n# Paths\r\ntrain_path = \"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv\"\r\ntest_path  = \"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/test.csv\"\r\n\r\n# ---- Load ----\r\ntrain = pd.read_csv(train_path)\r\ntest  = pd.read_csv(test_path)\r\n\r\n# ---- Separate target & IDs ----\r\ny = train[\"SalePrice\"].copy()\r\nX = train.drop(columns=[\"SalePrice\"]).copy()\r\n\r\ntest_ids = test[\"Id\"].copy()\r\nX_test = test.copy()\r\n\r\n# (Optional but safer) drop Id from features on both sets\r\nif \"Id\" in X.columns:\r\n    X = X.drop(columns=[\"Id\"])\r\nif \"Id\" in X_test.columns:\r\n    X_test = X_test.drop(columns=[\"Id\"])\r\n\r\n# ---- Column types (from TRAIN ONLY) ----\r\nnum_cols = X.select_dtypes(include=[\"number\"]).columns.tolist()\r\ncat_cols = X.select_dtypes(exclude=[\"number\"]).columns.tolist()\r\n\r\n# ---- Preprocessing + Model pipeline ----\r\nnumeric_tf = Pipeline(steps=[\r\n    (\"imputer\", SimpleImputer(strategy=\"median\"))\r\n])\r\n\r\ncategorical_tf = Pipeline(steps=[\r\n    (\"imputer\", SimpleImputer(strategy=\"most_frequent\")),\r\n    (\"onehot\", OneHotEncoder(handle_unknown=\"ignore\"))\r\n])\r\n\r\npreprocess = ColumnTransformer(\r\n    transformers=[\r\n        (\"num\", numeric_tf, num_cols),\r\n        (\"cat\", categorical_tf, cat_cols)\r\n    ],\r\n    remainder=\"drop\"  # ignore anything else\r\n)\r\n\r\nmodel = Pipeline(steps=[\r\n    (\"prep\", preprocess),\r\n    (\"linreg\", LinearRegression())\r\n])\r\n\r\n# ---- Fit on full training data ----\r\nmodel.fit(X, y)\r\n\r\n# ---- Predict on test ----\r\npreds = model.predict(X_test)\r\n\r\n# ---- Build submission ----\r\nsubmission = pd.DataFrame({\r\n    \"Id\": test_ids,\r\n    \"SalePrice\": preds\r\n})\r\n\r\n# Ensure correct order and types\r\nsubmission = submission[[\"Id\", \"SalePrice\"]]\r\nsubmission.to_csv(\"submission.csv\", index=False)\r\nprint(submission)\r\n\r\nprint(\"\u2705 submission.csv created with columns: Id,SalePrice\")\r\nsubmission.to_csv(\"submission.csv\", index=False)\r\nprint(\"\u2705 submission.csv file created successfully!\")\r\n",
+        "passed": true,
+        "fully_passed": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "ds": {
+    "title": "Data Structures",
+    "isActive": true,
+    "levels": [
+      "level1",
+      "level2",
+      "level3"
+    ],
+    "question_limit": 5
+  },
+  "ml": {
+    "title": "Machine Learning",
+    "isActive": true,
+    "levels": [
+      "level1",
+      "level2",
+      "level3"
+    ],
+    "question_limit": 3
+  },
+  "dsa": {
+    "title": "Data Structures & Algorithms",
+    "isActive": false,
+    "levels": [
+      "level1"
+    ],
+    "question_limit": 10
+  },
+  "Generative AI": {
+    "title": "Generative AI",
+    "isActive": true,
+    "levels": [],
+    "question_limit": 10
+  },
+  "Speech Recognition": {
+    "title": "Speech Recognition",
+    "isActive": true,
+    "levels": [
+      "level1",
+      "level2"
+    ],
+    "question_limit": 1
+  },
+  "NLP": {
+    "title": "Natural Language Processing",
+    "isActive": true,
+    "levels": [
+      "level1",
+      "level2",
+      "level3"
+    ],
+    "question_limit": 5
+  },
+  "Deep Learning": {
+    "title": "Deep Learning",
+    "isActive": true,
+    "levels": [
+      "level1"
+    ],
+    "question_limit": 2
+  },
+  "LLM": {
+    "title": "Large Language Models",
+    "isActive": true,
+    "levels": [
+      "level1",
+      "level2",
+      "level3"
+    ],
+    "question_limit": 4
+  },
+  "Deffusor": {
+    "title": "Diffusion Models",
+    "isActive": true,
+    "levels": [
+      "level1",
+      "level2",
+      "level3",
+      "level4"
+    ],
+    "question_limit": 1
+  },
+  "final_test_subject": {
+    "title": "Final Test Subject",
+    "isActive": true,
+    "levels": [
+      "level1",
+      "level2"
+    ],
+    "question_limit": 5
+  },
+  "Python Basics": {
+    "title": "Python Basics",
+    "isActive": true,
+    "levels": [
+      "level1"
+    ],
+    "question_limit": 5
+  },
+  "Phone Software": {
+    "title": "Phone Software",
+    "isActive": true,
+    "levels": [
+      "level1",
+      "level2"
+    ],
+    "question_limit": 5
+  },
+  "C": {
+    "title": "C",
+    "isActive": true,
+    "levels": [
+      "level1"
+    ],
+    "question_limit": 5
+  }
+}

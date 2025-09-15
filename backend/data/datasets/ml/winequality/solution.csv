@@ -1,0 +1,2 @@
+File Name,Model Type,MSE,R2 Score
+winequality-red.csv,Regression,0.39002514396395427,0.403180341279623

@@ -1,0 +1,28 @@
+[
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-21T11:40:13.024220",
+    "answers": [
+      {
+        "questionId": "house_prices_full_task_v1_data_inspection",
+        "code": "import pandas as pd\r\nimport numpy as np\r\ndf=pd.read_csv('/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv')\r\nmissing_values=df.isnull().sum()\r\nfor col, val in missing_values.items():\r\n   print(f\"[{col}] [{val}]\")",
+        "passed": true,
+        "fully_passed": true
+      },
+      {
+        "questionId": "house_prices_full_task_v1_model_training",
+        "code": "import pandas as pd\r\nimport numpy as np\r\nfrom sklearn.linear_model import LinearRegression\r\nfrom sklearn.metrics import mean_squared_error, r2_score\r\ndf = pd.read_csv('/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv')\r\nfor col in df.select_dtypes(include=[np.number]).columns:\r\n    df[col] = df[col].fillna(df[col].median())\r\nfor col in df.select_dtypes(include=[\"object\"]).columns:\r\n    df[col] = df[col].fillna(df[col].mode()[0])\r\ndf = pd.get_dummies(df, drop_first=True)\r\nX = df.drop(\"SalePrice\", axis=1)\r\ny = df[\"SalePrice\"]\r\nmodel = LinearRegression()\r\nmodel.fit(X, y)\r\ny_pred = model.predict(X)\r\nrmse = np.sqrt(mean_squared_error(y, y_pred))\r\nr2 = r2_score(y, y_pred)\r\nprint(f\"Root Mean Squared Error: {rmse}\")\r\nprint(f\"R-squared: {r2}\")",
+        "passed": true,
+        "fully_passed": true
+      },
+      {
+        "questionId": "house_prices_full_task_v1_prediction",
+        "code": "train=pd.read_csv('/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv')\r\ntest=pd.read_csv('/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/test.csv')\r\ntrain=train.fillna(train.median(numeric_only=True))\r\ntest=test.fillna(test.median(numeric_only=True))\r\nall_data=pd.concat([train.drop(\"SalePrice\",axis=1),test],axis=0)\r\nall_data=pd.get_dummies(all_data,drop_first=True)\r\nX=all_data.iloc[:len(train), :]\r\nX_test =all_data.iloc[len(train):, :]\r\ny=train[\"SalePrice\"]\r\nmodel=LinearRegression()\r\nmodel.fit(X,y)\r\npredictions=model.predict(X_test)\r\nsubmission = pd.DataFrame({ \"Id\": test[\"Id\"],\"SalePrice\": predictions})\r\nsubmission.to_csv(\"submission.csv\", index=False)",
+        "passed": true,
+        "fully_passed": true
+      }
+    ]
+  }
+]

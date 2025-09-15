@@ -1,0 +1,11 @@
+Review,Sentiment
+"I love this product! It's amazing!!!",Positive
+"The item broke after one use...",Negative
+"Great quality, very happy with it.",Positive
+"Not worth the price, disappointed.",Negative
+"This is the best purchase ever!",Positive
+"Poor service, won't buy again.",Negative
+"Awesome features, highly recommend.",Positive
+"It’s okay, nothing special.",Neutral
+"Terrible experience, avoid this!",Negative
+"Fantastic item, works perfectly.",Positive

@@ -1,0 +1,2 @@
+File Name,Model Type,MSE,R2 Score
+insurance.csv,Regression,33596915.85136148,0.7835929767120722

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q5",
+    "title": "Initialize Weights with Zeros – Feedforward Preparation",
+    "description": "In a fully connected layer of a neural network, each input neuron is connected to each output neuron using weights. Your task is to initialize these weights with 0.00 and output them in matrix form. You are given m: number of input neurons and n: number of output neurons. Create and print an m × n matrix filled with 0.00 values.",
+    "test_cases": [
+      {
+        "input": "2 3",
+        "output": "0.00 0.00 0.00\n0.00 0.00 0.00"
+      },
+      {
+        "input": "1 4",
+        "output": "0.00 0.00 0.00 0.00"
+      },
+      {
+        "input": "3 2",
+        "output": "0.00 0.00\n0.00 0.00\n0.00 0.00"
+      }
+    ]
+  }
+]

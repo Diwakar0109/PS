@@ -1,0 +1,57 @@
+[
+  {
+    "id": "bpe_tokenization_v1",
+    "title": "Byte Pair Encoding (BPE) Tokenization",
+    "description": "Write a Python program using the 'tokenizers' library to perform Byte Pair Encoding (BPE) tokenization. You need to train a BPE tokenizer on a given sample corpus and then use this trained tokenizer to tokenize a specific input sentence. Your program should print the original input sentence, its subword tokens, and their corresponding numerical IDs.\n\nSample corpus to train the tokenizer:\n```python\ncorpus = [\n    \"This phone is amazing\",\n    \"I love this phone\",\n    \"The camera is great\",\n    \"Battery life is amazing\",\n    \"Super phone with good quality\"\n]\n```",
+    "test_cases": [
+      {
+        "input": "This phone is amaaazing!",
+        "output": "Input Sentence: This phone is amaaazing!\nTokens: ['this', 'phone', 'is', 'am', 'a', 'a', 'az', 'ing', '[UNK]']\nToken IDs: [37, 32, 25, 27, 2, 2, 34, 39, 0]"
+      },
+      {
+        "input": "This phone is amazing",
+        "output": "Input Sentence: This phone is amazing\nTokens: ['this', 'phone', 'is', 'amazing']\nToken IDs: [37, 32, 25, 40]"
+      },
+      {
+        "input": "I love this phone",
+        "output": "Input Sentence: I love this phone\nTokens: ['i', 'love', 'this', 'phone']\nToken IDs: [10, 66, 37, 32]"
+      },
+      {
+        "input": "The camera is great",
+        "output": "Input Sentence: The camera is great\nTokens: ['the', 'camera', 'is', 'great']\nToken IDs: [58, 63, 25, 65]"
+      },
+      {
+        "input": "Battery life is amazing",
+        "output": "Input Sentence: Battery life is amazing\nTokens: ['battery', 'life', 'is', 'amazing']\nToken IDs: [69, 60, 25, 40]"
+      },
+      {
+        "input": "Super phone with good quality",
+        "output": "Input Sentence: Super phone with good quality\nTokens: ['super', 'phone', 'with', 'good', 'quality']\nToken IDs: [68, 32, 57, 64, 67]"
+      }
+    ]
+  },
+   {
+    "id": "bpe_chatbot_tokenizer_v2",
+    "title": "Custom BPE Tokenizer for Chatbot Input",
+    "description": "You are building a chatbot system that receives informal text. To handle spelling variations and unknown words (e.g., 'heyyy', 'sooo', 'yaaay!'), you need to create a custom Byte Pair Encoding (BPE) tokenizer.\n\nWrite a Python program using the 'tokenizers' library to train a BPE tokenizer on the sample chat corpus provided below. The tokenizer must be configured to convert text to lowercase and strip accents. After training, use the tokenizer to tokenize several test sentences.\n\nFor each test sentence, your program should print the original input, the list of subword tokens, and their corresponding numerical IDs.\n\nSample corpus to train the tokenizer:\n```python\nchat_corpus = [\n    \"hey how are you\",\n    \"this is so good\",\n    \"what are you doing now\",\n    \"yaaay I love this\",\n    \"this is amazing\",\n    \"feeling happy and relaxed\",\n    \"that’s sooo funny\",\n    \"I am so excited!\",\n    \"heyyy what’s up\",\n    \"cool cool cool!\"\n]\n```",
+    "test_cases": [
+      {
+        "input": "heyyy I’m so happy!",
+        "output": "Input Sentence: heyyy I’m so happy!\nTokens: ['heyyy', '[UNK]', '[UNK]', '’', 'm', '[UNK]', 'so', '[UNK]', 'happy', '!']\nToken IDs: [78, 0, 0, 27, 14, 0, 47, 0, 89, 4]"
+      },
+      {
+        "input": "yaaay this is cool",
+        "output": "Input Sentence: yaaay this is cool\nTokens: ['yaaay', '[UNK]', 'this', '[UNK]', 'is', '[UNK]', 'cool']\nToken IDs: [88, 0, 35, 0, 29, 0, 37]"
+      },
+      {
+        "input": "that’s sooo nice",
+        "output": "Input Sentence: that’s sooo nice\nTokens: ['that', '’', 's', '[UNK]', 'sooo', '[UNK]', 'n', 'i', 'c', 'e']\nToken IDs: [69, 27, 19, 0, 87, 0, 15, 12, 6, 8]"
+      },
+      {
+        "input": "what’s up??",
+        "output": "Input Sentence: what’s up??\nTokens: ['what', '’', 's', '[UNK]', 'up', '[UNK]', '[UNK]']\nToken IDs: [48, 27, 19, 0, 71, 0, 0]"
+      }
+    ]
+  }
+
+]

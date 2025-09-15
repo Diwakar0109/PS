@@ -1,0 +1,28 @@
+[
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-21T11:46:35.353633",
+    "answers": [
+      {
+        "questionId": "house_prices_full_task_v2_data_inspection",
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "house_prices_full_task_v2_model_training",
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "house_prices_full_task_v2_prediction",
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  }
+]

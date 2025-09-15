@@ -1,0 +1,111 @@
+.question-page-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 2rem;
+  height: calc(100vh - 60px - 4rem); /* Full height minus header and padding */
+  padding: 0; /* Remove padding from main content for full-page layout */
+}
+
+.problem-panel, .editor-panel {
+  padding: 1.5rem;
+  background: var(--bg-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  overflow-y: auto;
+}
+
+.problem-panel h1 {
+  margin-top: 1rem;
+}
+
+.back-button {
+  background: none;
+  border: 1px solid var(--border-color);
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.back-button:hover {
+  background-color: var(--secondary-color);
+}
+
+.test-cases-list {
+  list-style-type: none;
+  padding: 0;
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+}
+
+.test-cases-list li {
+  padding: 10px;
+  border-bottom: 1px solid var(--border-color);
+}
+.test-cases-list li:last-child {
+  border-bottom: none;
+}
+.test-cases-list code {
+  background-color: #e9ecef;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.editor-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.code-editor {
+  flex-grow: 1;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #2d2d2d;
+  color: #f0f0f0;
+  resize: none;
+}
+.code-editor:focus {
+  outline: 2px solid var(--primary-color);
+}
+
+.action-bar {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.run-button {
+  background-color: var(--success-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.run-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.output-panel {
+  background-color: #1e1e1e;
+  color: #ccc;
+  padding: 1rem;
+  border-radius: 4px;
+  height: 200px;
+  overflow-y: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.output-console {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 0;
+}

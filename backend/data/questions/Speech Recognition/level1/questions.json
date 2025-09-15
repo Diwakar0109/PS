@@ -1,0 +1,26 @@
+[
+  {
+    "id": "audio_framing_task_v1",
+    "title": "Audio Processing: Framing and CSV Export",
+    "description": "### **Overall Goal: Audio Signal Framing**\n\nA speech technology company is developing a real-time transcription engine. To improve model accuracy, they want to analyze how speech audio is segmented into frames before feature extraction. You are tasked with developing a preprocessing module that splits a `.wav` file into overlapping frames for further analysis.\n\n**Dataset Path:**\n*   **Audio File:** `/home/bit/Desktop/ps/ml2/backend/data/datasets/audio/Audio50.wav`\n\n---\n\n### **Task: Process and Frame Audio**\n\nWrite a Python script to process the audio file `Audio50.wav`. Your program must:\n\n1.  Load the `.wav` file and convert the audio signal into a NumPy array.\n2.  Divide the audio into **25ms** frames with a **10ms** overlap (hop).\n3.  Store each frame as a row in a CSV file named `framed_output.csv`.\n4.  Print the total number of frames generated from the input.\n\n\n**Expected Console Output:**\nYour script should print the total number of frames. The validation check will look for a line similar to this:\n```\nTotal frames generated: [number_of_frames]\n```\n\n**Expected File Output:**\nYour script must generate a `framed_output.csv` file. The validation system will check this file to ensure it has been created correctly, with each row representing one audio frame.\n",
+    "parts": [
+      {
+        "part_id": "check_frame_count_printout",
+        "type": "text_similarity",
+        "description": "Checks if the script correctly prints the total number of frames generated.",
+        "expected_text": "Total frames generated: 113",
+        "similarity_threshold": 0.8,
+        "input_file": "data/datasets/audio/Audio50.wav"
+      },
+      {
+        "part_id": "validate_csv_output",
+        "type": "csv_similarity",
+        "description": "Validates the creation and format of the framed_output.csv file.",
+        "student_file": "output.csv",
+        "placeholder_filename": "output.csv",
+        "solution_file": "/home/bit/Desktop/ps/ml2/backend/data/datasets/Speech-Recognition/framed_output.csv",
+        "similarity_threshold": 0.9
+      }
+    ]
+  }
+]

@@ -1,0 +1,459 @@
+[
+  {
+    "subject": "Deep Learning",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-26T09:07:13.313552",
+    "answers": [
+      {
+        "questionId": "q5",
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "Deep Learning",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-27T15:53:34.386745",
+    "answers": [
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "NLP",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-28T11:48:28.548815",
+    "answers": [
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "Deep Learning",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-28T13:51:58.878674",
+    "answers": [
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-28T14:52:43.382074",
+    "answers": [
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q6",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "Deep Learning",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-28T14:54:36.964216",
+    "answers": [
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "LLM",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-29T09:50:22.260810",
+    "answers": [
+      {
+        "questionId": "bpe_tokenization_v1",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "LLM",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-29T09:57:43.698479",
+    "answers": [
+      {
+        "questionId": "bpe_tokenization_v1",
+        "partId": null,
+        "code": "from tokenizers import Tokenizer, models, trainers, pre_tokenizers, normalizers\n\n# Sample corpus\ncorpus = [\n    \"This phone is amazing\",\n    \"I love this phone\",\n    \"The camera is great\",\n    \"Battery life is amazing\",\n    \"Super phone with good quality\"\n]\n\n# Initialize BPE tokenizer with UNK token\ntokenizer = Tokenizer(models.BPE(unk_token=\"[UNK]\"))\n\n# Normalize text (lowercase everything)\ntokenizer.normalizer = normalizers.Lowercase()\n\n# Pre-tokenizer: split on whitespace\ntokenizer.pre_tokenizer = pre_tokenizers.Whitespace()\n\n# Trainer (build vocabulary)\ntrainer = trainers.BpeTrainer(\n    vocab_size=50,\n    special_tokens=[\"[UNK]\"]\n)\n\n# Train on corpus\ntokenizer.train_from_iterator(corpus, trainer)\n\n# Input sentence\ninput_sentence = \"This phone is amaaazing!\"\n\n# Encode the sentence\nencoding = tokenizer.encode(input_sentence)\n\n# Print results\nprint(\"Input Sentence:\", input_sentence)\nprint(\"Tokens:\", encoding.tokens)\nprint(\"Token IDs:\", encoding.ids)\n",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "Deep Learning",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-29T10:16:14.154732",
+    "answers": [
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "Deep Learning",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-30T09:09:42.851681",
+    "answers": [
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "NLP",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-30T09:12:21.493786",
+    "answers": [
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-30T09:26:44.266956",
+    "answers": [
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q6",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "LLM",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-30T10:11:13.126981",
+    "answers": [
+      {
+        "questionId": "bpe_tokenization_v1",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-30T10:31:40.967928",
+    "answers": [
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q6",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "LLM",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-30T11:49:15.764514",
+    "answers": [
+      {
+        "questionId": "bpe_chatbot_tokenizer_v2",
+        "partId": null,
+        "code": "import ",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "Deep Learning",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-01T17:31:25.309590",
+    "answers": [
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-04T09:12:12.922268",
+    "answers": [
+      {
+        "questionId": "house_prices_full_task_v1",
+        "partId": "data_inspection",
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "house_prices_full_task_v1",
+        "partId": "model_training",
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      },
+      {
+        "questionId": "house_prices_full_task_v1",
+        "partId": "prediction",
+        "code": "",
+        "passed": false,
+        "fully_passed": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+[{
+  "id": "q7",
+  "title": "Basic Word Tokenizer",
+  "description": "Write a program to tokenize a plain English sentence into individual words using basic whitespace splitting. This tokenizer will preserve alphanumeric words and discard punctuation.",
+  "test_cases": [
+    {
+      "input": "Hello, world! NLP is fun.",
+      "output": "['Hello', 'world', 'NLP', 'is', 'fun']"
+    },
+    {
+      "input": "Python-based tools help in NLP.",
+      "output": "['Pythonbased', 'tools', 'help', 'in', 'NLP']"
+    },
+    {
+      "input": "Data-driven insights are powerful.",
+      "output": "['Datadriven', 'insights', 'are', 'powerful']"
+    },
+    {
+      "input": "Tokenization splits text into words.",
+      "output": "['Tokenization', 'splits', 'text', 'into', 'words']"
+    },
+    {
+      "input": "Text cleaning improves accuracy.",
+      "output": "['Text', 'cleaning', 'improves', 'accuracy']"
+    },
+    {
+      "input": "\"Natural-language\" models are trending.",
+      "output": "['Naturallanguage', 'models', 'are', 'trending']"
+    }
+  ]
+}]

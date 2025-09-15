@@ -1,0 +1,48 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-08-21T09:06:51.229158",
+    "answers": [
+      {
+        "questionId": "q4",
+        "code": "a=input()\r\nd=a.split()\r\nprint(len(d))",
+        "passed": true,
+        "fully_passed": true
+      },
+      {
+        "questionId": "q3",
+        "code": "print(\"[ 7 12]\")",
+        "passed": true,
+        "fully_passed": true
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-21T09:15:25.731239",
+    "answers": [
+      {
+        "questionId": "house_prices_full_task_v1_data_inspection",
+        "code": "import pandas as pd\r\n\r\n# Paths\r\ntrain_path = \"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv\"\r\n\r\n# Load dataset\r\ntrain_df = pd.read_csv(train_path)\r\n\r\n# Check for missing values\r\nmissing_values = train_df.isnull().sum()\r\nmissing_values = missing_values[missing_values > 0]  # Only show columns with missing data\r\n\r\n# Print in required format\r\nfor col, val in missing_values.items():\r\n    print(f\"{col} {val}\")\r\n",
+        "passed": true,
+        "fully_passed": true
+      },
+      {
+        "questionId": "house_prices_full_task_v1_model_training",
+        "code": "print(\"Root Mean Squared Error: [your_rmse_value] R-squared: [your_r2_value]\")",
+        "passed": true,
+        "fully_passed": true
+      },
+      {
+        "questionId": "house_prices_full_task_v1_prediction",
+        "code": "# Part 3: Prediction\r\nimport pandas as pd\r\nimport numpy as np\r\nfrom sklearn.linear_model import LinearRegression\r\n\r\n# Define file paths\r\nTRAIN_CSV_PATH = '/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv'\r\nTEST_CSV_PATH = '/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/test.csv'\r\nSUBMISSION_CSV_PATH = 'submission.csv'\r\n\r\n\r\ntry:\r\n    # Load training and testing data\r\n    train_df = pd.read_csv(TRAIN_CSV_PATH)\r\n    test_df = pd.read_csv(TEST_CSV_PATH)\r\n\r\n    # Store test IDs for the final submission file\r\n    test_ids = test_df['Id']\r\n\r\n    # --- Data Preprocessing ---\r\n    # Separate features and target from training data\r\n    X_train = train_df.drop(['SalePrice', 'Id'], axis=1)\r\n    y_train = train_df['SalePrice']\r\n    X_test = test_df.drop('Id', axis=1) # Features from test data\r\n\r\n    # Combine for consistent processing\r\n    combined_df = pd.concat([X_train, X_test], axis=0)\r\n\r\n    # Identify column types\r\n    numerical_cols = combined_df.select_dtypes(include=np.number).columns\r\n    categorical_cols = combined_df.select_dtypes(include='object').columns\r\n\r\n    # Handle Missing Values\r\n    for col in numerical_cols:\r\n        combined_df[col] = combined_df[col].fillna(combined_df[col].median())\r\n    for col in categorical_cols:\r\n        combined_df[col] = combined_df[col].fillna(combined_df[col].mode()[0])\r\n\r\n    # One-Hot Encode Categorical Features\r\n    combined_processed = pd.get_dummies(combined_df, columns=categorical_cols, drop_first=True)\r\n\r\n    # Separate back into training and testing sets\r\n    X_train_processed = combined_processed.iloc[:len(train_df)]\r\n    X_test_processed = combined_processed.iloc[len(train_df):]\r\n\r\n    # --- Model Training ---\r\n    model = LinearRegression()\r\n    model.fit(X_train_processed, y_train)\r\n\r\n    # --- Prediction on Test Data ---\r\n    test_predictions = model.predict(X_test_processed)\r\n\r\n    # --- Create Submission File ---\r\n    submission_df = pd.DataFrame({\r\n        'Id': test_ids,\r\n        'SalePrice': test_predictions\r\n    })\r\n\r\n    # Save the predictions to submission.csv\r\n    submission_df.to_csv(SUBMISSION_CSV_PATH, index=False)\r\n\r\n\r\n    print(submission_df.head())\r\n\r\nexcept FileNotFoundError:\r\n    print(f\"Error: A dataset file was not found. Check the paths.\")\r\nexcept Exception as e:\r\n    print(f\"An error occurred: {e}\")",
+        "passed": true,
+        "fully_passed": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-21T11:38:35.726274",
+    "answers": [
+      {
+        "questionId": "house_prices_full_task_v1_data_inspection",
+        "code": "import pandas as pd \r\ndf=pd.read_csv('/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv')\r\ndf.isnull().sum()",
+        "passed": true,
+        "fully_passed": true
+      },
+      {
+        "questionId": "house_prices_full_task_v1_model_training",
+        "code": "from sklearn.linear_model import LinearRegression\r\nfrom sklearn.metrics import mean_squared_error\r\nimport numpy as np \r\n\r\ndf.dropna(inplace=True)\r\ndf=pd.get_dummies(df,drop_first=True)\r\n\r\nX=df.iloc[:,:-1]\r\nY=df.iloc[:,-1]\r\n\r\nmodel=LinearRegression()\r\nmodel.fit(X,Y)\r\n\r\nrmse=np.sqrt(mean_squared_error(Y,model.predict(X)))\r\nr2=model.score(X,Y)\r\n\r\nprint(f'Root Mean Squared Error: {rmse:.2f}')\r\nprint(f'R-squared: {r2:.2f}')",
+        "passed": true,
+        "fully_passed": true
+      },
+      {
+        "questionId": "house_prices_full_task_v1_prediction",
+        "code": "import pandas as pd\r\nfrom sklearn.linear_model import LinearRegression\r\n\r\n# Load training data\r\ntrain = pd.read_csv('/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv')\r\n\r\n# Drop rows where SalePrice is missing\r\ntrain = train.dropna(subset=['SalePrice'])\r\n\r\n# Separate features & target\r\nX = train.drop(columns=['SalePrice', 'Id'])\r\ny = train['SalePrice']\r\n\r\n# Select only numeric features\r\nX = X.select_dtypes(include=['int64', 'float64'])\r\n\r\n# Fill missing values with column median\r\nX = X.fillna(X.median())\r\n\r\n# Train model\r\nmodel = LinearRegression()\r\nmodel.fit(X, y)\r\n\r\n# Load test data\r\ntest = pd.read_csv('/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/test.csv')\r\n\r\n# Keep same numeric features\r\nX_test = test[X.columns]\r\n\r\n# Fill missing values with training medians\r\nX_test = X_test.fillna(X.median())\r\n\r\n# Predict SalePrice\r\ny_pred_test = model.predict(X_test)\r\n\r\n# Create submission DataFrame\r\nsubmission = pd.DataFrame({\r\n    'Id': test['Id'],\r\n    'SalePrice': y_pred_test\r\n})\r\n\r\n# Save to CSV\r\nsubmission.to_csv('submission.csv', index=False)\r\n\r\nprint(\"\u2705 submission.csv file has been created successfully!\")\r\nprint(submission.head())",
+        "passed": true,
+        "fully_passed": true
+      }
+    ]
+  }
+]

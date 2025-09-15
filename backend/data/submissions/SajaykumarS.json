@@ -1,0 +1,28 @@
+[
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-21T11:35:24.418517",
+    "answers": [
+      {
+        "questionId": "house_prices_full_task_v1_data_inspection",
+        "code": "import pandas as pd \r\nimport numpy as np \r\ndata=pd.read_csv(r\"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv\")\r\nprint(data.isnull().sum())\r\ndata.dropna(axis=0)",
+        "passed": true,
+        "fully_passed": true
+      },
+      {
+        "questionId": "house_prices_full_task_v1_model_training",
+        "code": "import numpy as np\r\nfrom sklearn.model_selection import train_test_split\r\nfrom sklearn.linear_model import LinearRegression\r\nfrom sklearn.metrics import mean_squared_error, r2_score\r\nfrom sklearn.impute import SimpleImputer\r\nfrom sklearn.preprocessing import OneHotEncoder\r\nfrom sklearn.compose import ColumnTransformer\r\nfrom sklearn.pipeline import Pipeline\r\nX = data.drop(\"SalePrice\", axis=1)\r\ny = data[\"SalePrice\"]\r\nnumeric_cols = X.select_dtypes(include=[np.number]).columns.tolist()\r\ncategorical_cols = X.select_dtypes(include=[\"object\"]).columns.tolist()\r\nnumeric_transformer = SimpleImputer(strategy=\"mean\")\r\ncategorical_transformer = Pipeline(steps=[(\"imputer\", SimpleImputer(strategy=\"most_frequent\")),(\"onehot\", OneHotEncoder(handle_unknown=\"ignore\"))])\r\npreprocessor = ColumnTransformer(transformers=[(\"num\", numeric_transformer, numeric_cols),(\"cat\", categorical_transformer, categorical_cols)])\r\npipeline = Pipeline(steps=[(\"preprocessor\", preprocessor),(\"model\", LinearRegression())])\r\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\r\npipeline.fit(X_train, y_train)\r\ny_pred_train = pipeline.predict(X_train)\r\nrmse = np.sqrt(mean_squared_error(y_train, y_pred_train))\r\nr2 = r2_score(y_train, y_pred_train)\r\nprint(f\"Root Mean Squared Error: {rmse:.4f}\")\r\nprint(f\"R-squared:\u00a0{r2:.4f}\")",
+        "passed": true,
+        "fully_passed": true
+      },
+      {
+        "questionId": "house_prices_full_task_v1_prediction",
+        "code": "test_path = \"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/test.csv\"\r\ntest_data = pd.read_csv(test_path)\r\npreds = pipeline.predict(test_data)\r\nsubmission = pd.DataFrame({\"Id\": test_data[\"Id\"],\"SalePrice\": preds})\r\nsubmission.to_csv(\"submission.csv\", index=False)\r\nprint(\"\u2705 submission.csv file created\u00a0successfully!\")",
+        "passed": true,
+        "fully_passed": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-21T11:32:13.701040",
+    "answers": [
+      {
+        "questionId": "house_prices_full_task_v1_data_inspection",
+        "code": "import pandas as pd\r\ndata = pd.read_csv('/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv')\r\ndata.isnull().sum()\r\n",
+        "passed": true,
+        "fully_passed": true
+      },
+      {
+        "questionId": "house_prices_full_task_v1_model_training",
+        "code": "import pandas as pd\r\ndata = pd.read_csv('/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv')\r\nfrom sklearn.linear_model import LinearRegression\r\nX=data[['Id','MSSubClass','LotArea','YrSold']]\r\ny=data['SalePrice']\r\n\r\nmodel = LinearRegression()\r\nmodel.fit(X,y)\r\n\r\ny_pred = model.predict(X)\r\n\r\nfrom sklearn.metrics import root_mean_squared_error, r2_score\r\nrmse = root_mean_squared_error(y,y_pred)\r\nr2 = r2_score(y,y_pred)\r\nprint(f'Root Mean Squared Error: {rmse}')\r\nprint(f'R-squared: {r2}')\r\n",
+        "passed": true,
+        "fully_passed": true
+      },
+      {
+        "questionId": "house_prices_full_task_v1_prediction",
+        "code": "import pandas as pd\r\nfrom sklearn.linear_model import LinearRegression\r\n\r\ntrain = pd.read_csv('/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv')\r\n\r\ntrain = train.dropna(subset=['SalePrice'])\r\n\r\nX = train.drop(columns=['SalePrice', 'Id'])\r\ny = train['SalePrice']\r\n\r\nX = X.select_dtypes(include=['int64', 'float64'])\r\n\r\nX = X.fillna(X.median())\r\n\r\nmodel = LinearRegression()\r\nmodel.fit(X, y)\r\n\r\ntest = pd.read_csv('/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/test.csv')\r\n\r\nX_test = test[X.columns]\r\n\r\nX_test = X_test.fillna(X.median())\r\n\r\ny_pred_test = model.predict(X_test)\r\n\r\n\r\nsubmission = pd.DataFrame({\r\n    'Id': test['Id'],\r\n    'SalePrice': y_pred_test\r\n})\r\n\r\nsubmission.to_csv('submission.csv', index=False)\r\n\r\nprint(submission.head())\r\n",
+        "passed": true,
+        "fully_passed": true
+      }
+    ]
+  }
+]
