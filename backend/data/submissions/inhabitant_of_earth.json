@@ -1,0 +1,148 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:53:30.694624",
+    "answers": [
+      {
+        "questionId": "LR_004",
+        "partId": "Data Exploration & Preprocessing",
+        "code": "import pandas as pd\r\n\r\ndf=pd.read_csv(r'/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/diabetes/train.csv')\r\nprint(df.shape)\r\nX=df.iloc[:,:-1]\r\ny=df.iloc[:,-1]\r\nfrom sklearn.linear_model import Lasso\r\nmodel=Lasso.fit(X,y)\r\ndf_test=pd.read_csv(r'/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/diabetes/test.csv')\r\nX_test=df_test.iloc[:,:-1]\r\ny_test=df_test.iloc[:,-1]\r\ny_pred=model.predict(X_test)",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Model Training & Evaluation",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Feature Selection Interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:55:55.349907",
+    "answers": [
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "a=input()\r\nl=a.split(' ')\r\n\r\nprint (int(l[0]))\r\n",
+        "passed": true
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-16T14:07:20.292611",
+    "answers": [
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "a=input()\r\nb=int(input())\r\nl=a.split(' ')\r\nimport numpy as np \r\nfor i in range(len(l)):\r\n    l[i]=int(l[i])\r\nres=np.add(l,b)\r\nprint(res)\r\n",
+        "passed": true
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "a=input()\r\nb=a.split(' ')\r\nprint(b[0])",
+        "passed": true
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "import numpy as np \r\nn=int(input())\r\nres=np.ones(n)\r\nprint(res)",
+        "passed": true
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "a=input()\r\nb=a.split(' ')\r\nfor i in range(len(b)):\r\n    b[i]=int(b[i])\r\nres=np.array(b)\r\nprint(res)",
+        "passed": true
+      },
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "a=input()\r\nb=a.split(' ')\r\nfor i in range(len(b)):\r\n    b[i]=int(b[i])\r\nprint(len(b))",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-16T14:20:01.362488",
+    "answers": [
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "import numpy as np \r\na=np.array((input().split(' ')),dtype=int)\r\nprint(a)",
+        "passed": true
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "import numpy as np\r\na=np.array((input().split(' ')),dtype=int)\r\nprint(len(a))",
+        "passed": true
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "import numpy as np \r\na=np.array(input().split(' '),dtype=int)\r\nprint(a[0])",
+        "passed": true
+      },
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "a=np.array(input().split(' '),dtype=int)\r\nprint(len(a))",
+        "passed": true
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "a=np.array(input().split(' '),dtype=int)\r\nprint(max(a))",
+        "passed": true
+      }
+    ]
+  }
+]

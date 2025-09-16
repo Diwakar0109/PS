@@ -1,0 +1,66 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:46:33.846772",
+    "answers": [
+      {
+        "questionId": "LR_003",
+        "partId": "Data Exploration & Missing Values",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Feature Scaling & Preprocessing",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Training & Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Evaluation,Interpretation of Coefficients",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:47:46.484171",
+    "answers": [
+      {
+        "questionId": "LR_004",
+        "partId": "Data Exploration & Preprocessing",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Model Training & Evaluation",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Feature Selection Interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  }
+]

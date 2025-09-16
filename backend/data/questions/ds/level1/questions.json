@@ -1,8 +1,8 @@
 [
   {
     "id": "q1",
-    "title": "Create Array from Input",
-    "description": "Write a Python script that reads a line of space-separated numbers from input, creates a NumPy array from them, and then prints the array.",
+    "title": "Create numpy array from Input",
+    "description": "Write a Python script that reads a line of space-separated numbers from input, creates a numpy array from them, and then prints the numpy array.",
     "test_cases": [
       {
         "input": "1 2 3",
@@ -28,8 +28,8 @@
   },
   {
     "id": "q2",
-    "title": "Array of Ones",
-    "description": "Write a Python script that reads a number n from input and creates an array of n ones using np.ones(), then prints it.",
+    "title": "numpy array of Ones",
+    "description": "Write a Python script that reads a number n from input and creates an numpy array of n ones using np.ones(), then prints it.",
     "test_cases": [
       {
         "input": "3",
@@ -55,8 +55,8 @@
   },
   {
     "id": "q3",
-    "title": "Add a Number to an Array",
-    "description": "Write a Python script that reads a line of space-separated numbers to create an array, reads a single number on the next line, and prints the array after adding the single number to each element.",
+    "title": "Add a Number to an numpy array",
+    "description": "Write a Python script that reads a line of space-separated numbers to create an numpy array, reads a single number on the next line, and prints the numpy array after adding the single number to each element.",
     "test_cases": [
       {
         "input": "5 10\n2",
@@ -64,22 +64,22 @@
       },
       {
         "input": "1 2 3\n5",
-        "output": "[6 7 8]"
+        "output": "[ 6 7 8]"
       },
       {
         "input": "21 76\n10",
-        "output": "[31 86]"
+        "output": "[ 31 86]"
       },
       {
         "input": "0 0\n-5",
-        "output": "[-5 -5]"
+        "output": "[ -5 -5]"
       }
     ]
   },
   {
     "id": "q4",
-    "title": "Count Array Elements",
-    "description": "Write a Python script that reads space-separated numbers, creates an array, and prints how many elements are in the array.",
+    "title": "Count numpy array Elements",
+    "description": "Write a Python script that reads space-separated numbers, creates an numpy array, and prints how many elements are in the numpy array.",
     "test_cases": [
       {
         "input": "1 2 3",
@@ -106,7 +106,7 @@
   {
     "id": "q5",
     "title": "Find Biggest Number",
-    "description": "Write a Python script that reads space-separated numbers, creates an array, and prints the biggest number.",
+    "description": "Write a Python script that reads space-separated numbers, creates an numpy array, and prints the biggest number.",
     "test_cases": [
       {
         "input": "1 5 3",
@@ -133,7 +133,7 @@
   {
     "id": "q6",
     "title": "Double All Numbers",
-    "description": "Write a Python script that reads space-separated numbers, creates an array, multiplies each number by 2, and prints the result.",
+    "description": "Write a Python script that reads space-separated numbers, creates an numpy array, multiplies each number by 2, and prints the result.",
     "test_cases": [
       {
         "input": "1 2 3",
@@ -160,7 +160,7 @@
   {
     "id": "q7",
     "title": "Get First Element",
-    "description": "Write a Python script that reads space-separated numbers, creates an array, and prints the first element.",
+    "description": "Write a Python script that reads space-separated numbers, creates an numpy array, and prints the first element.",
     "test_cases": [
       {
         "input": "10 20 30",
@@ -187,7 +187,7 @@
   {
     "id": "q8",
     "title": "Add All Numbers",
-    "description": "Write a Python script that reads space-separated numbers, creates an array, and prints the sum of all numbers.",
+    "description": "Write a Python script that reads space-separated numbers, creates an numpy array, and prints the sum of all numbers.",
     "test_cases": [
       {
         "input": "1 2 3",
@@ -214,7 +214,7 @@
   {
     "id": "q9",
     "title": "Make Number Sequence",
-    "description": "Write a Python script that reads a number n and creates an array with numbers from 1 to n using np.arange(1, n+1), then prints it.",
+    "description": "Write a Python script that reads a number n and creates an numpy array with numbers from 1 to n using np.arange(1, n+1), then prints it.",
     "test_cases": [
       {
         "input": "3",
@@ -240,8 +240,8 @@
   },
   {
     "id": "q10",
-    "title": "Check Array Size from Input",
-    "description": "Write a Python script that reads a line of space-separated numbers, creates a NumPy array from them, and prints the array's size (number of elements).",
+    "title": "Check numpy array Size from Input",
+    "description": "Write a Python script that reads a line of space-separated numbers, creates a numpy array from them, and prints the numpy array's size (number of elements).",
     "test_cases": [
       {
         "input": "2 4 6 8",

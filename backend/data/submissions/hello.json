@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:58:09.381863",
+    "answers": [
+      {
+        "questionId": "LR_006",
+        "partId": "Data Preprocessing & Feature Engineering",
+        "code": "import pandas as pd \r\nimport numpy as np \r\ndf=pd.read_csv('/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/train.csv')\r\nprint(df.head())\r\ndf['datetime']=pd.to_datetime(df['datetime'],errors='coerce')\r\ndf['month']=df['datetime'].dt.month()\r\ndf['month']=df['month'].astype(int)",
+        "passed": false
+      },
+      {
+        "questionId": "LR_006",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_006",
+        "partId": "Model Training & predictions",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_006",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-16T14:36:21.126845",
+    "answers": [
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "import numpy as np \r\na=input()\r\narr=np.array([a])\r\nprint(len(arr[0].split(' ')))",
+        "passed": true
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "import numpy as np \r\na=input()\r\narr=np.array([a])\r\nmax=-1\r\nfor i in arr[0].split(' '):\r\n    if int(i)>max:\r\n        max=int(i)\r\nprint(max)",
+        "passed": true
+      },
+      {
+        "questionId": "q6",
+        "partId": null,
+        "code": "import numpy as np \r\na=input()\r\narr=np.array([a])\r\nres=[]\r\nfor i in arr[0].split(' '):\r\n    res.append(int(i)*2)\r\n\r\nprint(np.array(res))",
+        "passed": true
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "n=int(input())\r\narr=np.ones(n)\r\nprint(arr)",
+        "passed": true
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "import numpy as np \r\na=input()\r\narr=np.array([a])\r\nsum=0\r\nfor i in arr[0].split(' '):\r\n    sum+=int(i)\r\nprint(sum)",
+        "passed": true
+      }
+    ]
+  }
+]

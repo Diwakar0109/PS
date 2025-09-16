@@ -1,0 +1,194 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:51:37.400282",
+    "answers": [
+      {
+        "questionId": "LR_001",
+        "partId": "Preprocessing",
+        "code": "import pandas as pd\r\nimport numpy as np \r\ndf=pd.read_csv(\"/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv\")\r\ndf=df.fillna(method=\"bfill\")\r\n",
+        "passed": false
+      },
+      {
+        "questionId": "LR_001",
+        "partId": "Model Training",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_001",
+        "partId": "Prediction",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:53:19.918095",
+    "answers": [
+      {
+        "questionId": "LR_007",
+        "partId": "Data Preprocessing",
+        "code": "import pandas as pd \r\ndf=pd.read_csv(\"/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets\")",
+        "passed": false
+      },
+      {
+        "questionId": "LR_007",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_007",
+        "partId": "Model Training & predictions",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_007",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:57:41.550635",
+    "answers": [
+      {
+        "questionId": "LR_001",
+        "partId": "Preprocessing",
+        "code": "import pandas as pd \r\ndf=pd.read_csv(\"/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv\")\r\ndf=df.fill",
+        "passed": false
+      },
+      {
+        "questionId": "LR_001",
+        "partId": "Model Training",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_001",
+        "partId": "Prediction",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-16T14:15:30.229326",
+    "answers": [
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "ls=list(map(int,input().split()))\r\nsum=0\r\nfor i in ls:\r\n    sum+=i\r\nprint(sum)",
+        "passed": true
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "import numpy as np \r\na=int(input())\r\narr=np.arange(1,a+1)\r\nprint(arr)",
+        "passed": true
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "ls=list(map(int,input().split()))\r\narr=np.array(ls)\r\nprint(arr)",
+        "passed": true
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "ls=list(map(int,input().split()))\r\nprint(len(ls))",
+        "passed": true
+      },
+      {
+        "questionId": "q6",
+        "partId": null,
+        "code": "ls=list(map(int,input().split()))\r\narr=np.multiply(ls,2)\r\narr1=np.array(arr)\r\nprint(arr1)",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T14:28:51.340015",
+    "answers": [
+      {
+        "questionId": "LR_003",
+        "partId": "Data Exploration & Missing Values",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Feature Scaling & Preprocessing",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Training & Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Evaluation,Interpretation of Coefficients",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-16T14:35:41.615241",
+    "answers": [
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "arr=list(map(int,input().split()))\r\nprint(len(arr))",
+        "passed": true
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "import numpy as np\r\na=int(input())\r\narr=np.ones(a)\r\nprint(arr)",
+        "passed": true
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "arr=list(map(int,input().split()))\r\nprint(max(arr))",
+        "passed": true
+      },
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "ls=list(map(int,input().split()))\r\nn=int(input())\r\narr=np.array(ls)\r\nprint(arr+n)",
+        "passed": true
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "ls=list(map(int,input().split()))\r\nprint(len(ls))",
+        "passed": true
+      }
+    ]
+  }
+]

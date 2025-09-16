@@ -1,0 +1,180 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:57:55.502204",
+    "answers": [
+      {
+        "questionId": "LR_003",
+        "partId": "Data Exploration & Missing Values",
+        "code": "import pandas as pd\r\ndf=pd.read_csv(\"/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv\")\r\nsums=df.isnull().sum()\r\nprint(sums)\r\n",
+        "passed": true
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Feature Scaling & Preprocessing",
+        "code": "import pandas as pd \r\ndf=pd.read_csv(\"/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv\")\r\nprint(df.shape)\r\n",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Training & Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Evaluation,Interpretation of Coefficients",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:59:50.322904",
+    "answers": [
+      {
+        "questionId": "LR_004",
+        "partId": "Data Exploration & Preprocessing",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Model Training & Evaluation",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Feature Selection Interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T14:00:39.250956",
+    "answers": [
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T14:00:59.834410",
+    "answers": [
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-16T14:29:02.310061",
+    "answers": [
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "import numpy as np \r\nn=int(input())\r\narr=np.arange(1,n+1)\r\nprint(arr)",
+        "passed": true
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "import numpy as np \r\narr=np.array(list(map(int,input().split())))\r\nn=len(arr)\r\nprint(n)",
+        "passed": true
+      },
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "import numpy as np \r\narr=np.array(list(map(int,input().split())))\r\nb=int(input())\r\nc=arr+b\r\nprint(c)",
+        "passed": true
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "import numpy as np \r\na=np.array(list(map(int,input().split())))\r\nprint(a)",
+        "passed": true
+      },
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "import numpy as np \r\nn=np.array(list(map(int,input().split())))\r\na=len(n)\r\nprint(a)",
+        "passed": true
+      }
+    ]
+  }
+]

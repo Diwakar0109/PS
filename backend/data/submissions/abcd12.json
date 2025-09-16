@@ -1,0 +1,104 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:58:04.211052",
+    "answers": [
+      {
+        "questionId": "LR_003",
+        "partId": "Data Exploration & Missing Values",
+        "code": "import pandas as pd\r\nimport numpy as np\r\nX = pd.read_csv('/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv')\r\nprint(X.head())\r\nprint(X.shape)\r\nprint(X.isnull().sum())\r\nprint(X.duplicated().sum())\r\n",
+        "passed": true
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Feature Scaling & Preprocessing",
+        "code": "import numpy as numpy\r\nimport pandas as pandas\r\n",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Training & Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Evaluation,Interpretation of Coefficients",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:58:20.363533",
+    "answers": [
+      {
+        "questionId": "LR_006",
+        "partId": "Data Preprocessing & Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_006",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_006",
+        "partId": "Model Training & predictions",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_006",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T14:19:08.526700",
+    "answers": [
+      {
+        "questionId": "q6",
+        "partId": null,
+        "code": "import numpy as np\r\nn = int(input())\r\narray = np.array([n])\r\nb = 2\r\nmul = array*b\r\nprint(array)",
+        "passed": false
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "import numpy as np\r\nn = int(input())\r\na = np.ones(n)\r\nprint(a)",
+        "passed": true
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "import numpy as np\r\nn = input()\r\np=\r\narray = np.array([n])\r\nprint(array)\r\n",
+        "passed": false
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "",
+        "passed": false
+      }
+    ]
+  }
+]

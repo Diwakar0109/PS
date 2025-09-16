@@ -2,7 +2,7 @@
 import bcrypt
 
 salt_rounds = 10
-plain_password = "password123"  # The password for your users
+plain_password = "aicom@123"  # The password for your users
 
 try:
     # Generate salt and hash the password

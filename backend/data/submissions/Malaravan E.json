@@ -1,0 +1,34 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:53:18.783313",
+    "answers": [
+      {
+        "questionId": "LR_003",
+        "partId": "Data Exploration & Missing Values",
+        "code": "import pandas as pd\r\nimport numpy as np\r\nimport matplotlib.pyplot as plt\r\n\r\ndf=pd.read_csv(r'/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv')\r\n\r\nprint(df.shape)\r\n\r\nnul=df.isnull().sum()\r\nprint(nul)\r\n\r\ndf=df.dropna()\r\n\r\nnull=df.isnull().sum()\r\nprint(null)\r\n\r\nprint(df.shape)",
+        "passed": true
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Feature Scaling & Preprocessing",
+        "code": "import pandas as pd\r\nimport numpy as np\r\n\r\ndf=pd.read_csv(r'/home/student/Desktop/PS_SOFTWARE/PS/backend/datasets/ml/house-prices/test.csv')\r\n\r\n",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Training & Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Evaluation,Interpretation of Coefficients",
+        "code": "",
+        "passed": false
+      }
+    ]
+  }
+]

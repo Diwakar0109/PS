@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:57:40.717072",
+    "answers": [
+      {
+        "questionId": "LR_005",
+        "partId": "Data Preprocessing",
+        "code": "import numpy as np\r\nimport pandas as pd\r\ndf=pd.read_csv('/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv')\r\ndf1=pd.read_csv('/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv')\r\nnum=df.selects_dtype(include='number')",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Model Performance",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-16T14:33:02.645012",
+    "answers": [
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "import numpy as np\r\na=int(input())\r\nb=np.arange(1,a+1)\r\nprint(b)",
+        "passed": true
+      },
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "import numpy as np\r\na=input()\r\nb=a.split()\r\nprint(len(b))",
+        "passed": true
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "import numpy as np\r\na=input()\r\nb=a.split()\r\nc=np.array(b,dtype=int)\r\nprint(np.sum(c))",
+        "passed": true
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "import numpy as np\r\na=input()\r\nb=a.split()\r\nprint(b[0])",
+        "passed": true
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "import numpy as np\r\na=input().split()\r\nb=np.array(a,dtype=int)\r\nprint(b)",
+        "passed": true
+      }
+    ]
+  }
+]

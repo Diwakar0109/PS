@@ -1,0 +1,148 @@
+[
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:05:32.632490",
+    "answers": [
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:32:06.205291",
+    "answers": [
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "# Get integer input\nage = int(input())\n\n# Print the number\nprint(age)\n",
+        "passed": false
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "a=int(input())\nprint(a)",
+        "passed": false
+      },
+      {
+        "questionId": "q6",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:57:50.791803",
+    "answers": [
+      {
+        "questionId": "LR_008",
+        "partId": "Data Preprocessing",
+        "code": "import pandas as pd\r\nimport numpy as np\r\nfrom sklearn.preprocessing import LabelEncoder\r\ndf=pd.read_csv('/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/realistic_car/train.csv')\r\nprint(\"Null values:\",df.isnull().sum())\r\ncol=['Insurance Type','Location','Car Type','Brand','Model','Fuel Type','Transmission Type','Color']\r\nle=LabelEncoder()\r\nfor i in col:\r\n    df[i]=le.fit_transform(df[i])\r\n\r\nprint(\"preprocessing is complete\")",
+        "passed": true
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Hyperparameter Tuning",
+        "code": "from sklearn.model_selection import GridSearchCV\r\nfrom sklearn.ensemble import RandomForestRegressor\r\nrf=RandomForestRegressor(random_state=42)\r\nparam_grid={'n_estimator':[100,200,2=300],\r\n'max_depth':[None,10,20]},",
+        "passed": false
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Model Training & predictions",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-16T14:33:28.732638",
+    "answers": [
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "n=input()\r\na=n.split(' ')\r\nprint(len(a))",
+        "passed": true
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "n=input()\r\na=n.split(' ')\r\nprint(len(a))",
+        "passed": true
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "n=input()\r\na=n.split(' ')\r\nprint(a[0])",
+        "passed": true
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "import numpy as np\r\nn=int(input())\r\na=np.ones(n)\r\nprint(a)",
+        "passed": true
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "import numpy as np\r\nn=int(input())\r\na=np.arange(1,n+1)\r\nprint(a)",
+        "passed": true
+      }
+    ]
+  }
+]

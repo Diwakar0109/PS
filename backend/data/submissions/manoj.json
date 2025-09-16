@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:57:38.871328",
+    "answers": [
+      {
+        "questionId": "LR_004",
+        "partId": "Data Exploration & Preprocessing",
+        "code": "import pandas as pd\r\nimport numpy as np\r\n\r\ndf=pd.read_csv('/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/diabetes/train.csv')\r\n\r\nprint(df.head())\r\nprint(df.isnull().sum())\r\nprint(df.duplicated().sum())\r\nprint(df.shape)",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Model Training & Evaluation",
+        "code": "import pandas as pd\r\nimport numpy as np\r\n\r\ndf=pd.read_csv('/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/diabetes/train.csv')\r\n",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Feature Selection Interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-16T14:33:37.250850",
+    "answers": [
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "import numpy as np\r\n\r\nn=int(input())\r\nprint(np.ones(n))\r\n\r\n",
+        "passed": true
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "import numpy as np\r\n\r\nn=int(input())\r\nprint(np.arange(1,n+1))",
+        "passed": true
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "import numpy as np \r\nn=np.array(list(map(int,input().split())))\r\na=np.sum(n)\r\nprint(a)\r\n",
+        "passed": true
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "import numpy as np \r\ns=np.array(list(map(int,input().split())))\r\na=len(s)\r\nprint(a)",
+        "passed": true
+      },
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "import numpy as np\r\n\r\nn=np.array(input().split( ),dtype=int)\r\nm=int(input())\r\nres=np.add(n,m)\r\n\r\nprint(res)",
+        "passed": true
+      }
+    ]
+  }
+]

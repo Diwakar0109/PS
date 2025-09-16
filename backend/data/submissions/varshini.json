@@ -1,0 +1,40 @@
+[
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T14:14:14.547967",
+    "answers": [
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "a=int(input(\"Enter a number\"))\r\n\r\nfor i in range(1,a):\r\n    print(\"[1.]\")",
+        "passed": false
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "import numpy as np\r\n a=np.array([1,5,3])\r\n a.max()-",
+        "passed": false
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "import numpy as np\r\n\r\n\r\na=np.array([10,20,30])\r\nprint(a[0])\r\n",
+        "passed": false
+      }
+    ]
+  }
+]

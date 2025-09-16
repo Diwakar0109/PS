@@ -89,7 +89,7 @@
         "part_id": "Data Exploration & Missing Values",
         "type": "text_similarity",
         "description": "Part 1: Data Exploration & Missing Values\n\nExplore and handle missing values in the dataset. To validate this step, print the number of missing values in the training data BEFORE and AFTER you have handled them.",
-        "expected_text": "before after missing values",
+        "expected_text": "Lotfrontage",
         "similarity_threshold": 0.8
       },
       {
@@ -97,7 +97,7 @@
         "type": "text_similarity",
         "description": "Part 2: Feature Scaling & Preprocessing\n\nPreprocess the data by scaling the numerical features. To validate, print a confirmation message stating that the features have been scaled.",
         "expected_text": "features scaled successfully",
-        "similarity_threshold": 0.8
+        "similarity_threshold": 0.2
       },
       {
         "part_id": "Model Training & Hyperparameter Tuning",

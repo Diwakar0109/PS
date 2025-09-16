@@ -1,0 +1,34 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:58:10.595830",
+    "answers": [
+      {
+        "questionId": "LR_003",
+        "partId": "Data Exploration & Missing Values",
+        "code": "df=pd.read_csv(r\"/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv\",encoding='latin')\r\nprint(df.isna().sum())\r\ndf=df.fillna(df.mean)\r\nprint(df.isna().sum())",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Feature Scaling & Preprocessing",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Training & Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Evaluation,Interpretation of Coefficients",
+        "code": "",
+        "passed": false
+      }
+    ]
+  }
+]

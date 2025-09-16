@@ -1,0 +1,104 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:55:44.005529",
+    "answers": [
+      {
+        "questionId": "LR_006",
+        "partId": "Data Preprocessing & Feature Engineering",
+        "code": "import pandas as pd\r\nimport numpy as np\r\n\r\ndf = pd.read_csv('/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/train.csv')\r\n\r\ndf1 = pd.read_csv('/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/test.csv')\r\n\r\n#num_cols = df.select_dtypes(include = 'np.number')\r\n#print(num_cols)\r\n\r\nprint(df.isna().sum())\r\n\r\nprint(df.duplicated().sum())\r\n\r\nprint\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n=\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "passed": false
+      },
+      {
+        "questionId": "LR_006",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_006",
+        "partId": "Model Training & predictions",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_006",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:57:39.561989",
+    "answers": [
+      {
+        "questionId": "LR_003",
+        "partId": "Data Exploration & Missing Values",
+        "code": "import numpy as np\r\nimport pandas as pd\r\n\r\ndf = pd.read_csv('/home/student/Desktop/PS_SOFTWARE/PS/backend/data/')\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Feature Scaling & Preprocessing",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Training & Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Evaluation,Interpretation of Coefficients",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-16T14:34:18.022136",
+    "answers": [
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "import numpy as np \r\n\r\nn = input().split()\r\nprint(len(n))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "passed": true
+      },
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "import numpy as np\r\n\r\na = input()\r\nb = int(input())\r\n\r\nc = a.split()\r\nd = np.array(c,dtype=int)\r\nprint(d+b)\r\n\r\n\r\n\r\n\r\n",
+        "passed": true
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "import numpy as np\r\nn = input().split()\r\n\r\nprint(len(n))",
+        "passed": true
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "import numpy as np\r\nn = int(input())\r\narr = np.arange(1,n+1)\r\nprint(arr)\r\n\r\n\r\n\r\n\r\n",
+        "passed": true
+      },
+      {
+        "questionId": "q6",
+        "partId": null,
+        "code": "import numpy as np\r\na = input().split()\r\nb = np.array(a,dtype = int)\r\nprint(b*2)\r\n\r\n\r\n\r\n\r\n",
+        "passed": true
+      }
+    ]
+  }
+]

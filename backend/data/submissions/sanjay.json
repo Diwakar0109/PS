@@ -1,0 +1,104 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:57:51.402115",
+    "answers": [
+      {
+        "questionId": "LR_005",
+        "partId": "Data Preprocessing",
+        "code": "df=pd.read_csv(r\"/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv\")\r\n\r\nprint(df.dtypes)\r\nnumeric_df=df.select_dtypes(object)\r\nfrom sklearn.preprocessing import LabelEncoder\r\nencoder=LabelEncoder()\r\nfor columns in numeric_df.columns:\r\n    col=numeric_df[columns]\r\n    df[columns]=encoder.fit_transform(col)\r\nprint\r\n\r\n",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Model Performance",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T14:00:30.260673",
+    "answers": [
+      {
+        "questionId": "LR_004",
+        "partId": "Data Exploration & Preprocessing",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Model Training & Evaluation",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_004",
+        "partId": "Feature Selection Interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-16T14:28:45.151846",
+    "answers": [
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "import numpy as np\r\nn=input()\r\na=n.split()\r\nn=np.array(a)\r\nprint(n[0])",
+        "passed": true
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "import numpy as np\r\nnum=input()\r\nn=num.split()\r\nnn=np.array(n,dtype=int)\r\nprint(sum(nn))",
+        "passed": true
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "num=input()\r\na=num.split()\r\nn=np.array(a,dtype=int)\r\nprint(n)",
+        "passed": true
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "n=int(input())\r\nnm=np.arange(1,n+1,1)\r\nprint(nm)",
+        "passed": true
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "a=input()\r\nn=a.split()\r\nnum=np.array(n,dtype=int)\r\nprint(len(num))",
+        "passed": true
+      }
+    ]
+  }
+]

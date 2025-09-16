@@ -1,0 +1,104 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:57:39.534512",
+    "answers": [
+      {
+        "questionId": "LR_003",
+        "partId": "Data Exploration & Missing Values",
+        "code": "import pandas as pd \r\nimport numpy as np \r\ndf=pd.read_csv('/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv')\r\nprint(df.isnull().sum())\r\ndf.dropna()\r\nprint(df.isnull().sum())\r\n ",
+        "passed": true
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Feature Scaling & Preprocessing",
+        "code": "import pandas as pd \r\nimport numpy as np \r\nfrom sklearn.preprocessing import StandardScaler\r\ndf=pd.read_csv('/home/student/Desktop/PS/backend/data/datasets/ml/house-prices/test.csv')\r\nscaled=Standard_scaler()\r\n\r\n",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Training & Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Evaluation,Interpretation of Coefficients",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T14:21:32.490781",
+    "answers": [
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "import numpy as np\r\nn=int(input()) \r\narr=np.ones(n)\r\nprint(arr)\r\n",
+        "passed": true
+      },
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "import numpy as np \r\n",
+        "passed": false
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "n=list(map(int,input().split()))\r\ns=np.array()",
+        "passed": false
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "n=list(map(int,input().split()))\r\ns=np.array(n)\r\nprint(s)",
+        "passed": true
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "import numpy as np \r\nn=int(input())\r\narr=np.arange(1,n+1)\r\nprint(arr)",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T14:27:19.107456",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  }
+]

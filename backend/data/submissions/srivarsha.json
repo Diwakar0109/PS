@@ -1,27 +1,71 @@
 [
   {
     "subject": "ml",
-    "level": "level2",
-    "status": "passed",
-    "timestamp": "2025-08-21T11:19:44.649669",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:58:12.681120",
     "answers": [
       {
-        "questionId": "house_prices_full_task_v1_data_inspection",
-        "code": "import pandas as pd \r\ndf=pd.read_csv(\"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv\")\r\nmissing=df.isnull().sum()\r\nprint(missing)\r\n\r\n\r\n\r\n",
-        "passed": true,
-        "fully_passed": true
+        "questionId": "LR_003",
+        "partId": "Data Exploration & Missing Values",
+        "code": "import pandas as pd \r\ndf=pd.read_csv(\"/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv\")\r\n\r\nprint(df.isnull().sum())\r\n",
+        "passed": true
       },
       {
-        "questionId": "house_prices_full_task_v1_model_training",
-        "code": "import pandas as pd\r\nimport numpy as np \r\nfrom sklearn.linear_model import LinearRegression\r\nfrom sklearn.metrics import mean_squared_error, r2_score\r\n\r\ndf=pd.read_csv(\"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv\")\r\nX = df.drop(columns=[\"SalePrice\", \"Id\"])\r\ny = df[\"SalePrice\"]\r\n\r\nX = pd.get_dummies(X.fillna(0))\r\n\r\nmodel = LinearRegression()\r\nmodel.fit(X, y)\r\n\r\ny_pred = model.predict(X)\r\n\r\nrm = np.sqrt(mean_squared_error(y, y_pred))\r\nr2 = r2_score(y, y_pred)\r\n\r\nprint(\"Root Mean Squared Error:\", rm)\r\nprint(\"R-squared:\", r2)",
-        "passed": true,
-        "fully_passed": true
+        "questionId": "LR_003",
+        "partId": "Feature Scaling & Preprocessing",
+        "code": "import pandas as pd \r\ndf=pd.read_csv(\"/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv\")\r\nprint(df)\r\nprint(df.shape)",
+        "passed": false
       },
       {
-        "questionId": "house_prices_full_task_v1_prediction",
-        "code": "import pandas as pd\r\nimport numpy as np\r\nfrom sklearn.linear_model import LinearRegression\r\ndf=pd.read_csv(\"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/train.csv\")\r\nx=df.drop(columns=[\"SalePrice\",\"Id\"])\r\ny=df[\"SalePrice\"]\r\n\r\nx=pd.get_dummies(x.fillna(0))\r\n\r\nm=LinearRegression().fit(x,y)\r\ntest=pd.read_csv(\"/home/bit/Desktop/ps/ml2/backend/data/datasets/house-prices/test.csv\")\r\nt_id=test[\"Id\"]\r\n\r\nX_test = pd.get_dummies(test.drop(columns=[\"Id\"]).fillna(0))\r\nX_test = X_test.reindex(columns=X.columns, fill_value=0)\r\n\r\n\r\npreds = model.predict(X_test)\r\n\r\n\r\npd.DataFrame({\"Id\": t_id, \"SalePrice\": preds}).to_csv(\"submission.csv\", index=False)\r\n",
-        "passed": true,
-        "fully_passed": true
+        "questionId": "LR_003",
+        "partId": "Model Training & Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Evaluation,Interpretation of Coefficients",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-16T14:25:10.783837",
+    "answers": [
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "import numpy as np\r\nn=int(input())\r\narr=np.ones(n)\r\nprint(arr)",
+        "passed": true
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "import numpy as np \r\narr=np.array(list(map(int,input().split())))\r\nn=np.max(arr)\r\nprint(n)",
+        "passed": true
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "import numpy as np \r\nn=int(input())\r\narr=np.arange(1,n+1)\r\nprint(arr)",
+        "passed": true
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "import numpy as np \r\narr=np.array(list(map(int,input().split())))\r\nprint(arr)",
+        "passed": true
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "import numpy as np \r\narr=np.array(list(map(int,input().split())))\r\nn=np.sum(arr)\r\nprint(n)",
+        "passed": true
       }
     ]
   }

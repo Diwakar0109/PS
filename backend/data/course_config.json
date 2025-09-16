@@ -1,5 +1,5 @@
 {
-  "isExamSecurityActive": true,
+  "isExamSecurityActive": false,
   "ds": {
     "title": "Fundamentals Of Data Science",
     "isActive": true,
@@ -122,40 +122,6 @@
     "question_limit": {
       "level1": 5,
       "level2": 0
-    }
-  },
-  "Python Basics": {
-    "title": "Python Basics",
-    "isActive": true,
-    "levels": [
-      "level1",
-      "level2"
-    ],
-    "question_limit": {
-      "level1": 5,
-      "level2": 0
-    }
-  },
-  "Phone Software": {
-    "title": "Phone Software",
-    "isActive": true,
-    "levels": [
-      "level1",
-      "level2"
-    ],
-    "question_limit": {
-      "level1": 5,
-      "level2": 0
-    }
-  },
-  "C": {
-    "title": "C",
-    "isActive": true,
-    "levels": [
-      "level1"
-    ],
-    "question_limit": {
-      "level1": 5
     }
   }
 }

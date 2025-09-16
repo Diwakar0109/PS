@@ -1,0 +1,142 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:55:00.042765",
+    "answers": [
+      {
+        "questionId": "LR_007",
+        "partId": "Data Preprocessing",
+        "code": "import pandas as pd \r\nfrom sklearn.preprocessing import OneHotEncoder\r\ntest = pd.read_csv(\"/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv\")\r\nprint(test.isna().sum())\r\nprint(test.shape)\r\nprint(test.info())\r\ncat_cols = test.select_dtypes(include=['object']).columns\r\nencoder = OneHotEncoder(sparse=False)\r\nencoded = encoder.fit_transform(test[cat_cols])\r\nencoded_df = pd.DataFrame(encoded,columns=encoder.get_feature_names_out(cat_cols))\r\nfinal_df = pd.concat([df.drop(cat_cols,axis=1),encoded_df],axis=1)\r\nprint(final_df)",
+        "passed": false
+      },
+      {
+        "questionId": "LR_007",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_007",
+        "partId": "Model Training & predictions",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_007",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:56:00.163304",
+    "answers": [
+      {
+        "questionId": "q6",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:57:36.018542",
+    "answers": [
+      {
+        "questionId": "LR_005",
+        "partId": "Data Preprocessing",
+        "code": "import pandas as pd \r\nfrom sklearn.preprocess",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Model Performance",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T14:33:37.242131",
+    "answers": [
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "arr=list(map(int,input().split()))\r\nn=int(input())\r\nres = [ i + n for i in arr]\r\n\r\nprint(\"[\",\" \".join(map(str,res)),\"]\",sep=\"\")",
+        "passed": true
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "a = list(map(int,input().split()))\r\nprint(\"[\",\" \".join(map(str,a)),\"]\",sep=\"\")",
+        "passed": false
+      },
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "n = list(map(int,input().split()))\r\nprint(len(n))",
+        "passed": true
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "import numpy as np\r\nn=list(map(int,input().split()))\r\na = np.array(n)\r\nprint(max(a))",
+        "passed": true
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "import numpy as np\r\nn=int(input())\r\na = np.ones(n)\r\nprint(a)",
+        "passed": true
+      }
+    ]
+  }
+]

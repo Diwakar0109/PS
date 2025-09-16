@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:53:20.288832",
+    "answers": [
+      {
+        "questionId": "LR_005",
+        "partId": "Data Preprocessing",
+        "code": "import numpy as np \r\nimport pandas as pd \r\nfrom sklearn.preprocessing import LabelEncoder\r\n\r\ncat\r\ndf=pd.read_csv(r'/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv')\r\n\r\ndf=df.dropna()\r\n",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Model Performance",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-16T14:27:20.420818",
+    "answers": [
+      {
+        "questionId": "q6",
+        "partId": null,
+        "code": "import numpy as np\r\na=input()\r\nb=a.split(' ')\r\nfor i in range(len(b)):\r\n    b[i]=int(b[i])\r\nresult=np.multiply(b,2)\r\nprint(result)",
+        "passed": true
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "a=input()\r\nb=a.split(' ')\r\nprint(b[0])",
+        "passed": true
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "import numpy as np \r\na=input()\r\nb=np.array(a.split(' '),dtype=int)\r\nprint(max(b))",
+        "passed": true
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "import numpy as np \r\na=input()\r\nb=a.split(' ')\r\nc=0\r\nfor i in range(len(b)):\r\n    b[i]=int(b[i])\r\n    c+=b[i]\r\nprint(c)",
+        "passed": true
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "import numpy as np \r\na=int(input())\r\nprint(np.ones(a))",
+        "passed": true
+      }
+    ]
+  }
+]

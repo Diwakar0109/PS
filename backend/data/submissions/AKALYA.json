@@ -1,0 +1,40 @@
+[
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-16T14:31:39.505964",
+    "answers": [
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "n=list(map(int,input().split()))\r\narr=np.array(n)\r\nprint(sum(arr))",
+        "passed": true
+      },
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "import numpy as np\r\nn=list(map(int,input().split()))\r\nm=int(input())\r\narr=np.array(n)\r\nprint(arr+m)",
+        "passed": true
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "n=list(map(int,input().split()))\r\narr=np.array(n)\r\nprint(arr.max())",
+        "passed": true
+      },
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "n=int(input())\r\nprint(np.arange(1,n+1))",
+        "passed": true
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "n=list(map(int,input().split()))\r\narr=np.array(n)\r\nprint(arr.size)",
+        "passed": true
+      }
+    ]
+  }
+]

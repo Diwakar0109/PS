@@ -1,0 +1,136 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:53:21.293325",
+    "answers": [
+      {
+        "questionId": "LR_001",
+        "partId": "Preprocessing",
+        "code": "import pandas as pd \r\nimport numpy as np \r\n\r\ndf = pd.read_csv('')",
+        "passed": false
+      },
+      {
+        "questionId": "LR_001",
+        "partId": "Model Training",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_001",
+        "partId": "Prediction",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T13:54:21.514721",
+    "answers": [
+      {
+        "questionId": "LR_005",
+        "partId": "Data Preprocessing",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Model Performance",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T14:21:54.540013",
+    "answers": [
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "a = list(map(int,input().split()))\r\nt = 0\r\nfor i in a:\r\n    t += i\r\nprint(t)",
+        "passed": true
+      },
+      {
+        "questionId": "q3",
+        "partId": null,
+        "code": "a = list(map(int,input().split()))\r\nb = int(input())\r\nprint(len(a))",
+        "passed": false
+      },
+      {
+        "questionId": "q6",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-16T14:34:59.594179",
+    "answers": [
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "import numpy as np\r\nn = int(input())\r\nprint(np.arange(1,n+1))",
+        "passed": false
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "a =input()\r\nb=a.split()\r\nprint(b[0])",
+        "passed": true
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "a = list(map(int,input().split()))\r\nprint(len(a))",
+        "passed": true
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "import numpy  as np\r\na = int(input())\r\nprint(np.ones(a))",
+        "passed": true
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "a = list(map(int,input().split()))\r\nr = np.array(a,dtype = int)\r\nprint(np.sum(r))",
+        "passed": true
+      }
+    ]
+  }
+]
