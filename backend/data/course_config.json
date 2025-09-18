@@ -1,5 +1,12 @@
 {
-  "isExamSecurityActive": false,
+  "security": {
+    "copy": false,
+    "paste": false,
+    "select": false,
+    "cut": false,
+    "fullscreen": false,
+    "tabswitchwarning": false
+  },
   "ds": {
     "title": "Fundamentals Of Data Science",
     "isActive": true,
@@ -10,7 +17,7 @@
     ],
     "question_limit": {
       "level1": 5,
-      "level2": 0,
+      "level2": 2,
       "level3": 0
     }
   },
@@ -110,18 +117,6 @@
       "level2": 0,
       "level3": 0,
       "level4": 0
-    }
-  },
-  "final_test_subject": {
-    "title": "Final Test Subject",
-    "isActive": true,
-    "levels": [
-      "level1",
-      "level2"
-    ],
-    "question_limit": {
-      "level1": 5,
-      "level2": 0
     }
   }
 }

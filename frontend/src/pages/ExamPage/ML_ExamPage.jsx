@@ -11,8 +11,6 @@ import { useFullScreenExamSecurity } from "../../hooks/useFullScreenExamSecurity
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
-// --- Sub-components (AlertCard, CodeCell) ---
-// Note: AlertCard and CodeCell components remain unchanged.
 const AlertCard = ({ message, onConfirm, onCancel, showCancel = false }) => {
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80">
@@ -57,6 +55,7 @@ const CodeCell = ({
   isCustomInputEnabled,
   onToggleCustomInput,
   isSessionReady,
+  securityConfig,
 }) => {
   const buildEnhancedDescription = () => {
     let enhancedDesc = mainTask?.description || "";
@@ -148,15 +147,19 @@ const CodeCell = ({
               scrollBeyondLastLine: false,
               wordWrap: "on",
               padding: { top: 15 },
+              // This allows selecting/copying from editor but prevents typing if select is blocked.
+              readOnly: securityConfig?.select, 
             }}
             onMount={(editor, monaco) => {
-              // This command overrides the default paste behavior inside the editor
-              editor.addCommand(
-                monaco.KeyMod.CtrlCmd | monaco.KeyCode.KeyV,
-                () => {
-                  alert("Pasting is disabled during the exam.");
-                }
-              );
+              // Conditionally disable pasting in the editor based on security config
+              if (securityConfig?.paste) {
+                  editor.addCommand(
+                    monaco.KeyMod.CtrlCmd | monaco.KeyCode.KeyV,
+                    () => {
+                      alert("Pasting is disabled during the exam.");
+                    }
+                  );
+              }
             }}
           />
         </div>
@@ -272,8 +275,8 @@ const ML_ExamPage = () => {
   const [submissionResult, setSubmissionResult] = useState(null);
   const [isFinalSubmission, setIsFinalSubmission] = useState(false);
 
-  // --- CHANGE #1: ADD NEW STATE VARIABLES ---
-  const [isSecurityEnabled, setIsSecurityEnabled] = useState(true);
+  // --- ADD NEW STATE VARIABLES ---
+  const [securityConfig, setSecurityConfig] = useState(null);
   const [isConfigLoading, setIsConfigLoading] = useState(true);
 
   const handleSubmissionModalConfirm = useCallback(async () => {
@@ -365,29 +368,31 @@ const ML_ExamPage = () => {
     setWarningMessage(message);
   }, []);
 
-  // --- CHANGE #2: UPDATE THE HOOK CALL ---
+  // --- UPDATE THE HOOK CALL ---
   const { startExam, reEnterFullScreen } = useFullScreenExamSecurity(
     handleSubmitExam,
     3,
     showWarningPopup,
-    isSecurityEnabled, // Pass the new state
+    securityConfig, // Pass the new config object
     isFinalSubmission
   );
 
-  // --- CHANGE #3: ADD useEffect TO FETCH THE CONFIG ---
+  // --- ADD useEffect TO FETCH THE CONFIG ---
   useEffect(() => {
     const fetchCourseConfig = async () => {
       try {
         const res = await fetch(`${API_BASE_URL}/api/courses`);
         if (!res.ok) throw new Error("Network response was not ok");
         const config = await res.json();
-        setIsSecurityEnabled(config.isExamSecurityActive);
+        // Set the entire security object from the response
+        setSecurityConfig(config.security);
       } catch (error) {
         console.error(
-          "Failed to fetch course config, defaulting to enabled security:",
+          "Failed to fetch course config, defaulting to secure settings:",
           error
         );
-        setIsSecurityEnabled(true); // Fail securely
+        // Fail securely by enabling all restrictions
+        setSecurityConfig({ copy: true, paste: true, select: true, cut: true, fullscreen: true, tabswitchwarning: true });
       } finally {
         setIsConfigLoading(false);
       }
@@ -396,9 +401,8 @@ const ML_ExamPage = () => {
   }, []);
 
   const handleStartExamClick = async () => {
-    // --- THIS IS THE FIX ---
     // We handle the fullscreen request directly in the click handler.
-    if (isSecurityEnabled) {
+    if (securityConfig?.fullscreen) {
       try {
         await document.documentElement.requestFullscreen();
         // If fullscreen is successful, THEN we activate security and start the exam.
@@ -410,7 +414,7 @@ const ML_ExamPage = () => {
         );
       }
     } else {
-      // If security is disabled, just start the exam.
+      // If fullscreen is not required, just start the exam.
       startExam();
       setHasExamStarted(true);
     }
@@ -602,7 +606,7 @@ const ML_ExamPage = () => {
       .padStart(2, "0")}`;
   };
 
-  // --- CHANGE #4: ADD A LOADING STATE ---
+  // --- ADD A LOADING STATE ---
   if (isConfigLoading) {
     return <Spinner />;
   }
@@ -657,7 +661,7 @@ const ML_ExamPage = () => {
           >
             Start Exam
           </button>
-          {isSecurityEnabled && (
+          {(securityConfig?.fullscreen || securityConfig?.tabswitchwarning) && (
             <p className="mt-8 text-sm text-yellow-400">
               Warning: Leaving the exam window will result in the exam being
               submitted automatically.
@@ -780,6 +784,7 @@ const ML_ExamPage = () => {
                       handleToggleCustomInput(currentPart.id)
                     }
                     isSessionReady={isSessionReady}
+                    securityConfig={securityConfig}
                   />
                 </div>
               ) : (

@@ -1,0 +1,802 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:18:59.980700",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:19:01.984951",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:19:01.987308",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:19:03.980632",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:19:03.980066",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:19:05.981018",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:19:07.985930",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:19:09.981515",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:19:11.981571",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:19:11.981019",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:19:13.945133",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:19:13.946437",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:19:14.963622",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:19:15.988385",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:26:47.387349",
+    "answers": [
+      {
+        "questionId": "LR_008",
+        "partId": "Data Preprocessing",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Model Training & predictions",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:29:19.008536",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T14:35:09.116906",
+    "answers": [
+      {
+        "questionId": "LR_008",
+        "partId": "Data Preprocessing",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Model Training & predictions",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T14:35:22.763708",
+    "answers": [
+      {
+        "questionId": "LR_008",
+        "partId": "Data Preprocessing",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Model Training & predictions",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T14:35:43.002407",
+    "answers": [
+      {
+        "questionId": "LR_007",
+        "partId": "Data Preprocessing",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_007",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_007",
+        "partId": "Model Training & predictions",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_007",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T14:37:58.696647",
+    "answers": [
+      {
+        "questionId": "LR_008",
+        "partId": "Data Preprocessing",
+        "code": "import pandas as pd\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import LabelEncoder\n\n# Paths\ntrain_path = '/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/realistic_car/train.csv'\ntest_path = '/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/realistic_car/test.csv'\n\n# Load datasets\ntrain_df = pd.read_csv(train_path)\ntest_df = pd.read_csv(test_path)\n\n# ----------------------\n# Handle missing values\n# ----------------------\n# Fill numeric columns with median\nfor col in train_df.select_dtypes(include=['int64', 'float64']).columns:\n    train_df[col] = train_df[col].fillna(train_df[col].median())\n    if col in test_df.columns:\n        test_df[col] = test_df[col].fillna(train_df[col].median())\n\n# Fill categorical columns with mode\nfor col in train_df.select_dtypes(include=['object']).columns:\n    train_df[col] = train_df[col].fillna(train_df[col].mode()[0])\n    if col in test_df.columns:\n        test_df[col] = test_df[col].fillna(train_df[col].mode()[0])\n\n# ----------------------\n# Encode categorical columns\n# ----------------------\nlabel_encoders = {}\nfor col in train_df.select_dtypes(include=['object']).columns:\n    le = LabelEncoder()\n    train_df[col] = le.fit_transform(train_df[col])\n    if col in test_df.columns:\n        test_df[col] = le.transform(test_df[col])\n    label_encoders[col] = le\n\nprint(\"\u2705 Data preprocessing is complete.\")\n",
+        "passed": true
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Model Training & predictions",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_008",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T14:40:56.643627",
+    "answers": [
+      {
+        "questionId": "LR_003",
+        "partId": "Data Exploration & Missing Values",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Feature Scaling & Preprocessing",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Training & Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_003",
+        "partId": "Model Evaluation,Interpretation of Coefficients",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T14:41:19.788532",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T14:42:18.716334",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "import pandas as pd\n\n# File paths\ntrain_path = '/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/train.csv'\ntest_path = '/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/test.csv'\n\n# Load data\ntrain_df = pd.read_csv(train_path)\ntest_df = pd.read_csv(test_path)\n\n# Extract 'hour' from datetime\ntrain_df['hour'] = pd.to_datetime(train_df['datetime']).dt.hour\ntest_df['hour'] = pd.to_datetime(test_df['datetime']).dt.hour\n\n# Quick check\nprint(train_df[['datetime', 'hour']].head())\n\n# Relationship assumption\nprint(\"\\nObservation: The relationship between 'hour' and 'count' is expected to be NON-LINEAR,\")\nprint(\"because rentals peak during commute hours (morning/evening) and drop late at night.\")\n",
+        "passed": true
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "import pandas as pd\nfrom sklearn.preprocessing import PolynomialFeatures\nfrom sklearn.linear_model import LinearRegression\nfrom sklearn.metrics import r2_score\nfrom sklearn.model_selection import train_test_split\n\n# File paths\ntrain_path = '/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/train.csv'\ntest_path = '/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/test.csv'\n\n# Load data\ntrain_df = pd.read_csv(train_path)\n\n# Extract 'hour' from datetime\ntrain_df['hour'] = pd.to_datetime(train_df['datetime']).dt.hour\n\n# Features & target\nX = train_df[['hour', 'temp', 'humidity']]\ny = train_df['count']\n\n# Train-test split\nX_train, X_valid, y_train, y_valid = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Polynomial transformation (degree 3)\npoly = PolynomialFeatures(degree=3)\nX_train_poly = poly.fit_transform(X_train)\nX_valid_poly = poly.transform(X_valid)\n\n# Train model\nmodel = LinearRegression()\nmodel.fit(X_train_poly, y_train)\n\n# Predictions\ny_pred = model.predict(X_valid_poly)\n\n# R\u00b2 score\nr2 = r2_score(y_valid, y_pred)\n\nprint(f\"Polynomial R-squared: {r2:.4f}\")\n",
+        "passed": true
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T14:46:35.122285",
+    "answers": [
+      {
+        "questionId": "LR_001",
+        "partId": "Preprocessing",
+        "code": "import pandas as pd\nimport numpy as np\n\n# File paths\ntrain_path = '/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv'\ntest_path = '/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv'\n\n# Load data\ntrain_df = pd.read_csv(train_path)\ntest_df = pd.read_csv(test_path)\n\n# -----------------------------\n# Handle Missing Values\n# -----------------------------\nfor col in train_df.columns:\n    if train_df[col].dtype in ['int64', 'float64']:\n        train_df[col].fillna(train_df[col].median(), inplace=True)\n    else:\n        train_df[col].fillna(train_df[col].mode()[0], inplace=True)\n\n# -----------------------------\n# Handle Outliers (numeric cols)\n# -----------------------------\nnumeric_cols = train_df.select_dtypes(include=['int64', 'float64']).columns\n\nfor col in numeric_cols:\n    q1 = train_df[col].quantile(0.01)\n    q99 = train_df[col].quantile(0.99)\n    train_df[col] = np.clip(train_df[col], q1, q99)\n\n# -----------------------------\n# Final confirmation\n# -----------------------------\nprint(\"\u2705 Preprocessing complete. Cleaned training dataset info:\\n\")\nprint(train_df.info())\n",
+        "passed": true
+      },
+      {
+        "questionId": "LR_001",
+        "partId": "Model Training",
+        "code": "import pandas as pd\nfrom sklearn.linear_model import LinearRegression\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import r2_score\n\n# Load the training data\ntrain_data = pd.read_csv(\"/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv\")\n\n# Handle missing values (if any)\ntrain_data = train_data.fillna(train_data.mean())\n\n# Select features and target\nfeatures = ['number_of_rooms', 'area', 'number_of_bathrooms', 'location_rating', 'age_of_the_house']\ntarget = 'price'\n\n# Split data into training and testing sets\nX_train, X_test, y_train, y_test = train_test_split(train_data[features], train_data[target], test_size=0.2, random_state=42)\n\n# Train the Linear Regression model\nmodel = LinearRegression()\nmodel.fit(X_train, y_train)\n\n# Make predictions on the training data\ny_train_pred = model.predict(X_train)\n\n# Evaluate the model on the training data\nr2 = r2_score(y_train, y_train_pred)\n\n# Print the R\u00b2 score\nprint(f\"R-squared Score: {r2:.4f}\")",
+        "passed": false
+      },
+      {
+        "questionId": "LR_001",
+        "partId": "Prediction",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-18T11:00:35.687225",
+    "answers": [
+      {
+        "questionId": "q9",
+        "partId": null,
+        "code": "Make Number Sequence\nWrite a Python script that reads a number n and creates an numpy array with numbers from 1 to n using np.arange(1, n+1), then prints it.\n\nVisible Test Case\nInput:\n\n3\nExpected Output:\n\n[1 2 3]",
+        "passed": false
+      },
+      {
+        "questionId": "q4",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q2",
+        "partId": null,
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "",
+        "passed": false
+      }
+    ]
+  }
+]

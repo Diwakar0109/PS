@@ -29,11 +29,11 @@ def excel_to_json(input_file, output_file):
                 "parts": []
             }
 
-        # --- Add datasets ---
-        dataset_type = str(row.get("dataset_type", "")).strip().lower()
-        dataset_path = str(row.get("dataset_path", "")).strip()
-        if dataset_type and dataset_path:
-            tasks[task_id]["datasets"][dataset_type] = dataset_path
+        # --- Add datasets (fixed to match your Excel columns) ---
+        if pd.notna(row.get("train_dataset")):
+            tasks[task_id]["datasets"]["train"] = str(row.get("train_dataset")).strip()
+        if pd.notna(row.get("test_dataset")):
+            tasks[task_id]["datasets"]["test"] = str(row.get("test_dataset")).strip()
 
         # --- Add parts ---
         part_id = str(row.get("part_id", "")).strip()
@@ -91,4 +91,4 @@ def excel_to_json(input_file, output_file):
 
 # Example usage
 if __name__ == "__main__":
-    excel_to_json("standardized_questions_filled.xlsx", "ml_1.json")
+    excel_to_json("ml_questions.xlsx", "ml_1.json")

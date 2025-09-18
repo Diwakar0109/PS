@@ -1,18 +1,28 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 
 /**
- * An enhanced, robust exam security hook.
+ * An enhanced, robust exam security hook with granular controls.
  */
 export function useFullScreenExamSecurity(
   onFinishExam,
   maxViolations = 3,
   onWarning,
-  isSecurityEnabled,
+  securityConfig, // Changed from isSecurityEnabled to an object
   isFinalSubmission
 ) {
   const [violations, setViolations] = useState(-1);
   const isHandlingViolation = useRef(false);
   const devToolsCheckInterval = useRef(null);
+
+  // Destructure config with default values to prevent errors if it's null
+  const {
+    copy = false,
+    paste = false,
+    select = false,
+    cut = false,
+    fullscreen = false,
+    tabswitchwarning = false,
+  } = securityConfig || {};
 
   const handleViolation = useCallback(
     (reason) => {
@@ -39,7 +49,8 @@ export function useFullScreenExamSecurity(
   );
 
   useEffect(() => {
-    if (!isSecurityEnabled || violations === -1 || isFinalSubmission) {
+    // Only run security checks if the exam has started and is not submitted
+    if (violations === -1 || isFinalSubmission) {
       if (devToolsCheckInterval.current) {
         clearInterval(devToolsCheckInterval.current);
       }
@@ -49,9 +60,24 @@ export function useFullScreenExamSecurity(
     const handleVisibilityChange = () => {
       if (document.hidden) handleViolation("switched tabs");
     };
+
+    // --- THIS IS THE FIX ---
+    // The `blur` event signifies the window has lost focus.
+    // The `document.hasFocus()` check was preventing this from ever firing correctly.
     const handleBlur = () => {
-      if (document.fullscreenElement) handleViolation("switched window");
+      // We only trigger a violation if the exam is supposed to be in fullscreen.
+      // This prevents false positives if the user interacts with browser UI that isn't a tab switch (rare, but possible).
+      if (document.fullscreenElement) {
+        // A short timeout helps differentiate between a real focus loss
+        // and a temporary one (like clicking a browser alert).
+        setTimeout(() => {
+            if (!document.hasFocus()) {
+                handleViolation("switched window or application");
+            }
+        }, 100);
+      }
     };
+    
     const handleFullScreenChange = () => {
       if (!document.fullscreenElement) handleViolation("exited fullscreen");
     };
@@ -93,20 +119,38 @@ export function useFullScreenExamSecurity(
         }
       }
     };
-    devToolsCheckInterval.current = setInterval(checkDevTools, 1000);
 
-    document.addEventListener("visibilitychange", handleVisibilityChange);
-    window.addEventListener("blur", handleBlur);
-    document.addEventListener("fullscreenchange", handleFullScreenChange);
-    document.addEventListener("keydown", handleKeyDown);
-    document.addEventListener("contextmenu", preventDefault);
-    document.addEventListener("dragstart", preventDefault);
-    document.addEventListener("selectstart", preventDefault);
-    document.addEventListener("copy", preventClipboardAction);
-    document.addEventListener("paste", preventClipboardAction);
-    document.addEventListener("cut", preventClipboardAction);
+    // --- CONDITIONAL EVENT LISTENERS ---
+    if (tabswitchwarning) {
+        document.addEventListener("visibilitychange", handleVisibilityChange);
+        window.addEventListener("blur", handleBlur);
+        document.addEventListener("keydown", handleKeyDown); // Shortcuts are part of tab switching prevention
+        devToolsCheckInterval.current = setInterval(checkDevTools, 1000);
+    }
+    if (fullscreen) {
+        document.addEventListener("fullscreenchange", handleFullScreenChange);
+    }
+    if (select) {
+        document.addEventListener("selectstart", preventDefault);
+    }
+    if (copy) {
+        document.addEventListener("copy", preventClipboardAction);
+    }
+    if (paste) {
+        document.addEventListener("paste", preventClipboardAction);
+    }
+    if (cut) {
+        document.addEventListener("cut", preventClipboardAction);
+    }
+    // Context menu and dragstart are general purpose, let's keep them with tab switching
+    if (tabswitchwarning || fullscreen) {
+        document.addEventListener("contextmenu", preventDefault);
+        document.addEventListener("dragstart", preventDefault);
+    }
+
 
     return () => {
+      // --- ALWAYS REMOVE ALL LISTENERS on cleanup ---
       document.removeEventListener("visibilitychange", handleVisibilityChange);
       window.removeEventListener("blur", handleBlur);
       document.removeEventListener("fullscreenchange", handleFullScreenChange);
@@ -121,17 +165,14 @@ export function useFullScreenExamSecurity(
         clearInterval(devToolsCheckInterval.current);
       }
     };
-  }, [violations, handleViolation, isSecurityEnabled, isFinalSubmission]);
+  }, [violations, handleViolation, securityConfig, isFinalSubmission]);
 
-  // --- THIS IS THE FIX ---
-  // The hook is now only responsible for setting the state to "active".
-  // The component is responsible for the fullscreen action itself.
   const startExam = () => {
     setViolations(0); // Activate the security listeners
   };
 
   const reEnterFullScreen = async () => {
-    if (isSecurityEnabled && !document.fullscreenElement) {
+    if (fullscreen && !document.fullscreenElement) {
       try {
         await document.documentElement.requestFullscreen();
       } catch (err) {

@@ -1,0 +1,124 @@
+[
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:05:22.701716",
+    "answers": [
+      {
+        "questionId": "LR_002",
+        "partId": "Feature Engineering",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Polynomial Regression",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Prediction & Analysis",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_002",
+        "partId": "Visualization",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-09-17T12:29:04.325546",
+    "answers": [
+      {
+        "questionId": "LR_005",
+        "partId": "Data Preprocessing",
+        "code": "Predict house price using tree-based models\nYou are provided with a dataset containing various features of houses and their corresponding sale prices. Your task is to build regression models using tree-based methods\u2014specifically Decision Tree Regression and Random Forest Regression\u2014to predict house prices. Analyze and compare their performances.\n\nPart 1: Data Preprocessing\n\nPreprocess the data by imputing missing values and encoding categorical features. Print a confirmation when complete.\n\nDatasets for this Project:\nTest Data Path: '/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv'\nTrain Data Path: '/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv'\nHidden Test Cases\nPlease submit your code to see the results.+3",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Hyperparameter Tuning",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Model Performance",
+        "code": "",
+        "passed": false
+      },
+      {
+        "questionId": "LR_005",
+        "partId": "Model evaluation & interpretation",
+        "code": "",
+        "passed": false
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-09-18T12:11:55.525134",
+    "answers": [
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "import numpy as np\n\n# Read space-separated numbers\nnumbers = list(map(int, input().split()))\n\n# Create numpy array\narr = np.array(numbers)\n\n# Print the biggest number\nprint(np.max(arr))\n",
+        "passed": true
+      },
+      {
+        "questionId": "q1",
+        "partId": null,
+        "code": "import numpy as np\n\n# Read space-separated numbers\nnumbers = list(map(int, input().split()))\n\n# Create numpy array\narr = np.array(numbers)\n\n# Print the numpy array\nprint(arr)\n",
+        "passed": true
+      },
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "import numpy as np\n\n# Read space-separated numbers\nnumbers = list(map(int, input().split()))\n\n# Create numpy array\narr = np.array(numbers)\n\n# Print the sum of all numbers\nprint(np.sum(arr))\n",
+        "passed": true
+      },
+      {
+        "questionId": "q7",
+        "partId": null,
+        "code": "import numpy as np\n\n# Read space-separated numbers\nnumbers = list(map(int, input().split()))\n\n# Create numpy array\narr = np.array(numbers)\n\n# Print the first element\nprint(arr[0])\n",
+        "passed": true
+      },
+      {
+        "questionId": "q10",
+        "partId": null,
+        "code": "import numpy as np\n\n# Read space-separated numbers\nnumbers = list(map(int, input().split()))\n\n# Create numpy array\narr = np.array(numbers)\n\n# Print the size (number of elements)\nprint(arr.size)\n",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "subject": "ds",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-09-18T12:16:52.144635",
+    "answers": [
+      {
+        "questionId": "q8",
+        "partId": null,
+        "code": "import numpy as np\n\n# Read space-separated numbers\nnumbers = list(map(int, input().split()))\n\n# Create numpy array\narr = np.array(numbers)\n\n# Print the sum of all numbers\nprint(np.sum(arr))\n",
+        "passed": true
+      },
+      {
+        "questionId": "q5",
+        "partId": null,
+        "code": "import numpy as np\n\n# Read space-separated numbers\nnumbers = list(map(int, input().split()))\n\n# Create numpy array\narr = np.array(numbers)\n\n# Print the biggest number\nprint(np.max(arr))\n",
+        "passed": true
+      }
+    ]
+  }
+]

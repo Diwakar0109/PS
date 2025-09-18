@@ -1,0 +1,332 @@
+[
+  {
+    "id": "LR_001",
+    "title": "Predict the house price.",
+    "description": "A real estate company wants to predict house prices based on historical data. You are given a dataset containing features like number of rooms, area (in square feet), number of bathrooms, location rating, and age of the house.",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv"
+    },
+    "parts": [
+      {
+        "part_id": "Preprocessing",
+        "type": "text_similarity",
+        "description": "Part 1: Preprocessing\n\nHandle missing values and outliers in the dataset. After processing, print the `.info()` summary of your cleaned training dataframe to confirm the changes.",
+        "expected_text": "info memory usage non-null",
+        "similarity_threshold": 0.9
+      },
+      {
+        "part_id": "Model Training",
+        "type": "numerical_evaluation",
+        "description": "Part 2: Model Training\n\nTrain a Linear Regression model. Evaluate its performance and print the R² score for the training data in the exact format 'R-squared Score: 0.7130'.",
+        "evaluation_label": "R-squared Score:",
+        "expected_value": 0.7130,
+        "tolerance": 0.02
+      },
+      {
+        "part_id": "Prediction",
+        "type": "csv_similarity",
+        "description": "Part 3: Prediction\n\nUsing your trained model, predict the prices for the test dataset and save the final predictions to 'submission.csv'.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/solution.csv",
+        "key_columns": ["Id", "SalePrice"],
+        "similarity_threshold": 0.9
+      }
+    ]
+  },
+  {
+    "id": "LR_002",
+    "title": "Predict Hourly Bike Rental Demand",
+    "description": "A city bike rental company wants to predict the number of bikes rented in a given hour based on factors like temperature, humidity, and time of day. Your task is to build a Polynomial Regression model to predict hourly bike rental demand.",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/test.csv"
+    },
+    "parts": [
+      {
+        "part_id": "Feature Engineering",
+        "type": "text_similarity",
+        "description": "Part 1: Feature Engineering\n\nExtract the 'hour' from the 'datetime' column. To validate, print a statement describing if you believe the relationship between hour and count is linear or non-linear.",
+        "expected_text": "hour count non-linear relationship",
+        "similarity_threshold": 0.8
+      },
+      {
+        "part_id": "Polynomial Regression",
+        "type": "numerical_evaluation",
+        "description": "Part 2: Polynomial Regression\n\nBuild and train your Polynomial Regression model (degree 3). For validation, print the R² score of the Polynomial model in the exact format 'Polynomial R-squared: 0.5084'.",
+        "evaluation_label": "Polynomial R-squared:",
+        "expected_value": 0.5084,
+        "tolerance": 0.02
+      },
+      {
+        "part_id": "Prediction & Analysis",
+        "type": "csv_similarity",
+        "description": "Part 3: Prediction & Analysis\n\nUsing your trained polynomial model, predict the number of bike rentals for the test dataset and save the final output to 'submission.csv'.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/solution.csv",
+        "key_columns": ["datetime", "count"],
+        "similarity_threshold": 0.9
+      },
+      {
+        "part_id": "Visualization",
+        "type": "text_similarity",
+        "description": "Part 4: Visualization\n\nSince we cannot render a plot, to validate this step, print a concluding sentence stating which model (Linear or Polynomial) performed better based on the R² scores.",
+        "expected_text": "Polynomial better higher score",
+        "similarity_threshold": 0.8
+      }
+    ]
+  },
+  {
+    "id": "LR_003",
+    "title": "Build a ridge regression model to predict house prices",
+    "description": "You are working as a data scientist for a real estate company. Your goal is to build a regression model to predict house prices using various features. You will use Ridge Regression to improve model stability and performance.",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv"
+    },
+    "parts": [
+      {
+        "part_id": "Data Exploration & Missing Values",
+        "type": "text_similarity",
+        "description": "Part 1: Data Exploration & Missing Values\n\nExplore and handle missing values in the dataset. To validate this step, print the number of missing values in the training data BEFORE and AFTER you have handled them.",
+        "expected_text": "Lotfrontage",
+        "similarity_threshold": 0.8
+      },
+      {
+        "part_id": "Feature Scaling & Preprocessing",
+        "type": "text_similarity",
+        "description": "Part 2: Feature Scaling & Preprocessing\n\nPreprocess the data by scaling the numerical features. To validate, print a confirmation message stating that the features have been scaled.",
+        "expected_text": "features scaled successfully",
+        "similarity_threshold": 0.2
+      },
+      {
+        "part_id": "Model Training & Hyperparameter Tuning",
+        "type": "csv_similarity",
+        "description": "Part 3: Model Training & Final Prediction\n\nTrain a Ridge Regression model with hyperparameter tuning. Use your final, tuned model to predict on the test set and save the results to 'submission.csv'.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/solution.csv",
+        "key_columns": ["Id", "SalePrice"],
+        "similarity_threshold": 0.9
+      },
+      {
+        "part_id": "Model Evaluation,Interpretation of Coefficients",
+        "type": "numerical_evaluation",
+        "description": "Part 4: Model Evaluation & Interpretation\n\nEvaluate your Ridge model by printing its R² score in the exact format 'Ridge R-squared: 0.7599'.",
+        "evaluation_label": "Ridge R-squared:",
+        "expected_value": 0.7599,
+        "tolerance": 0.02
+      }
+    ]
+  },
+  {
+    "id": "LR_004",
+    "title": "Build a predictive model to estimate the progression of diabetes",
+    "description": "You are tasked with building a predictive model to estimate the progression of diabetes one year after baseline. Use Lasso Regression to perform both regression and feature selection.",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/diabetes/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/diabetes/test.csv"
+    },
+    "parts": [
+      {
+        "part_id": "Data Exploration & Preprocessing",
+        "type": "text_similarity",
+        "description": "Part 1: Data Exploration & Preprocessing\n\nExplore and preprocess the dataset. Print the shape of the training data after your preprocessing is complete.",
+        "expected_text": "shape training data",
+        "similarity_threshold": 0.8
+      },
+      {
+        "part_id": "Hyperparameter Tuning",
+        "type": "numerical_evaluation",
+        "description": "Part 2: Hyperparameter Tuning\n\nPerform hyperparameter tuning for the Lasso model. Print the best alpha value found in the format 'Best Alpha: 0.001'.",
+        "evaluation_label": "Best Alpha:",
+        "expected_value": 0.001,
+        "tolerance": 0.005
+      },
+      {
+        "part_id": "Model Training & Evaluation",
+        "type": "csv_similarity",
+        "description": "Part 3: Model Training & Evaluation\n\nTrain a Lasso Regression model. Predict on the test set and save the results to 'submission.csv' for validation.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/diabetes/solution.csv",
+        "key_columns": ["ID", "target"],
+        "similarity_threshold": 0.9
+      },
+      {
+        "part_id": "Feature Selection Interpretation",
+        "type": "numerical_evaluation",
+        "description": "Part 4: Feature Selection Interpretation\n\nAnalyze the coefficients of your trained Lasso model. Print a statement identifying the number of features eliminated in the format 'Features Eliminated: 4'.",
+        "evaluation_label": "Features Eliminated:",
+        "expected_value": 4,
+        "tolerance": 1
+      }
+    ]
+  },
+  {
+    "id": "LR_005",
+    "title": "Predict house price using tree-based models",
+    "description": "You are provided with a dataset containing various features of houses and their corresponding sale prices. Your task is to build regression models using tree-based methods—specifically Decision Tree Regression and Random Forest Regression—to predict house prices. Analyze and compare their performances.",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv"
+    },
+    "parts": [
+      {
+        "part_id": "Data Preprocessing",
+        "type": "text_similarity",
+        "description": "Part 1: Data Preprocessing\n\nPreprocess the data by imputing missing values and encoding categorical features. Print a confirmation when complete.",
+        "expected_text": "Preprocessing complete",
+        "similarity_threshold": 0.8
+      },
+      {
+        "part_id": "Hyperparameter Tuning",
+        "type": "text_similarity",
+        "description": "Part 2: Hyperparameter Tuning\n\nPerform hyperparameter tuning for the Random Forest model and print the best parameters found.",
+        "expected_text": "best parameters",
+        "similarity_threshold": 0.8
+      },
+      {
+        "part_id": "Model Performance",
+        "type": "csv_similarity",
+        "description": "Part 3: Model Performance\n\nTrain the tuned Random Forest model to predict the sale prices on the test set. Save the results to 'submission.csv'.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/solution.csv",
+        "key_columns": ["Id", "SalePrice"],
+        "similarity_threshold": 0.9
+      },
+      {
+        "part_id": "Model evaluation & interpretation",
+        "type": "numerical_evaluation",
+        "description": "Part 4: Model Evaluation & Interpretation\n\nEvaluate the Random Forest model by printing its R² score in the format 'Random Forest R-squared: 0.970'.",
+        "evaluation_label": "Random Forest R-squared:",
+        "expected_value": 0.970,
+        "tolerance": 0.02
+      }
+    ]
+  },
+  {
+    "id": "LR_006",
+    "title": "Build a Random Forest model to predict bike rentals",
+    "description": "You are provided with a dataset that records hourly bike rental counts along with weather and seasonal information. Your task is to build a Random Forest Regression model to predict the number of bike rentals ('count').",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/test.csv"
+    },
+    "parts": [
+      {
+        "part_id": "Data Preprocessing & Feature Engineering",
+        "type": "text_similarity",
+        "description": "Part 1: Data Preprocessing & Feature Engineering\n\nPerform feature engineering by extracting temporal features (e.g., 'hour'). Print a confirmation when complete.",
+        "expected_text": "feature engineering complete",
+        "similarity_threshold": 0.8
+      },
+      {
+        "part_id": "Hyperparameter Tuning",
+        "type": "text_similarity",
+        "description": "Part 2: Hyperparameter Tuning\n\nUse GridSearchCV to tune the hyperparameters of the Random Forest Regressor and print the best parameters found.",
+        "expected_text": "best parameters",
+        "similarity_threshold": 0.9
+      },
+      {
+        "part_id": "Model Training & predictions",
+        "type": "csv_similarity",
+        "description": "Part 3: Model Training & Predictions\n\nTrain the best Random Forest model from the previous step, use it to make predictions on the test dataset, and save the results to 'submission.csv'.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/solution.csv",
+        "key_columns": ["datetime", "count"],
+        "similarity_threshold": 0.9
+      },
+      {
+        "part_id": "Model evaluation & interpretation",
+        "type": "numerical_evaluation",
+        "description": "Part 4: Model Evaluation & Interpretation\n\nEvaluate the model's performance by printing its R² score on the test set in the format 'R-squared Score: 0.91'.",
+        "evaluation_label": "R-squared Score:",
+        "expected_value": 0.91,
+        "tolerance": 0.03
+      }
+    ]
+  },
+  {
+    "id": "LR_007",
+    "title": "Build a Gradient Boosting model to predict house prices",
+    "description": "You are given a dataset with various features describing houses. Your task is to build a Gradient Boosting Regression model to predict house sale prices. You need to preprocess the data, tune the hyperparameters, and evaluate the model.",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv"
+    },
+    "parts": [
+      {
+        "part_id": "Data Preprocessing",
+        "type": "text_similarity",
+        "description": "Part 1: Data Preprocessing\n\nPreprocess the data by imputing missing values and applying one-hot encoding. Print a confirmation message when done.",
+        "expected_text": "Preprocessing one-hot encoding complete",
+        "similarity_threshold": 0.8
+      },
+      {
+        "part_id": "Hyperparameter Tuning",
+        "type": "text_similarity",
+        "description": "Part 2: Hyperparameter Tuning\n\nUse GridSearchCV to tune the hyperparameters of the Gradient Boosting Regressor and print the best parameters.",
+        "expected_text": "best parameters",
+        "similarity_threshold": 0.9
+      },
+      {
+        "part_id": "Model Training & predictions",
+        "type": "csv_similarity",
+        "description": "Part 3: Model Training & Predictions\n\nTrain the tuned Gradient Boosting model, use it to make predictions on the test dataset, and save the results to 'submission.csv'.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/solution.csv",
+        "key_columns": ["Id", "SalePrice"],
+        "similarity_threshold": 0.9
+      },
+      {
+        "part_id": "Model evaluation & interpretation",
+        "type": "numerical_evaluation",
+        "description": "Part 4: Model Evaluation & Interpretation\n\nEvaluate the model using R² and print the score in the format 'Gradient Boosting R-squared: 0.90'.",
+        "evaluation_label": "Gradient Boosting R-squared:",
+        "expected_value": 0.90,
+        "tolerance": 0.02
+      }
+    ]
+  },
+  {
+    "id": "LR_008",
+    "title": "Build an Extra Trees Regressor model to predict car prices",
+    "description": "You are provided with a dataset containing features of used cars. Your task is to build an Extra Trees Regressor model to predict the selling price. You need to preprocess the data, tune hyperparameters, and evaluate the model.",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/realistic_car/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/realistic_car/test.csv"
+    },
+    "parts": [
+      {
+        "part_id": "Data Preprocessing",
+        "type": "text_similarity",
+        "description": "Part 1: Data Preprocessing\n\nPerform data preprocessing, including handling missing values and encoding. Print a confirmation message that preprocessing is complete.",
+        "expected_text": "preprocessing complete",
+        "similarity_threshold": 0.9
+      },
+      {
+        "part_id": "Hyperparameter Tuning",
+        "type": "text_similarity",
+        "description": "Part 2: Hyperparameter Tuning\n\nUse GridSearchCV to tune the Extra Trees model. Print the best parameters found by the search.",
+        "expected_text": "best parameters",
+        "similarity_threshold": 0.9
+      },
+      {
+        "part_id": "Model Training & predictions",
+        "type": "csv_similarity",
+        "description": "Part 3: Model Training & Predictions\n\nTrain the tuned Extra Trees model and use it to make predictions on the test set. Save the results to 'submission.csv'.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/realistic_car/solution.csv",
+        "key_columns": ["ID", "selling_price"],
+        "similarity_threshold": 0.9
+      },
+      {
+        "part_id": "Model evaluation & interpretation",
+        "type": "numerical_evaluation",
+        "description": "Part 4: Model Evaluation & Interpretation\n\nEvaluate your final model by printing its R² score in the format 'Extra Trees R-squared: 0.95'.",
+        "evaluation_label": "Extra Trees R-squared:",
+        "expected_value": 0.95,
+        "tolerance": 0.5
+      }
+    ]
+  }
+]
