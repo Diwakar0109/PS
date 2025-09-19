@@ -2,374 +2,330 @@
   {
     "id": "LR_001",
     "title": "Predict the house price.",
-    "description": "A real estate company wants to predict house prices based\non historical data. You are given a dataset containing \nfeatures like number of rooms, area (in square feet), \nnumber of bathrooms, location rating, and\nage of the house.\n\nDataset Paths: https://www.kaggle.com/c/house-\nprices-advanced-regression-\ntechniques/data\n\nParts: Preprocessing,Model Training,\nPrediction\n\nExpected Outputs: Predict the missing values,\nTrain a Linear Regression model,\nPredict the price\n\nValidation Method: Text similarity,Code execution,CSV \nsimilarity,Regression method,Numerical predictions\n\nSolution File: https://drive.google.com/drive/folders/16SBn96\nJVI5-ruYHiEsLlQGfO2sF-63lJ?usp=drive_link",
-    "datasets": {},
+    "description": "A real estate company wants to predict house prices based on historical data. You are given a dataset containing features like number of rooms, area (in square feet), number of bathrooms, location rating, and age of the house.",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv"
+    },
     "parts": [
       {
         "part_id": "Preprocessing",
-        "type": "",
-        "description": "Part 1:Preprocessing\n\nPredict the missing values or outliers in this dataset. Show code and results.",
-        "similarity_threshold": 0.8
+        "type": "text_similarity",
+        "description": "Part 1: Preprocessing\n\nHandle missing values and outliers in the dataset. After processing, print the `.info()` summary of your cleaned training dataframe to confirm the changes.",
+        "expected_text": "info memory usage non-null",
+        "similarity_threshold": 0.9
       },
       {
         "part_id": "Model Training",
-        "type": "",
-        "description": "Part 2:Model Training\n\nTrain a Linear Regression model and evaluate its performance\nusing RMSE and R\u00b2 score. Show the results.",
-        "similarity_threshold": 0.8
+        "type": "numerical_evaluation",
+        "description": "Part 2: Model Training\n\nTrain a Linear Regression model. Evaluate its performance and print the R² score for the training data in the exact format 'R-squared Score: 0.7130'.",
+        "evaluation_label": "R-squared Score:",
+        "expected_value": 0.7130,
+        "tolerance": 0.02
       },
       {
         "part_id": "Prediction",
-        "type": "",
-        "description": "Part 3:Prediction\n\nPredict the price of a house with the following features:",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Project ID",
-        "type": "",
-        "description": "Title\n\nDescription",
-        "expected_text": "Expected Outputs"
+        "type": "csv_similarity",
+        "description": "Part 3: Prediction\n\nUsing your trained model, predict the prices for the test dataset and save the final predictions to 'submission.csv'.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/solution.csv",
+        "key_columns": ["Id", "SalePrice"],
+        "similarity_threshold": 0.9
       }
     ]
   },
   {
     "id": "LR_002",
-    "title": "Predicts sales based on \nadvertising budgets.",
-    "description": "A marketing company wants to understand how advertising \nspending influences product sales.They have collected data on\ntheir advertising budget (in thousands of dollars) spent on TV,\nradio, and newspaper ads, along with the sales numbers \n(in thousands of units).Your task is to build a Linear \nRegression model that predicts sales based on advertising \nbudgets.\n\nDataset Paths: https://raw.githubusercontent.com/\nselva86/datasets/master/\nAdvertising.csv\n\nParts: Missing values check,Summary \nstatistics,Model coefficients &\nintercept,Evaluation metrics \n(MSE &amp; R\u00b2),Prediction output\n\nExpected Outputs: All zeros (no missing values),\nReasonable mean, std values,\nCoefficients close to example values,\nMSE ~2.1, R\u00b2 ~0.9,Predicted sales ~17.8\n\nValidation Method: Text similarity,Code execution,CSV \nsimilarity\n\nSolution File: https://drive.google.com/drive/folders/16SBn96\nJVI5-ruYHiEsLlQGfO2sF-63lJ?usp=drive_link",
-    "datasets": {},
+    "title": "Predict Hourly Bike Rental Demand",
+    "description": "A city bike rental company wants to predict the number of bikes rented in a given hour based on factors like temperature, humidity, and time of day. Your task is to build a Polynomial Regression model to predict hourly bike rental demand.",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/test.csv"
+    },
     "parts": [
       {
-        "part_id": "Missing values \ncheck",
-        "type": "",
-        "description": "Part 1:\"Missing values \ncheck\"\n\nCheck for any missing values in the dataset. Provide summary \nstatistics (mean, median, std) of the features and target variable.",
+        "part_id": "Feature Engineering",
+        "type": "text_similarity",
+        "description": "Part 1: Feature Engineering\n\nExtract the 'hour' from the 'datetime' column. To validate, print a statement describing if you believe the relationship between hour and count is linear or non-linear.",
+        "expected_text": "hour count non-linear relationship",
         "similarity_threshold": 0.8
       },
       {
-        "part_id": "Summary",
-        "type": "",
-        "description": "Part 2:Summary\n\nBuild a multiple linear regression model using all three features \n(TV, Radio, Newspaper) to predict Sales.",
-        "similarity_threshold": 0.8
+        "part_id": "Polynomial Regression",
+        "type": "numerical_evaluation",
+        "description": "Part 2: Polynomial Regression\n\nBuild and train your Polynomial Regression model (degree 3). For validation, print the R² score of the Polynomial model in the exact format 'Polynomial R-squared: 0.5084'.",
+        "evaluation_label": "Polynomial R-squared:",
+        "expected_value": 0.5084,
+        "tolerance": 0.02
       },
       {
-        "part_id": "Model coefficients \n& intercept",
-        "type": "",
-        "description": "Part 3:\"Model coefficients \n& intercept\"\n\nReport the model coefficients and intercept.",
-        "similarity_threshold": 0.8
+        "part_id": "Prediction & Analysis",
+        "type": "csv_similarity",
+        "description": "Part 3: Prediction & Analysis\n\nUsing your trained polynomial model, predict the number of bike rentals for the test dataset and save the final output to 'submission.csv'.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/solution.csv",
+        "key_columns": ["datetime", "count"],
+        "similarity_threshold": 0.9
       },
       {
-        "part_id": "Evaluation metrics \n(MSE &amp; R\u00b2)",
-        "type": "",
-        "description": "Part 4: \"Evaluation metrics \n(MSE &amp; R\u00b2)\"\n\nEvaluate the model using Mean Squared Error (MSE) and R\u00b2 \nscore on a train-test split (80%-20%).",
+        "part_id": "Visualization",
+        "type": "text_similarity",
+        "description": "Part 4: Visualization\n\nSince we cannot render a plot, to validate this step, print a concluding sentence stating which model (Linear or Polynomial) performed better based on the R² scores.",
+        "expected_text": "Polynomial better higher score",
         "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Prediction output",
-        "type": "",
-        "description": "Part 5: Prediction output\n\nUse your model to predict sales if the advertising budgets are:\n\n\u25cb TV = 150\n\u25cb Radio = 30\n\u25cb Newspaper = 20",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Project ID",
-        "type": "",
-        "description": "Title\n\nDescription",
-        "expected_text": "Expected Outputs"
       }
     ]
   },
   {
     "id": "LR_003",
-    "title": "predict hourly bike rental \ndemand based on weather \nand temporal features",
-    "description": "A city bike rental company wants to understand and predict the \nnumber of bikes rented in a given hour based on various factors \nlike temperature, humidity, and time of day. The relationship \nbetween these factors and bike demand is likely non-linear.\nYour task is to build a Polynomial Regression model to predict \nhourly bike rental demand based on weather and temporal \nfeatures using the dataset provided.\n\nDataset Paths: https://www.kaggle.com/competitions\n/bike-sharing-demand/data\n\nParts: Feature Engineering,Polynomial \nRegression,Prediction & Analysis,\nVisualization\n\nExpected Outputs: Extracted hour, cleaned data, plotted relationships\nImplemented correctly, used appropriate degree, \ncompare models,Performed predictions, \ninterpreted results correctly,Plotted nonlinear \nrelationships (optional bonus)\n\nValidation Method: Text similarity,Code execution,CSV \nsimilarity,Regression evaluation\n\nSolution File: https://drive.google.com/drive/folders/16SBn96\nJVI5-ruYHiEsLlQGfO2sF-63lJ?usp=drive_link",
-    "datasets": {},
+    "title": "Build a ridge regression model to predict house prices",
+    "description": "You are working as a data scientist for a real estate company. Your goal is to build a regression model to predict house prices using various features. You will use Ridge Regression to improve model stability and performance.",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv"
+    },
     "parts": [
       {
-        "part_id": "Feature \nEngineering",
-        "type": "",
-        "description": "Part 1:\"Feature \nEngineering\"\n\nExtract the hour from the datetime column and plot the relationship\nbetween hour and count. Does the relationship look linear or \nnon-linear?",
+        "part_id": "Data Exploration & Missing Values",
+        "type": "text_similarity",
+        "description": "Part 1: Data Exploration & Missing Values\n\nExplore and handle missing values in the dataset. To validate this step, print the number of missing values in the training data BEFORE and AFTER you have handled them.",
+        "expected_text": "Lotfrontage",
         "similarity_threshold": 0.8
       },
       {
-        "part_id": "Polynomial \nRegression",
-        "type": "",
-        "description": "Part 2:\"Polynomial \nRegression\"\n\nUse Polynomial Regression (degree=2 or 3) to model the \nrelationship between hour and bike rental count. \nCompare it with a simple Linear Regression model using R\u00b2 score.",
-        "similarity_threshold": 0.8
+        "part_id": "Feature Scaling & Preprocessing",
+        "type": "text_similarity",
+        "description": "Part 2: Feature Scaling & Preprocessing\n\nPreprocess the data by scaling the numerical features. To validate, print a confirmation message stating that the features have been scaled.",
+        "expected_text": "features scaled successfully",
+        "similarity_threshold": 0.2
       },
       {
-        "part_id": "Prediction & \nAnalysis",
-        "type": "",
-        "description": "Part 3:\"Prediction & \nAnalysis\"\n\nUsing your trained polynomial model, predict the number of bike \nrentals",
-        "similarity_threshold": 0.8
+        "part_id": "Model Training & Hyperparameter Tuning",
+        "type": "csv_similarity",
+        "description": "Part 3: Model Training & Final Prediction\n\nTrain a Ridge Regression model with hyperparameter tuning. Use your final, tuned model to predict on the test set and save the results to 'submission.csv'.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/solution.csv",
+        "key_columns": ["Id", "SalePrice"],
+        "similarity_threshold": 0.9
       },
       {
-        "part_id": "Visualization",
-        "type": "",
-        "description": "Part 4: Visualization\n\nR\u00b2 Score - Linear Regression: 0.320\nR\u00b2 Score - Polynomial Regression (deg=3): 0.470",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Project ID",
-        "type": "",
-        "description": "Title\n\nDescription",
-        "expected_text": "Expected Outputs"
+        "part_id": "Model Evaluation,Interpretation of Coefficients",
+        "type": "numerical_evaluation",
+        "description": "Part 4: Model Evaluation & Interpretation\n\nEvaluate your Ridge model by printing its R² score in the exact format 'Ridge R-squared: 0.7599'.",
+        "evaluation_label": "Ridge R-squared:",
+        "expected_value": 0.7599,
+        "tolerance": 0.02
       }
     ]
   },
   {
     "id": "LR_004",
-    "title": "Build a ridge regression \nmodel to predict house \nprices",
-    "description": "You are working as a data scientist for a real estate company. \nYour goal is to build a regression model to predict house prices \nusing various features such as lot area, number of bedrooms, \nyear built, and overall quality. However, due to multicollinearity \namong some features, you want to use Ridge Regression to\nimprove model stability and performance by applying L2 \nregularization.\n\nDataset Paths: https://www.kaggle.com/c/house-\nprices-advanced-regression-\ntechniques/data\n\nParts: Data Exploration & Missing Values,\nFeature Scaling & Preprocessing,\nModel Training & Hyperparameter \nTuning,Model Evaluation,Interpretation\nof Coefficients\n\nExpected Outputs: Missing values before and after imputation printed\nTotalBsmtSF missing values handled correctly,\nFeatures scaled before Ridge and Linear \nRegression training,Found best alpha parameter\n(e.g., alpha=10) and trained Ridge model \naccordingly,Ridge should have similar or\nbetter RMSE and R\u00b2 than Linear\nRegression,Ridge coefficients should be\nsmaller in magnitude; student\nexplains regularization impact\n\nValidation Method: Text similarity,Code execution,CSV \nsimilarity,Regression evaluation\n\nSolution File: https://drive.google.com/drive/folders/16SBn96\nJVI5-ruYHiEsLlQGfO2sF-63lJ?usp=drive_link",
-    "datasets": {},
+    "title": "Build a predictive model to estimate the progression of diabetes",
+    "description": "You are tasked with building a predictive model to estimate the progression of diabetes one year after baseline. Use Lasso Regression to perform both regression and feature selection.",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/diabetes/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/diabetes/test.csv"
+    },
     "parts": [
       {
-        "part_id": "Data Exploration & \nMissing Values",
-        "type": "",
-        "description": "Part 1:Data Exploration & \nMissing Values\n\nMissing values before and after imputation printed:TotalBsmtSF \nmissing values handled correctly",
+        "part_id": "Data Exploration & Preprocessing",
+        "type": "text_similarity",
+        "description": "Part 1: Data Exploration & Preprocessing\n\nExplore and preprocess the dataset. Print the shape of the training data after your preprocessing is complete.",
+        "expected_text": "shape training data",
         "similarity_threshold": 0.8
       },
       {
-        "part_id": "Feature Scaling & \nPreprocessing",
-        "type": "",
-        "description": "Part 2:\"Feature Scaling & \nPreprocessing\"\"\n\nFeatures scaled before Ridge and Linear Regression training",
-        "similarity_threshold": 0.8
+        "part_id": "Hyperparameter Tuning",
+        "type": "numerical_evaluation",
+        "description": "Part 2: Hyperparameter Tuning\n\nPerform hyperparameter tuning for the Lasso model. Print the best alpha value found in the format 'Best Alpha: 0.001'.",
+        "evaluation_label": "Best Alpha:",
+        "expected_value": 0.001,
+        "tolerance": 0.005
       },
       {
-        "part_id": "Model Training & \nHyperparameter Tuning",
-        "type": "",
-        "description": "Part 3:\"Model Training & \nHyperparameter Tuning\"\n\nFound best alpha parameter (e.g., alpha=10) and trained\nRidge model accordingly",
-        "similarity_threshold": 0.8
+        "part_id": "Model Training & Evaluation",
+        "type": "csv_similarity",
+        "description": "Part 3: Model Training & Evaluation\n\nTrain a Lasso Regression model. Predict on the test set and save the results to 'submission.csv' for validation.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/diabetes/solution.csv",
+        "key_columns": ["ID", "target"],
+        "similarity_threshold": 0.9
       },
       {
-        "part_id": "Model Evaluation,\nInterpretation of \nCoefficients",
-        "type": "",
-        "description": "Part 4: \"Model Evaluation,\nInterpretation of \nCoefficients\"\n\nRidge should have similar or better RMSE and R\u00b2 than Linear\nRegression,Ridge coefficients should be smaller in magnitude \nstudent explains regularization impact",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Project ID",
-        "type": "",
-        "description": "Title\n\nDescription",
-        "expected_text": "Expected Outputs"
+        "part_id": "Feature Selection Interpretation",
+        "type": "numerical_evaluation",
+        "description": "Part 4: Feature Selection Interpretation\n\nAnalyze the coefficients of your trained Lasso model. Print a statement identifying the number of features eliminated in the format 'Features Eliminated: 4'.",
+        "evaluation_label": "Features Eliminated:",
+        "expected_value": 4,
+        "tolerance": 1
       }
     ]
   },
   {
     "id": "LR_005",
-    "title": "Build a predictive model to \nestimate the progression of \ndiabetes",
-    "description": "You are tasked with building a predictive model to estimate the \nprogression of diabetes one year after baseline, based on various \nmedical features. Since the dataset contains multiple correlated \nfeatures, use Lasso Regression to perform both regression and \nfeature selection, by enforcing sparsity in the model\ncoefficients.\n\nDataset Paths: https://www.kaggle.com/datasets/\nuciml/pima-indians-diabetes-database\n\nParts: Data Exploration & Preprocessing,\nHyperparameter Tuning,Model Training\n& Evaluation,Feature Selection\nInterpretation\n\nExpected Outputs: Identified no or handled missing data;summarized \nfeatures,Found and reported best alpha (e.g.,0.01),\nLasso RMSE and R\u00b2 close to Linear Regression,\nSome coefficients zeroed; explained regularization\neffect\n\nValidation Method: Text similarity,Code execution,CSV \nsimilarity,Regression evaluation\n\nSolution File: https://drive.google.com/drive/folders/16SBn96\nJVI5-ruYHiEsLlQGfO2sF-63lJ?usp=drive_link",
-    "datasets": {},
+    "title": "Predict house price using tree-based models",
+    "description": "You are provided with a dataset containing various features of houses and their corresponding sale prices. Your task is to build regression models using tree-based methods—specifically Decision Tree Regression and Random Forest Regression—to predict house prices. Analyze and compare their performances.",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv"
+    },
     "parts": [
       {
-        "part_id": "Data Exploration & \nPreprocessing",
-        "type": "",
-        "description": "Part 1:\"Data Exploration & \nPreprocessing\"\"Feature \nEngineering\"\n\nChecked for missing values and handled appropriately",
+        "part_id": "Data Preprocessing",
+        "type": "text_similarity",
+        "description": "Part 1: Data Preprocessing\n\nPreprocess the data by imputing missing values and encoding categorical features. Print a confirmation when complete.",
+        "expected_text": "Preprocessing complete",
         "similarity_threshold": 0.8
       },
       {
         "part_id": "Hyperparameter Tuning",
-        "type": "",
-        "description": "Part 2:Hyperparameter \nTuning\n\nUsed GridSearchCV to find best alpha",
+        "type": "text_similarity",
+        "description": "Part 2: Hyperparameter Tuning\n\nPerform hyperparameter tuning for the Random Forest model and print the best parameters found.",
+        "expected_text": "best parameters",
         "similarity_threshold": 0.8
       },
       {
-        "part_id": "Model Training\n& Evaluation",
-        "type": "",
-        "description": "Part 3:\"Model Training\n& Evaluation\"\n\nTrained Linear &amp; Lasso models; computed RMSE and R\u00b2",
-        "similarity_threshold": 0.8
+        "part_id": "Model Performance",
+        "type": "csv_similarity",
+        "description": "Part 3: Model Performance\n\nTrain the tuned Random Forest model to predict the sale prices on the test set. Save the results to 'submission.csv'.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/solution.csv",
+        "key_columns": ["Id", "SalePrice"],
+        "similarity_threshold": 0.9
       },
       {
-        "part_id": "Feature Selection\nInterpretation",
-        "type": "",
-        "description": "Part 4: \"Feature Selection\nInterpretation\"\n\nIdentified zero coefficients in Lasso; explained feature elimination",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Project ID",
-        "type": "",
-        "description": "Title\n\nDescription",
-        "expected_text": "Expected Outputs"
+        "part_id": "Model evaluation & interpretation",
+        "type": "numerical_evaluation",
+        "description": "Part 4: Model Evaluation & Interpretation\n\nEvaluate the Random Forest model by printing its R² score in the format 'Random Forest R-squared: 0.970'.",
+        "evaluation_label": "Random Forest R-squared:",
+        "expected_value": 0.970,
+        "tolerance": 0.02
       }
     ]
   },
   {
     "id": "LR_006",
-    "title": "build a classification model that \ncan accurately identify \ndiabetic patients.",
-    "description": "You are provided with a dataset containing medical diagnostic \nmeasurements for women of at least 21 years old, some of whom \nhave diabetes. Your task is to build a logistic regression model to \npredict whether a patient has diabetes based on these features. \nThe goal is to build a classification model that can accurately \nidentify diabetic patients.\n\nDataset Paths: https://www.kaggle.com/uciml/pima-\nindians-diabetes-database\n\nParts: Data Preprocessing & EDA,Hyperparameter\nTuning,Model Performance,Interpretation of\nResults\n\nExpected Outputs: Correct imputation of zeros, use of StandardScaler,\nFound best C around 0.1 to 10 with reasoning,\nMetrics similar to expected ,(accuracy ~0.79, ROC \nAUC &gt;0.8),Meaningful insights on coefficient signs \nand class metrics\n\nValidation Method: Text similarity,Code execution,CSV \nsimilarity,Regression evaluation\n\nSolution File: https://drive.google.com/drive/folders/16SBn96\nJVI5-ruYHiEsLlQGfO2sF-63lJ?usp=drive_link",
-    "datasets": {},
+    "title": "Build a Random Forest model to predict bike rentals",
+    "description": "You are provided with a dataset that records hourly bike rental counts along with weather and seasonal information. Your task is to build a Random Forest Regression model to predict the number of bike rentals ('count').",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/test.csv"
+    },
     "parts": [
       {
-        "part_id": "Data Preprocessing & \nEDA",
-        "type": "",
-        "description": "Part 1:\"Data Preprocessing & \nEDA\"\n\nHandling missing/zero values and\nscaling appropriately",
+        "part_id": "Data Preprocessing & Feature Engineering",
+        "type": "text_similarity",
+        "description": "Part 1: Data Preprocessing & Feature Engineering\n\nPerform feature engineering by extracting temporal features (e.g., 'hour'). Print a confirmation when complete.",
+        "expected_text": "feature engineering complete",
         "similarity_threshold": 0.8
       },
       {
         "part_id": "Hyperparameter Tuning",
-        "type": "",
-        "description": "Part 2:Hyperparameter \nTuning\n\nUsage of GridSearchCV to find\noptimal C parameter",
-        "similarity_threshold": 0.8
+        "type": "text_similarity",
+        "description": "Part 2: Hyperparameter Tuning\n\nUse GridSearchCV to tune the hyperparameters of the Random Forest Regressor and print the best parameters found.",
+        "expected_text": "best parameters",
+        "similarity_threshold": 0.9
       },
       {
-        "part_id": "Model Performance",
-        "type": "",
-        "description": "Part 3:Model Performance\n\nCalculation and interpretation of\naccuracy, precision, recall, F1,\nand ROC-AUC",
-        "similarity_threshold": 0.8
+        "part_id": "Model Training & predictions",
+        "type": "csv_similarity",
+        "description": "Part 3: Model Training & Predictions\n\nTrain the best Random Forest model from the previous step, use it to make predictions on the test dataset, and save the results to 'submission.csv'.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/bike/solution.csv",
+        "key_columns": ["datetime", "count"],
+        "similarity_threshold": 0.9
       },
       {
-        "part_id": "Interpretation of\nResults",
-        "type": "",
-        "description": "Part 4: \"Interpretation of\nResults\"\n\nInterpretation of coefficients and\nclassification report",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Project ID",
-        "type": "",
-        "description": "Title\n\nDescription",
-        "expected_text": "Expected Outputs"
+        "part_id": "Model evaluation & interpretation",
+        "type": "numerical_evaluation",
+        "description": "Part 4: Model Evaluation & Interpretation\n\nEvaluate the model's performance by printing its R² score on the test set in the format 'R-squared Score: 0.91'.",
+        "evaluation_label": "R-squared Score:",
+        "expected_value": 0.91,
+        "tolerance": 0.03
       }
     ]
   },
   {
     "id": "LR_007",
-    "title": "Predict house price using\ntree based prediction",
-    "description": "You are provided with a dataset containing various features of \nhouses (size, number of rooms, location, etc.) and their \ncorresponding sale prices. Your task is to build regression models \nusing tree-based methods \u2014 specifically Decision Tree \nRegression and Random Forest Regression \u2014 to predict house \nprices. Analyze and compare their performances, and discuss \nwhich model better suits the problem.\n\nDataset Paths: https://www.kaggle.com/c/house-\nprices-advanced-regression-\ntechniques/data\n\nParts: Data Preprocessing ,Hyperparameter\nTuning,Model Performance,Model \nevaluation & interpretation\n\nExpected Outputs: Imputed missing values, used OneHotEncoder for\ncategoricals,Best params within reasonable ranges \nas above,Both models trained predictions made \nwithout errors,Random Forest performs better \nRMSE lower, R\u00b2 higher\n\nValidation Method: Text similarity,Code execution,CSV \nsimilarity,Regression evaluation\n\nSolution File: https://drive.google.com/drive/folders/16SBn96\nJVI5-ruYHiEsLlQGfO2sF-63lJ?usp=drive_link",
-    "datasets": {},
+    "title": "Build a Gradient Boosting model to predict house prices",
+    "description": "You are given a dataset with various features describing houses. Your task is to build a Gradient Boosting Regression model to predict house sale prices. You need to preprocess the data, tune the hyperparameters, and evaluate the model.",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/test.csv"
+    },
     "parts": [
       {
         "part_id": "Data Preprocessing",
-        "type": "",
-        "description": "Part 1:\"Data Preprocessing\n\nHandling missing data, encoding categoricals correctly",
+        "type": "text_similarity",
+        "description": "Part 1: Data Preprocessing\n\nPreprocess the data by imputing missing values and applying one-hot encoding. Print a confirmation message when done.",
+        "expected_text": "Preprocessing one-hot encoding complete",
         "similarity_threshold": 0.8
       },
       {
         "part_id": "Hyperparameter Tuning",
-        "type": "",
-        "description": "Part 2:Hyperparameter \nTuning\n\nPerformed GridSearchCV and\nfound reasonable parameters",
-        "similarity_threshold": 0.8
+        "type": "text_similarity",
+        "description": "Part 2: Hyperparameter Tuning\n\nUse GridSearchCV to tune the hyperparameters of the Gradient Boosting Regressor and print the best parameters.",
+        "expected_text": "best parameters",
+        "similarity_threshold": 0.9
       },
       {
-        "part_id": "Model Performance",
-        "type": "",
-        "description": "Part 3:Model Performance\n\nTrained Decision Tree and\nRandom Forest models and\npredicted test values",
-        "similarity_threshold": 0.8
+        "part_id": "Model Training & predictions",
+        "type": "csv_similarity",
+        "description": "Part 3: Model Training & Predictions\n\nTrain the tuned Gradient Boosting model, use it to make predictions on the test dataset, and save the results to 'submission.csv'.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/house-prices/solution.csv",
+        "key_columns": ["Id", "SalePrice"],
+        "similarity_threshold": 0.9
       },
       {
-        "part_id": "Model evaluation & \ninterpretation",
-        "type": "",
-        "description": "Part 4: Model evaluation & \ninterpretation\n\nReported RMSE and R\u00b2,\ninterpreted which model\nperforms better",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Project ID",
-        "type": "",
-        "description": "Title\n\nDescription",
-        "expected_text": "Expected Outputs"
+        "part_id": "Model evaluation & interpretation",
+        "type": "numerical_evaluation",
+        "description": "Part 4: Model Evaluation & Interpretation\n\nEvaluate the model using R² and print the score in the format 'Gradient Boosting R-squared: 0.90'.",
+        "evaluation_label": "Gradient Boosting R-squared:",
+        "expected_value": 0.90,
+        "tolerance": 0.02
       }
     ]
   },
   {
     "id": "LR_008",
-    "title": "Your task is to build a \nRandom Forest Regression \nmodel to predict the number \nof bike rentals (count)",
-    "description": "You are provided with a dataset that records hourly bike rental \ncounts in the Capital Bikeshare system along with weather and \nseasonal information. Your task is to build a Random Forest \nRegression model to predict the number of bike rentals (count) \nbased on various features such as temperature, humidity, wind \nspeed, season, and weather conditions. Evaluate the models \nperformance and interpret the important features affecting bike \ndemand.\n\nDataset Paths: https://www.kaggle.com/c/bike-sharing-\ndemand/data\n\nParts: Data Preprocessing & Feature Engineering,\nHyperparameter Tuning, Model Training \n& Predictions,Model Evaluation &\nInterpretation\n\nExpected Outputs: Correct feature extraction (hour, month, year), encoding\napplied properly,Found reasonable best parameters \nsimilar to expected output,Model successfully predicts\ntest set values,Metrics around RMSE ~70, R\u00b2\n~0.85; meaningful feature importance explanation\n\nValidation Method: Text similarity,Code execution,CSV \nsimilarity,Regression evaluation\n\nSolution File: https://drive.google.com/drive/folders/16SBn96\nJVI5-ruYHiEsLlQGfO2sF-63lJ?usp=drive_link",
-    "datasets": {},
-    "parts": [
-      {
-        "part_id": "Data Preprocessing &\nFeature Engineering",
-        "type": "",
-        "description": "Part 1:Data Preprocessing \n& Feature Engineering\n\nHandled datetime features,categorical encoding, missing data",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Hyperparameter Tuning",
-        "type": "",
-        "description": "Part 2:Hyperparameter \nTuning\n\nUsed GridSearchCV to tune parameters and selected best model",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Model Training & \npredictions",
-        "type": "",
-        "description": "Part 3:Model Training & \npredictions\n\nModel trained and predicted on test set without errors",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Model evaluation & \ninterpretation",
-        "type": "",
-        "description": "Part 4: Model evaluation & \ninterpretation\n\nReported RMSE and R\u00b2; explained feature importance and \nmodel insights",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Project ID",
-        "type": "",
-        "description": "Title\n\nDescription",
-        "expected_text": "Expected Outputs"
-      }
-    ]
-  },
-  {
-    "id": "LR_009",
-    "title": "Your task is to build a \nGradient Boosting \nRegression model to predict \nhouse sale prices.",
-    "description": "You are given a dataset with various features describing houses, \nsuch as size, location, year built, and more. Your task is to build a \nGradient Boosting Regression model to predict house sale prices.\nYou need to preprocess the data, tune the hyperparameters of the\nGradient Boosting Regressor, evaluate the model, and identify \nthe most important features affecting the price.\n\nDataset Paths: https://www.kaggle.com/c/house-prices-\nadvanced-regression-techniques/data\n\nParts: Data Preprocessing,\nHyperparameter Tuning, Model Training \n& Predictions,Model Evaluation &\nInterpretation\n\nExpected Outputs: Missing values imputed categorical features one-hot \nencoded, Found sensible best parameters (similar to\nabove),Predictions completed successfully, \nRMSE ~28000, R\u00b2 ~0.85+ meaningful feature\nimportance analysis\n\nValidation Method: Text similarity,Code execution,CSV \nsimilarity,Regression evaluation\n\nSolution File: https://drive.google.com/drive/folders/16SBn96\nJVI5-ruYHiEsLlQGfO2sF-63lJ?usp=drive_link",
-    "datasets": {},
+    "title": "Build an Extra Trees Regressor model to predict car prices",
+    "description": "You are provided with a dataset containing features of used cars. Your task is to build an Extra Trees Regressor model to predict the selling price. You need to preprocess the data, tune hyperparameters, and evaluate the model.",
+    "datasets": {
+      "train": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/realistic_car/train.csv",
+      "test": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/realistic_car/test.csv"
+    },
     "parts": [
       {
         "part_id": "Data Preprocessing",
-        "type": "",
-        "description": "Part 1:Data Preprocessing\n\nHandled datetime features,categorical encoding, missing data",
-        "similarity_threshold": 0.8
+        "type": "text_similarity",
+        "description": "Part 1: Data Preprocessing\n\nPerform data preprocessing, including handling missing values and encoding. Print a confirmation message that preprocessing is complete.",
+        "expected_text": "preprocessing complete",
+        "similarity_threshold": 0.9
       },
       {
         "part_id": "Hyperparameter Tuning",
-        "type": "",
-        "description": "Part 2:Hyperparameter \nTuning\n\nUsed GridSearchCV to tune parameters and selected best model",
-        "similarity_threshold": 0.8
+        "type": "text_similarity",
+        "description": "Part 2: Hyperparameter Tuning\n\nUse GridSearchCV to tune the Extra Trees model. Print the best parameters found by the search.",
+        "expected_text": "best parameters",
+        "similarity_threshold": 0.9
       },
       {
-        "part_id": "Model Training & \npredictions",
-        "type": "",
-        "description": "Part 3:Model Training & \npredictions\n\nModel trained and predicted on test set without errors",
-        "similarity_threshold": 0.8
+        "part_id": "Model Training & predictions",
+        "type": "csv_similarity",
+        "description": "Part 3: Model Training & Predictions\n\nTrain the tuned Extra Trees model and use it to make predictions on the test set. Save the results to 'submission.csv'.",
+        "placeholder_filename": "submission.csv",
+        "solution_file": "/home/student/Desktop/PS_SOFTWARE/PS/backend/data/datasets/ml/realistic_car/solution.csv",
+        "key_columns": ["ID", "selling_price"],
+        "similarity_threshold": 0.9
       },
       {
-        "part_id": "Model evaluation & \ninterpretation",
-        "type": "",
-        "description": "Part 4: Model evaluation & \ninterpretation\n\nReported RMSE and R\u00b2; explained feature importance and \nmodel insights",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Project ID",
-        "type": "",
-        "description": "Title\n\nDescription",
-        "expected_text": "Expected Outputs"
-      }
-    ]
-  },
-  {
-    "id": "LR_010",
-    "title": "Your task is to build an Extra \nTrees Regressor model to \npredict the selling price \nof the cars.",
-    "description": "You are provided with a dataset containing various features of \nused cars such as make, model, year, mileage, engine size, and \nmore. Your task is to build an Extra Trees Regressor model to \npredict the selling price of the cars. You need to preprocess the \ndata properly, perform feature encoding, tune hyperparameters of \nthe Extra Trees model, evaluate the models performance, \nand identify key features affecting the car price.\n\nDataset Paths: https://www.kaggle.com/datasets/\nnehalbirla/vehicle-dataset-from-car\ndekho\n\nParts: Data Preprocessing,\nHyperparameter Tuning, Model Training \n& Predictions,Model Evaluation &\nInterpretation\n\nExpected Outputs: Appropriate encoding, no errors in preprocessing,\nFound sensible best\nparameters,Successful predictions on test set,\nRMSE ~1.5, R\u00b2 ~0.9+;\nmeaningful feature importance analysis\n\nValidation Method: Text similarity,Code execution,CSV \nsimilarity,Regression evaluation\n\nSolution File: https://drive.google.com/drive/folders/16SBn96\nJVI5-ruYHiEsLlQGfO2sF-63lJ?usp=drive_link",
-    "datasets": {},
-    "parts": [
-      {
-        "part_id": "Data Preprocessing",
-        "type": "",
-        "description": "Part 1:Data Preprocessing\n\nHandled categorical encoding and missing values correctly",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Hyperparameter Tuning",
-        "type": "",
-        "description": "Part 2:Hyperparameter \nTuning\n\nUsed GridSearchCV or similar\nfor Extra Trees tuning",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Model Training & \npredictions",
-        "type": "",
-        "description": "Part 3:Model Training & \npredictions\n\nTrained model and made\npredictions without error",
-        "similarity_threshold": 0.8
-      },
-      {
-        "part_id": "Model evaluation & \ninterpretation",
-        "type": "",
-        "description": "Part 4: Model evaluation & \ninterpretation\n\nReported RMSE &amp; R\u00b2;\ninterpreted feature importance\ncorrectly",
-        "similarity_threshold": 0.8
+        "part_id": "Model evaluation & interpretation",
+        "type": "numerical_evaluation",
+        "description": "Part 4: Model Evaluation & Interpretation\n\nEvaluate your final model by printing its R² score in the format 'Extra Trees R-squared: 0.95'.",
+        "evaluation_label": "Extra Trees R-squared:",
+        "expected_value": 0.95,
+        "tolerance": 0.5
       }
     ]
   }

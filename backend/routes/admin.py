@@ -22,64 +22,101 @@ COURSE_CONFIG_PATH = BASE_DIR / "data" / "course_config.json"
 
 def parse_ml_excel(input_file, output_file):
     """
-    Parses a standardized Excel file for multi-part ML questions.
+    (This is your new, updated parser)
+    Parses a standardized Excel/CSV file for multi-part ML questions.
     """
-    # This is your ML parser from the previous request
-    if str(input_file).lower().endswith(".csv"):
-        df = pd.read_csv(input_file, on_bad_lines="skip")
+    # Read file (CSV or Excel)
+    if input_file.endswith(".csv"):
+        try:
+            df = pd.read_csv(input_file)
+        except Exception as e:
+            print(f"⚠️ CSV parsing failed ({e}), retrying with on_bad_lines='skip'")
+            df = pd.read_csv(input_file, on_bad_lines="skip")
     else:
         df = pd.read_excel(input_file)
-    
+
     tasks = {}
+
     for _, row in df.iterrows():
         task_id = str(row.get("id", "")).strip()
-        if not task_id: continue
+        if not task_id:
+            continue
+
+        # Create new task if not already present
         if task_id not in tasks:
             tasks[task_id] = {
-                "id": task_id, "title": str(row.get("title", "")).strip(),
+                "id": task_id,
+                "title": str(row.get("title", "")).strip(),
                 "description": str(row.get("description", "")).strip(),
-                "datasets": {}, "parts": []
+                "datasets": {},
+                "parts": []
             }
-        dataset_type = str(row.get("dataset_type", "")).strip().lower()
-        dataset_path = str(row.get("dataset_path", "")).strip()
-        if dataset_type and dataset_path:
-            tasks[task_id]["datasets"][dataset_type] = dataset_path
+
+        # --- Add datasets (fixed to match your Excel columns) ---
+        if pd.notna(row.get("train_dataset")):
+            tasks[task_id]["datasets"]["train"] = str(row.get("train_dataset")).strip()
+        if pd.notna(row.get("test_dataset")):
+            tasks[task_id]["datasets"]["test"] = str(row.get("test_dataset")).strip()
+
+        # --- Add parts ---
         part_id = str(row.get("part_id", "")).strip()
         if part_id:
             part = {
-                "part_id": part_id, "type": str(row.get("type", "")).strip(),
+                "part_id": part_id,
+                "type": str(row.get("type", "")).strip(),
                 "description": str(row.get("part_description", "")).strip()
             }
-            # Add optional fields if they exist
-            if pd.notna(row.get("expected_text")): part["expected_text"] = str(row.get("expected_text")).strip()
-            if pd.notna(row.get("evaluation_label")): part["evaluation_label"] = str(row.get("evaluation_label")).strip()
-            if pd.notna(row.get("placeholder_filename")): part["placeholder_filename"] = str(row.get("placeholder_filename")).strip()
-            if pd.notna(row.get("solution_file")): part["solution_file"] = str(row.get("solution_file")).strip()
-            if pd.notna(row.get("key_columns")): part["key_columns"] = [c.strip() for c in str(row.get("key_columns")).split(",") if c.strip()]
-            for field in ["expected_value", "similarity_threshold", "tolerance"]:
-                if pd.notna(row.get(field)):
-                    try: part[field] = float(row.get(field))
-                    except (ValueError, TypeError): pass
+
+            # optional fields
+            if pd.notna(row.get("expected_text")):
+                part["expected_text"] = str(row.get("expected_text")).strip()
+            if pd.notna(row.get("expected_value")):
+                try:
+                    part["expected_value"] = float(row.get("expected_value"))
+                except ValueError:
+                    part["expected_value"] = str(row.get("expected_value")).strip()
+            if pd.notna(row.get("evaluation_label")):
+                part["evaluation_label"] = str(row.get("evaluation_label")).strip()
+            if pd.notna(row.get("placeholder_filename")):
+                part["placeholder_filename"] = str(row.get("placeholder_filename")).strip()
+            if pd.notna(row.get("solution_file")):
+                part["solution_file"] = str(row.get("solution_file")).strip()
+            if pd.notna(row.get("key_columns")):
+                part["key_columns"] = [c.strip() for c in str(row.get("key_columns")).split(",") if c.strip()]
+            if pd.notna(row.get("similarity_threshold")):
+                try:
+                    part["similarity_threshold"] = float(row.get("similarity_threshold"))
+                except ValueError:
+                    pass
+            if pd.notna(row.get("tolerance")):
+                try:
+                    part["tolerance"] = float(row.get("tolerance"))
+                except ValueError:
+                    pass
+
             tasks[task_id]["parts"].append(part)
-    
+
+    # Convert dict → list
+    result = list(tasks.values())
+
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(list(tasks.values()), f, indent=2, ensure_ascii=False)
+        json.dump(result, f, indent=2, ensure_ascii=False)
     
     print(f"✅ Successfully converted ML Excel file to {output_file}")
-    return len(tasks)
+    return len(result)
+
 
 def parse_ds_excel(input_file, output_file):
     """
+    (This function is unchanged)
     Parses a standardized Excel file for DS questions with test cases.
     """
-    # This is your new DS parser
     df = pd.read_excel(input_file)
     result = []
     for q_id, group in df.groupby("id"):
         first_row = group.iloc[0]
         test_cases = []
         for _, row in group.iterrows():
-            # Ensure input/output are strings, handle potential float conversion from Excel
             test_cases.append({
                 "input": str(row["input"]),
                 "output": str(row["output"])
@@ -134,6 +171,7 @@ def _update_all_users_with_new_subject(subject_name, num_levels):
 # --- Admin Routes ---
 @admin_bp.route('/upload-questions', methods=['POST'])
 def upload_questions_excel():
+    # This route's logic remains the same, it just calls the new ML parser now.
     if 'file' not in request.files: return jsonify({"message": "No file part"}), 400
     file = request.files['file']
     subject = request.form.get('subject')
@@ -150,8 +188,6 @@ def upload_questions_excel():
         try:
             file.save(input_file)
             
-            # --- THIS IS THE UPDATED LOGIC ---
-            # It checks the subject and calls the appropriate parser.
             if subject == 'ml':
                 print(f"Processing '{file.filename}' with the ML parser...")
                 num_questions = parse_ml_excel(str(input_file), str(output_json_file))
@@ -159,14 +195,11 @@ def upload_questions_excel():
                 print(f"Processing '{file.filename}' with the DS parser...")
                 num_questions = parse_ds_excel(str(input_file), str(output_json_file))
             else:
-                # Handle other subjects or return an error if they don't have a parser
                 return jsonify({"message": f"No parser available for subject: '{subject}'"}), 400
 
-            # Read the generated JSON content
             with open(output_json_file, 'r', encoding='utf-8') as f:
                 new_questions = json.load(f)
             
-            # Define the final destination path and save the file
             level_dir_name = f"level{level}"
             final_json_path = QUESTIONS_BASE_PATH / subject / level_dir_name / "questions.json"
             final_json_path.parent.mkdir(parents=True, exist_ok=True)
